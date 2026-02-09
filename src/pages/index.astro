@@ -2,48 +2,82 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+			<section class="hero">
+				<h1>🤖 AI로 일하는 방법이 달라진다</h1>
+				<p>AI 도구 리뷰, 업무 자동화, 생산성 팁을 매일 제공합니다.</p>
+			</section>
+
+			<section>
+				<h2>최신 글</h2>
+				<ul class="post-list">
+					{posts.map((post) => (
+						<li>
+							<a href={`/blog/${post.id}/`}>
+								<h3>{post.data.title}</h3>
+								<p class="date"><FormattedDate date={post.data.pubDate} /></p>
+								<p>{post.data.description}</p>
+							</a>
+						</li>
+					))}
+				</ul>
+			</section>
 		</main>
 		<Footer />
+
+		<style>
+			.hero {
+				margin-bottom: 2rem;
+			}
+			.hero h1 {
+				margin-top: 0;
+			}
+			.post-list {
+				list-style: none;
+				padding: 0;
+			}
+			.post-list li {
+				background: var(--bg-card);
+				border-radius: 8px;
+				padding: 1.5rem;
+				margin-bottom: 1rem;
+				transition: transform 0.2s;
+			}
+			.post-list li:hover {
+				transform: translateY(-2px);
+			}
+			.post-list a {
+				color: inherit;
+				text-decoration: none;
+			}
+			.post-list h3 {
+				color: var(--heading);
+				margin: 0 0 0.25rem 0;
+			}
+			.post-list .date {
+				color: var(--gray);
+				font-size: 0.85rem;
+				margin-bottom: 0.5rem;
+			}
+			.post-list p {
+				color: var(--text);
+			}
+		</style>
 	</body>
 </html>
