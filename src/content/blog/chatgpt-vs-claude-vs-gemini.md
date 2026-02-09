@@ -2,7 +2,10 @@
 title: "ChatGPT vs Claude vs Gemini 완전 비교 (2026년 2월)"
 description: "ChatGPT, Claude, Gemini 세 가지 AI 챗봇을 가격, 성능, 장단점으로 비교합니다. 용도별 최적의 AI 추천."
 pubDate: "Feb 08 2026"
-heroImage: ""
+heroImage: "https://images.unsplash.com/photo-1675865254433-6ba341f0f00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "AI 챗봇 화면"
+heroImageCredit: 'Photo by <a href="https://unsplash.com/@siva_photography">Levart_Photographer</a> on <a href="https://unsplash.com">Unsplash</a>'
+tags: ["AI 비교", "ChatGPT", "Claude", "Gemini"]
 ---
 
 ## AI 챗봇 3대장 비교

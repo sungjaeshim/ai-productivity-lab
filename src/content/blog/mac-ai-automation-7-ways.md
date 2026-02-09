@@ -2,7 +2,10 @@
 title: "맥북에서 AI로 업무 자동화하는 7가지 방법"
 description: "맥북 사용자를 위한 AI 업무 자동화 가이드. Raycast, Shortcuts, Alfred 등을 활용한 실전 자동화 방법 7가지를 소개합니다."
 pubDate: "Feb 07 2026"
-heroImage: ""
+heroImage: "https://images.unsplash.com/photo-1678081625440-c927aff953a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "맥북에서 AI 자동화"
+heroImageCredit: 'Photo by <a href="https://unsplash.com/@coppertistwu">COPPERTIST WU</a> on <a href="https://unsplash.com">Unsplash</a>'
+tags: ["맥북", "자동화", "생산성"]
 ---
 
 ## 맥북 AI 자동화란?

@@ -1,5 +1,4 @@
 ---
-import { Image } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
@@ -8,7 +7,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, heroImageAlt, heroImageCredit } = Astro.props;
 ---
 
 <html lang="ko">
@@ -22,11 +21,20 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.hero-image {
 				width: 100%;
+				max-width: 720px;
+				margin: 0 auto 1rem;
 			}
 			.hero-image img {
 				display: block;
-				margin: 0 auto;
+				width: 100%;
+				height: auto;
 				border-radius: 12px;
+			}
+			.hero-credit {
+				text-align: center;
+				font-size: 0.8rem;
+				color: var(--gray);
+				margin-top: 0.5rem;
 			}
 			.prose {
 				width: 720px;
@@ -58,9 +66,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<Header />
 		<main>
 			<article>
-				<div class="hero-image">
-					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
-				</div>
+				{heroImage && (
+					<div class="hero-image">
+						<img src={heroImage} alt={heroImageAlt || title} loading="lazy" width="720" height="405" />
+						{heroImageCredit && <p class="hero-credit" set:html={heroImageCredit} />}
+					</div>
+				)}
 				<div class="prose">
 					<div class="title">
 						<div class="date">
