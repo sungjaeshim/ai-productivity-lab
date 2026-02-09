@@ -4,7 +4,11 @@ const today = new Date();
 
 <footer>
 	<p>&copy; {today.getFullYear()} AI Productivity Lab. All rights reserved.</p>
-	<p><a href="/rss.xml">RSS 피드</a></p>
+	<nav>
+		<a href="/about">소개</a> · 
+		<a href="/privacy">개인정보처리방침</a> · 
+		<a href="/rss.xml">RSS</a>
+	</nav>
 </footer>
 <style>
 	footer {
@@ -13,6 +17,9 @@ const today = new Date();
 		text-align: center;
 		color: var(--text);
 		font-size: 0.9rem;
+	}
+	footer nav {
+		margin-top: 0.5rem;
 	}
 	footer a {
 		color: var(--accent);
