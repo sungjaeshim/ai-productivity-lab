@@ -4,7 +4,7 @@ description: "Midjourney, DALL-E 3, Stable Diffusion 등 2026년 최고의 AI �
 pubDate: "Feb 09 2026"
 heroImage: "https://images.unsplash.com/photo-1762330467572-5199bc772a20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 heroImageAlt: "AI 이미지 생성 도구 화면"
-heroImageCredit: 'Photo by <a href="https://unsplash.com/@zulfugarkarimov">Zulfugar Karimov</a> on <a href="https://unsplash.com">Unsplash</a>'
+heroImageCredit: "Photo by <a href='https://unsplash.com/@zulfugarkarimov'>Zulfugar Karimov</a> on <a href='https://unsplash.com'>Unsplash</a>"
 tags: ["AI 도구", "이미지 생성", "무료"]
 ---
 
