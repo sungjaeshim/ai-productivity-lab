@@ -8,11 +8,28 @@ import Header from '../components/Header.astro';
 type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage, heroImageAlt, heroImageCredit } = Astro.props;
+
+// 언어 자동 감지: 제목이 한글로 시작하면 ko, 아니면 en
+const isKorean = /^[가-힣\s]/.test(title) || /[가-힣]/.test(title.slice(0, 20));
+const lang = isKorean ? 'ko' : 'en';
+
+// Article 메타데이터 for Schema.org
+const articleMeta = {
+	publishedTime: pubDate.toISOString(),
+	modifiedTime: updatedDate?.toISOString(),
+	author: "AI Productivity Lab"
+};
 ---
 
-<html lang="ko">
+<html lang={lang}>
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead 
+			title={title} 
+			description={description} 
+			image={heroImage}
+			article={articleMeta}
+			lang={lang}
+		/>
 		<style>
 			main {
 				width: calc(100% - 2em);
@@ -79,7 +96,7 @@ const { title, description, pubDate, updatedDate, heroImage, heroImageAlt, heroI
 							{
 								updatedDate && (
 									<div class="last-updated-on">
-										마지막 수정: <FormattedDate date={updatedDate} />
+										{lang === 'ko' ? '마지막 수정: ' : 'Last updated: '}<FormattedDate date={updatedDate} />
 									</div>
 								)
 							}

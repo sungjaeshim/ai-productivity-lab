@@ -1,20 +1,78 @@
 ---
 import '../styles/global.css';
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 interface Props {
 	title: string;
 	description: string;
 	image?: string;
+	article?: {
+		publishedTime?: string;
+		modifiedTime?: string;
+		author?: string;
+	};
+	lang?: 'ko' | 'en';
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const { title, description, image } = Astro.props;
+const { title, description, image, article, lang = 'ko' } = Astro.props;
 
-// OG 이미지: 외부 URL이면 그대로, 없으면 기본 이미지
+// OG 이미지: 외부 URL이면 그대로, 없으면 기본 소셜 이미지
 const ogImage = image 
 	? (image.startsWith('http') ? image : new URL(image, Astro.site).toString())
-	: new URL('/favicon.svg', Astro.site).toString();
+	: new URL('/og-default.png', Astro.site).toString();
+
+// 페이지 타입 판별
+const isHomePage = Astro.url.pathname === '/';
+const isArticle = !!article;
+
+// Schema.org JSON-LD
+const websiteSchema = {
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	"name": "AI Productivity Lab",
+	"description": SITE_DESCRIPTION,
+	"url": Astro.site?.toString(),
+	"inLanguage": ["ko", "en"],
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": {
+			"@type": "EntryPoint",
+			"urlTemplate": `${Astro.site}search?q={search_term_string}`
+		},
+		"query-input": "required name=search_term_string"
+	}
+};
+
+const articleSchema = article ? {
+	"@context": "https://schema.org",
+	"@type": "Article",
+	"headline": title,
+	"description": description,
+	"image": ogImage,
+	"url": canonicalURL.toString(),
+	"datePublished": article.publishedTime,
+	"dateModified": article.modifiedTime || article.publishedTime,
+	"author": {
+		"@type": "Person",
+		"name": article.author || "AI Productivity Lab"
+	},
+	"publisher": {
+		"@type": "Organization",
+		"name": "AI Productivity Lab",
+		"logo": {
+			"@type": "ImageObject",
+			"url": new URL('/favicon.svg', Astro.site).toString()
+		}
+	},
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": canonicalURL.toString()
+	}
+} : null;
+
+// hreflang - 언어별 대체 URL
+const altLang = lang === 'ko' ? 'en' : 'ko';
 ---
 
 <!-- Global Metadata -->
@@ -34,18 +92,33 @@ const ogImage = image
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 
+<!-- hreflang for multilingual SEO -->
+<link rel="alternate" hreflang={lang} href={canonicalURL} />
+<link rel="alternate" hreflang="x-default" href={canonicalURL} />
+
 <!-- Primary Meta Tags -->
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<meta name="author" content="AI Productivity Lab" />
 
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
+<meta property="og:type" content={isArticle ? "article" : "website"} />
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta property="og:site_name" content="AI Productivity Lab" />
+<meta property="og:locale" content={lang === 'ko' ? 'ko_KR' : 'en_US'} />
+
+{isArticle && article?.publishedTime && (
+	<meta property="article:published_time" content={article.publishedTime} />
+)}
+{isArticle && article?.modifiedTime && (
+	<meta property="article:modified_time" content={article.modifiedTime} />
+)}
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
@@ -53,3 +126,11 @@ const ogImage = image
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={ogImage} />
+
+<!-- Schema.org JSON-LD -->
+{isHomePage && (
+	<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+)}
+{isArticle && articleSchema && (
+	<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+)}
