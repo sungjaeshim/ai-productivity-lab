@@ -1,0 +1,23 @@
+# AI Productivity Lab
+
+> AI 도구 리뷰, 업무 자동화, 생산성 팁을 매일 제공합니다.
+
+## About
+AI Productivity Lab is a Korean tech blog focused on AI tools, productivity tips, and automation guides. We cover ChatGPT, Claude, workflow automation, and practical AI applications for everyday work.
+
+## Topics
+- AI Tools & Reviews
+- Productivity & Automation
+- ChatGPT, Claude, Gemini comparisons
+- Mac automation
+- Trading & Fintech AI
+- Meeting notes automation
+- SEO with AI
+
+## Contact
+Website: https://aisnowball.work
+RSS: https://aisnowball.work/rss.xml
+
+## Language
+Primary: Korean (ko)
+Secondary: English (en)
