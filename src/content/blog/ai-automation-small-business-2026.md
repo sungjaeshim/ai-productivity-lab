@@ -2,7 +2,7 @@
 title: "AI Automation for Small Business: 8 Tools That Actually Save Time in 2026"
 description: "A practical guide to AI automation for small businesses in 2026. Real tools, real costs, and real time savings tested by actual business owners."
 pubDate: "Feb 15 2026"
-heroImage: "/blog-placeholder-3.jpg"
+heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 heroImageAlt: "AI automation dashboard for small business workflow"
 tags: ["AI Automation", "Small Business", "Productivity", "AI Tools", "Business Efficiency"]
 ---
