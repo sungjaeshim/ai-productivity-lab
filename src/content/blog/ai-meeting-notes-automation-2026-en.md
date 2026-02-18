@@ -1,7 +1,7 @@
 ---
 title: "AI Meeting Notes Automation: Otter vs Fireflies vs Notta in 2026"
 description: "Compare AI meeting notes tools: Otter.ai, Fireflies.ai, and Notta. Automatic transcription, summaries, and action items extraction for better productivity."
-pubDate: "Feb 11 2026"
+pubDate: Feb 11 2026
 heroImage: "https://images.unsplash.com/photo-1613381230607-7aae53a7ca7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NzEyNzZ8MHwxfHNlYXJjaHwxfHxBSSUyMG1lZXRpbmclMjBub3RlcyUyMHRyYW5zY3JpcHRpb258ZW58MHwwfHx8MTc3MDY0NzY1Mnww&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "black pen on white printer paper"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@joa70'>Joachim Schnürle</a> on <a href='https://unsplash.com'>Unsplash</a>"

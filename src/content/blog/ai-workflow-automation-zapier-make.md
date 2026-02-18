@@ -1,7 +1,7 @@
 ---
 title: "Zapier vs Make 완전 비교 — AI 시대의 업무 자동화 플랫폼"
 description: "Zapier와 Make(구 Integromat)의 가격, 기능, 사용성을 비교합니다. AI 통합 자동화 워크플로우 구축 가이드."
-pubDate: "Feb 04 2026"
+pubDate: Feb 04 2026
 heroImage: "https://images.unsplash.com/photo-1759752393975-7ca7b302fcc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 heroImageAlt: "Zapier vs Make 완전 비교 — AI 시대의 업무 자동화 플랫폼"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@bluestonex'>Bluestonex</a> on <a href='https://unsplash.com'>Unsplash</a>"

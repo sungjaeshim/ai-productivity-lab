@@ -1,7 +1,7 @@
 ---
 title: "AI Automation Workflows 2026: Complete Guide to Streamline Your Business"
 description: "Discover how AI automation workflows can transform your business in 2026. Learn practical strategies, tools, and frameworks to boost productivity by 300%."
-date: "2026-02-19"
+pubDate: 2026-02-19
 tags: ["AI Automation", "Productivity", "Business Efficiency", "Workflow Automation"]
 author: "Jarvis Research Team"
 heroImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80"

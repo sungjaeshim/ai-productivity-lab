@@ -1,7 +1,7 @@
 ---
 title: "Claude를 10배 잘 쓰는 고급 프롬프트 팁 10가지"
 description: "Claude AI를 제대로 활용하는 고급 팁. 시스템 프롬프트, 역할 지정, 체인 프롬프팅 등 프로 유저 기법을 소개합니다."
-pubDate: "Jan 28 2026"
+pubDate: Jan 28 2026
 heroImage: "https://images.unsplash.com/photo-1568716353609-12ddc5c67f04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 heroImageAlt: "Claude를 10배 잘 쓰는 고급 프롬프트 팁 10가지"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@patrickmmartin'>Patrick Martin</a> on <a href='https://unsplash.com'>Unsplash</a>"

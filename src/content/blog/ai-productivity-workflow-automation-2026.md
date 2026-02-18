@@ -1,7 +1,7 @@
 ---
 title: "AI Productivity Workflow Automation 2026: Complete Guide for Business Efficiency"
 description: "Discover how AI-powered workflow automation tools transform business productivity in 2026. Learn about no-code platforms, AI agents, and intelligent automation strategies."
-publishDate: "2026-02-17"
+pubDate: 2026-02-17
 tags: ["AI Tools", "Productivity", "Automation", "Business"]
 category: "Productivity"
 heroImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&h=630&fit=crop"

@@ -1,7 +1,7 @@
 ---
 title: "Google NotebookLM 완전 가이드 — AI로 논문·보고서 10배 빠르게 분석하기"
 description: "Google NotebookLM으로 PDF, 논문, 보고서를 AI가 자동 분석하고 요약해줍니다. 무료 사용법과 활용 팁을 정리했습니다."
-pubDate: "Feb 06 2026"
+pubDate: Feb 06 2026
 heroImage: "https://images.unsplash.com/photo-1625152637626-86d47b663fd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NzEyNzZ8MHwxfHNlYXJjaHwxfHxHb29nbGUlMjBOb3RlYm9va0xNJTIwQUklMjByZXNlYXJjaHxlbnwwfDB8fHwxNzcwNjQ3NjQzfDA&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "white plastic bottle showing back content"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@brett_jordan'>Brett Jordan</a> on <a href='https://unsplash.com'>Unsplash</a>"

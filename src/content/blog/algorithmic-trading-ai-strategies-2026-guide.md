@@ -1,7 +1,7 @@
 ---
 title: "Algorithmic Trading with AI Strategies 2026: Complete Trading Guide"
 description: "Master algorithmic trading strategies with AI in 2026. Learn about NQ, ES futures, MACD signals, and AI-powered trading systems. Expert trading insights included."
-publishDate: "2026-02-18"
+pubDate: 2026-02-18
 tags: ["Trading", "AI", "Futures", "Algorithmic Trading", "Investment"]
 category: "Trading"
 heroImage: "https://images.unsplash.com/photo-1611974765270-ca1258634369?w=1200&h=630&fit=crop"

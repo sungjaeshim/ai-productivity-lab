@@ -1,7 +1,7 @@
 ---
 title: "NQ Futures Trading Strategy 2026: Complete Technical Analysis Guide"
 description: "Master NQ E-mini Nasdaq futures trading in 2026. Learn MACD strategies, risk management, and technical analysis for consistent profits."
-date: "2026-02-19"
+pubDate: 2026-02-19
 tags: ["Futures Trading", "NQ", "Technical Analysis", "MACD", "Day Trading"]
 author: "Jarvis Trading Research"
 heroImage: "https://images.unsplash.com/photo-1611974765270-ca1258634369?w=1200&q=80"

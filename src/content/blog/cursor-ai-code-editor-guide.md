@@ -1,7 +1,7 @@
 ---
 title: "Cursor AI 에디터 완벽 가이드 — 코딩 초보도 AI로 개발하는 법"
 description: "Cursor AI 코드 에디터 사용법. 코딩을 모르는 사람도 AI와 대화하며 웹사이트, 앱을 만들 수 있습니다."
-pubDate: "Feb 03 2026"
+pubDate: Feb 03 2026
 heroImage: "https://images.unsplash.com/photo-1568716353609-12ddc5c67f04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NzEyNzZ8MHwxfHNlYXJjaHwxfHxDdXJzb3IlMjBBSSUyMGNvZGUlMjBlZGl0b3IlMjBwcm9ncmFtbWluZ3xlbnwwfDB8fHwxNzcwNjQ3NjQ4fDA&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "a close up of a computer screen with code on it"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@patrickmmartin'>Patrick Martin</a> on <a href='https://unsplash.com'>Unsplash</a>"

@@ -1,7 +1,7 @@
 ---
 title: "AI Agents for Productivity: 7 Tools That Actually Save Me Hours Every Week"
 description: "A hands-on guide to the best AI agents for productivity in 2026. From autonomous task management to smart email triage, these tools genuinely changed how I work."
-pubDate: "Feb 14 2026"
+pubDate: Feb 14 2026
 heroImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 heroImageAlt: "AI agent workflow automation on a laptop screen"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@levart_photographer'>Levart_Photographer</a> on <a href='https://unsplash.com'>Unsplash</a>"

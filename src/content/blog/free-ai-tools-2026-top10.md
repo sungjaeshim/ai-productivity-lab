@@ -1,7 +1,7 @@
 ---
 title: "2026년 무료 AI 도구 TOP 10 — 돈 안 들이고 생산성 높이기"
 description: "완전 무료로 사용 가능한 AI 도구 10개를 엄선했습니다. 글쓰기, 이미지, 코딩, 검색, 자동화까지."
-pubDate: "Jan 30 2026"
+pubDate: Jan 30 2026
 heroImage: "https://images.unsplash.com/photo-1540103711724-ebf833bde8d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NzEyNzZ8MHwxfHNlYXJjaHwxfHxmcmVlJTIwQUklMjB0b29scyUyMHByb2R1Y3Rpdml0eSUyMDIwMjZ8ZW58MHwwfHx8MTc3MDY0NzY1M3ww&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "assorted-color handheld tools"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@eugen1980'>Eugen Str</a> on <a href='https://unsplash.com'>Unsplash</a>"

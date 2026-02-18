@@ -1,7 +1,7 @@
 ---
 title: "AI로 SEO 최적화된 블로그 글 쓰는 5단계 전략"
 description: "AI 도구를 활용해 검색엔진 상위 노출되는 블로그 글을 효율적으로 작성하는 방법. 키워드 리서치부터 발행까지."
-pubDate: "Feb 05 2026"
+pubDate: Feb 05 2026
 heroImage: "https://images.unsplash.com/photo-1533619025797-cb54d7bcb5e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NzEyNzZ8MHwxfHNlYXJjaHwxfHxTRU8lMjBjb250ZW50JTIwc3RyYXRlZ3klMjBBSSUyMHdyaXRpbmd8ZW58MHwwfHx8MTc3MDY0NzY0NXww&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "black slot machine near chair"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@icidius'>Ciaran O&#39;Brien</a> on <a href='https://unsplash.com'>Unsplash</a>"

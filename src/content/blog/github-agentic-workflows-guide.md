@@ -1,7 +1,7 @@
 ---
 title: "GitHub Agentic Workflows — 마크다운으로 AI 자동화를 만드는 시대"
 description: "GitHub이 공개한 Agentic Workflows를 알아봅니다. 자연어 마크다운으로 CI/CD를 넘어서는 AI 자동화를 구축하는 방법과 실전 활용법을 소개합니다."
-pubDate: "Feb 10 2026"
+pubDate: Feb 10 2026
 heroImage: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 heroImageAlt: "GitHub Agentic Workflows — 마크다운으로 AI 자동화를 만드는 시대"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@riaborozenets'>Roman Synkevych</a> on <a href='https://unsplash.com'>Unsplash</a>"

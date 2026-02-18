@@ -1,7 +1,7 @@
 ---
 title: "AI Automation Tools for Small Business 2026: Complete Guide"
 description: "Discover the best AI automation tools for small business in 2026. Boost productivity, cut costs, and scale operations with intelligent automation. Expert insights included."
-publishDate: "2026-02-18"
+pubDate: 2026-02-18
 tags: ["AI Tools", "Small Business", "Automation", "Productivity"]
 category: "Productivity"
 heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=630&fit=crop"

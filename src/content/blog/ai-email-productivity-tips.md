@@ -1,7 +1,7 @@
 ---
 title: "AI로 이메일 처리 시간 80% 줄이는 5가지 방법"
 description: "하루 1시간 이메일에 쓰는 시간을 AI로 15분으로 줄이는 방법. Gmail + AI 자동 분류, 답장 생성, 요약 팁."
-pubDate: "Jan 29 2026"
+pubDate: Jan 29 2026
 heroImage: "https://images.unsplash.com/photo-1683117927786-f146451082fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NzEyNzZ8MHwxfHNlYXJjaHwxfHxBSSUyMGVtYWlsJTIwbWFuYWdlbWVudCUyMHByb2R1Y3Rpdml0eXxlbnwwfDB8fHwxNzcwNjQ3NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "a blue button with a white envelope on it"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@maria_shalabaieva'>Mariia Shalabaieva</a> on <a href='https://unsplash.com'>Unsplash</a>"

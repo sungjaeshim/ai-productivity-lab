@@ -1,7 +1,7 @@
 ---
 title: "Best AI Trading Journal Software 2026: Track, Analyze, Improve"
 description: "Compare the top AI-powered trading journals that analyze your trades, detect psychological patterns, and help you become a consistently profitable trader."
-pubDate: "Feb 16 2026"
+pubDate: Feb 16 2026
 heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NzEyNzZ8MHwxfHNlYXJjaHwxfHx0cmFkaW5nJTIwY2hhcnQlMjBhbmFseXNpc3xlbnwwfDB8fHwxNzA4MjAwMDAwfDA&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "Trading chart analysis on multiple screens"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@austindistel'>Austin Distel</a> on <a href='https://unsplash.com'>Unsplash</a>"

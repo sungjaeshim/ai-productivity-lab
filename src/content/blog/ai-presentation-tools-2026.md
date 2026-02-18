@@ -1,7 +1,7 @@
 ---
 title: "AI로 프레젠테이션 10분 만에 만드는 법 — 최고의 AI PPT 도구 4선"
 description: "Gamma, Beautiful.ai, Tome, Canva AI 등 AI 프레젠테이션 도구 비교. 텍스트만 입력하면 슬라이드가 완성됩니다."
-pubDate: "Feb 01 2026"
+pubDate: Feb 01 2026
 heroImage: "https://images.unsplash.com/photo-1710799885122-428e63eff691?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NzEyNzZ8MHwxfHNlYXJjaHwxfHxBSSUyMHByZXNlbnRhdGlvbiUyMHNsaWRlcyUyMGRlc2lnbnxlbnwwfDB8fHwxNzcwNjQ3NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "a person holding a book in their hand"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@felirbe'>@felirbe</a> on <a href='https://unsplash.com'>Unsplash</a>"

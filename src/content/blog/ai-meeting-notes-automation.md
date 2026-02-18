@@ -1,7 +1,7 @@
 ---
 title: "회의록 AI로 자동화하기 — Otter, Clova Note, Fireflies 비교"
 description: "AI 회의록 도구 3종 비교. 녹음하면 자동으로 텍스트 변환, 요약, 액션 아이템 추출까지 해줍니다."
-pubDate: "Jan 31 2026"
+pubDate: Jan 31 2026
 heroImage: "https://images.unsplash.com/photo-1613381230607-7aae53a7ca7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NzEyNzZ8MHwxfHNlYXJjaHwxfHxBSSUyMG1lZXRpbmclMjBub3RlcyUyMHRyYW5zY3JpcHRpb258ZW58MHwwfHx8MTc3MDY0NzY1Mnww&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "black pen on white printer paper"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@joa70'>Joachim Schnürle</a> on <a href='https://unsplash.com'>Unsplash</a>"

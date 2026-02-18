@@ -1,7 +1,7 @@
 ---
 title: "AI Trading Software 2026: 7 Platforms Worth Your Money (Brutally Honest Review)"
 description: "An in-depth review of AI trading software in 2026. Which platforms actually work, which are overpriced garbage, and what serious traders are using right now."
-pubDate: "Feb 15 2026"
+pubDate: Feb 15 2026
 heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 heroImageAlt: "AI trading software dashboard with market analysis"
 tags: ["AI Trading", "Investing", "Fintech", "Trading Software", "AI Investing"]

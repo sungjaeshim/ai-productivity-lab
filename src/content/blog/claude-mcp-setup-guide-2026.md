@@ -1,7 +1,7 @@
 ---
 title: "Claude MCP Setup Guide 2026: Connect AI to Your Tools"
 description: "Learn how to set up Claude Desktop with Model Context Protocol (MCP). Connect Claude to files, databases, APIs, and automate your workflow with this step-by-step guide."
-pubDate: "Feb 16 2026"
+pubDate: Feb 16 2026
 heroImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NzEyNzZ8MHwxfHNlYXJjaHwxfHxBSSUyMGNvbm5lY3Rpb24lMjBuZXR3b3JrJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzA4MjAwMDAwfDA&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "AI network connections visualization"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@deepmind'>DeepMind</a> on <a href='https://unsplash.com'>Unsplash</a>"

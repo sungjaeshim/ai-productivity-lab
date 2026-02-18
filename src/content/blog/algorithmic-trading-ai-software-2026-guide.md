@@ -1,7 +1,7 @@
 ---
 title: "Algorithmic Trading AI Software 2026: The Complete Guide for Traders"
 description: "Explore the best AI-powered algorithmic trading software in 2026. Learn about automated trading strategies, machine learning algorithms, and risk management for consistent returns."
-publishDate: "2026-02-17"
+pubDate: 2026-02-17
 tags: ["Trading", "AI", "Fintech", "Algorithmic Trading"]
 category: "Trading"
 heroImage: "https://images.unsplash.com/photo-1611974765270-ca1258634369?w=1200&h=630&fit=crop"

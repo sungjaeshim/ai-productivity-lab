@@ -1,7 +1,7 @@
 ---
 title: "코드를 안 보고도 소프트웨어를 만든다? — AI 소프트웨어 팩토리의 현실"
 description: "StrongDM이 공개한 AI 소프트웨어 팩토리 실험. 사람이 코드를 작성하지도, 검토하지도 않는 개발 방식은 현실적인가? 비용, 해자, 그리고 우리에게 주는 교훈."
-pubDate: "Feb 11 2026"
+pubDate: Feb 11 2026
 heroImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 heroImageAlt: "AI 소프트웨어 팩토리 — 코드 리뷰 없는 개발의 시대"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@steve_j'>Steve Johnson</a> on <a href='https://unsplash.com'>Unsplash</a>"

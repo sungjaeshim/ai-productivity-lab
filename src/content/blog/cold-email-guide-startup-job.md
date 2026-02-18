@@ -1,7 +1,7 @@
 ---
 title: "30 Cold Emails Beat 100 Resumes: The Proven Formula to Land Startup Jobs"
 description: "Stop sending resumes into the void. Learn the 3-line cold email framework that actually gets replies from startup CEOs and hiring managers. Real examples included."
-pubDate: "Feb 12 2026"
+pubDate: Feb 12 2026
 heroImage: "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 heroImageAlt: "Person typing a cold email on laptop"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@charlesdeluvio'>Charles Deluvio</a> on <a href='https://unsplash.com'>Unsplash</a>"

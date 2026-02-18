@@ -1,7 +1,7 @@
 ---
 title: "Perplexity AI — 구글 검색을 대체할 AI 검색 엔진 사용법"
 description: "Perplexity AI 사용법과 활용 팁. 구글 검색보다 빠르고 정확한 AI 기반 검색 엔진을 소개합니다."
-pubDate: "Feb 02 2026"
+pubDate: Feb 02 2026
 heroImage: "https://images.unsplash.com/photo-1743796055664-3473eedab36e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 heroImageAlt: "Perplexity AI — 구글 검색을 대체할 AI 검색 엔진 사용법"
 heroImageCredit: "Photo by <a href='https://unsplash.com/@duforddigital'>MJ Duford</a> on <a href='https://unsplash.com'>Unsplash</a>"
