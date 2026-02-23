@@ -1,0 +1,33 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+  src: string;
+  alt: string;
+  width?: number;
+  height?: number;
+}
+
+const { src, alt, width, height } = Astro.props;
+---
+
+<!-- lazy loading 자동 적용 -->
+<Image
+  src={src}
+  alt={alt}
+  width={width}
+  height={height}
+  loading="lazy"
+  decoding="async"
+/>
+
+<style>
+  img {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+
+  img[src] {
+    opacity: 1;
+  }
+</style>
