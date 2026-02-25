@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://aisnowball.work',
+  site: 'https://blog.aisnowball.work',
 
   // 이미지 최적화 설정
   image: {
@@ -15,7 +15,7 @@ export default defineConfig({
   compressCSS: true,
 
   sitemap: {
-    site: 'https://aisnowball.work',
+    site: 'https://blog.aisnowball.work',
     compress: true,
   },
   integrations: [sitemap()],
