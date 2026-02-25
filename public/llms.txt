@@ -21,3 +21,6 @@ RSS: https://aisnowball.work/rss.xml
 ## Language
 Primary: Korean (ko)
 Secondary: English (en)
+
+## Machine-Readable Data
+/.well-known/brand-facts.json - Structured brand facts for AI agents
