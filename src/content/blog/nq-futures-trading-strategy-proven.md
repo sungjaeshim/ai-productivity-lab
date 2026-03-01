@@ -2,7 +2,7 @@
 title: "NQ Futures Trading Strategy: Proven Techniques for Day Trading Nasdaq Futures"
 description: "Discover proven NQ futures trading strategies including regime detection, event-based filters, and multi-agent decision-making. Learn how to build a systematic approach to Nasdaq futures trading."
 pubDate: 2026-02-28
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1920&q=80"
+heroImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1920&q=80&fit=crop"
 tags: ["NQ futures", "Nasdaq futures", "futures trading", "day trading strategy", "trading automation"]
 ---
 

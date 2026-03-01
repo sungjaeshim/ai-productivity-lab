@@ -2,7 +2,7 @@
 title: "MACD Trading Strategy for NQ Futures: 2026 Technical Analysis Guide"
 description: "Learn how to use MACD indicators for Nasdaq (NQ) futures trading in 2026. Includes entry/exit signals, risk management, and real backtest results."
 pubDate: 2026-02-20
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3"
+heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&q=80&fit=crop"
 author: "AI Productivity Lab"
 category: "Trading"
 tags: ["MACD", "NQ futures", "trading strategy", "technical analysis", "day trading"]
