@@ -19,9 +19,11 @@ source "$(dirname "$0")/env-loader.sh" 2>/dev/null || true
 set -u
 
 # === Config ===
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+WORKSPACE_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 INBOX_CHANNEL="${BRAIN_INBOX_CHANNEL_ID:-}"
 OPS_CHANNEL="${BRAIN_OPS_CHANNEL_ID:-}"
-SECOND_BRAIN_DIR="/root/.openclaw/workspace/memory/second-brain"
+SECOND_BRAIN_DIR="${SECOND_BRAIN_DIR:-${WORKSPACE_ROOT}/memory/second-brain}"
 LINKS_FILE="${SECOND_BRAIN_DIR}/links.md"
 URL_REGISTRY="${SECOND_BRAIN_DIR}/.url-registry.jsonl"
 PENDING_QUEUE="${SECOND_BRAIN_DIR}/.pending-queue.jsonl"
