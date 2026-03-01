@@ -2,7 +2,7 @@
 title: "Futures Trading MACD Strategy: Complete 2026 Guide for E-mini NQ and ES"
 description: "Master the MACD indicator for futures trading on E-mini NQ (Nasdaq-100) and ES (S&P 500). Learn advanced strategies, risk management, and automation techniques for 2026."
 pubDate: "2026-02-23"
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop"
+heroImage: "https://images.unsplash.com/photo-1683117927786-f146451082fb?w=1920&q=80?w=1200&h=630&fit=crop"
 tags: ["Futures Trading", "MACD Strategy", "NQ Trading", "ES Trading", "Technical Analysis"]
 ---
 
