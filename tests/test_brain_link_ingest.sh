@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SCRIPT="/root/.openclaw/workspace/scripts/brain-link-ingest.sh"
+TEST_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "${TEST_DIR}/.." && pwd)"
+SCRIPT="${SCRIPT:-${REPO_ROOT}/scripts/brain-link-ingest.sh}"
 
 PASS_COUNT=0
 FAIL_COUNT=0
