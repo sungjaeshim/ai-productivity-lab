@@ -56,6 +56,54 @@ jobs:
             fi
           done
 
+  # heroImage exact duplicate 차단 (유사 허용, 완전 동일만 차단)
+  heroimage-exact-duplicate-check:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect changed blog posts
+        id: changed
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git fetch origin "${{ github.base_ref }}" --depth=1
+            CHANGED=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- 'src/content/blog/*.md' || true)
+          else
+            BASE="${{ github.event.before }}"
+            if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+              CHANGED=$(git ls-files 'src/content/blog/*.md' || true)
+            else
+              CHANGED=$(git diff --name-only "$BASE" "${{ github.sha }}" -- 'src/content/blog/*.md' || true)
+            fi
+          fi
+
+          COUNT=$(echo "$CHANGED" | sed '/^$/d' | wc -l)
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+
+          {
+            echo 'files<<EOF'
+            echo "$CHANGED"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Check exact duplicate heroImage values (changed posts only)
+        if: steps.changed.outputs.count != '0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t FILES < <(echo "${{ steps.changed.outputs.files }}" | sed '/^$/d')
+          node scripts/check-duplicate-hero-images.mjs "${FILES[@]}"
+
+      - name: Skip duplicate check (no blog changes)
+        if: steps.changed.outputs.count == '0'
+        run: echo "No blog markdown changes. Skipping exact duplicate heroImage check."
+
   # PR 자동 라벨링
   auto-label:
     runs-on: ubuntu-latest
