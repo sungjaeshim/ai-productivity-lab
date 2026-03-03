@@ -1,7 +1,7 @@
 ---
 title: "Best AI Automation Tools for 2026: Complete Guide"
 description: "Discover the top AI automation tools transforming productivity in 2026. Compare features, pricing, and use cases for teams and individuals."
-date: "2026-03-04"
+pubDate: "2026-03-04"
 tags: ["AI", "automation", "productivity", "tools"]
 heroImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop"
 ---

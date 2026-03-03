@@ -1,7 +1,7 @@
 ---
 title: "NQ Futures Trading Strategy 2026: Proven Approaches for Consistent Profits"
 description: "Master NQ futures (Nasdaq-100) trading with proven strategies for 2026. Learn entry signals, risk management, and automated systems."
-date: "2026-03-04"
+pubDate: "2026-03-04"
 tags: ["trading", "NQ futures", "futures", "strategy"]
 heroImage: "https://images.unsplash.com/photo-1611974765270-ca1258634369?w=1200&h=630&fit=crop"
 ---
