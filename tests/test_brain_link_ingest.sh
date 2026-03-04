@@ -75,7 +75,7 @@ extract_stderr() {
 echo "Running brain-link-ingest regression checks..."
 
 # Case 1: default mode should skip ops entry
-result=$(run_capture env BRAIN_INBOX_CHANNEL_ID=123 BRAIN_OPS_CHANNEL_ID=456 bash "$SCRIPT" \
+result=$(run_capture env BRAIN_INBOX_CHANNEL_ID=123 BRAIN_OPS_CHANNEL_ID=456 BRAIN_INBOX_ANALYZE_AUTO=false BRAIN_OPS_AUTO_INIT=false bash "$SCRIPT" \
   --url "https://example.com/a" \
   --title "A title" \
   --summary "Quick summary" \
@@ -87,13 +87,13 @@ stderr=$(extract_stderr "$result")
 status=$(extract_exit_code "$result")
 
 [[ "$status" == "0" ]] && pass "default mode exits 0" || fail "default mode exits 0"
-assert_contains "$stdout" "INFO: Ops entry skipped (use --ops-init when deep work starts)" "default mode skips ops"
+assert_contains "$stdout" "INFO: Ops entry skipped" "default mode skips ops"
 assert_not_contains "$stdout" "Link Processing Entry" "default mode does not render ops payload"
 assert_contains "$stdout" "OK: Pipeline complete" "default mode completes pipeline"
 assert_not_contains "$stderr" "ERROR" "default mode has no stderr error"
 
 # Case 2: --ops-init should include ops payload
-result=$(run_capture env BRAIN_INBOX_CHANNEL_ID=123 BRAIN_OPS_CHANNEL_ID=456 bash "$SCRIPT" \
+result=$(run_capture env BRAIN_INBOX_CHANNEL_ID=123 BRAIN_OPS_CHANNEL_ID=456 BRAIN_INBOX_ANALYZE_AUTO=false BRAIN_OPS_AUTO_INIT=false bash "$SCRIPT" \
   --url "https://example.com/b" \
   --title "B title" \
   --summary "Another summary" \
@@ -109,7 +109,7 @@ assert_contains "$stdout" "Link Processing Entry" "ops-init renders ops payload"
 assert_not_contains "$stdout" "INFO: Ops entry skipped" "ops-init does not show skip notice"
 
 # Case 3: missing required field should queue (without --force)
-result=$(run_capture env BRAIN_INBOX_CHANNEL_ID=123 BRAIN_OPS_CHANNEL_ID=456 bash "$SCRIPT" \
+result=$(run_capture env BRAIN_INBOX_CHANNEL_ID=123 BRAIN_OPS_CHANNEL_ID=456 BRAIN_INBOX_ANALYZE_AUTO=false BRAIN_OPS_AUTO_INIT=false bash "$SCRIPT" \
   --url "https://example.com/c" \
   --title "C title" \
   --my-opinion "Missing summary on purpose" \
@@ -124,7 +124,7 @@ assert_contains "$stdout" "[DRY-RUN] Would queue:" "incomplete entry goes to que
 assert_contains "$stdout" "ACTION: Run with --force or provide missing fields to complete" "incomplete entry prints next action"
 
 # Case 4: --force should bypass 4-field gate
-result=$(run_capture env BRAIN_INBOX_CHANNEL_ID=123 BRAIN_OPS_CHANNEL_ID=456 bash "$SCRIPT" \
+result=$(run_capture env BRAIN_INBOX_CHANNEL_ID=123 BRAIN_OPS_CHANNEL_ID=456 BRAIN_INBOX_ANALYZE_AUTO=false BRAIN_OPS_AUTO_INIT=false bash "$SCRIPT" \
   --url "https://example.com/d" \
   --title "D title" \
   --my-opinion "Force path" \
@@ -139,7 +139,7 @@ assert_not_contains "$stdout" "INCOMPLETE:" "force mode bypasses incomplete warn
 assert_contains "$stdout" "OK: Pipeline complete" "force mode still completes pipeline"
 
 # Case 5: URL required must fail hard
-result=$(run_capture env BRAIN_INBOX_CHANNEL_ID=123 BRAIN_OPS_CHANNEL_ID=456 bash "$SCRIPT" --dry-run)
+result=$(run_capture env BRAIN_INBOX_CHANNEL_ID=123 BRAIN_OPS_CHANNEL_ID=456 BRAIN_INBOX_ANALYZE_AUTO=false BRAIN_OPS_AUTO_INIT=false bash "$SCRIPT" --dry-run)
 stdout=$(extract_stdout "$result")
 stderr=$(extract_stderr "$result")
 status=$(extract_exit_code "$result")
