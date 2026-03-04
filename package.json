@@ -8,7 +8,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "test": "playwright test",
-    "test:ui": "playwright test --ui"
+    "test:ui": "playwright test --ui",
+    "check:frontmatter": "node scripts/validate-blog-frontmatter.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",

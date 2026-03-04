@@ -12,6 +12,52 @@ on:
     - cron: '0 1 * * 0'
 
 jobs:
+  # frontmatter 안전장치: blog markdown에 pubDate 필수
+  frontmatter-guard:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect changed blog posts
+        id: changed
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git fetch origin "${{ github.base_ref }}" --depth=1
+            CHANGED=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- 'src/content/blog/*.md' || true)
+          else
+            BASE="${{ github.event.before }}"
+            if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+              CHANGED=$(git ls-files 'src/content/blog/*.md' || true)
+            else
+              CHANGED=$(git diff --name-only "$BASE" "${{ github.sha }}" -- 'src/content/blog/*.md' || true)
+            fi
+          fi
+
+          {
+            echo 'files<<EOF'
+            echo "$CHANGED"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Validate frontmatter (pubDate required)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t FILES < <(echo "${{ steps.changed.outputs.files }}" | sed '/^$/d')
+
+          if [ ${#FILES[@]} -eq 0 ]; then
+            echo "No changed blog markdown files. Skipping frontmatter validation."
+            exit 0
+          fi
+
+          node scripts/validate-blog-frontmatter.mjs "${FILES[@]}"
+
   # 새 포스팅 감지 & 알림
   new-post-notify:
     runs-on: ubuntu-latest

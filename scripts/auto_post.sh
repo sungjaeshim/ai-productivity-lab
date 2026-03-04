@@ -35,9 +35,14 @@ cd "$BLOG_DIR"
 python3 scripts/daily_post_generator.py 2>> "$LOG"
 
 if [ $? -eq 0 ]; then
-    # 빌드 테스트
-    npm run build >> "$LOG" 2>&1
-    
+    # frontmatter(pubDate) 검증
+    npm run check:frontmatter >> "$LOG" 2>&1
+
+    if [ $? -eq 0 ]; then
+        # 빌드 테스트
+        npm run build >> "$LOG" 2>&1
+    fi
+
     if [ $? -eq 0 ]; then
         # Git push
         cd "$BLOG_DIR"
