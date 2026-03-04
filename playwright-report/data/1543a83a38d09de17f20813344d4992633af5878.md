@@ -1,0 +1,302 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "🤖 AI Productivity Lab" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e5]:
+        - link "홈" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "블로그" [ref=e7] [cursor=pointer]:
+          - /url: /blog
+        - link "소개" [ref=e8] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - heading "🤖 AI로 일하는 방법이 달라진다" [level=1] [ref=e11]
+      - paragraph [ref=e12]: AI 도구 리뷰, 업무 자동화, 생산성 팁을 매일 제공합니다.
+    - generic [ref=e13]:
+      - heading "최신 글" [level=2] [ref=e14]
+      - list [ref=e15]:
+        - listitem [ref=e16]:
+          - 'link "AI Workflow Optimization: 5 Proven Strategies for 2026 Feb 23, 2026 Discover 5 proven AI workflow optimization strategies to boost productivity by 300% in 2026. Learn from real-world examples and implementable frameworks." [ref=e17] [cursor=pointer]':
+            - /url: /blog/ai-workflow-optimization-2026-guide/
+            - 'heading "AI Workflow Optimization: 5 Proven Strategies for 2026" [level=3] [ref=e18]'
+            - paragraph [ref=e19]:
+              - time [ref=e20]: Feb 23, 2026
+            - paragraph [ref=e21]: Discover 5 proven AI workflow optimization strategies to boost productivity by 300% in 2026. Learn from real-world examples and implementable frameworks.
+        - listitem [ref=e22]:
+          - 'link "Futures Trading MACD Strategy: Complete 2026 Guide for E-mini NQ and ES Feb 23, 2026 Master the MACD indicator for futures trading on E-mini NQ (Nasdaq-100) and ES (S&P 500). Learn advanced strategies, risk management, and automation techniques for 2026." [ref=e23] [cursor=pointer]':
+            - /url: /blog/futures-trading-macd-strategy-2026/
+            - 'heading "Futures Trading MACD Strategy: Complete 2026 Guide for E-mini NQ and ES" [level=3] [ref=e24]'
+            - paragraph [ref=e25]:
+              - time [ref=e26]: Feb 23, 2026
+            - paragraph [ref=e27]: Master the MACD indicator for futures trading on E-mini NQ (Nasdaq-100) and ES (S&P 500). Learn advanced strategies, risk management, and automation techniques for 2026.
+        - listitem [ref=e28]:
+          - 'link "AI Workflow Automation: 7 Systems That Saved Me 10 Hours Weekly in 2026 Feb 22, 2026 Discover proven AI workflow automation systems that actually work. From task triage to email management, learn how to reclaim 10+ hours every week." [ref=e29] [cursor=pointer]':
+            - /url: /blog/ai-workflow-automation-2026-complete-guide/
+            - 'heading "AI Workflow Automation: 7 Systems That Saved Me 10 Hours Weekly in 2026" [level=3] [ref=e30]'
+            - paragraph [ref=e31]:
+              - time [ref=e32]: Feb 22, 2026
+            - paragraph [ref=e33]: Discover proven AI workflow automation systems that actually work. From task triage to email management, learn how to reclaim 10+ hours every week.
+        - listitem [ref=e34]:
+          - 'link "NQ Futures Trading Strategies That Work: A Complete 2026 Guide Feb 22, 2026 Proven NQ futures trading strategies backed by real market data. Learn entry signals, risk management, and position sizing for consistent profitability." [ref=e35] [cursor=pointer]':
+            - /url: /blog/nq-futures-trading-strategies-2026-complete-guide/
+            - 'heading "NQ Futures Trading Strategies That Work: A Complete 2026 Guide" [level=3] [ref=e36]'
+            - paragraph [ref=e37]:
+              - time [ref=e38]: Feb 22, 2026
+            - paragraph [ref=e39]: Proven NQ futures trading strategies backed by real market data. Learn entry signals, risk management, and position sizing for consistent profitability.
+        - listitem [ref=e40]:
+          - 'link "Risk Management in Futures Trading: 7 Rules I Follow to Protect Capital Feb 21, 2026 Practical risk management strategies for NQ and ES futures traders. Learn position sizing, stop-loss placement, and psychological techniques to survive volatile markets." [ref=e41] [cursor=pointer]':
+            - /url: /blog/futures-trading-risk-management-2026/
+            - 'heading "Risk Management in Futures Trading: 7 Rules I Follow to Protect Capital" [level=3] [ref=e42]'
+            - paragraph [ref=e43]:
+              - time [ref=e44]: Feb 21, 2026
+            - paragraph [ref=e45]: Practical risk management strategies for NQ and ES futures traders. Learn position sizing, stop-loss placement, and psychological techniques to survive volatile markets.
+        - listitem [ref=e46]:
+          - 'link "Prompt Engineering Mastery 2026: Write AI Prompts That Actually Work Feb 21, 2026 Learn proven prompt engineering techniques that deliver consistent results with ChatGPT, Claude, and other AI tools. Real examples, frameworks, and best practices from 2026." [ref=e47] [cursor=pointer]':
+            - /url: /blog/prompt-engineering-mastery-2026/
+            - 'heading "Prompt Engineering Mastery 2026: Write AI Prompts That Actually Work" [level=3] [ref=e48]'
+            - paragraph [ref=e49]:
+              - time [ref=e50]: Feb 21, 2026
+            - paragraph [ref=e51]: Learn proven prompt engineering techniques that deliver consistent results with ChatGPT, Claude, and other AI tools. Real examples, frameworks, and best practices from 2026.
+        - listitem [ref=e52]:
+          - 'link "AI Agents vs Traditional Automation: 2026 Complete Comparison Guide Feb 20, 2026 Discover the key differences between AI agents and traditional automation in 2026. Learn when to use each approach, see real-world examples, and make smarter decisions for your workflow." [ref=e53] [cursor=pointer]':
+            - /url: /blog/ai-agents-vs-traditional-automation-2026/
+            - 'heading "AI Agents vs Traditional Automation: 2026 Complete Comparison Guide" [level=3] [ref=e54]'
+            - paragraph [ref=e55]:
+              - time [ref=e56]: Feb 20, 2026
+            - paragraph [ref=e57]: Discover the key differences between AI agents and traditional automation in 2026. Learn when to use each approach, see real-world examples, and make smarter decisions for your workflow.
+        - listitem [ref=e58]:
+          - 'link "MACD Trading Strategy for NQ Futures: 2026 Technical Analysis Guide Feb 20, 2026 Learn how to use MACD indicators for Nasdaq (NQ) futures trading in 2026. Includes entry/exit signals, risk management, and real backtest results." [ref=e59] [cursor=pointer]':
+            - /url: /blog/macd-nq-futures-trading-strategy-2026/
+            - 'heading "MACD Trading Strategy for NQ Futures: 2026 Technical Analysis Guide" [level=3] [ref=e60]'
+            - paragraph [ref=e61]:
+              - time [ref=e62]: Feb 20, 2026
+            - paragraph [ref=e63]: Learn how to use MACD indicators for Nasdaq (NQ) futures trading in 2026. Includes entry/exit signals, risk management, and real backtest results.
+        - listitem [ref=e64]:
+          - 'link "AI Automation Workflows 2026: Complete Guide to Streamline Your Business Feb 19, 2026 Discover how AI automation workflows can transform your business in 2026. Learn practical strategies, tools, and frameworks to boost productivity by 300%." [ref=e65] [cursor=pointer]':
+            - /url: /blog/ai-automation-workflows-2026-guide/
+            - 'heading "AI Automation Workflows 2026: Complete Guide to Streamline Your Business" [level=3] [ref=e66]'
+            - paragraph [ref=e67]:
+              - time [ref=e68]: Feb 19, 2026
+            - paragraph [ref=e69]: Discover how AI automation workflows can transform your business in 2026. Learn practical strategies, tools, and frameworks to boost productivity by 300%.
+        - listitem [ref=e70]:
+          - 'link "NQ Futures Trading Strategy 2026: Complete Technical Analysis Guide Feb 19, 2026 Master NQ E-mini Nasdaq futures trading in 2026. Learn MACD strategies, risk management, and technical analysis for consistent profits." [ref=e71] [cursor=pointer]':
+            - /url: /blog/nq-futures-trading-guide-2026/
+            - 'heading "NQ Futures Trading Strategy 2026: Complete Technical Analysis Guide" [level=3] [ref=e72]'
+            - paragraph [ref=e73]:
+              - time [ref=e74]: Feb 19, 2026
+            - paragraph [ref=e75]: Master NQ E-mini Nasdaq futures trading in 2026. Learn MACD strategies, risk management, and technical analysis for consistent profits.
+        - listitem [ref=e76]:
+          - 'link "AI Automation Tools for Small Business 2026: Complete Guide Feb 18, 2026 Discover the best AI automation tools for small business in 2026. Boost productivity, cut costs, and scale operations with intelligent automation. Expert insights included." [ref=e77] [cursor=pointer]':
+            - /url: /blog/ai-automation-small-business-complete-guide-2026/
+            - 'heading "AI Automation Tools for Small Business 2026: Complete Guide" [level=3] [ref=e78]'
+            - paragraph [ref=e79]:
+              - time [ref=e80]: Feb 18, 2026
+            - paragraph [ref=e81]: Discover the best AI automation tools for small business in 2026. Boost productivity, cut costs, and scale operations with intelligent automation. Expert insights included.
+        - listitem [ref=e82]:
+          - 'link "Algorithmic Trading with AI Strategies 2026: Complete Trading Guide Feb 18, 2026 Master algorithmic trading strategies with AI in 2026. Learn about NQ, ES futures, MACD signals, and AI-powered trading systems. Expert trading insights included." [ref=e83] [cursor=pointer]':
+            - /url: /blog/algorithmic-trading-ai-strategies-2026-guide/
+            - 'heading "Algorithmic Trading with AI Strategies 2026: Complete Trading Guide" [level=3] [ref=e84]'
+            - paragraph [ref=e85]:
+              - time [ref=e86]: Feb 18, 2026
+            - paragraph [ref=e87]: Master algorithmic trading strategies with AI in 2026. Learn about NQ, ES futures, MACD signals, and AI-powered trading systems. Expert trading insights included.
+        - listitem [ref=e88]:
+          - 'link "AI Productivity Workflow Automation 2026: Complete Guide for Business Efficiency Feb 17, 2026 Discover how AI-powered workflow automation tools transform business productivity in 2026. Learn about no-code platforms, AI agents, and intelligent automation strategies." [ref=e89] [cursor=pointer]':
+            - /url: /blog/ai-productivity-workflow-automation-2026/
+            - 'heading "AI Productivity Workflow Automation 2026: Complete Guide for Business Efficiency" [level=3] [ref=e90]'
+            - paragraph [ref=e91]:
+              - time [ref=e92]: Feb 17, 2026
+            - paragraph [ref=e93]: Discover how AI-powered workflow automation tools transform business productivity in 2026. Learn about no-code platforms, AI agents, and intelligent automation strategies.
+        - listitem [ref=e94]:
+          - 'link "Algorithmic Trading AI Software 2026: The Complete Guide for Traders Feb 17, 2026 Explore the best AI-powered algorithmic trading software in 2026. Learn about automated trading strategies, machine learning algorithms, and risk management for consistent returns." [ref=e95] [cursor=pointer]':
+            - /url: /blog/algorithmic-trading-ai-software-2026-guide/
+            - 'heading "Algorithmic Trading AI Software 2026: The Complete Guide for Traders" [level=3] [ref=e96]'
+            - paragraph [ref=e97]:
+              - time [ref=e98]: Feb 17, 2026
+            - paragraph [ref=e99]: Explore the best AI-powered algorithmic trading software in 2026. Learn about automated trading strategies, machine learning algorithms, and risk management for consistent returns.
+        - listitem [ref=e100]:
+          - 'link "Best AI Trading Journal Software 2026: Track, Analyze, Improve Feb 16, 2026 Compare the top AI-powered trading journals that analyze your trades, detect psychological patterns, and help you become a consistently profitable trader." [ref=e101] [cursor=pointer]':
+            - /url: /blog/ai-trading-journal-software-2026/
+            - 'heading "Best AI Trading Journal Software 2026: Track, Analyze, Improve" [level=3] [ref=e102]'
+            - paragraph [ref=e103]:
+              - time [ref=e104]: Feb 16, 2026
+            - paragraph [ref=e105]: Compare the top AI-powered trading journals that analyze your trades, detect psychological patterns, and help you become a consistently profitable trader.
+        - listitem [ref=e106]:
+          - 'link "Claude MCP Setup Guide 2026: Connect AI to Your Tools Feb 16, 2026 Learn how to set up Claude Desktop with Model Context Protocol (MCP). Connect Claude to files, databases, APIs, and automate your workflow with this step-by-step guide." [ref=e107] [cursor=pointer]':
+            - /url: /blog/claude-mcp-setup-guide-2026/
+            - 'heading "Claude MCP Setup Guide 2026: Connect AI to Your Tools" [level=3] [ref=e108]'
+            - paragraph [ref=e109]:
+              - time [ref=e110]: Feb 16, 2026
+            - paragraph [ref=e111]: Learn how to set up Claude Desktop with Model Context Protocol (MCP). Connect Claude to files, databases, APIs, and automate your workflow with this step-by-step guide.
+        - listitem [ref=e112]:
+          - 'link "AI Automation for Small Business: 8 Tools That Actually Save Time in 2026 Feb 15, 2026 A practical guide to AI automation for small businesses in 2026. Real tools, real costs, and real time savings tested by actual business owners." [ref=e113] [cursor=pointer]':
+            - /url: /blog/ai-automation-small-business-2026/
+            - 'heading "AI Automation for Small Business: 8 Tools That Actually Save Time in 2026" [level=3] [ref=e114]'
+            - paragraph [ref=e115]:
+              - time [ref=e116]: Feb 15, 2026
+            - paragraph [ref=e117]: A practical guide to AI automation for small businesses in 2026. Real tools, real costs, and real time savings tested by actual business owners.
+        - listitem [ref=e118]:
+          - 'link "AI Trading Software 2026: 7 Platforms Worth Your Money (Brutally Honest Review) Feb 15, 2026 An in-depth review of AI trading software in 2026. Which platforms actually work, which are overpriced garbage, and what serious traders are using right now." [ref=e119] [cursor=pointer]':
+            - /url: /blog/ai-trading-software-2026-review/
+            - 'heading "AI Trading Software 2026: 7 Platforms Worth Your Money (Brutally Honest Review)" [level=3] [ref=e120]'
+            - paragraph [ref=e121]:
+              - time [ref=e122]: Feb 15, 2026
+            - paragraph [ref=e123]: An in-depth review of AI trading software in 2026. Which platforms actually work, which are overpriced garbage, and what serious traders are using right now.
+        - listitem [ref=e124]:
+          - 'link "AI Agents for Productivity: 7 Tools That Actually Save Me Hours Every Week Feb 14, 2026 A hands-on guide to the best AI agents for productivity in 2026. From autonomous task management to smart email triage, these tools genuinely changed how I work." [ref=e125] [cursor=pointer]':
+            - /url: /blog/ai-agents-productivity-2026-guide/
+            - 'heading "AI Agents for Productivity: 7 Tools That Actually Save Me Hours Every Week" [level=3] [ref=e126]'
+            - paragraph [ref=e127]:
+              - time [ref=e128]: Feb 14, 2026
+            - paragraph [ref=e129]: A hands-on guide to the best AI agents for productivity in 2026. From autonomous task management to smart email triage, these tools genuinely changed how I work.
+        - listitem [ref=e130]:
+          - 'link "30 Cold Emails Beat 100 Resumes: The Proven Formula to Land Startup Jobs Feb 12, 2026 Stop sending resumes into the void. Learn the 3-line cold email framework that actually gets replies from startup CEOs and hiring managers. Real examples included." [ref=e131] [cursor=pointer]':
+            - /url: /blog/cold-email-guide-startup-job/
+            - 'heading "30 Cold Emails Beat 100 Resumes: The Proven Formula to Land Startup Jobs" [level=3] [ref=e132]'
+            - paragraph [ref=e133]:
+              - time [ref=e134]: Feb 12, 2026
+            - paragraph [ref=e135]: Stop sending resumes into the void. Learn the 3-line cold email framework that actually gets replies from startup CEOs and hiring managers. Real examples included.
+        - listitem [ref=e136]:
+          - 'link "AI Meeting Notes Automation: Otter vs Fireflies vs Notta in 2026 Feb 11, 2026 Compare AI meeting notes tools: Otter.ai, Fireflies.ai, and Notta. Automatic transcription, summaries, and action items extraction for better productivity." [ref=e137] [cursor=pointer]':
+            - /url: /blog/ai-meeting-notes-automation-2026-en/
+            - 'heading "AI Meeting Notes Automation: Otter vs Fireflies vs Notta in 2026" [level=3] [ref=e138]'
+            - paragraph [ref=e139]:
+              - time [ref=e140]: Feb 11, 2026
+            - paragraph [ref=e141]: "Compare AI meeting notes tools: Otter.ai, Fireflies.ai, and Notta. Automatic transcription, summaries, and action items extraction for better productivity."
+        - listitem [ref=e142]:
+          - link "코드를 안 보고도 소프트웨어를 만든다? — AI 소프트웨어 팩토리의 현실 Feb 11, 2026 StrongDM이 공개한 AI 소프트웨어 팩토리 실험. 사람이 코드를 작성하지도, 검토하지도 않는 개발 방식은 현실적인가? 비용, 해자, 그리고 우리에게 주는 교훈." [ref=e143] [cursor=pointer]:
+            - /url: /blog/ai-software-factory-no-code-review/
+            - heading "코드를 안 보고도 소프트웨어를 만든다? — AI 소프트웨어 팩토리의 현실" [level=3] [ref=e144]
+            - paragraph [ref=e145]:
+              - time [ref=e146]: Feb 11, 2026
+            - paragraph [ref=e147]: StrongDM이 공개한 AI 소프트웨어 팩토리 실험. 사람이 코드를 작성하지도, 검토하지도 않는 개발 방식은 현실적인가? 비용, 해자, 그리고 우리에게 주는 교훈.
+        - listitem [ref=e148]:
+          - link "GitHub Agentic Workflows — 마크다운으로 AI 자동화를 만드는 시대 Feb 10, 2026 GitHub이 공개한 Agentic Workflows를 알아봅니다. 자연어 마크다운으로 CI/CD를 넘어서는 AI 자동화를 구축하는 방법과 실전 활용법을 소개합니다." [ref=e149] [cursor=pointer]:
+            - /url: /blog/github-agentic-workflows-guide/
+            - heading "GitHub Agentic Workflows — 마크다운으로 AI 자동화를 만드는 시대" [level=3] [ref=e150]
+            - paragraph [ref=e151]:
+              - time [ref=e152]: Feb 10, 2026
+            - paragraph [ref=e153]: GitHub이 공개한 Agentic Workflows를 알아봅니다. 자연어 마크다운으로 CI/CD를 넘어서는 AI 자동화를 구축하는 방법과 실전 활용법을 소개합니다.
+        - listitem [ref=e154]:
+          - link "2026년 최고의 무료 AI 이미지 생성 도구 5선 Feb 9, 2026 Midjourney, DALL-E 3, Stable Diffusion 등 2026년 최고의 AI 이미지 생성 도구를 무료 옵션 중심으로 비교합니다." [ref=e155] [cursor=pointer]:
+            - /url: /blog/ai-image-generators-2026/
+            - heading "2026년 최고의 무료 AI 이미지 생성 도구 5선" [level=3] [ref=e156]
+            - paragraph [ref=e157]:
+              - time [ref=e158]: Feb 9, 2026
+            - paragraph [ref=e159]: Midjourney, DALL-E 3, Stable Diffusion 등 2026년 최고의 AI 이미지 생성 도구를 무료 옵션 중심으로 비교합니다.
+        - listitem [ref=e160]:
+          - link "ChatGPT vs Claude vs Gemini 완전 비교 (2026년 2월) Feb 8, 2026 ChatGPT, Claude, Gemini 세 가지 AI 챗봇을 가격, 성능, 장단점으로 비교합니다. 용도별 최적의 AI 추천." [ref=e161] [cursor=pointer]:
+            - /url: /blog/chatgpt-vs-claude-vs-gemini/
+            - heading "ChatGPT vs Claude vs Gemini 완전 비교 (2026년 2월)" [level=3] [ref=e162]
+            - paragraph [ref=e163]:
+              - time [ref=e164]: Feb 8, 2026
+            - paragraph [ref=e165]: ChatGPT, Claude, Gemini 세 가지 AI 챗봇을 가격, 성능, 장단점으로 비교합니다. 용도별 최적의 AI 추천.
+        - listitem [ref=e166]:
+          - link "맥북에서 AI로 업무 자동화하는 7가지 방법 Feb 7, 2026 맥북 사용자를 위한 AI 업무 자동화 가이드. Raycast, Shortcuts, Alfred 등을 활용한 실전 자동화 방법 7가지를 소개합니다." [ref=e167] [cursor=pointer]:
+            - /url: /blog/mac-ai-automation-7-ways/
+            - heading "맥북에서 AI로 업무 자동화하는 7가지 방법" [level=3] [ref=e168]
+            - paragraph [ref=e169]:
+              - time [ref=e170]: Feb 7, 2026
+            - paragraph [ref=e171]: 맥북 사용자를 위한 AI 업무 자동화 가이드. Raycast, Shortcuts, Alfred 등을 활용한 실전 자동화 방법 7가지를 소개합니다.
+        - listitem [ref=e172]:
+          - link "Google NotebookLM 완전 가이드 — AI로 논문·보고서 10배 빠르게 분석하기 Feb 6, 2026 Google NotebookLM으로 PDF, 논문, 보고서를 AI가 자동 분석하고 요약해줍니다. 무료 사용법과 활용 팁을 정리했습니다." [ref=e173] [cursor=pointer]:
+            - /url: /blog/google-notebooklm-guide/
+            - heading "Google NotebookLM 완전 가이드 — AI로 논문·보고서 10배 빠르게 분석하기" [level=3] [ref=e174]
+            - paragraph [ref=e175]:
+              - time [ref=e176]: Feb 6, 2026
+            - paragraph [ref=e177]: Google NotebookLM으로 PDF, 논문, 보고서를 AI가 자동 분석하고 요약해줍니다. 무료 사용법과 활용 팁을 정리했습니다.
+        - listitem [ref=e178]:
+          - link "AI로 SEO 최적화된 블로그 글 쓰는 5단계 전략 Feb 5, 2026 AI 도구를 활용해 검색엔진 상위 노출되는 블로그 글을 효율적으로 작성하는 방법. 키워드 리서치부터 발행까지." [ref=e179] [cursor=pointer]:
+            - /url: /blog/ai-seo-content-strategy/
+            - heading "AI로 SEO 최적화된 블로그 글 쓰는 5단계 전략" [level=3] [ref=e180]
+            - paragraph [ref=e181]:
+              - time [ref=e182]: Feb 5, 2026
+            - paragraph [ref=e183]: AI 도구를 활용해 검색엔진 상위 노출되는 블로그 글을 효율적으로 작성하는 방법. 키워드 리서치부터 발행까지.
+        - listitem [ref=e184]:
+          - link "Zapier vs Make 완전 비교 — AI 시대의 업무 자동화 플랫폼 Feb 4, 2026 Zapier와 Make(구 Integromat)의 가격, 기능, 사용성을 비교합니다. AI 통합 자동화 워크플로우 구축 가이드." [ref=e185] [cursor=pointer]:
+            - /url: /blog/ai-workflow-automation-zapier-make/
+            - heading "Zapier vs Make 완전 비교 — AI 시대의 업무 자동화 플랫폼" [level=3] [ref=e186]
+            - paragraph [ref=e187]:
+              - time [ref=e188]: Feb 4, 2026
+            - paragraph [ref=e189]: Zapier와 Make(구 Integromat)의 가격, 기능, 사용성을 비교합니다. AI 통합 자동화 워크플로우 구축 가이드.
+        - listitem [ref=e190]:
+          - link "Cursor AI 에디터 완벽 가이드 — 코딩 초보도 AI로 개발하는 법 Feb 3, 2026 Cursor AI 코드 에디터 사용법. 코딩을 모르는 사람도 AI와 대화하며 웹사이트, 앱을 만들 수 있습니다." [ref=e191] [cursor=pointer]:
+            - /url: /blog/cursor-ai-code-editor-guide/
+            - heading "Cursor AI 에디터 완벽 가이드 — 코딩 초보도 AI로 개발하는 법" [level=3] [ref=e192]
+            - paragraph [ref=e193]:
+              - time [ref=e194]: Feb 3, 2026
+            - paragraph [ref=e195]: Cursor AI 코드 에디터 사용법. 코딩을 모르는 사람도 AI와 대화하며 웹사이트, 앱을 만들 수 있습니다.
+        - listitem [ref=e196]:
+          - link "Perplexity AI — 구글 검색을 대체할 AI 검색 엔진 사용법 Feb 2, 2026 Perplexity AI 사용법과 활용 팁. 구글 검색보다 빠르고 정확한 AI 기반 검색 엔진을 소개합니다." [ref=e197] [cursor=pointer]:
+            - /url: /blog/perplexity-ai-search-guide/
+            - heading "Perplexity AI — 구글 검색을 대체할 AI 검색 엔진 사용법" [level=3] [ref=e198]
+            - paragraph [ref=e199]:
+              - time [ref=e200]: Feb 2, 2026
+            - paragraph [ref=e201]: Perplexity AI 사용법과 활용 팁. 구글 검색보다 빠르고 정확한 AI 기반 검색 엔진을 소개합니다.
+        - listitem [ref=e202]:
+          - link "AI로 프레젠테이션 10분 만에 만드는 법 — 최고의 AI PPT 도구 4선 Feb 1, 2026 Gamma, Beautiful.ai, Tome, Canva AI 등 AI 프레젠테이션 도구 비교. 텍스트만 입력하면 슬라이드가 완성됩니다." [ref=e203] [cursor=pointer]:
+            - /url: /blog/ai-presentation-tools-2026/
+            - heading "AI로 프레젠테이션 10분 만에 만드는 법 — 최고의 AI PPT 도구 4선" [level=3] [ref=e204]
+            - paragraph [ref=e205]:
+              - time [ref=e206]: Feb 1, 2026
+            - paragraph [ref=e207]: Gamma, Beautiful.ai, Tome, Canva AI 등 AI 프레젠테이션 도구 비교. 텍스트만 입력하면 슬라이드가 완성됩니다.
+        - listitem [ref=e208]:
+          - link "회의록 AI로 자동화하기 — Otter, Clova Note, Fireflies 비교 Jan 31, 2026 AI 회의록 도구 3종 비교. 녹음하면 자동으로 텍스트 변환, 요약, 액션 아이템 추출까지 해줍니다." [ref=e209] [cursor=pointer]:
+            - /url: /blog/ai-meeting-notes-automation/
+            - heading "회의록 AI로 자동화하기 — Otter, Clova Note, Fireflies 비교" [level=3] [ref=e210]
+            - paragraph [ref=e211]:
+              - time [ref=e212]: Jan 31, 2026
+            - paragraph [ref=e213]: AI 회의록 도구 3종 비교. 녹음하면 자동으로 텍스트 변환, 요약, 액션 아이템 추출까지 해줍니다.
+        - listitem [ref=e214]:
+          - link "2026년 무료 AI 도구 TOP 10 — 돈 안 들이고 생산성 높이기 Jan 30, 2026 완전 무료로 사용 가능한 AI 도구 10개를 엄선했습니다. 글쓰기, 이미지, 코딩, 검색, 자동화까지." [ref=e215] [cursor=pointer]:
+            - /url: /blog/free-ai-tools-2026-top10/
+            - heading "2026년 무료 AI 도구 TOP 10 — 돈 안 들이고 생산성 높이기" [level=3] [ref=e216]
+            - paragraph [ref=e217]:
+              - time [ref=e218]: Jan 30, 2026
+            - paragraph [ref=e219]: 완전 무료로 사용 가능한 AI 도구 10개를 엄선했습니다. 글쓰기, 이미지, 코딩, 검색, 자동화까지.
+        - listitem [ref=e220]:
+          - link "AI로 이메일 처리 시간 80% 줄이는 5가지 방법 Jan 29, 2026 하루 1시간 이메일에 쓰는 시간을 AI로 15분으로 줄이는 방법. Gmail + AI 자동 분류, 답장 생성, 요약 팁." [ref=e221] [cursor=pointer]:
+            - /url: /blog/ai-email-productivity-tips/
+            - heading "AI로 이메일 처리 시간 80% 줄이는 5가지 방법" [level=3] [ref=e222]
+            - paragraph [ref=e223]:
+              - time [ref=e224]: Jan 29, 2026
+            - paragraph [ref=e225]: 하루 1시간 이메일에 쓰는 시간을 AI로 15분으로 줄이는 방법. Gmail + AI 자동 분류, 답장 생성, 요약 팁.
+        - listitem [ref=e226]:
+          - link "Claude를 10배 잘 쓰는 고급 프롬프트 팁 10가지 Jan 28, 2026 Claude AI를 제대로 활용하는 고급 팁. 시스템 프롬프트, 역할 지정, 체인 프롬프팅 등 프로 유저 기법을 소개합니다." [ref=e227] [cursor=pointer]:
+            - /url: /blog/claude-tips-10-advanced/
+            - heading "Claude를 10배 잘 쓰는 고급 프롬프트 팁 10가지" [level=3] [ref=e228]
+            - paragraph [ref=e229]:
+              - time [ref=e230]: Jan 28, 2026
+            - paragraph [ref=e231]: Claude AI를 제대로 활용하는 고급 팁. 시스템 프롬프트, 역할 지정, 체인 프롬프팅 등 프로 유저 기법을 소개합니다.
+  - contentinfo [ref=e232]:
+    - paragraph [ref=e233]: © 2026 AI Productivity Lab. All rights reserved.
+    - navigation [ref=e234]:
+      - link "소개" [ref=e235] [cursor=pointer]:
+        - /url: /about
+      - text: ·
+      - link "이용약관" [ref=e236] [cursor=pointer]:
+        - /url: /terms
+      - text: ·
+      - link "개인정보처리방침" [ref=e237] [cursor=pointer]:
+        - /url: /privacy
+      - text: ·
+      - link "RSS" [ref=e238] [cursor=pointer]:
+        - /url: /rss.xml
+  - generic [ref=e241]:
+    - button "Menu" [ref=e242]:
+      - img [ref=e244]
+      - generic: Menu
+    - button "Inspect" [ref=e248]:
+      - img [ref=e250]
+      - generic: Inspect
+    - button "Audit" [ref=e252]:
+      - img [ref=e254]
+      - generic: Audit
+    - button "Settings" [ref=e257]:
+      - img [ref=e259]
+      - generic: Settings
+```
