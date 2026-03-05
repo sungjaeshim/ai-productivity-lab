@@ -1,5 +1,5 @@
 ---
-title: NQ Futures Trading Strategies 2026: Proven Systems for Consistency
+title: "NQ Futures Trading Strategies 2026: Proven Systems for Consistency"
 description: Master NQ futures trading with proven strategies for 2026. Learn intraday setups, risk management, and trading psychology for Nasdaq-100 futures.
 pubDate: 2026-03-06
 tags: ['NQ Futures', 'Trading', 'Futures Trading', 'Nasdaq-100', 'Trading Strategies']
