@@ -1,7 +1,7 @@
 ---
 title: AI Automation Tools 2026: Save 15 Hours Weekly with These Top Picks
 description: Discover AI automation tools transforming productivity in 2026. Save 10-15 hours weekly with workflow automation, smart scheduling, and content creation.
-date: 2026-03-06
+pubDate: 2026-03-06
 tags: ['AI Tools', 'Automation', 'Productivity', 'Workflow', '2026']
 author: 'AI Productivity Lab'
 heroImage: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop'
