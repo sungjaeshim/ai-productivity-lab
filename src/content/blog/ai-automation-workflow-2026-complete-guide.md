@@ -1,7 +1,7 @@
 ---
 title: "AI Automation Workflow 2026: Complete Guide for Business Efficiency"
 description: "Transform your business with AI automation workflows. Discover the latest tools, strategies, and implementation techniques for 2026."
-date: "2026-03-09"
+pubDate: "2026-03-09"
 heroImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop"
 tags: ["AI", "Automation", "Productivity", "Workflow"]
 author: "AI Productivity Lab"
