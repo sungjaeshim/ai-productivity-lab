@@ -1,0 +1,1 @@
+A language that doesn’t affect the way you think about programming, is not worth knowing. --Alan Perlis 프로그래밍에 대해 생각하는 방식에 영향을 주지 않는 언어는 알 가치가 없다. --앨런 펄리스

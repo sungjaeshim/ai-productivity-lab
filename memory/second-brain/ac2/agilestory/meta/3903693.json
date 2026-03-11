@@ -1,0 +1,32 @@
+{
+  "url": "https://agilestory.blog/3903693",
+  "title": "개발자와 디자이너 모집",
+  "date": "2007년 11월 2일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:learning-science",
+    "role:developer",
+    "scope:general",
+    "kw:learning",
+    "ac2",
+    "ac2-content",
+    "content",
+    "developer",
+    "education",
+    "learning"
+  ],
+  "extracted_at": "2026-03-02T23:12:05.031738",
+  "post_id": "3903693",
+  "raw_file": "3903693.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 275,
+  "recovered": true,
+  "cleaned_file": "3903693.md",
+  "recovered_at": "2026-03-02T23:36:37.319706",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

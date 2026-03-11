@@ -1,0 +1,18 @@
+# Current minimal keep-set candidate for local-rescue
+compact-D3emcZgv.js
+reply-DeXK9BLT.js
+pi-embedded-CrsFdYam.js
+pi-embedded-jHMb7qEG.js
+
+# Standard restore path (current operational path)
+bash /root/.openclaw/workspace/scripts/reapply-local-rescue-runtime.sh --core-only
+
+# Legacy full restore status
+# Archive/reference only.
+# Not a valid current operational recovery path unless re-baselined for the installed build.
+bash /root/.openclaw/workspace/scripts/reapply-local-rescue-runtime.sh
+
+# Retired candidates
+model-selection*
+gateway-cli*
+auth-profiles*

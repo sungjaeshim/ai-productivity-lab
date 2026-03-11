@@ -1,0 +1,103 @@
+flowchart TB
+    LIFE((인간 삶 핵심 원리))
+
+    M["의미"]
+    B["편향"]
+    A["적응"]
+    I["인센티브"]
+    T["신뢰"]
+    P["권력"]
+    D["경로의존성"]
+    F["피드백"]
+    R["프레이밍"]
+    U["불확실성"]
+
+    LIFE --> M
+    LIFE --> B
+    LIFE --> A
+    LIFE --> I
+    LIFE --> T
+    LIFE --> P
+    LIFE --> D
+    LIFE --> F
+    LIFE --> R
+    LIFE --> U
+
+    subgraph SG_M["의미"]
+      M --> M1["목적"]
+      M --> M2["가치"]
+      M --> M3["서사"]
+    end
+
+    subgraph SG_B["편향"]
+      B --> B1["확증편향"]
+      B --> B2["과잉확신"]
+      B --> B3["선택적 지각"]
+    end
+
+    subgraph SG_A["적응"]
+      A --> A1["학습"]
+      A --> A2["환경적합성"]
+      A --> A3["생존전략"]
+    end
+
+    subgraph SG_I["인센티브"]
+      I --> I1["보상"]
+      I --> I2["유인구조"]
+      I --> I3["도덕적 해이"]
+    end
+
+    subgraph SG_T["신뢰"]
+      T --> T1["협력"]
+      T --> T2["예측가능성"]
+      T --> T3["사회자본"]
+    end
+
+    subgraph SG_P["권력"]
+      P --> P1["영향력"]
+      P --> P2["제도"]
+      P --> P3["정당성"]
+    end
+
+    subgraph SG_D["경로의존성"]
+      D --> D1["초기조건"]
+      D --> D2["누적"]
+      D --> D3["잠금효과"]
+    end
+
+    subgraph SG_F["피드백"]
+      F --> F1["강화"]
+      F --> F2["균형"]
+      F --> F3["지연"]
+    end
+
+    subgraph SG_R["프레이밍"]
+      R --> R1["해석"]
+      R --> R2["맥락"]
+      R --> R3["서술방식"]
+    end
+
+    subgraph SG_U["불확실성"]
+      U --> U1["확률"]
+      U --> U2["오류"]
+      U --> U3["후회"]
+    end
+
+    M -.-> R
+    M -.-> T
+    B -.-> R
+    B -.-> U
+    A -.-> F
+    A -.-> D
+    I -.-> P
+    T -.-> P
+    D -.-> F
+    U -.-> T
+
+    classDef core fill:#1f4b99,color:#ffffff,stroke:#0f2d63,stroke-width:3px,font-weight:bold;
+    classDef leaf fill:#eef4ff,color:#234,stroke:#9fb7e8,stroke-width:1px;
+    classDef hub fill:#111827,color:#fff,stroke:#000,stroke-width:3px,font-weight:bold;
+
+    class LIFE hub;
+    class M,B,A,I,T,P,D,F,R,U core;
+    class M1,M2,M3,B1,B2,B3,A1,A2,A3,I1,I2,I3,T1,T2,T3,P1,P2,P3,D1,D2,D3,F1,F2,F3,R1,R2,R3,U1,U2,U3 leaf;

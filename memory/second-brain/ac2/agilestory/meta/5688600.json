@@ -1,0 +1,32 @@
+{
+  "url": "https://agilestory.blog/5688600",
+  "title": "마음에 여유가 생겨야 뭘 하죠",
+  "date": "2012년 9월 5일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:coaching",
+    "dom:leadership",
+    "dom:organizational-change",
+    "role:coach",
+    "scope:individual",
+    "evidence:field-case",
+    "kw:change",
+    "ac2",
+    "ac2-content",
+    "coaching",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:19:48.951993",
+  "post_id": "5688600",
+  "raw_file": "5688600.html",
+  "extraction_status": "success",
+  "text_length": 950,
+  "cleaned_file": "5688600.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:38.703252",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

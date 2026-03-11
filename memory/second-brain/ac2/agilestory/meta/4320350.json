@@ -1,0 +1,28 @@
+{
+  "url": "https://agilestory.blog/4320350",
+  "title": "별이 지다",
+  "date": "2008년 4월 27일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:decision-making",
+    "scope:individual",
+    "evidence:field-case",
+    "ac2",
+    "ac2-content",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:12:46.352216",
+  "post_id": "4320350",
+  "raw_file": "4320350.html",
+  "extraction_status": "success",
+  "text_length": 1757,
+  "cleaned_file": "4320350.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.479936",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

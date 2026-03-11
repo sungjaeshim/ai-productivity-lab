@@ -1,0 +1,90 @@
+{
+  "metrics": {
+    "timestamp": "2026-03-08T07:26:31.270892",
+    "sample_count": 120,
+    "query_timeout_sec": 15,
+    "route_p95": {
+      "lexical": 6.625652313232422,
+      "semantic": 91.33291244506836,
+      "hybrid": 37.37592697143555
+    },
+    "fallback_rate_estimate": 0.0,
+    "top3_hit_rate": 100.0,
+    "route_match_rate": 100.0,
+    "total_queries": 120,
+    "successful_queries": 120,
+    "error_count": 0,
+    "sample_offset": 0,
+    "sample_limit": 0,
+    "sample_total_available": 120
+  },
+  "gate": {
+    "pass": false,
+    "checks": [
+      {
+        "name": "top3_hit_rate",
+        "value": 100.0,
+        "op": ">=",
+        "target": 90.0,
+        "pass": true
+      },
+      {
+        "name": "hybrid_p95_ms",
+        "value": 37.37592697143555,
+        "op": "<=",
+        "target": 40.0,
+        "pass": true
+      },
+      {
+        "name": "error_count",
+        "value": 0,
+        "op": "<=",
+        "target": 0,
+        "pass": true
+      },
+      {
+        "name": "route_match_rate",
+        "value": 100.0,
+        "op": ">=",
+        "target": 95.0,
+        "pass": true
+      },
+      {
+        "name": "top3_vs_baseline",
+        "value": 100.0,
+        "baseline": 100.0,
+        "delta": 0.0,
+        "tolerance": -5.0,
+        "pass": true
+      },
+      {
+        "name": "route_match_vs_baseline",
+        "value": 100.0,
+        "baseline": 100.0,
+        "delta": 0.0,
+        "tolerance": -5.0,
+        "pass": true
+      },
+      {
+        "name": "latency_vs_baseline",
+        "value": 37.37592697143555,
+        "baseline": 32.3026180267334,
+        "increase_pct": 15.71,
+        "tolerance_pct": 5.0,
+        "pass": false
+      }
+    ],
+    "failed_count": 1,
+    "failed_checks": [
+      {
+        "name": "latency_vs_baseline",
+        "value": 37.37592697143555,
+        "baseline": 32.3026180267334,
+        "increase_pct": 15.71,
+        "tolerance_pct": 5.0,
+        "pass": false
+      }
+    ],
+    "has_baseline": true
+  }
+}

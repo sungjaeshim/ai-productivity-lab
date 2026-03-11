@@ -1,0 +1,196 @@
+{
+  "generated_at": "2026-03-01T08:08:18+09:00",
+  "is_weekday": false,
+  "nq": {"data":null,"status":"skipped","error_msg":"시장 휴장"},
+  "weather": {"data":{"temp":6,"feel":5,"condition":"Overcast","high":11,"low":6,"source":"wttr.in"},"status":"ok","error_msg":null},
+  "tasks": {"data":[]
+[],"status":"ok","error_msg":null,"total_count":0
+0},
+  "active_count": 0,
+  "yesterday_summary": {"data":"# 2026-02-28 Daily Memory\n\n## Decisions\n- 로컬 LLM 직결 안정화는 계속 진행하기로 결정(서버 정상, OpenClaw 라우팅 불안정 구간 해결 우선).\n- 보안 운영 원칙 재확정: 평문 키 금지, `secrets audit → configure → apply → reload` 절차 준수.\n- 친구의 분산 AI 인프라(로컬+클라우드 하이브리드) 구성안은 보안/운영 관점으로 검토하기로 함.\n\n## State Changes\n- X 링크 4건 요약/캡처 완료:\n  - gorochi0315 (Virtual ","status":"ok","error_msg":null},
+  "memory_context": {"data":[],"status":"ok","error_msg":null},
+  "intelligence": {"data":{
+  "generated_at": "2026-02-28T22:30:20.214660+00:00",
+  "top_headlines": [
+    {
+      "source": "Bloomberg Markets",
+      "source_credibility": 90,
+      "title": "Polymarket Iran Bets Hit $529 Million as New Wallets Draw Notice",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-28/polymarket-iran-bets-hit-529-million-as-new-wallets-draw-notice",
+      "published": "2026-02-28T21:24:58+00:00",
+      "summary": "As US and Israeli bombs fell on Iran this weekend, bettors on Polymarket &mdash; where $529 million was traded on contracts tied to the timing of the strikes &mdash; were cashing in. Almost immediately, blockchain sleuths began hunting for unusual patterns in recent bets.",
+      "niches": [
+        "trading",
+        "ai_tech"
+      ],
+      "importance_score": 100
+    },
+    {
+      "source": "Bloomberg Markets",
+      "source_credibility": 90,
+      "title": "US Job Growth Seen Moderating After Robust January",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-28/us-job-growth-seen-moderating-after-robust-january",
+      "published": "2026-02-28T21:00:00+00:00",
+      "summary": "US payrolls growth probably settled back in February after the strongest month of hiring in a year, returning to a more moderate and likely sustainable pace of hiring.",
+      "niches": [
+        "trading",
+        "ai_tech"
+      ],
+      "importance_score": 100
+    },
+    {
+      "source": "Bloomberg Markets",
+      "source_credibility": 90,
+      "title": "What’s at Stake for Oil Markets as Trump Strikes Iran",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-28/iran-strikes-what-s-at-stake-for-oil-markets-as-trump-attacks-tehran",
+      "published": "2026-02-28T10:14:32+00:00",
+      "summary": "President Donald Trump’s decision to strike Iran creates new risks for a significant chunk of the world’s oil supply.",
+      "niches": [
+        "trading"
+      ],
+      "importance_score": 100
+    }
+  ],
+  "by_niche": {
+    "trading": [
+      {
+        "source": "Bloomberg Markets",
+        "source_credibility": 90,
+        "title": "Polymarket Iran Bets Hit $529 Million as New Wallets Draw Notice",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-28/polymarket-iran-bets-hit-529-million-as-new-wallets-draw-notice",
+        "published": "2026-02-28T21:24:58+00:00",
+        "summary": "As US and Israeli bombs fell on Iran this weekend, bettors on Polymarket &mdash; where $529 million was traded on contracts tied to the timing of the strikes &mdash; were cashing in. Almost immediately, blockchain sleuths began hunting for unusual patterns in recent bets.",
+        "niches": [
+          "trading",
+          "ai_tech"
+        ],
+        "importance_score": 100
+      },
+      {
+        "source": "Bloomberg Markets",
+        "source_credibility": 90,
+        "title": "US Job Growth Seen Moderating After Robust January",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-28/us-job-growth-seen-moderating-after-robust-january",
+        "published": "2026-02-28T21:00:00+00:00",
+        "summary": "US payrolls growth probably settled back in February after the strongest month of hiring in a year, returning to a more moderate and likely sustainable pace of hiring.",
+        "niches": [
+          "trading",
+          "ai_tech"
+        ],
+        "importance_score": 100
+      },
+      {
+        "source": "Bloomberg Markets",
+        "source_credibility": 90,
+        "title": "What’s at Stake for Oil Markets as Trump Strikes Iran",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-28/iran-strikes-what-s-at-stake-for-oil-markets-as-trump-attacks-tehran",
+        "published": "2026-02-28T10:14:32+00:00",
+        "summary": "President Donald Trump’s decision to strike Iran creates new risks for a significant chunk of the world’s oil supply.",
+        "niches": [
+          "trading"
+        ],
+        "importance_score": 100
+      }
+    ],
+    "ai_tech": [
+      {
+        "source": "Bloomberg Markets",
+        "source_credibility": 90,
+        "title": "Polymarket Iran Bets Hit $529 Million as New Wallets Draw Notice",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-28/polymarket-iran-bets-hit-529-million-as-new-wallets-draw-notice",
+        "published": "2026-02-28T21:24:58+00:00",
+        "summary": "As US and Israeli bombs fell on Iran this weekend, bettors on Polymarket &mdash; where $529 million was traded on contracts tied to the timing of the strikes &mdash; were cashing in. Almost immediately, blockchain sleuths began hunting for unusual patterns in recent bets.",
+        "niches": [
+          "trading",
+          "ai_tech"
+        ],
+        "importance_score": 100
+      },
+      {
+        "source": "Bloomberg Markets",
+        "source_credibility": 90,
+        "title": "US Job Growth Seen Moderating After Robust January",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-28/us-job-growth-seen-moderating-after-robust-january",
+        "published": "2026-02-28T21:00:00+00:00",
+        "summary": "US payrolls growth probably settled back in February after the strongest month of hiring in a year, returning to a more moderate and likely sustainable pace of hiring.",
+        "niches": [
+          "trading",
+          "ai_tech"
+        ],
+        "importance_score": 100
+      },
+      {
+        "source": "Bloomberg Markets",
+        "source_credibility": 90,
+        "title": "Private Credit Stocks Signal More Pain Is Coming: Credit Weekly",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-28/private-credit-stocks-signal-more-pain-is-coming-credit-weekly",
+        "published": "2026-02-28T20:00:00+00:00",
+        "summary": "Falling income, slashed dividends and loan markdowns: the results from some of the most transparent private credit funds this week have done little to soothe investors concerned about cockroaches in the market.",
+        "niches": [
+          "trading",
+          "ai_tech"
+        ],
+        "importance_score": 100
+      }
+    ],
+    "marketing": [
+      {
+        "source": "Google News (마케팅)",
+        "source_credibility": 60,
+        "title": "경북농협, Day마케팅 농산물 소비촉진운동 실시 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HclN2cjBycGRCdEpGd0FjY1NHbnJ3aWY3Y1NFcVQ1Q1hOSmVhblBDazhqM3BnZ2tLLVV2cTIwR2NPXzQzai1zNENVUFpVZHc?oc=5",
+        "published": "2026-02-28T11:11:03+00:00",
+        "summary": "경북농협, Day마케팅 농산물 소비촉진운동 실시&nbsp;&nbsp;v.daum.net",
+        "niches": [
+          "marketing"
+        ],
+        "importance_score": 100
+      },
+      {
+        "source": "Google News (마케팅)",
+        "source_credibility": 60,
+        "title": "베인캐피탈, 에코마케팅 2차 공개매수 종료…지분 91% 확보 - 아시아경제",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9BVk1YdnRuRm1FdXJLdDZ0bElHNDBtdUZpeW5SdGppUWQ3X01lUTFJSTBNaV9JR2h0VWo4R0lfdEpBU2lVdzl1dE5PV1BWLU9ucE12TVJHQTZTYkZsYkJIZQ?oc=5",
+        "published": "2026-02-28T08:07:00+00:00",
+        "summary": "베인캐피탈, 에코마케팅 2차 공개매수 종료…지분 91% 확보&nbsp;&nbsp;아시아경제",
+        "niches": [
+          "marketing"
+        ],
+        "importance_score": 100
+      }
+    ],
+    "realestate": [
+      {
+        "source": "한국경제",
+        "source_credibility": 65,
+        "title": "[속보] 트럼프, 이란 하메네이 사망 발표…\"전세계 위한 정의\"",
+        "link": "https://www.hankyung.com/article/2026030118037",
+        "published": "2026-02-28T21:44:28+00:00",
+        "summary": "",
+        "niches": [
+          "realestate"
+        ],
+        "importance_score": 100
+      },
+      {
+        "source": "Google News (부동산)",
+        "source_credibility": 60,
+        "title": "내수 칼바람에…음식업·임대업 2년 가까이 줄폐업 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4Q2R6WFoxbHdEWXZIejctODh5MkYyb0FDMWVhY2liLVpiMzN2QjRsb1pkYkhsSnlLeW11Y0R6UjNzS293TkhpR2huS3NTbnR4dFZJTmw2anlNems?oc=5",
+        "published": "2026-02-28T20:53:00+00:00",
+        "summary": "내수 칼바람에…음식업·임대업 2년 가까이 줄폐업&nbsp;&nbsp;연합뉴스",
+        "niches": [
+          "realestate"
+        ],
+        "importance_score": 100
+      }
+    ]
+  },
+  "signal_noise": {
+    "signals": [],
+    "noise": []
+  },
+  "total_collected": 145,
+  "total_relevant": 101
+},"status":"ok","error_msg":null}
+}

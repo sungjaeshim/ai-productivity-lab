@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-03-02T08:00:00+09:00",
+  "is_weekday": true,
+  "briefing_sent": true,
+  "briefing_sent_at": "2026-03-02T08:00:00+09:00",
+  "nq": {"data":null,"status":"pending","note":"시장 오늘 재개 - 주말 이란 뉴스로 변동성 리스크"},
+  "weather": {"data":{"temp":6,"feel":5,"condition":"Overcast","high":11,"low":6},"status":"ok"},
+  "tasks": {
+    "data": [
+      {"priority":1,"task":"Cron 오류 3건 복구"},
+      {"priority":2,"task":"Resend/Sentry 실운영 검증"},
+      {"priority":3,"task":"Discord 봇 토큰 회전 결정"}
+    ],
+    "status":"ok",
+    "total_count":3
+  },
+  "active_count": 3,
+  "yesterday_summary": {
+    "data":"Discord/Telegram 운영 분리 완료, IPv4-first 적용, Telegram 이미지 수신 정상",
+    "status":"ok"
+  },
+  "intelligence_source": "morning-context-2026-03-01.json"
+}

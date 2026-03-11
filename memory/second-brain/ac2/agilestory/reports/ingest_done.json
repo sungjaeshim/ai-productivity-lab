@@ -1,0 +1,23 @@
+{
+  "completed_at": "2026-03-02T23:22:27.951284",
+  "status": "completed",
+  "source": "https://agilestory.blog",
+  "total_articles": 373,
+  "successful": 373,
+  "failed": 0,
+  "coverage_percent": 100.0,
+  "extraction_success": 235,
+  "extraction_failed": 138,
+  "files": {
+    "raw_html": 373,
+    "cleaned_text": 235,
+    "metadata": 373
+  },
+  "directories": {
+    "raw": "raw/",
+    "cleaned": "cleaned/",
+    "meta": "meta/",
+    "manifests": "manifests/",
+    "reports": "reports/"
+  }
+}

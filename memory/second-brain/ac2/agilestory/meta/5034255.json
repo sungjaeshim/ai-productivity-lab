@@ -1,0 +1,33 @@
+{
+  "url": "https://agilestory.blog/5034255",
+  "title": "NOO2, QSM4 연합 RT에 여러분을 초대합니다",
+  "date": "2009년 7월 7일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:decision",
+    "dom:decision-making",
+    "dom:organizational-change",
+    "scope:individual",
+    "scope:org",
+    "evidence:book",
+    "kw:change",
+    "kw:decision",
+    "ac2",
+    "ac2-content",
+    "book",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:15:08.082656",
+  "post_id": "5034255",
+  "raw_file": "5034255.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 918,
+  "recovered": true,
+  "cleaned_file": "5034255.md",
+  "recovered_at": "2026-03-02T23:36:38.016816",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

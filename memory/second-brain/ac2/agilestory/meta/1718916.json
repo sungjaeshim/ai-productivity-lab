@@ -1,0 +1,33 @@
+{
+  "url": "https://agilestory.blog/1718916",
+  "title": "사전을 사랑한 사람",
+  "date": "2006년 3월 31일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:learning-science",
+    "theory:transfer-of-training",
+    "scope:individual",
+    "evidence:book",
+    "kw:learning",
+    "ac2",
+    "ac2-content",
+    "book",
+    "content",
+    "education",
+    "learning"
+  ],
+  "extracted_at": "2026-03-02T23:06:53.538889",
+  "post_id": "1718916",
+  "raw_file": "1718916.html",
+  "extraction_status": "success",
+  "text_length": 3358,
+  "cleaned_file": "1718916.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:35.970815",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

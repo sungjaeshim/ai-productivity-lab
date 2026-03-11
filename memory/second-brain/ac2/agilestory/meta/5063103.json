@@ -1,0 +1,31 @@
+{
+  "url": "https://agilestory.blog/5063103",
+  "title": "사회적 기업에서 PM을 찾습니다",
+  "date": "2009년 7월 30일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "role:project-manager",
+    "scope:general",
+    "evidence:field-case",
+    "ac2",
+    "ac2-content",
+    "content",
+    "planning",
+    "pm"
+  ],
+  "extracted_at": "2026-03-02T23:15:17.821200",
+  "post_id": "5063103",
+  "raw_file": "5063103.html",
+  "extraction_status": "success",
+  "text_length": 322,
+  "cleaned_file": "5063103.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:38.047872",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

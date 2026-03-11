@@ -1,0 +1,64 @@
+🌅 모닝 브리핑 | 2026-03-11 (수) 07:47 KST
+
+한 줄 요약: 오늘 1순위는 A안으로 진행하고 기존꺼 3일간만 다시 보고 리포팅하기
+
+━━━━━━━━━━━━━━━━━━
+🌤️ 오늘 날씨
+• 현재: 0°C (체감 -1°C) | Partly cloudy
+• 최고: 9°C / 최저: 2°C
+
+━━━━━━━━━━━━━━━━━━
+📋 오늘 할 일 (3건)
+1. A안으로 진행하고 기존꺼 3일간만 다시 보고 리포팅하기
+2. inbox 에들어온건 니가 알아서 판단해서 todoy 에가고 거기서 처리 된거 안된거 니가 정리해서 주는거…
+3. 모니터링은 잘때 한번 하자 다른거 할때 같이해줘
+
+━━━━━━━━━━━━━━━━━━
+📡 Daily Intelligence 핵심
+• [시장] Why is US stock market Dow Jones futures suddenly rising today? Dow, S&P 500 and Nasdaq tu…
+• [시장] Dow Jones Futures: Trump's Iran Comments Spark Stock Market Reversal As Oil Prices Tumble …
+• 중요도 상위 시그널 없음
+
+━━━━━━━━━━━━━━━━━━
+🧠 오늘 인사이트 Top3
+1. 오늘 추출된 인사이트 없음
+2. 추가 인사이트 없음
+3. 추가 인사이트 없음
+
+━━━━━━━━━━━━━━━━━━
+🧠 Learning Review
+• [D0][recall] 큰 그림은 고정하고 구현은 작게 나눈다 | 자비스는 브리핑/알림 시스템이 아니라 배움-행동-기억-전이 시스템으로 진화해야 한다.
+• [D0][recall] D1은 다음날 아침 브리핑에 맞춘다 | review queue의 D1은 anchor+24h가 아니라 다음날 08:00 KST에 맞춰야 morning briefing과 자연스럽게 연결된다
+• [D0][recall] 저녁 회고에서 learning card를 만든다 | 저녁 회고 산출물에서 핵심 배움 1개를 뽑아 learning card로 만들고 review queue에 등록한다
+
+━━━━━━━━━━━━━━━━━━
+🏢 HQ 카드
+
+[Card] 시장/시그널
+• NQ: pending | NQ signal check by cron
+• 매크로: [시장] Why is US stock market Dow Jones futures suddenly rising today? Dow, S&P 500 and Nasdaq tu…
+• 중요 뉴스: [시장] Dow Jones Futures: Trump's Iran Comments Spark Stock Market Reversal As Oil Prices Tumble …
+• [NAVER] 🔴 [경제] [증시전략] 'S공포' 확산 속 소비자물가 주목…금리인상 고개드나?
+• [NAVER] 🔴 [경제] 하나증권 “외인 매도 과도…삼성전자·SK하이닉스 수급 회복 가능”
+• [NAVER] 🔴 [경제] [마켓 프리뷰] 트럼프 '한 마디'에 전 세계 주식시장 급등락 장세
+
+[Card] 프로젝트 헬스
+• Growth: 모닝/데일리 payload 분리 구조 반영 단계
+• SecondBrain: insights.json 기반 Top3 공급 가능
+• CEO: 자동화 구조 정리 진행
+• MACD: shadow 관측 유지, 전환 전 검증 모드
+
+[Card] 리스크/장애
+• Low: NQ 카드 값은 별도 MACD cron 의존 | 조치: pending 표기 유지
+• Low: Daily Intelligence는 source-only 운영 | 조치: 모닝 브리핑에서 통합 사용
+
+[Card] 오늘 의사결정 필요
+• 오늘 1순위 집중 대상 | A. 핵심 1건 먼저 (권장) / B. 여러 건 분산 착수
+• Daily Intelligence 직접 발송 여부 | A. source-only 유지 (권장) / B. 별도 브리핑 발송
+• NQ 카드 데이터 연결 수준 | A. pending 유지 (권장) / B. MACD 결과 직접 주입
+
+[Card] 오늘 단일 핵심 액션
+• A안으로 진행하고 기존꺼 3일간만 다시 보고 리포팅하기부터 처리하고, 끝나면 MACD shadow 결과까지 이어서 확인하기
+
+━━━━━━━━━━━━━━━━━━
+어제 요약: 어제 기준으로 Config application is blocked on correct gateway tool/apply format; attempted patch failed with… 상태입니다.

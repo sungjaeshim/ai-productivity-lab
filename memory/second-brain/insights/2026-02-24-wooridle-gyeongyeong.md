@@ -1,0 +1,13 @@
+# 경영
+> 출처: wiki.wooridle.net
+> 카테고리: 코칭 (41개)
+> 태그: #코칭 (41개)
+
+- **핵심**: TheHaloEffect , 책/HardFacts TheChasm Effectuation 팀생산성 Incentive and Rewards Remote 주요 플레이어 학자 GaryHamel ClaytonChristensen PeterDrucker MichaelPorter 컨설턴트, 작가 TomPeters JimCollins Management 관련 책 최동석...
+- **주요 내용**:
+  - 최동석 선생의, '경쟁과 차별 (망하는 회사의 특징 - 인간과 철학, 그리고 관계)' 영상 '한스 게오르크 가다머'에 대해 소개...
+  - 2002년, 구글은 모든 관리자들을 없애는 통제되지 않은 "실험"을 했다...
+  - 2008년에 연구자들을 모아서, '관리자들이 필요 없다'라는 것을 (연구로) 증명하려고 했다...
+- **성재 적용**: 실제 상황에 적용해보세요.
+
+---

@@ -1,0 +1,11 @@
+It is faster to make a four-inch mirror then a six-inch mirror than to make a six-inch mirror. 4인치 반사경을 만든 다음에 6인치 반사경을 만드는 것이, 6인치 반사경 하나 만드는 것보다 더 빠르다.
+
+Prototyping cuts the work to produce a system by 40 percent. --Larry Bernstein, Bell Communications Research Translating a working program to a new language or system takes 10 percent of the original development time or manpower or cost. --Douglas W. Jones, University of Iowa
+
+규칙을 좀 더 정확하게 재진술 해보라
+
+규칙을 지지하는 작고 구체적인 예를 제시해 보라
+
+좀 더 큰 프로그램에 대해 적용되는 실제 사례의 무용담을 찾아보라
+
+규칙에 대해 비평해 보라. 언제나 참인 것은 무엇이고 때로는 우리를 오도할 수도 있는 것은 무엇인가?

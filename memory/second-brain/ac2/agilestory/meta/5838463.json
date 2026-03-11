@@ -1,0 +1,30 @@
+{
+  "url": "https://agilestory.blog/5838463",
+  "title": "지금 하는 일들을 절반의 시간 안에 해야 한다면?",
+  "date": "2015년 3월 6일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:coaching",
+    "use:decision",
+    "use:execution",
+    "dom:decision-making",
+    "person:anita-woolley",
+    "scope:general",
+    "ac2",
+    "ac2-content",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:20:57.584369",
+  "post_id": "5838463",
+  "raw_file": "5838463.html",
+  "extraction_status": "success",
+  "text_length": 1363,
+  "cleaned_file": "5838463.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:39.001031",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

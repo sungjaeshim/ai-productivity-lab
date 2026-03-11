@@ -1,0 +1,156 @@
+Running: 어제 결정... (temporal)
+Running: memory_search fallback 정책... (topic)
+Running: 관련된 링크... (graph)
+Running: 어제 결정 확인... (temporal)
+Running: memory_search fallback 정책 확인... (topic)
+Running: 관련된 링크 확인... (graph)
+Running: 어제 결정 찾아줘... (temporal)
+Running: memory_search fallback 정책 찾아줘... (topic)
+Running: 관련된 링크 찾아줘... (graph)
+Running: 어제 결정 기준... (temporal)
+Running: memory_search fallback 정책 기준... (topic)
+Running: 관련된 링크 기준... (graph)
+Running: 어제 결정 요약... (temporal)
+Running: memory_search fallback 정책 요약... (topic)
+Running: 관련된 링크 요약... (graph)
+Running: 어제 결정 상태... (temporal)
+Running: memory_search fallback 정책 상태... (topic)
+Running: 관련된 링크 상태... (graph)
+Running: 최근 어제 결정... (temporal)
+Running: 최근 memory_search fallback 정책... (topic)
+Running: 최근 관련된 링크... (graph)
+Running: 최근 어제 결정 확인... (temporal)
+Running: 최근 memory_search fallback 정책 확... (topic)
+Running: 최근 관련된 링크 확인... (graph)
+Running: 최근 어제 결정 찾아줘... (temporal)
+Running: 최근 memory_search fallback 정책 찾... (topic)
+Running: 최근 관련된 링크 찾아줘... (graph)
+Running: 최근 어제 결정 기준... (temporal)
+Running: 최근 memory_search fallback 정책 기... (topic)
+Running: 최근 관련된 링크 기준... (graph)
+Running: 최근 어제 결정 요약... (temporal)
+Running: 최근 memory_search fallback 정책 요... (topic)
+Running: 최근 관련된 링크 요약... (graph)
+Running: 최근 어제 결정 상태... (temporal)
+Running: 최근 memory_search fallback 정책 상... (topic)
+Running: 최근 관련된 링크 상태... (graph)
+Running: 운영 어제 결정... (temporal)
+Running: 운영 memory_search fallback 정책... (topic)
+Running: 운영 관련된 링크... (graph)
+Running: 운영 어제 결정 확인... (temporal)
+Running: 운영 memory_search fallback 정책 확... (topic)
+Running: 운영 관련된 링크 확인... (graph)
+Running: 운영 어제 결정 찾아줘... (temporal)
+Running: 운영 memory_search fallback 정책 찾... (topic)
+Running: 운영 관련된 링크 찾아줘... (graph)
+Running: 운영 어제 결정 기준... (temporal)
+Running: 운영 memory_search fallback 정책 기... (topic)
+Running: 운영 관련된 링크 기준... (graph)
+Running: 운영 어제 결정 요약... (temporal)
+Running: 운영 memory_search fallback 정책 요... (topic)
+Running: 운영 관련된 링크 요약... (graph)
+Running: 운영 어제 결정 상태... (temporal)
+Running: 운영 memory_search fallback 정책 상... (topic)
+Running: 운영 관련된 링크 상태... (graph)
+Running: 정리: 어제 결정... (temporal)
+Running: 정리: memory_search fallback 정책... (topic)
+Running: 정리: 관련된 링크... (graph)
+Running: 정리: 어제 결정 확인... (temporal)
+Running: 정리: memory_search fallback 정책 ... (topic)
+Running: 정리: 관련된 링크 확인... (graph)
+Running: 정리: 어제 결정 찾아줘... (temporal)
+Running: 정리: memory_search fallback 정책 ... (topic)
+Running: 정리: 관련된 링크 찾아줘... (graph)
+Running: 정리: 어제 결정 기준... (temporal)
+Running: 정리: memory_search fallback 정책 ... (topic)
+Running: 정리: 관련된 링크 기준... (graph)
+Running: 정리: 어제 결정 요약... (temporal)
+Running: 정리: memory_search fallback 정책 ... (topic)
+Running: 정리: 관련된 링크 요약... (graph)
+Running: 정리: 어제 결정 상태... (temporal)
+Running: 정리: memory_search fallback 정책 ... (topic)
+Running: 정리: 관련된 링크 상태... (graph)
+Running: 체크 어제 결정... (temporal)
+Running: 체크 memory_search fallback 정책... (topic)
+Running: 체크 관련된 링크... (graph)
+Running: 체크 어제 결정 확인... (temporal)
+Running: 체크 memory_search fallback 정책 확... (topic)
+Running: 체크 관련된 링크 확인... (graph)
+Running: 체크 어제 결정 찾아줘... (temporal)
+Running: 체크 memory_search fallback 정책 찾... (topic)
+Running: 체크 관련된 링크 찾아줘... (graph)
+Running: 체크 어제 결정 기준... (temporal)
+Running: 체크 memory_search fallback 정책 기... (topic)
+Running: 체크 관련된 링크 기준... (graph)
+Running: 체크 어제 결정 요약... (temporal)
+Running: 체크 memory_search fallback 정책 요... (topic)
+Running: 체크 관련된 링크 요약... (graph)
+Running: 체크 어제 결정 상태... (temporal)
+Running: 체크 memory_search fallback 정책 상... (topic)
+Running: 체크 관련된 링크 상태... (graph)
+Running: 빠르게 어제 결정... (temporal)
+Running: 빠르게 memory_search fallback 정책... (topic)
+Running: 빠르게 관련된 링크... (graph)
+Running: 빠르게 어제 결정 확인... (temporal)
+Running: 빠르게 memory_search fallback 정책 ... (topic)
+Running: 빠르게 관련된 링크 확인... (graph)
+Running: 빠르게 어제 결정 찾아줘... (temporal)
+Running: 빠르게 memory_search fallback 정책 ... (topic)
+Running: 빠르게 관련된 링크 찾아줘... (graph)
+Running: 빠르게 어제 결정 기준... (temporal)
+Running: 빠르게 memory_search fallback 정책 ... (topic)
+Running: 빠르게 관련된 링크 기준... (graph)
+Running: 빠르게 어제 결정 요약... (temporal)
+Running: 빠르게 memory_search fallback 정책 ... (topic)
+Running: 빠르게 관련된 링크 요약... (graph)
+Running: 빠르게 어제 결정 상태... (temporal)
+Running: 빠르게 memory_search fallback 정책 ... (topic)
+Running: 빠르게 관련된 링크 상태... (graph)
+Running: 오늘 어제 결정... (temporal)
+Running: 오늘 memory_search fallback 정책... (topic)
+Running: 오늘 관련된 링크... (graph)
+Running: 오늘 어제 결정 확인... (temporal)
+Running: 오늘 memory_search fallback 정책 확... (topic)
+Running: 오늘 관련된 링크 확인... (graph)
+Running: 오늘 어제 결정 찾아줘... (temporal)
+Running: 오늘 memory_search fallback 정책 찾... (topic)
+Running: 오늘 관련된 링크 찾아줘... (graph)
+Running: 오늘 어제 결정 기준... (temporal)
+Running: 오늘 memory_search fallback 정책 기... (topic)
+Running: 오늘 관련된 링크 기준... (graph)
+
+============================================================
+RECALL ROUTER EVALUATION REPORT
+============================================================
+Timestamp: 2026-03-08T07:25:49.803725
+Samples: 120
+Successful: 120/120
+Errors: 0
+
+METRICS
+------------------------------------------------------------
+Top-3 Hit Rate: 100.0%
+Route Match Rate: 100.0%
+Fallback Rate Estimate: 0.0%
+
+Route P95 Latency (ms):
+  lexical     : 7.53ms
+  semantic    : 91.40ms
+  hybrid      : 95.78ms
+
+GATE
+------------------------------------------------------------
+PASS: False
+  [OK] top3_hit_rate: 100.0 >= 90.0
+  [FAIL] hybrid_p95_ms: 95.78275680541992 <= 40.0
+  [OK] error_count: 0 <= 0
+  [OK] route_match_rate: 100.0 >= 95.0
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/scripts/recall_router_eval.py", line 421, in <module>
+    main()
+  File "/root/.openclaw/workspace/scripts/recall_router_eval.py", line 406, in main
+    print_report(metrics, results, gate=gate)
+  File "/root/.openclaw/workspace/scripts/recall_router_eval.py", line 335, in print_report
+    print(f"  [{mark}] {c['name']}: {c['value']} {c['op']} {c['target']}")
+                                                  ~^^^^^^
+KeyError: 'op'

@@ -1,0 +1,31 @@
+{
+  "url": "https://agilestory.blog/1686333",
+  "title": "재미있게 공부하기",
+  "date": "2006년 3월 25일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:cognitive-psychology",
+    "scope:general",
+    "evidence:book",
+    "evidence:field-case",
+    "ac2",
+    "ac2-content",
+    "book",
+    "content",
+    "psychology"
+  ],
+  "extracted_at": "2026-03-02T23:06:46.228000",
+  "post_id": "1686333",
+  "raw_file": "1686333.html",
+  "extraction_status": "success",
+  "text_length": 1268,
+  "cleaned_file": "1686333.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:35.946196",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

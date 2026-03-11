@@ -1,0 +1,33 @@
+{
+  "url": "https://agilestory.blog/5946833",
+  "title": "올해 첫 AC2 과정 40기가 곧 열립니다",
+  "date": "2021년 3월 22일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:coaching",
+    "use:execution",
+    "dom:organizational-change",
+    "person:gerald-weinberg",
+    "scope:individual",
+    "evidence:field-case",
+    "evidence:talk",
+    "kw:change",
+    "ac2",
+    "ac2-content",
+    "content",
+    "event"
+  ],
+  "extracted_at": "2026-03-02T23:22:27.943175",
+  "post_id": "5946833",
+  "raw_file": "5946833.html",
+  "extraction_status": "success",
+  "text_length": 1337,
+  "cleaned_file": "5946833.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:39.495434",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

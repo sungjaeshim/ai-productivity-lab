@@ -1,0 +1,7 @@
+prediction= 100*(p2 + p3 + p7 + p9 + p11 + p14)/42 control= 100*(p1 + p4 + p5 + p6 + p8 + p10 + p12 + p13)/56
+
+대박 (논문에서는 homerun) : 투자자가 100% 이상의 내부수익률(IRR)을 얻고(쉽게 말해 대박 터뜨리고) 투자회수(exit)한 경우 쪽박 (논문에서는 음의 IRR) : 투자자가 음의 내부수익률을 얻고(쉽게 말해 쪽박 차고) 손 뗀 경우
+
+예측성 점수 : 투자 결정이나 사업을 할 때 불확실성을 관리하기 위해 분석과 예측에 얼마나 의존하는가를 말합니다. 0에서 100점 사이의 점수입니다. 대다수의 MBA 과정이나 창업가 과정에서 가르치고 있는 방식이죠. 본 연구에서 투자자들의 평균은 78점이고 표준편차는 13점이었습니다. 통제성 점수 : 투자 결정이나 사업을 할 때 불확실성을 관리하기 위해 미래 예측에 의존하기보다 내가 조정/통제할 수 있는 환경을 만들고 거기에 있는 변수의 확률을 조정해서 내가 원하는 미래를 만들어 나가는 방법을 말합니다(이런 면에서 non-predictive control이라고도 합니다). 역시 0에서 100점 사이입니다. 앨런 케이가 말했던 "미래를 예측하는 가장 좋은 방법은 직접 미래를 만드는 것이다"가 비슷한 느낌이죠. 이 연구에서 투자자 평균은 74점, 표준편차는 14점이었습니다.
+
+...they question the usefulness and value of current emphases on predictive approaches in entrepreneurship courses that are built around formal business plans and standard analytical techniques. 격식적인 사업 계획서와 표준적인 분석 기법들 중심으로 꾸며진 창업가정신(entrepreneurship) 과정은 예측 기반 접근법을 강조하고 있는 중인데 본 연구는 그것이 정말 유용한지, 가치가 있는지에 대해 의문을 제기한다.

@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-03-03T10:35:15.714272+09:00",
+  "is_weekday": true,
+  "briefing_sent": false,
+  "briefing_sent_at": null,
+  "nq": {
+    "data": null,
+    "status": "pending",
+    "note": "NQ signal check by cron"
+  },
+  "weather": {
+    "data": {
+      "temp": 5,
+      "feel": 1,
+      "condition": "Mainly clear",
+      "high": 9,
+      "low": 2,
+      "source": "open-meteo"
+    },
+    "status": "ok"
+  },
+  "tasks": {
+    "data": [
+      {
+        "priority": 1,
+        "task": "Daily Intelligence/모닝 브리핑 파이프라인 점검"
+      },
+      {
+        "priority": 2,
+        "task": "AC2 2단계 결과 확인"
+      },
+      {
+        "priority": 3,
+        "task": "MACD 알림 포맷/누락방지 검증"
+      }
+    ],
+    "status": "ok",
+    "total_count": 3
+  },
+  "active_count": 3,
+  "yesterday_summary": {
+    "data": "운영 자동화 안정화 진행",
+    "status": "ok"
+  },
+  "intelligence_source": "intelligence-2026-03-03.json"
+}

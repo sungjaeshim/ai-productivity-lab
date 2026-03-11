@@ -1,0 +1,187 @@
+{
+  "_format": "YAML-compatible JSON",
+  "version": 1,
+  "families": {
+    "brain": {
+      "canonical_entrypoint": "brainctl.sh",
+      "members": [
+        "brain-auto-route-learn.sh",
+        "brain-content-analyze.sh",
+        "brain-daily-done-summary.sh",
+        "brain-discord-autopull.sh",
+        "brain-done-broadcast.sh",
+        "brain-inbox-resend-clean.sh",
+        "brain-link-ingest.sh",
+        "brain-nightly-todo-sync.sh",
+        "brain-note-ingest.sh",
+        "brain-queue-autoclean.sh",
+        "brain-route-retry.sh",
+        "brain-router-health-monitor.sh",
+        "brain-tag-route.sh",
+        "brain-telegram-autopull.sh",
+        "brain-thread-manage.sh",
+        "brain-todo-reaction-sync.sh",
+        "brain-todo-route.sh",
+        "brain-todoist-done-summary.sh",
+        "brain-todoist-stale-check.sh",
+        "brain-todoist-sync.sh",
+        "brain-weekly-knowledge-report.sh"
+      ]
+    },
+    "send": {
+      "canonical_entrypoint": "sendctl.sh",
+      "members": [
+        "send-briefing.sh",
+        "send-guard-observe.sh",
+        "send-guarded-message.sh"
+      ]
+    }
+  },
+  "aliases": [
+    {
+      "name": "system-monitor.sh",
+      "status": "compat",
+      "canonical": "system-monitor.sh",
+      "notes": "Workspace compatibility wrapper that feeds callme-v1 dispatch."
+    },
+    {
+      "name": "todoist-monitor.sh",
+      "status": "compat",
+      "canonical": "todoist-monitor.sh",
+      "notes": "Compatibility wrapper to brain-todoist-stale-check.sh."
+    },
+    {
+      "name": "monitor-brain-link-ci.sh",
+      "status": "retired",
+      "canonical": "github-ci-monitor.sh",
+      "attic": "_attic/2026-03/monitor-brain-link-ci.sh",
+      "notes": "Superseded by quieter GitHub REST monitor."
+    },
+    {
+      "name": "auto_post.sh",
+      "status": "retired",
+      "canonical": "auto-blog-post.sh",
+      "attic": "_attic/2026-03/auto_post.sh",
+      "notes": "Legacy pipeline points at a missing ai-blog workspace."
+    },
+    {
+      "name": "batch_posts.py",
+      "status": "retired",
+      "canonical": "auto-blog-post.sh",
+      "attic": "_attic/2026-03/batch_posts.py",
+      "notes": "Legacy batch content generator kept only for reference."
+    },
+    {
+      "name": "fetch_unsplash.py",
+      "status": "retired",
+      "attic": "_attic/2026-03/fetch_unsplash.py",
+      "notes": "Unreferenced image helper archived pending a real blog-media pipeline owner."
+    },
+    {
+      "name": "memory-grep-search.sh",
+      "status": "retired",
+      "attic": "_attic/2026-03/memory-grep-search.sh",
+      "notes": "Unreferenced fallback memory grep helper archived until re-adopted."
+    },
+    {
+      "name": "cron-daily-diff-report.py",
+      "status": "retired",
+      "attic": "_attic/2026-03/cron-daily-diff-report.py",
+      "notes": "Unreferenced cron analytics report archived after candidate sweep."
+    },
+    {
+      "name": "notion_log.py",
+      "status": "compat",
+      "canonical": "notion_log.py",
+      "attic": "_attic/2026-03/notion_log.py",
+      "notes": "Compatibility shim restored; keeps legacy cron calls working while implementation stays archived."
+    },
+    {
+      "name": "usdkrw_alert.py",
+      "status": "retired",
+      "attic": "_attic/2026-03/usdkrw_alert.py",
+      "notes": "Inactive market alert helper archived after candidate sweep."
+    }
+  ],
+  "known_missing_refs": [
+    {
+      "name": "refresh-strava-token.sh",
+      "status": "missing",
+      "notes": "Legacy disabled cron payload; no workspace replacement is committed."
+    },
+    {
+      "name": "check-gmail.py",
+      "status": "missing",
+      "notes": "Legacy disabled cron payload; feature is not implemented in this workspace."
+    },
+    {
+      "name": "sentiment-gambler.js",
+      "status": "missing",
+      "canonical": "market_sentiment_delta.py",
+      "notes": "Legacy market sentiment JS path replaced by Python delta script."
+    },
+    {
+      "name": "tga-fetcher.js",
+      "status": "missing",
+      "notes": "Legacy liquidity fetcher path is absent from the workspace."
+    },
+    {
+      "name": "nq-macd-analyzer.js",
+      "status": "missing",
+      "canonical": "/root/.openclaw/scripts/nq_macd_multi.py",
+      "notes": "Legacy Node MACD runner replaced by Python runner outside workspace."
+    }
+  ],
+  "overrides": [
+    {
+      "name": "auto-blog-post.sh",
+      "status": "keep",
+      "notes": "Manual blog generation utility for ai-productivity-lab."
+    },
+    {
+      "name": "blog-report.sh",
+      "status": "keep",
+      "notes": "Manual blog reporting utility for ai-productivity-lab."
+    },
+    {
+      "name": "check-growth-second-brain-public.sh",
+      "status": "keep",
+      "notes": "Manual public dashboard healthcheck utility."
+    },
+    {
+      "name": "enforce-dns-fallback.sh",
+      "status": "keep",
+      "notes": "Manual DNS recovery tool; keep out of unattended rotation."
+    },
+    {
+      "name": "full-backup.sh",
+      "status": "keep",
+      "notes": "Manual full workspace backup utility."
+    },
+    {
+      "name": "git-ai-note.sh",
+      "status": "keep",
+      "notes": "Manual git notes utility for AI session metadata."
+    },
+    {
+      "name": "sync-growth-site-second-brain.sh",
+      "status": "candidate",
+      "notes": "Unreferenced growth-site sync helper; archive next if export flow stays inactive."
+    },
+    {
+      "name": "local-rescue-model-eval.sh",
+      "status": "hold",
+      "notes": "Recently added local rescue evaluator; keep under review."
+    },
+    {
+      "name": "telegram-egress-monitor.sh",
+      "status": "hold",
+      "notes": "Recently edited monitor; do not archive until rollout decision is explicit."
+    },
+    {
+      "name": "test-send-guard.sh",
+      "status": "hold",
+      "notes": "Recently added send-guard test harness."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+// PATCH: Auto-dispatch PDF attachments for Telegram topic 81/doc-worker
+// Insert at line 84411 (after topicConfig resolution, before resolveTelegramConversationRoute)
+
+// Auto-dispatch PDF attachments for doc-worker topic (81)
+if (resolvedThreadId === 81 || topicConfig?.agentId === 'doc-worker') {
+  const pdfMedia = allMedia?.find(m =>
+    m.contentType === 'application/pdf' || m.path?.endsWith('.pdf')
+  );
+
+  if (pdfMedia && pdfMedia.path) {
+    try {
+      const { spawn } = require('child_process');
+      const child = spawn('python3', [
+        '/root/.openclaw/workspace/scripts/pdf_extract.py',
+        pdfMedia.path
+      ], {
+        detached: true,
+        stdio: 'ignore',
+        cwd: '/root/.openclaw/workspace'
+      });
+      child.unref();
+
+      logger?.info?.({
+        topic: 'telegram-pdf-autodispatch',
+        chatId,
+        threadId: resolvedThreadId,
+        pdfPath: pdfMedia.path,
+        agentId: topicConfig?.agentId
+      }, 'Auto-dispatched PDF to pdf_extract.py');
+
+      // Skip normal chat flow to prevent timeout
+      return null;
+    } catch (err) {
+      logger?.error?.({
+        topic: 'telegram-pdf-autodispatch',
+        error: String(err),
+        pdfPath: pdfMedia.path
+      }, 'Failed to auto-dispatch PDF');
+      // Continue with normal flow on error
+    }
+  }
+}

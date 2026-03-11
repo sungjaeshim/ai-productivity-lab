@@ -1,0 +1,27 @@
+{
+  "url": "https://agilestory.blog/1477555",
+  "title": "사고의 도구로서의 프로그래밍",
+  "date": "2006년 2월 21일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:coaching",
+    "dom:organizational-change",
+    "scope:org",
+    "ac2",
+    "ac2-content",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:06:14.684348",
+  "post_id": "1477555",
+  "raw_file": "1477555.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 849,
+  "recovered": true,
+  "cleaned_file": "1477555.md",
+  "recovered_at": "2026-03-02T23:36:35.808202",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

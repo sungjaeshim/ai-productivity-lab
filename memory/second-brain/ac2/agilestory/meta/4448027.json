@@ -1,0 +1,30 @@
+{
+  "url": "https://agilestory.blog/4448027",
+  "title": "프로젝트 확률론",
+  "date": "2008년 6월 26일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:cognitive-psychology",
+    "theory:heuristics-biases",
+    "scope:general",
+    "evidence:field-case",
+    "ac2",
+    "ac2-content",
+    "content",
+    "psychology"
+  ],
+  "extracted_at": "2026-03-02T23:13:00.932263",
+  "post_id": "4448027",
+  "raw_file": "4448027.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 213,
+  "recovered": true,
+  "cleaned_file": "4448027.md",
+  "recovered_at": "2026-03-02T23:36:37.558476",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

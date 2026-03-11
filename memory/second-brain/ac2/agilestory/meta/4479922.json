@@ -1,0 +1,30 @@
+{
+  "url": "https://agilestory.blog/4479922",
+  "title": "생물정보학 관련 분야 연구자를 위한 무료 애자일 워크샵",
+  "date": "2008년 7월 10일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "role:project-manager",
+    "scope:general",
+    "ac2",
+    "ac2-content",
+    "content",
+    "planning",
+    "pm"
+  ],
+  "extracted_at": "2026-03-02T23:13:08.261360",
+  "post_id": "4479922",
+  "raw_file": "4479922.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 213,
+  "recovered": true,
+  "cleaned_file": "4479922.md",
+  "recovered_at": "2026-03-02T23:36:37.598059",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

@@ -1,0 +1,65 @@
+---
+import HeaderLink from './HeaderLink.astro';
+---
+
+<header>
+	<nav>
+		<a href="/" class="logo">
+			<span class="logo-mark">AI Snowball</span>
+			<span class="logo-sub">Practical systems for AI operators</span>
+		</a>
+		<div class="internal-links">
+			<HeaderLink href="/">홈</HeaderLink>
+			<HeaderLink href="/blog">블로그</HeaderLink>
+			<HeaderLink href="/about">소개</HeaderLink>
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		position: sticky;
+		top: 0;
+		z-index: 20;
+		border-bottom: 1px solid var(--border);
+		background: rgba(251, 251, 250, 0.92);
+		backdrop-filter: blur(10px);
+	}
+	nav {
+		max-width: var(--max-width);
+		margin: 0 auto;
+		padding: 0.85rem 1rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+	}
+	.logo {
+		display: inline-flex;
+		flex-direction: column;
+		gap: 0.1rem;
+		color: var(--ink);
+		text-decoration: none;
+	}
+	.logo-mark {
+		font-size: 1rem;
+		font-weight: 800;
+		letter-spacing: -0.01em;
+	}
+	.logo-sub {
+		font-size: 0.74rem;
+		letter-spacing: 0.04em;
+		color: var(--ink-soft);
+	}
+	.logo:hover .logo-mark { color: var(--accent); }
+	.internal-links {
+		display: flex;
+		gap: 1.1rem;
+		flex-wrap: wrap;
+	}
+	@media (max-width: 720px) {
+		nav {
+			align-items: flex-start;
+			flex-direction: column;
+		}
+	}
+</style>

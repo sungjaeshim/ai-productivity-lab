@@ -1,0 +1,2031 @@
+{
+  "bookId": "weinberg-qsm-laws-rules-principles",
+  "title": "Quality Software Management – Listing of Laws, Rules and Principles",
+  "updatedAt": "2026-03-05T22:20:46Z",
+  "mode": "xhigh",
+  "articles": [
+    {
+      "id": "V1-001",
+      "path": "articles/v1-001-crosby-definition-of-quality.md",
+      "volume": 1,
+      "title": "Crosby’s Definition of Quality",
+      "title_ko": "크로스비의 품질 정의",
+      "page": 5,
+      "keywords": [
+        "quality",
+        "requirements",
+        "conformance",
+        "품질",
+        "요구사항"
+      ]
+    },
+    {
+      "id": "V1-002",
+      "path": "articles/v1-002-the-quality-statement.md",
+      "volume": 1,
+      "title": "The Quality Statement",
+      "title_ko": "품질 진술",
+      "page": 5,
+      "keywords": [
+        "stakeholder",
+        "perspective",
+        "quality",
+        "이해관계자",
+        "관점"
+      ]
+    },
+    {
+      "id": "V1-003",
+      "path": "articles/v1-003-the-political-dilemma.md",
+      "volume": 1,
+      "title": "The Political Dilemma",
+      "title_ko": "정치적 딜레마",
+      "page": 6,
+      "keywords": [
+        "tradeoff",
+        "politics",
+        "quality",
+        "트레이드오프",
+        "갈등"
+      ]
+    },
+    {
+      "id": "V1-004",
+      "path": "articles/v1-004-the-quality-decision.md",
+      "volume": 1,
+      "title": "The Quality Decision",
+      "title_ko": "품질 의사결정",
+      "page": 7,
+      "keywords": [
+        "governance",
+        "decision rights",
+        "quality",
+        "거버넌스",
+        "의사결정"
+      ]
+    },
+    {
+      "id": "V1-005",
+      "path": "articles/v1-005-political-emotional-dimension.md",
+      "volume": 1,
+      "title": "The Political/Emotional Dimension of Quality",
+      "title_ko": "품질의 정치·감정 차원",
+      "page": 7,
+      "keywords": [
+        "value",
+        "emotion",
+        "quality",
+        "가치",
+        "체감품질"
+      ]
+    },
+    {
+      "id": "V1-006",
+      "path": "articles/v1-006-the-inadequate-definition-of-quality.md",
+      "volume": 1,
+      "title": "The Inadequate Definition of Quality",
+      "title_ko": "불충분한 품질 정의",
+      "page": 9,
+      "keywords": [
+        "absence of error",
+        "quality",
+        "value",
+        "무오류",
+        "품질"
+      ]
+    },
+    {
+      "id": "V1-007",
+      "path": "articles/v1-007-crosbys-economics-of-quality.md",
+      "volume": 1,
+      "title": "Crosby’s Economics of Quality",
+      "title_ko": "품질의 경제학",
+      "page": 19,
+      "keywords": [
+        "cost of quality",
+        "rework",
+        "prevention",
+        "품질비용",
+        "재작업"
+      ]
+    },
+    {
+      "id": "V1-008",
+      "path": "articles/v1-008-the-quest-for-perfection.md",
+      "volume": 1,
+      "title": "The Quest for Perfection",
+      "title_ko": "완벽주의의 함정",
+      "page": 21,
+      "keywords": [
+        "perfectionism",
+        "good enough",
+        "delivery",
+        "완벽주의",
+        "납기"
+      ]
+    },
+    {
+      "id": "V1-009",
+      "path": "articles/v1-009-buildings-backward-basis.md",
+      "volume": 1,
+      "title": "Building’s Backward Basis",
+      "title_ko": "형성의 역사성",
+      "page": 22,
+      "keywords": [
+        "history",
+        "legacy",
+        "path dependence",
+        "레거시",
+        "역사성"
+      ]
+    },
+    {
+      "id": "V1-010",
+      "path": "articles/v1-010-the-superprogrammer-image.md",
+      "volume": 1,
+      "title": "The Superprogrammer Image",
+      "title_ko": "슈퍼프로그래머 환상",
+      "page": 25,
+      "keywords": [
+        "superprogrammer",
+        "management",
+        "team system",
+        "영웅주의",
+        "팀시스템"
+      ]
+    },
+    {
+      "id": "V1-011",
+      "path": "articles/v1-011-using-models-to-change-thinking-patterns.md",
+      "volume": 1,
+      "title": "Using Models to Change Thinking Patterns",
+      "title_ko": "사고모형 전환",
+      "page": 35,
+      "keywords": [
+        "mental model",
+        "organizational change",
+        "thinking patterns",
+        "사고모형",
+        "조직변화"
+      ]
+    },
+    {
+      "id": "V1-012",
+      "path": "articles/v1-012-the-formular-for-a-systems-behavior.md",
+      "volume": 1,
+      "title": "The Formular for a System’s Behavior",
+      "title_ko": "시스템 행동 공식",
+      "page": 59,
+      "keywords": [
+        "state and input",
+        "system behavior",
+        "dynamics",
+        "상태와 입력",
+        "시스템행동"
+      ]
+    },
+    {
+      "id": "V1-013",
+      "path": "articles/v1-013-the-first-law-of-bad-management.md",
+      "volume": 1,
+      "title": "The First Law of Bad Management",
+      "title_ko": "나쁜 관리의 제1법칙",
+      "page": 62,
+      "keywords": [
+        "bad management",
+        "anti-pattern",
+        "feedback loop",
+        "나쁜관리",
+        "안티패턴"
+      ]
+    },
+    {
+      "id": "V1-014",
+      "path": "articles/v1-014-brookss-model-rephrased.md",
+      "volume": 1,
+      "title": "Brooks’s Model (Rephrased)",
+      "title_ko": "브룩스 모델(재진술)",
+      "page": 74,
+      "keywords": [
+        "Brooks",
+        "schedule",
+        "project failure",
+        "브룩스",
+        "일정리스크"
+      ]
+    },
+    {
+      "id": "V1-015",
+      "path": "articles/v1-015-why-software-projects-go-wrong.md",
+      "volume": 1,
+      "title": "Why Software Projects Go Wrong",
+      "title_ko": "프로젝트 실패 원인",
+      "page": 76,
+      "keywords": [
+        "project failure",
+        "lack of quality",
+        "destructive dynamics",
+        "실패원인",
+        "품질결핍"
+      ]
+    },
+    {
+      "id": "V1-016",
+      "path": "articles/v1-016-the-scaling-fallacy.md",
+      "volume": 1,
+      "title": "The Scaling Fallacy",
+      "title_ko": "스케일링 오류",
+      "page": 77,
+      "keywords": [
+        "scaling fallacy",
+        "complexity",
+        "architecture",
+        "스케일링",
+        "복잡도"
+      ]
+    },
+    {
+      "id": "V1-017",
+      "path": "articles/v1-017-the-reversible-fallacy.md",
+      "volume": 1,
+      "title": "The Reversible Fallacy",
+      "title_ko": "가역성 오류",
+      "page": 89,
+      "keywords": [
+        "reversible fallacy",
+        "rollback",
+        "change risk",
+        "가역성",
+        "롤백"
+      ]
+    },
+    {
+      "id": "V1-018",
+      "path": "articles/v1-018-the-causation-fallacy.md",
+      "volume": 1,
+      "title": "The Causation Fallacy",
+      "title_ko": "인과 오류",
+      "page": 90,
+      "keywords": [
+        "causation fallacy",
+        "root cause",
+        "complex systems",
+        "인과",
+        "원인분석"
+      ]
+    },
+    {
+      "id": "V1-019",
+      "path": "articles/v1-019-decisions-by-people.md",
+      "volume": 1,
+      "title": "Decisions by People",
+      "title_ko": "사람의 결정점",
+      "page": 111,
+      "keywords": [
+        "decisions by people",
+        "human factor",
+        "decision point",
+        "인간요인",
+        "결정점"
+      ]
+    },
+    {
+      "id": "V1-020",
+      "path": "articles/v1-020-the-square-law-of-computation.md",
+      "volume": 1,
+      "title": "The Square Law of Computation",
+      "title_ko": "계산의 제곱 법칙",
+      "page": 130,
+      "keywords": [
+        "square law",
+        "computation",
+        "complexity",
+        "제곱법칙",
+        "계산복잡도"
+      ]
+    },
+    {
+      "id": "V1-021",
+      "path": "articles/v1-021-the-natural-software-dynamic.md",
+      "volume": 1,
+      "title": "The Natural Software Dynamic",
+      "title_ko": "자연 소프트웨어 동학",
+      "page": 135,
+      "keywords": [
+        "software complexity",
+        "cognitive limit",
+        "scaling",
+        "복잡도",
+        "인지한계"
+      ]
+    },
+    {
+      "id": "V1-022",
+      "path": "articles/v1-022-the-size-complexity-dynamic.md",
+      "volume": 1,
+      "title": "The Size/Complexity Dynamic",
+      "title_ko": "규모/복잡도 동학",
+      "page": 144,
+      "keywords": [
+        "size complexity",
+        "requirements",
+        "cognitive load",
+        "요구과부하",
+        "인지부하"
+      ]
+    },
+    {
+      "id": "V1-023",
+      "path": "articles/v1-023-the-log-log-law.md",
+      "volume": 1,
+      "title": "The Log-Log Law",
+      "title_ko": "로그-로그 법칙",
+      "page": 146,
+      "keywords": [
+        "log-log law",
+        "visualization",
+        "interpretation",
+        "시각화",
+        "해석"
+      ]
+    },
+    {
+      "id": "V1-024",
+      "path": "articles/v1-024-the-helpful-model.md",
+      "volume": 1,
+      "title": "The Helpful Model",
+      "title_ko": "도움 모델",
+      "page": 154,
+      "keywords": [
+        "helpful model",
+        "assume positive intent",
+        "collaboration",
+        "선의가정",
+        "협업"
+      ]
+    },
+    {
+      "id": "V1-025",
+      "path": "articles/v1-025-the-principle-of-addition.md",
+      "volume": 1,
+      "title": "The Principle of Addition",
+      "title_ko": "추가의 원리",
+      "page": 155,
+      "keywords": [
+        "principle of addition",
+        "behavior replacement",
+        "improvement",
+        "대체행동",
+        "개선"
+      ]
+    },
+    {
+      "id": "V1-026",
+      "path": "articles/v1-026-an-additional-model.md",
+      "volume": 1,
+      "title": "An Additional Model",
+      "title_ko": "추가 모델",
+      "page": 156,
+      "keywords": [
+        "model of reality",
+        "behavior",
+        "mental model",
+        "현실모델",
+        "행동"
+      ]
+    },
+    {
+      "id": "V1-027",
+      "path": "articles/v1-027-the-first-principle-of-programming.md",
+      "volume": 1,
+      "title": "The First Principle of Programming",
+      "title_ko": "프로그래밍 제1원리",
+      "page": 184,
+      "keywords": [
+        "error prevention",
+        "programming principle",
+        "defect prevention",
+        "오류예방",
+        "결함예방"
+      ]
+    },
+    {
+      "id": "V1-028",
+      "path": "articles/v1-028-the-absence-of-error-fallacy.md",
+      "volume": 1,
+      "title": "The Absence of Error Fallacy",
+      "title_ko": "무오류 오류",
+      "page": 185,
+      "keywords": [
+        "absence of error",
+        "software value",
+        "quality metrics",
+        "무오류",
+        "가치지표"
+      ]
+    },
+    {
+      "id": "V1-029",
+      "path": "articles/v1-029-the-controller-dilemma.md",
+      "volume": 1,
+      "title": "The Controller Dilemma",
+      "title_ko": "컨트롤러 딜레마",
+      "page": 197,
+      "keywords": [
+        "controller dilemma",
+        "preventive ops",
+        "management visibility",
+        "예방운영",
+        "가시성"
+      ]
+    },
+    {
+      "id": "V1-030",
+      "path": "articles/v1-030-the-controller-fallacy.md",
+      "volume": 1,
+      "title": "The Controller Fallacy",
+      "title_ko": "컨트롤러 오류",
+      "page": 197,
+      "keywords": [
+        "controller fallacy",
+        "busyness illusion",
+        "management metrics",
+        "바쁨착시",
+        "성과지표"
+      ]
+    },
+    {
+      "id": "V1-031",
+      "path": "articles/v1-031-the-difference-detection-dynamic.md",
+      "volume": 1,
+      "title": "The Difference Detection Dynamic",
+      "title_ko": "차이 탐지 동학",
+      "page": 202,
+      "keywords": [
+        "difference detection",
+        "defect discovery",
+        "testing phases",
+        "결함탐지",
+        "테스트동학"
+      ]
+    },
+    {
+      "id": "V1-032",
+      "path": "articles/v1-032-the-failure-detection-curve-bad-news.md",
+      "volume": 1,
+      "title": "The Failure Detection Curve (the Bad News)",
+      "title_ko": "실패 탐지 곡선(나쁜 소식)",
+      "page": 205,
+      "keywords": [
+        "failure detection curve",
+        "non-linear",
+        "testing",
+        "실패탐지",
+        "비선형"
+      ]
+    },
+    {
+      "id": "V1-033",
+      "path": "articles/v1-033-the-failure-detection-curve-good-news.md",
+      "volume": 1,
+      "title": "The Failure Detection Curve (the Good News)",
+      "title_ko": "실패 탐지 곡선(좋은 소식)",
+      "page": 205,
+      "keywords": [
+        "combined testing",
+        "detection technologies",
+        "coverage",
+        "테스트조합",
+        "탐지기술"
+      ]
+    },
+    {
+      "id": "V1-034",
+      "path": "articles/v1-034-the-army-principle.md",
+      "volume": 1,
+      "title": "The Army Principle",
+      "title_ko": "군대 원리",
+      "page": 212,
+      "keywords": [
+        "army principle",
+        "leadership",
+        "accountability",
+        "리더십",
+        "책임"
+      ]
+    },
+    {
+      "id": "V1-035",
+      "path": "articles/v1-035-the-army-principle-modified.md",
+      "volume": 1,
+      "title": "The Army Principle (Modified)",
+      "title_ko": "군대 원리(수정)",
+      "page": 213,
+      "keywords": [
+        "modified army principle",
+        "failure dynamics",
+        "software management",
+        "실패동학",
+        "개발관리"
+      ]
+    },
+    {
+      "id": "V1-036",
+      "path": "articles/v1-036-the-self-invalidating-model.md",
+      "volume": 1,
+      "title": "The Self-Invalidating Model",
+      "title_ko": "자기무효화 모델",
+      "page": 236,
+      "keywords": [
+        "self-invalidating",
+        "overconfidence",
+        "change risk",
+        "과신",
+        "변경리스크"
+      ]
+    },
+    {
+      "id": "V1-037",
+      "path": "articles/v1-037-the-ripple-effect.md",
+      "volume": 1,
+      "title": "The Ripple Effect",
+      "title_ko": "리플 효과",
+      "page": 237,
+      "keywords": [
+        "ripple effect",
+        "change impact",
+        "coupling",
+        "영향도",
+        "결합도"
+      ]
+    },
+    {
+      "id": "V1-038",
+      "path": "articles/v1-038-the-modular-dynamic.md",
+      "volume": 1,
+      "title": "The Modular Dynamic",
+      "title_ko": "모듈화 동학",
+      "page": 238,
+      "keywords": [
+        "modularity",
+        "side effects",
+        "architecture",
+        "모듈화",
+        "부작용"
+      ]
+    },
+    {
+      "id": "V1-039",
+      "path": "articles/v1-039-the-titanic-effect.md",
+      "volume": 1,
+      "title": "The Titanic Effect",
+      "title_ko": "타이타닉 효과",
+      "page": 241,
+      "keywords": [
+        "titanic effect",
+        "complacency",
+        "risk",
+        "안일함",
+        "리스크"
+      ]
+    },
+    {
+      "id": "V1-040",
+      "path": "articles/v1-040-the-pressure-judgment-dynamic.md",
+      "volume": 1,
+      "title": "The Pressure/Judgment Dynamic",
+      "title_ko": "압박/판단 동학",
+      "page": 255,
+      "keywords": [
+        "pressure judgment",
+        "conformity",
+        "loss of control",
+        "압박",
+        "동조"
+      ]
+    },
+    {
+      "id": "V1-041",
+      "path": "articles/v1-041-the-law-of-diminishing-response.md",
+      "volume": 1,
+      "title": "The Law of Diminishing Response",
+      "title_ko": "체감 반응의 법칙",
+      "page": 262,
+      "keywords": [
+        "diminishing response",
+        "pressure",
+        "returns",
+        "체감",
+        "압박"
+      ]
+    },
+    {
+      "id": "V1-042",
+      "path": "articles/v1-042-weinbergs-zeroth-law-of-software.md",
+      "volume": 1,
+      "title": "Weinberg’s Zeroth Law of Software",
+      "title_ko": "소프트웨어 영차법칙",
+      "page": 275,
+      "keywords": [
+        "zeroth law",
+        "software must work",
+        "requirements",
+        "영차법칙",
+        "작동성"
+      ]
+    },
+    {
+      "id": "V1-043",
+      "path": "articles/v1-043-managers-not-available.md",
+      "volume": 1,
+      "title": "Managers Not Available",
+      "title_ko": "관리자 부재",
+      "page": 276,
+      "keywords": [
+        "manager availability",
+        "decision latency",
+        "leadership",
+        "가용성",
+        "의사결정"
+      ]
+    },
+    {
+      "id": "V1-044",
+      "path": "articles/v1-044-no-time-to-do-it-right.md",
+      "volume": 1,
+      "title": "No Time to Do It Right",
+      "title_ko": "처음부터 제대로 할 시간은 없다",
+      "page": 278,
+      "keywords": [
+        "rework paradox",
+        "quality upfront",
+        "time management",
+        "재작업",
+        "품질"
+      ]
+    },
+    {
+      "id": "V1-045",
+      "path": "articles/v1-045-the-boomerang-effect.md",
+      "volume": 1,
+      "title": "The Boomerang Effect",
+      "title_ko": "부메랑 효과",
+      "page": 279,
+      "keywords": [
+        "boomerang effect",
+        "quality shortcut",
+        "technical debt",
+        "품질우회",
+        "기술부채"
+      ]
+    },
+    {
+      "id": "V2-001",
+      "path": "articles/v2-001-the-observation-lesson-part-1.md",
+      "volume": 2,
+      "title": "The Observation Lesson, Part 1",
+      "title_ko": "관찰 교훈 1",
+      "page": 28,
+      "keywords": [
+        "observation",
+        "measurement design",
+        "attention",
+        "관찰",
+        "측정설계"
+      ]
+    },
+    {
+      "id": "V2-002",
+      "path": "articles/v2-002-demarcos-principle.md",
+      "volume": 2,
+      "title": "DeMarco’s Principle",
+      "title_ko": "드마르코 원리",
+      "page": 29,
+      "keywords": [
+        "demarco principle",
+        "kpi",
+        "incentives",
+        "KPI",
+        "유도행동"
+      ]
+    },
+    {
+      "id": "V2-003",
+      "path": "articles/v2-003-the-rat-hair-rule.md",
+      "volume": 2,
+      "title": "The Rat Hair Rule",
+      "title_ko": "쥐털 규칙",
+      "page": 32,
+      "keywords": [
+        "rat hair rule",
+        "control action",
+        "indirect signal",
+        "제어행동",
+        "간접관찰"
+      ]
+    },
+    {
+      "id": "V2-004",
+      "path": "articles/v2-004-the-brain-eye-law.md",
+      "volume": 2,
+      "title": "The Brain-Eye Law",
+      "title_ko": "뇌-눈 법칙",
+      "page": 35,
+      "keywords": [
+        "brain-eye law",
+        "observation power",
+        "cognitive support",
+        "관찰력",
+        "인지보완"
+      ]
+    },
+    {
+      "id": "V2-005",
+      "path": "articles/v2-005-the-eye-brain-law.md",
+      "volume": 2,
+      "title": "The Eye-Brain Law",
+      "title_ko": "눈-뇌 법칙",
+      "page": 35,
+      "keywords": [
+        "eye-brain law",
+        "mental power",
+        "interpretation",
+        "추론",
+        "데이터한계"
+      ]
+    },
+    {
+      "id": "V2-006",
+      "path": "articles/v2-006-the-rationalization-principle.md",
+      "volume": 2,
+      "title": "The Rationalization Principle",
+      "title_ko": "합리화 원리",
+      "page": 35,
+      "keywords": [
+        "rationalization principle",
+        "measurement bias",
+        "metric manipulation",
+        "합리화",
+        "측정편향"
+      ]
+    },
+    {
+      "id": "V2-007",
+      "path": "articles/v2-007-the-cybernetic-rule.md",
+      "volume": 2,
+      "title": "The Cybernetic Rule",
+      "title_ko": "사이버네틱 규칙",
+      "page": 31,
+      "keywords": [
+        "cybernetic rule",
+        "visibility",
+        "control",
+        "가시성",
+        "제어"
+      ]
+    },
+    {
+      "id": "V2-008",
+      "path": "articles/v2-008-the-swedish-army-dictum.md",
+      "volume": 2,
+      "title": "The Swedish Army Dictum",
+      "title_ko": "스웨덴군 격언",
+      "page": 57,
+      "keywords": [
+        "map and territory",
+        "ground truth",
+        "model calibration",
+        "현실검증",
+        "모델보정"
+      ]
+    },
+    {
+      "id": "V2-009",
+      "path": "articles/v2-009-counting-lines-of-code-as-a-metric.md",
+      "volume": 2,
+      "title": "Counting Lines of Code As a Metric",
+      "title_ko": "LOC 지표 함정",
+      "page": 58,
+      "keywords": [
+        "lines of code",
+        "proxy metric",
+        "distortion",
+        "LOC",
+        "왜곡"
+      ]
+    },
+    {
+      "id": "V2-010",
+      "path": "articles/v2-010-the-information-rule.md",
+      "volume": 2,
+      "title": "The Information Rule",
+      "title_ko": "정보 규칙",
+      "page": 58,
+      "keywords": [
+        "information rule",
+        "signals",
+        "information flow",
+        "정보",
+        "신호"
+      ]
+    },
+    {
+      "id": "V2-011",
+      "path": "articles/v2-011-the-physician-principle.md",
+      "volume": 2,
+      "title": "The Physician Principle",
+      "title_ko": "의사 원리",
+      "page": 59,
+      "keywords": [
+        "physician principle",
+        "process change",
+        "human agency",
+        "프로세스",
+        "변경"
+      ]
+    },
+    {
+      "id": "V2-012",
+      "path": "articles/v2-012-the-80-20-rule.md",
+      "volume": 2,
+      "title": "The 80-20 Rule",
+      "title_ko": "80-20 규칙",
+      "page": 64,
+      "keywords": [
+        "80-20",
+        "Pareto",
+        "prioritization",
+        "파레토",
+        "우선순위"
+      ]
+    },
+    {
+      "id": "V2-013",
+      "path": "articles/v2-013-the-rule-of-three-interpretations.md",
+      "volume": 2,
+      "title": "The Rule of Three Interpretations",
+      "title_ko": "세 가지 해석 규칙",
+      "page": 90,
+      "keywords": [
+        "three interpretations",
+        "alternative hypotheses",
+        "bias",
+        "해석",
+        "편향"
+      ]
+    },
+    {
+      "id": "V2-014",
+      "path": "articles/v2-014-the-military-measurement-rule.md",
+      "volume": 2,
+      "title": "The Military Measurement Rule",
+      "title_ko": "군사 측정 규칙",
+      "page": 101,
+      "keywords": [
+        "measurement-execution gap",
+        "precision",
+        "implementation",
+        "정밀도",
+        "실행갭"
+      ]
+    },
+    {
+      "id": "V2-015",
+      "path": "articles/v2-015-definition-of-quality.md",
+      "volume": 2,
+      "title": "Definition of Quality",
+      "title_ko": "품질의 정의",
+      "page": 108,
+      "keywords": [
+        "definition of quality",
+        "subjective quality",
+        "preference",
+        "품질정의",
+        "주관성"
+      ]
+    },
+    {
+      "id": "V2-016",
+      "path": "articles/v2-016-the-quality-problem.md",
+      "volume": 2,
+      "title": "The Quality Problem",
+      "title_ko": "품질 문제",
+      "page": 111,
+      "keywords": [
+        "quality problem",
+        "software quality",
+        "systems",
+        "품질문제",
+        "전과정"
+      ]
+    },
+    {
+      "id": "V2-017",
+      "path": "articles/v2-017-the-zeroth-law-of-software.md",
+      "volume": 2,
+      "title": "The Zeroth Law of Software",
+      "title_ko": "소프트웨어 영차법칙",
+      "page": 111,
+      "keywords": [
+        "zeroth law software",
+        "must work",
+        "critical path",
+        "영차법칙",
+        "작동성"
+      ]
+    },
+    {
+      "id": "V2-018",
+      "path": "articles/v2-018-the-zeroth-law-of-quality.md",
+      "volume": 2,
+      "title": "The Zeroth Law of Quality",
+      "title_ko": "품질 영차법칙",
+      "page": 112,
+      "keywords": [
+        "zeroth law quality",
+        "quality neglect",
+        "tradeoff",
+        "품질포기",
+        "트레이드오프"
+      ]
+    },
+    {
+      "id": "V2-019",
+      "path": "articles/v2-019-the-second-law-of-thermodynamics.md",
+      "volume": 2,
+      "title": "The Second Law of Thermodynamics",
+      "title_ko": "열역학 제2법칙",
+      "page": 121,
+      "keywords": [
+        "entropy",
+        "energy",
+        "maintenance",
+        "엔트로피",
+        "유지보수"
+      ]
+    },
+    {
+      "id": "V2-020",
+      "path": "articles/v2-020-the-first-law-of-human-nature.md",
+      "volume": 2,
+      "title": "The First Law of Human Nature",
+      "title_ko": "인간 본성 제1법칙",
+      "page": 121,
+      "keywords": [
+        "human nature law",
+        "maintenance bias",
+        "exception bias",
+        "유지비편향",
+        "예외주의"
+      ]
+    },
+    {
+      "id": "V2-021",
+      "path": "articles/v2-021-the-first-rule-of-failure-prevention.md",
+      "volume": 2,
+      "title": "The First Rule of Failure Prevention",
+      "title_ko": "실패 예방 제1규칙",
+      "page": 158,
+      "keywords": [
+        "failure prevention",
+        "weak signals",
+        "observation",
+        "실패예방",
+        "약신호"
+      ]
+    },
+    {
+      "id": "V2-022",
+      "path": "articles/v2-022-the-first-principle-of-financial-management.md",
+      "volume": 2,
+      "title": "The First Principle of Financial Management",
+      "title_ko": "재무관리 제1원칙",
+      "page": 159,
+      "keywords": [
+        "financial accountability",
+        "executive responsibility",
+        "loss",
+        "재무책임",
+        "손실"
+      ]
+    },
+    {
+      "id": "V2-023",
+      "path": "articles/v2-023-the-second-rule-of-failure-prevention.md",
+      "volume": 2,
+      "title": "The Second Rule of Failure Prevention",
+      "title_ko": "실패 예방 제2규칙",
+      "page": 159,
+      "keywords": [
+        "second rule failure prevention",
+        "accountability line",
+        "governance",
+        "책임선",
+        "거버넌스"
+      ]
+    },
+    {
+      "id": "V2-024",
+      "path": "articles/v2-024-the-army-principle.md",
+      "volume": 2,
+      "title": "The Army Principle",
+      "title_ko": "군대 원리",
+      "page": 165,
+      "keywords": [
+        "army principle",
+        "leadership accountability",
+        "system responsibility",
+        "리더십",
+        "시스템책임"
+      ]
+    },
+    {
+      "id": "V2-025",
+      "path": "articles/v2-025-the-universal-pattern-of-huge-losses.md",
+      "volume": 2,
+      "title": "The Universal Pattern of Huge Losses",
+      "title_ko": "대규모 손실의 보편 패턴",
+      "page": 166,
+      "keywords": [
+        "huge losses pattern",
+        "change control",
+        "safeguards",
+        "대규모손실",
+        "변경통제"
+      ]
+    },
+    {
+      "id": "V2-026",
+      "path": "articles/v2-026-the-observation-lesson-part-2.md",
+      "volume": 2,
+      "title": "The Observation Lesson, Part 2",
+      "title_ko": "관찰 교훈 2",
+      "page": 209,
+      "keywords": [
+        "observation lesson part 2",
+        "survival response",
+        "quality",
+        "관찰",
+        "생존반응"
+      ]
+    },
+    {
+      "id": "V2-027",
+      "path": "articles/v2-027-satirs-dictum.md",
+      "volume": 2,
+      "title": "Satir’s Dictum",
+      "title_ko": "새티어 격언",
+      "page": 211,
+      "keywords": [
+        "satir dictum",
+        "coping",
+        "resilience",
+        "대처",
+        "회복력"
+      ]
+    },
+    {
+      "id": "V2-028",
+      "path": "articles/v2-028-the-acting-crazy-principle.md",
+      "volume": 2,
+      "title": "The Acting Crazy Principle",
+      "title_ko": "미친 행동 원리",
+      "page": 230,
+      "keywords": [
+        "acting crazy principle",
+        "empathy",
+        "behavior logic",
+        "공감",
+        "행동논리"
+      ]
+    },
+    {
+      "id": "V2-029",
+      "path": "articles/v2-029-the-zeroth-law-of-software-engineering.md",
+      "volume": 2,
+      "title": "The Zeroth Law of Software Engineering",
+      "title_ko": "소프트웨어공학 영차법칙",
+      "page": 255,
+      "keywords": [
+        "zeroth law software engineering",
+        "quality",
+        "objective",
+        "소프트웨어공학",
+        "품질"
+      ]
+    },
+    {
+      "id": "V2-030",
+      "path": "articles/v2-030-the-measure-of-bureaucracy.md",
+      "volume": 2,
+      "title": "The Measure of Bureaucracy",
+      "title_ko": "관료주의 척도",
+      "page": 269,
+      "keywords": [
+        "bureaucracy measure",
+        "process waste",
+        "clarity",
+        "관료주의",
+        "낭비"
+      ]
+    },
+    {
+      "id": "V2-031",
+      "path": "articles/v2-031-the-candidate-product-rule.md",
+      "volume": 2,
+      "title": "The Candidate Product Rule",
+      "title_ko": "후보 제품 규칙",
+      "page": 290,
+      "keywords": [
+        "candidate product rule",
+        "review gate",
+        "independent review",
+        "리뷰",
+        "게이트"
+      ]
+    },
+    {
+      "id": "V2-032",
+      "path": "articles/v2-032-the-zeroth-law-of-unreliability.md",
+      "volume": 2,
+      "title": "The Zeroth Law of Unreliability",
+      "title_ko": "비신뢰성 영차법칙",
+      "page": 295,
+      "keywords": [
+        "zeroth law unreliability",
+        "reliability",
+        "slo",
+        "신뢰성",
+        "SLO"
+      ]
+    },
+    {
+      "id": "V2-033",
+      "path": "articles/v2-033-the-system-behavior-rule.md",
+      "volume": 2,
+      "title": "The System Behavior Rule",
+      "title_ko": "시스템 행동 규칙",
+      "page": 321,
+      "keywords": [
+        "system behavior rule",
+        "state and input",
+        "control",
+        "상태",
+        "입력"
+      ]
+    },
+    {
+      "id": "V3-001",
+      "path": "articles/v3-001-brookss-aphorism-modified.md",
+      "volume": 3,
+      "title": "Brooks’s Aphorism Modified",
+      "title_ko": "브룩스 경구(수정)",
+      "page": 1,
+      "keywords": [
+        "brooks aphorism",
+        "silver bullet",
+        "lone ranger",
+        "은탄환",
+        "영웅주의"
+      ]
+    },
+    {
+      "id": "V3-002",
+      "path": "articles/v3-002-ashbys-law-of-requisite-variety.md",
+      "volume": 3,
+      "title": "Ashby’s Law of Requisite Variety",
+      "title_ko": "애슈비 필요 다양성 법칙",
+      "page": 6,
+      "keywords": [
+        "ashby law",
+        "requisite variety",
+        "control",
+        "필요다양성",
+        "제어"
+      ]
+    },
+    {
+      "id": "V3-003",
+      "path": "articles/v3-003-the-high-quality-software-delivery-principle.md",
+      "volume": 3,
+      "title": "The High-Quality Software Delivery Principle",
+      "title_ko": "고품질 소프트웨어 전달 원리",
+      "page": 8,
+      "keywords": [
+        "software delivery",
+        "management variability",
+        "quality",
+        "전달",
+        "관리변동"
+      ]
+    },
+    {
+      "id": "V3-004",
+      "path": "articles/v3-004-the-personal-effectiveness-principle.md",
+      "volume": 3,
+      "title": "The Personal Effectiveness Principle",
+      "title_ko": "개인 효율성 원리",
+      "page": 9,
+      "keywords": [
+        "personal effectiveness",
+        "self-management",
+        "leadership",
+        "자기관리",
+        "리더십"
+      ]
+    },
+    {
+      "id": "V3-005",
+      "path": "articles/v3-005-the-one-dimensional-selection-model-of-management.md",
+      "volume": 3,
+      "title": "The One-Dimensional Selection Model of Management",
+      "title_ko": "1차원 관리자 선발 모델",
+      "page": 15,
+      "keywords": [
+        "management selection",
+        "one-dimensional model",
+        "promotion",
+        "선발",
+        "승진"
+      ]
+    },
+    {
+      "id": "V3-006",
+      "path": "articles/v3-006-the-mana-model.md",
+      "volume": 3,
+      "title": "The Mana Model",
+      "title_ko": "마나 모델",
+      "page": 16,
+      "keywords": [
+        "mana model",
+        "talent myth",
+        "reproducibility",
+        "인재신화",
+        "재현성"
+      ]
+    },
+    {
+      "id": "V3-007",
+      "path": "articles/v3-007-the-principle-of-choosing-to-be-a-manager.md",
+      "volume": 3,
+      "title": "The Principle of Choosing to Be a Manager",
+      "title_ko": "관리자 선택 원리",
+      "page": 20,
+      "keywords": [
+        "manager motivation",
+        "role congruence",
+        "career track",
+        "역할동기",
+        "커리어"
+      ]
+    },
+    {
+      "id": "V3-008",
+      "path": "articles/v3-008-the-blaming-style-of-coping.md",
+      "volume": 3,
+      "title": "The Blaming Style of Coping",
+      "title_ko": "비난형 대처",
+      "page": 28,
+      "keywords": [
+        "blaming style",
+        "blame culture",
+        "coping",
+        "비난",
+        "대처"
+      ]
+    },
+    {
+      "id": "V3-009",
+      "path": "articles/v3-009-the-placating-style-of-coping.md",
+      "volume": 3,
+      "title": "The Placating Style of Coping",
+      "title_ko": "회유형 대처",
+      "page": 29,
+      "keywords": [
+        "placating style",
+        "conflict avoidance",
+        "boundaries",
+        "회유",
+        "갈등회피"
+      ]
+    },
+    {
+      "id": "V3-010",
+      "path": "articles/v3-010-the-superreasonable-style-of-coping.md",
+      "volume": 3,
+      "title": "The Superreasonable Style of Coping",
+      "title_ko": "초합리형 대처",
+      "page": 33,
+      "keywords": [
+        "superreasonable",
+        "over-rationality",
+        "human factors",
+        "초합리",
+        "인간변수"
+      ]
+    },
+    {
+      "id": "V3-011",
+      "path": "articles/v3-011-the-loving-hating-style-of-coping.md",
+      "volume": 3,
+      "title": "The Loving/Hating Style of Coping",
+      "title_ko": "애증형 대처",
+      "page": 35,
+      "keywords": [
+        "loving hating style",
+        "emotional dominance",
+        "relationship",
+        "애증",
+        "관계"
+      ]
+    },
+    {
+      "id": "V3-012",
+      "path": "articles/v3-012-the-irrelevant-style-of-coping.md",
+      "volume": 3,
+      "title": "The Irrelevant Style of Coping",
+      "title_ko": "무관형 대처",
+      "page": 36,
+      "keywords": [
+        "irrelevant style",
+        "disengagement",
+        "silence risk",
+        "무관심",
+        "침묵"
+      ]
+    },
+    {
+      "id": "V3-013",
+      "path": "articles/v3-013-the-houdini-approach-to-management.md",
+      "volume": 3,
+      "title": "The Houdini Approach to Management",
+      "title_ko": "후디니식 관리",
+      "page": 53,
+      "keywords": [
+        "houdini approach",
+        "management opacity",
+        "complexity abuse",
+        "불투명성",
+        "복잡성"
+      ]
+    },
+    {
+      "id": "V3-014",
+      "path": "articles/v3-014-the-rip-van-winkle-approach-to-management.md",
+      "volume": 3,
+      "title": "The Rip van Winkle Approach to Management",
+      "title_ko": "립 반 윙클식 관리",
+      "page": 53,
+      "keywords": [
+        "rip van winkle",
+        "delayed management",
+        "neglect",
+        "지연개입",
+        "방치"
+      ]
+    },
+    {
+      "id": "V3-015",
+      "path": "articles/v3-015-brookss-law.md",
+      "volume": 3,
+      "title": "Brooks’s Law",
+      "title_ko": "브룩스 법칙",
+      "page": 78,
+      "keywords": [
+        "brooks law",
+        "late project",
+        "adding manpower",
+        "인력추가",
+        "늦은프로젝트"
+      ]
+    },
+    {
+      "id": "V3-016",
+      "path": "articles/v3-016-brookss-law-refined.md",
+      "volume": 3,
+      "title": "Brooks’s Law Refined",
+      "title_ko": "브룩스 법칙 정교화",
+      "page": 78,
+      "keywords": [
+        "brooks refined",
+        "task overlap",
+        "handoff cost",
+        "중복작업",
+        "핸드오프"
+      ]
+    },
+    {
+      "id": "V3-017",
+      "path": "articles/v3-017-the-congruent-manager-model.md",
+      "volume": 3,
+      "title": "The Congruent Manager Model",
+      "title_ko": "합치적 관리자 모델",
+      "page": 80,
+      "keywords": [
+        "congruent manager",
+        "leadership environment",
+        "creative contribution",
+        "환경설계",
+        "자율기여"
+      ]
+    },
+    {
+      "id": "V3-018",
+      "path": "articles/v3-018-the-controller-fallacy.md",
+      "volume": 3,
+      "title": "The Controller Fallacy",
+      "title_ko": "컨트롤러 오류",
+      "page": 128,
+      "keywords": [
+        "controller fallacy",
+        "busyness",
+        "control quality",
+        "바쁨",
+        "제어"
+      ]
+    },
+    {
+      "id": "V3-019",
+      "path": "articles/v3-019-the-principle-of-addiction.md",
+      "volume": 3,
+      "title": "The Principle of Addiction",
+      "title_ko": "중독 원리",
+      "page": 161,
+      "keywords": [
+        "addiction principle",
+        "replacement",
+        "transition pain",
+        "중독",
+        "대체"
+      ]
+    },
+    {
+      "id": "V3-020",
+      "path": "articles/v3-020-demings-point-eight-drive-out-fear.md",
+      "volume": 3,
+      "title": "Deming’s Point Eight, Drive Out Fear",
+      "title_ko": "데밍 8원칙 두려움 제거",
+      "page": 167,
+      "keywords": [
+        "deming point eight",
+        "drive out fear",
+        "psychological safety",
+        "두려움",
+        "안전"
+      ]
+    },
+    {
+      "id": "V3-021",
+      "path": "articles/v3-021-the-basic-principle-of-american-capitalism.md",
+      "volume": 3,
+      "title": "The Basic Principle of American Capitalism",
+      "title_ko": "미국 자본주의 기본 원리",
+      "page": 172,
+      "keywords": [
+        "alternatives",
+        "competition",
+        "service choice",
+        "대안",
+        "경쟁"
+      ]
+    },
+    {
+      "id": "V3-022",
+      "path": "articles/v3-022-the-congruent-commenting-standard.md",
+      "volume": 3,
+      "title": "The Congruent Commenting Standard",
+      "title_ko": "합치적 코멘팅 표준",
+      "page": 195,
+      "keywords": [
+        "commenting standard",
+        "implicit standards",
+        "consistency",
+        "코멘팅",
+        "암묵기준"
+      ]
+    },
+    {
+      "id": "V3-023",
+      "path": "articles/v3-023-the-helpful-model.md",
+      "volume": 3,
+      "title": "The Helpful Model",
+      "title_ko": "도움 모델",
+      "page": 208,
+      "keywords": [
+        "helpful model",
+        "positive intent",
+        "collaboration",
+        "선의가정",
+        "협업"
+      ]
+    },
+    {
+      "id": "V3-024",
+      "path": "articles/v3-024-the-paranoid-model.md",
+      "volume": 3,
+      "title": "The Paranoid Model",
+      "title_ko": "편집적 모델",
+      "page": 209,
+      "keywords": [
+        "paranoid model",
+        "hostile attribution",
+        "bias",
+        "악의귀인",
+        "편향"
+      ]
+    },
+    {
+      "id": "V3-025",
+      "path": "articles/v3-025-the-stupid-model.md",
+      "volume": 3,
+      "title": "The Stupid Model",
+      "title_ko": "어리석음 모델",
+      "page": 211,
+      "keywords": [
+        "stupid model",
+        "hanlons razor",
+        "attribution",
+        "한론의면도날",
+        "귀인"
+      ]
+    },
+    {
+      "id": "V3-026",
+      "path": "articles/v3-026-the-givers-fact.md",
+      "volume": 3,
+      "title": "The Giver’s Fact",
+      "title_ko": "주는 사람의 사실",
+      "page": 220,
+      "keywords": [
+        "giver's fact",
+        "feedback bias",
+        "projection",
+        "피드백",
+        "투사"
+      ]
+    },
+    {
+      "id": "V3-027",
+      "path": "articles/v3-027-the-big-secret.md",
+      "volume": 3,
+      "title": "The Big Secret",
+      "title_ko": "큰 비밀",
+      "page": 224,
+      "keywords": [
+        "recognition",
+        "motivation",
+        "appreciation",
+        "인정",
+        "동기"
+      ]
+    },
+    {
+      "id": "V3-028",
+      "path": "articles/v3-028-wains-fifth-conclusion.md",
+      "volume": 3,
+      "title": "Wain’s Fifth Conclusion",
+      "title_ko": "웨인의 다섯 번째 결론",
+      "page": 224,
+      "keywords": [
+        "wains fifth conclusion",
+        "leadership by example",
+        "motivation",
+        "모범",
+        "동기"
+      ]
+    },
+    {
+      "id": "V3-029",
+      "path": "articles/v3-029-the-team-formation-principle.md",
+      "volume": 3,
+      "title": "The Team Formation Principle",
+      "title_ko": "팀 형성 원리",
+      "page": 265,
+      "keywords": [
+        "team formation",
+        "unique contribution",
+        "strengths",
+        "팀형성",
+        "강점"
+      ]
+    },
+    {
+      "id": "V4-001",
+      "path": "articles/v4-001-the-newtonian-model-principles.md",
+      "volume": 4,
+      "title": "The Newtonian Model Principles",
+      "title_ko": "뉴턴식 모델 원리",
+      "page": 10,
+      "keywords": [
+        "newtonian model",
+        "change force",
+        "reaction",
+        "변화추진",
+        "반작용"
+      ]
+    },
+    {
+      "id": "V4-002",
+      "path": "articles/v4-002-the-newtonian-model-lessons-applied-to-people-management.md",
+      "volume": 4,
+      "title": "The Newtonian Model Lessons, Applied to People Management",
+      "title_ko": "뉴턴식 교훈(사람 관리)",
+      "page": 12,
+      "keywords": [
+        "people management",
+        "change resistance",
+        "over-push",
+        "저항",
+        "과압"
+      ]
+    },
+    {
+      "id": "V4-003",
+      "path": "articles/v4-003-satir-on-resistance-to-a-foreign-element.md",
+      "volume": 4,
+      "title": "Satir on Resistance to a Foreign Element",
+      "title_ko": "새티어 이질 요소 저항",
+      "page": 22,
+      "keywords": [
+        "satir",
+        "familiarity",
+        "resistance",
+        "익숙함",
+        "저항"
+      ]
+    },
+    {
+      "id": "V4-004",
+      "path": "articles/v4-004-rule-of-decision-making-in-the-chaos-stage.md",
+      "volume": 4,
+      "title": "Rule of Decision Making in the Chaos Stage",
+      "title_ko": "혼돈 단계 의사결정 규칙",
+      "page": 24,
+      "keywords": [
+        "chaos decision rule",
+        "stabilize first",
+        "crisis management",
+        "혼돈",
+        "안정화"
+      ]
+    },
+    {
+      "id": "V4-005",
+      "path": "articles/v4-005-copelands-law-of-discontinuity.md",
+      "volume": 4,
+      "title": "Copeland’s Law of Discontinuity",
+      "title_ko": "코플랜드 불연속성 법칙",
+      "page": 66,
+      "keywords": [
+        "discontinuity",
+        "change opportunity",
+        "stop and start",
+        "불연속",
+        "전환"
+      ]
+    },
+    {
+      "id": "V4-006",
+      "path": "articles/v4-006-cannons-principle-of-structure-and-function.md",
+      "volume": 4,
+      "title": "Cannon’s Principle of Structure and Function",
+      "title_ko": "캐넌 구조-기능 원리",
+      "page": 71,
+      "keywords": [
+        "structure and function",
+        "system design",
+        "alignment",
+        "구조",
+        "기능"
+      ]
+    },
+    {
+      "id": "V4-007",
+      "path": "articles/v4-007-simple-rules-for-change-artistry-management.md",
+      "volume": 4,
+      "title": "Simple Rules for Change Artistry Management",
+      "title_ko": "변화 장인 관리의 단순 규칙",
+      "page": 81,
+      "keywords": [
+        "change artistry",
+        "trust",
+        "no blame",
+        "변화관리",
+        "신뢰"
+      ]
+    },
+    {
+      "id": "V4-008",
+      "path": "articles/v4-008-the-affirmation-challenge-for-becoming-a-change-artist.md",
+      "volume": 4,
+      "title": "The Affirmation Challenge for Becoming a Change Artist",
+      "title_ko": "변화 장인 확언 챌린지",
+      "page": 99,
+      "keywords": [
+        "affirmation challenge",
+        "daily recognition",
+        "change habits",
+        "확언",
+        "인정"
+      ]
+    },
+    {
+      "id": "V4-009",
+      "path": "articles/v4-009-demings-fifth-deadly-disease.md",
+      "volume": 4,
+      "title": "Deming’s Fifth Deadly Disease",
+      "title_ko": "데밍의 다섯 번째 치명적 질병",
+      "page": 117,
+      "keywords": [
+        "deming deadly disease",
+        "visible figures",
+        "metric trap",
+        "데밍",
+        "숫자중심"
+      ]
+    },
+    {
+      "id": "V4-010",
+      "path": "articles/v4-010-the-law-of-limiting-factors.md",
+      "volume": 4,
+      "title": "The Law of Limiting Factors",
+      "title_ko": "제한 요인 법칙",
+      "page": 120,
+      "keywords": [
+        "limiting factors",
+        "bottleneck",
+        "constraints",
+        "제한요인",
+        "병목"
+      ]
+    },
+    {
+      "id": "V4-011",
+      "path": "articles/v4-011-minots-law-extended-to-organizational-growth.md",
+      "volume": 4,
+      "title": "Minot’s Law, Extended to Organizational Growth",
+      "title_ko": "미놋 법칙 확장",
+      "page": 132,
+      "keywords": [
+        "Minot law",
+        "growth limiting structure",
+        "organizational complexity",
+        "성장제한",
+        "복잡도"
+      ]
+    },
+    {
+      "id": "V4-012",
+      "path": "articles/v4-012-the-theory-of-critical-periods-of-development.md",
+      "volume": 4,
+      "title": "The Theory of Critical Periods of Development",
+      "title_ko": "발달 임계기 이론",
+      "page": 133,
+      "keywords": [
+        "critical periods",
+        "early decisions",
+        "path dependence",
+        "임계기",
+        "초기결정"
+      ]
+    },
+    {
+      "id": "V4-013",
+      "path": "articles/v4-013-the-principle-of-similitude-applied-to-the-growing-organization.md",
+      "volume": 4,
+      "title": "The Principle of Similitude, Applied to the Growing Organization",
+      "title_ko": "상사성 원리(성장 조직)",
+      "page": 135,
+      "keywords": [
+        "similitude principle",
+        "growing organization",
+        "external strain",
+        "성장조직",
+        "외부긴장"
+      ]
+    },
+    {
+      "id": "V4-014",
+      "path": "articles/v4-014-the-plastic-model.md",
+      "volume": 4,
+      "title": "The PLASTIC Model",
+      "title_ko": "PLASTIC 모델",
+      "page": 165,
+      "keywords": [
+        "PLASTIC model",
+        "stable talent",
+        "planning",
+        "인력안정",
+        "계획"
+      ]
+    },
+    {
+      "id": "V4-015",
+      "path": "articles/v4-015-the-moi-model.md",
+      "volume": 4,
+      "title": "The MOI Model",
+      "title_ko": "MOI 모델",
+      "page": 167,
+      "keywords": [
+        "MOI",
+        "motivation organization information",
+        "execution readiness",
+        "실행준비"
+      ]
+    },
+    {
+      "id": "V4-016",
+      "path": "articles/v4-016-the-swiss-style-rule-of-thumb-for-assigning-control-responsibilities.md",
+      "volume": 4,
+      "title": "The Swiss-Style Rule of Thumb for Assigning Control Responsibilities",
+      "title_ko": "스위스식 통제 책임 할당 경험칙",
+      "page": 186,
+      "keywords": [
+        "delegation",
+        "decision rights",
+        "lowest level",
+        "위임",
+        "결정권"
+      ]
+    },
+    {
+      "id": "V4-017",
+      "path": "articles/v4-017-the-50-million-rule-of-management-error.md",
+      "volume": 4,
+      "title": "The $50 Million Rule of Management Error",
+      "title_ko": "5천만 달러 관리 오류 규칙",
+      "page": 189,
+      "keywords": [
+        "$50 million rule",
+        "scale accountability",
+        "management error",
+        "책임규모"
+      ]
+    },
+    {
+      "id": "V4-018",
+      "path": "articles/v4-018-the-stability-principle.md",
+      "volume": 4,
+      "title": "The Stability Principle",
+      "title_ko": "안정성 원리",
+      "page": 216,
+      "keywords": [
+        "stability principle",
+        "process control",
+        "end-to-end",
+        "안정성",
+        "통제"
+      ]
+    },
+    {
+      "id": "V4-019",
+      "path": "articles/v4-019-the-visibility-principle.md",
+      "volume": 4,
+      "title": "The Visibility Principle",
+      "title_ko": "가시성 원리",
+      "page": 219,
+      "keywords": [
+        "visibility principle",
+        "transparency",
+        "project control",
+        "가시성",
+        "투명성"
+      ]
+    },
+    {
+      "id": "V4-020",
+      "path": "articles/v4-020-the-reality-principle.md",
+      "volume": 4,
+      "title": "The Reality Principle",
+      "title_ko": "현실 원리",
+      "page": 220,
+      "keywords": [
+        "reality principle",
+        "independent review",
+        "verification",
+        "독립검토",
+        "검증"
+      ]
+    },
+    {
+      "id": "V4-021",
+      "path": "articles/v4-021-the-measurability-principle.md",
+      "volume": 4,
+      "title": "The Measurability Principle",
+      "title_ko": "측정가능성 원리",
+      "page": 221,
+      "keywords": [
+        "measurability",
+        "control",
+        "metrics",
+        "측정",
+        "통제"
+      ]
+    },
+    {
+      "id": "V4-022",
+      "path": "articles/v4-022-the-zeroth-law-of-software-engineering.md",
+      "volume": 4,
+      "title": "The Zeroth Law of Software Engineering",
+      "title_ko": "소프트웨어공학 영차법칙",
+      "page": 223,
+      "keywords": [
+        "zeroth law",
+        "requirements",
+        "management",
+        "영차법칙",
+        "요구사항"
+      ]
+    },
+    {
+      "id": "V4-023",
+      "path": "articles/v4-023-the-product-principle.md",
+      "volume": 4,
+      "title": "The Product Principle",
+      "title_ko": "제품 원리",
+      "page": 224,
+      "keywords": [
+        "product principle",
+        "program vs product",
+        "user value",
+        "제품",
+        "사용자가치"
+      ]
+    },
+    {
+      "id": "V4-024",
+      "path": "articles/v4-024-culture-process-principle.md",
+      "volume": 4,
+      "title": "Culture/Process Principle",
+      "title_ko": "문화/프로세스 원리",
+      "page": null,
+      "keywords": [
+        "culture",
+        "process",
+        "change management",
+        "문화",
+        "프로세스"
+      ]
+    },
+    {
+      "id": "V4-025",
+      "path": "articles/v4-025-the-right-product-principle.md",
+      "volume": 4,
+      "title": "The Right Product Principle",
+      "title_ko": "올바른 제품 원리",
+      "page": null,
+      "keywords": [
+        "right product",
+        "product fit",
+        "requirements",
+        "제품",
+        "요구사항"
+      ]
+    },
+    {
+      "id": "V4-026",
+      "path": "articles/v4-026-the-technology-principle.md",
+      "volume": 4,
+      "title": "The Technology Principle",
+      "title_ko": "기술 원리",
+      "page": null,
+      "keywords": [
+        "technology",
+        "problem solving",
+        "adoption",
+        "기술",
+        "도입"
+      ]
+    },
+    {
+      "id": "V4-027",
+      "path": "articles/v4-027-the-right-product-principle-revisited.md",
+      "volume": 4,
+      "title": "The Right Product Principle (Revisited)",
+      "title_ko": "올바른 제품 원리 재방문",
+      "page": null,
+      "keywords": [
+        "right product",
+        "definition",
+        "requirements",
+        "제품",
+        "완료정의"
+      ]
+    },
+    {
+      "id": "V4-028",
+      "path": "articles/v4-028-brooks-law.md",
+      "volume": 4,
+      "title": "Brook's Law",
+      "title_ko": "브룩스 법칙",
+      "page": null,
+      "keywords": [
+        "brooks law",
+        "schedule",
+        "team scaling",
+        "브룩스",
+        "일정"
+      ]
+    }
+  ]
+}

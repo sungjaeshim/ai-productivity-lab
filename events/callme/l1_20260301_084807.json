@@ -1,0 +1,22 @@
+{
+  "level": "L1",
+  "type": "system_critical",
+  "source": "health-monitor",
+  "timestamp": "2026-02-28T23:48:07Z",
+  "subject": "[긴급] 서버 응답 시간 초과",
+  "message": "API 서버 응답 시간이 30초를 초과했습니다. 즉시 확인이 필요합니다.",
+  "details": {
+    "server": "api-prod-01",
+    "response_time_ms": 32450,
+    "threshold_ms": 30000,
+    "consecutive_failures": 3
+  },
+  "actions": [
+    "SSH 접속 확인: ssh admin@api-prod-01",
+    "로그 확인: journalctl -u api -f",
+    "서비스 재시작: systemctl restart api"
+  ],
+  "channels": ["telegram", "tts"],
+  "priority": "critical",
+  "ttl_seconds": 3600
+}

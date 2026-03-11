@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">NQ Futures Trading Strategy</title>
+  <desc id="desc">Editorial hero image for NQ futures guide.</desc>
+  <rect width="1600" height="900" fill="#f6f0e4"/>
+  <circle cx="1280" cy="180" r="220" fill="#cfe4ff"/>
+  <circle cx="200" cy="760" r="180" fill="#ffd7cf"/>
+  <g transform="translate(110 116)">
+    <rect width="1380" height="668" rx="40" fill="#fffaf1" stroke="#14213d" stroke-opacity="0.1"/>
+    <g transform="translate(54 56)">
+      <rect width="540" height="556" rx="34" fill="#0f7bff"/>
+      <g font-family="Atkinson, Arial, sans-serif" fill="#ffffff">
+        <text x="44" y="80" font-size="28" letter-spacing="5" font-weight="700">NASDAQ 100</text>
+        <text x="44" y="170" font-size="86" font-weight="700">NQ Futures</text>
+        <text x="44" y="260" font-size="86" font-weight="700">Trading</text>
+        <text x="44" y="346" font-size="86" font-weight="700">Guide</text>
+        <text x="44" y="442" font-size="30" opacity="0.92">Technical structure, entries, and operator-grade risk rules.</text>
+      </g>
+    </g>
+    <g transform="translate(676 78)" font-family="Atkinson, Arial, sans-serif">
+      <text x="0" y="0" font-size="28" fill="#64748b" letter-spacing="5" font-weight="700">AI SNOWBALL</text>
+      <text x="0" y="110" font-size="92" fill="#14213d" font-weight="700">Trade the</text>
+      <text x="0" y="206" font-size="92" fill="#14213d" font-weight="700">fast market</text>
+      <text x="0" y="302" font-size="92" fill="#14213d" font-weight="700">without panic</text>
+      <text x="0" y="398" font-size="36" fill="#41506d">Framework first. Indicator second. Narrative last.</text>
+    </g>
+  </g>
+</svg>

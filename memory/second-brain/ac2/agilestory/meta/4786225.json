@@ -1,0 +1,30 @@
+{
+  "url": "https://agilestory.blog/4786225",
+  "title": "수학 캠프 1회 이번주 수목에 진행",
+  "date": "2009년 1월 12일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:cognitive-psychology",
+    "role:developer",
+    "scope:general",
+    "ac2",
+    "ac2-content",
+    "content",
+    "developer",
+    "psychology"
+  ],
+  "extracted_at": "2026-03-02T23:14:04.366925",
+  "post_id": "4786225",
+  "raw_file": "4786225.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 368,
+  "recovered": true,
+  "cleaned_file": "4786225.md",
+  "recovered_at": "2026-03-02T23:36:37.817459",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

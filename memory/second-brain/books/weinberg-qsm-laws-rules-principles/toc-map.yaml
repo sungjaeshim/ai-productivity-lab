@@ -1,0 +1,1229 @@
+document:
+  title: "Quality Software Management – Listing of Laws, Rules and Principles"
+  author: "Gerald M. Weinberg"
+  source_pdf: "/root/.openclaw/media/inbound/5fc2796f-a732-4e79-9b3b-791e71ea715b.pdf"
+  source_text: "/root/.openclaw/workspace/data/weinberg-listing.txt"
+  mode: "xhigh"
+
+items:
+  - id: V1-001
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "Crosby’s Definition of Quality"
+    statement: "Quality is 'conformance to requirements'."
+    page: 5
+    article: "articles/v1-001-crosby-definition-of-quality.md"
+    status: done
+
+  - id: V1-002
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Quality Statement"
+    statement: "Every statement about quality is a statement about some person(s)."
+    page: 5
+    article: "articles/v1-002-the-quality-statement.md"
+    status: done
+
+  - id: V1-003
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Political Dilemma"
+    statement: "More quality for one person may mean less quality for another."
+    page: 6
+    article: "articles/v1-003-the-political-dilemma.md"
+    status: done
+
+  - id: V1-004
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Quality Decision"
+    statement: "Whose opinion of quality is to count when making decisions?"
+    page: 7
+    article: "articles/v1-004-the-quality-decision.md"
+    status: done
+
+  - id: V1-005
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Political/Emotional Dimension of Quality"
+    statement: "Quality is value to some person."
+    page: 7
+    article: "articles/v1-005-political-emotional-dimension.md"
+    status: done
+
+  - id: V1-006
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Inadequate Definition of Quality"
+    statement: "Quality is the absence of error."
+    page: 9
+    article: "articles/v1-006-the-inadequate-definition-of-quality.md"
+    status: done
+
+  - id: V1-007
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "Crosby’s Economics of Quality"
+    statement: "It is always cheaper to do the job right the first time."
+    page: 19
+    article: "articles/v1-007-crosbys-economics-of-quality.md"
+    status: done
+
+  - id: V1-008
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Quest for Perfection"
+    statement: "The quest for unjustified perfection is not mature, but infantile."
+    page: 21
+    article: "articles/v1-008-the-quest-for-perfection.md"
+    status: done
+
+  - id: V1-009
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "Building’s Backward Basis"
+    statement: "Things are the way they are because they got that way."
+    page: 22
+    article: "articles/v1-009-buildings-backward-basis.md"
+    status: done
+
+  - id: V1-010
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Superprogrammer Image"
+    statement: "There is no knowledge of management as a development tool."
+    page: 25
+    article: "articles/v1-010-the-superprogrammer-image.md"
+    status: done
+
+  - id: V1-011
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "Using Models to Change Thinking Patterns"
+    statement: "When the thinking changes, the organization changes, and vice versa."
+    page: 35
+    article: "articles/v1-011-using-models-to-change-thinking-patterns.md"
+    status: done
+
+  - id: V1-012
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Formular for a System’s Behavior"
+    statement: "Behavior depends on both state and input."
+    page: 59
+    article: "articles/v1-012-the-formular-for-a-systems-behavior.md"
+    status: done
+
+  - id: V1-013
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The First Law of Bad Management"
+    statement: "When something isn’t working, do more of it."
+    page: 62
+    article: "articles/v1-013-the-first-law-of-bad-management.md"
+    status: done
+
+  - id: V1-014
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "Brooks’s Model (Rephrased)"
+    statement: "Lack of calendar time has forced more failing software projects to face the reality of their failure than all other reasons combined."
+    page: 74
+    article: "articles/v1-014-brookss-model-rephrased.md"
+    status: done
+
+  - id: V1-015
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "Why Software Projects Go Wrong"
+    statement: "More software projects have gone awry for lack of quality ... than for all other causes combined."
+    page: 76
+    article: "articles/v1-015-why-software-projects-go-wrong.md"
+    status: done
+
+  - id: V1-016
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Scaling Fallacy"
+    statement: "Large systems are like small systems, just bigger."
+    page: 77
+    article: "articles/v1-016-the-scaling-fallacy.md"
+    status: done
+
+  - id: V1-017
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Reversible Fallacy"
+    statement: "What is done can always be undone."
+    page: 89
+    article: "articles/v1-017-the-reversible-fallacy.md"
+    status: done
+
+  - id: V1-018
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Causation Fallacy"
+    statement: "Every effect has a cause... and we can tell which is which."
+    page: 90
+    article: "articles/v1-018-the-causation-fallacy.md"
+    status: done
+
+  - id: V1-019
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "Decisions by People"
+    statement: "At human decision points, someone’s reaction determines the next event."
+    page: 111
+    article: "articles/v1-019-decisions-by-people.md"
+    status: done
+
+  - id: V1-020
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Square Law of Computation"
+    statement: "Computation grows at least as fast as the square of the number of equations."
+    page: 130
+    article: "articles/v1-020-the-square-law-of-computation.md"
+    status: done
+
+  - id: V1-021
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Natural Software Dynamic"
+    statement: "Human brain capacity is fixed, but software complexity grows at least as fast as the square of program size."
+    page: 135
+    article: "articles/v1-021-the-natural-software-dynamic.md"
+    status: done
+
+  - id: V1-022
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Size/Complexity Dynamic"
+    statement: "Ambitious requirements can outstrip even the brightest developer’s mental capacity."
+    page: 144
+    article: "articles/v1-022-the-size-complexity-dynamic.md"
+    status: done
+
+  - id: V1-023
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Log-Log Law"
+    statement: "Any set of data points forms a straight line if plotted on log-log paper."
+    page: 146
+    article: "articles/v1-023-the-log-log-law.md"
+    status: done
+
+  - id: V1-024
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Helpful Model"
+    statement: "No matter how it looks, everyone is trying to be helpful."
+    page: 154
+    article: "articles/v1-024-the-helpful-model.md"
+    status: done
+
+  - id: V1-025
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Principle of Addition"
+    statement: "The best way to reduce ineffective behavior is by adding more effective behavior."
+    page: 155
+    article: "articles/v1-025-the-principle-of-addition.md"
+    status: done
+
+  - id: V1-026
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "An Additional Model"
+    statement: "The way people behave is not based on reality, but on their models of reality."
+    page: 156
+    article: "articles/v1-026-an-additional-model.md"
+    status: done
+
+  - id: V1-027
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The First Principle of Programming"
+    statement: "The best way to deal with errors is not to make them in the first place."
+    page: 184
+    article: "articles/v1-027-the-first-principle-of-programming.md"
+    status: done
+
+  - id: V1-028
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Absence of Error Fallacy"
+    statement: "Though copious error guarantees worthlessness, having zero errors guarantees nothing about software value."
+    page: 185
+    article: "articles/v1-028-the-absence-of-error-fallacy.md"
+    status: done
+
+  - id: V1-029
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Controller Dilemma"
+    statement: "The controller of a well-regulated system may not seem to be working hard."
+    page: 197
+    article: "articles/v1-029-the-controller-dilemma.md"
+    status: done
+
+  - id: V1-030
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Controller Fallacy"
+    statement: "If the controller isn’t busy, it’s not doing a good job; if very busy, it must be good."
+    page: 197
+    article: "articles/v1-030-the-controller-fallacy.md"
+    status: done
+
+  - id: V1-031
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Difference Detection Dynamic"
+    statement: "Easy problems are found early; early test time catches many of them."
+    page: 202
+    article: "articles/v1-031-the-difference-detection-dynamic.md"
+    status: done
+
+  - id: V1-032
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Failure Detection Curve (the Bad News)"
+    statement: "No testing technology detects failures in a linear manner."
+    page: 205
+    article: "articles/v1-032-the-failure-detection-curve-bad-news.md"
+    status: done
+
+  - id: V1-033
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Failure Detection Curve (the Good News)"
+    statement: "Combining different detection technologies creates an improved technology."
+    page: 205
+    article: "articles/v1-033-the-failure-detection-curve-good-news.md"
+    status: done
+
+  - id: V1-034
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Army Principle"
+    statement: "There are no bad soldiers; there are only bad officers."
+    page: 212
+    article: "articles/v1-034-the-army-principle.md"
+    status: done
+
+  - id: V1-035
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Army Principle (Modified)"
+    statement: "There are no bad programmers; there are only bad managers who don’t understand failure dynamics."
+    page: 213
+    article: "articles/v1-035-the-army-principle-modified.md"
+    status: done
+
+  - id: V1-036
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Self-Invalidating Model"
+    statement: "Believing a change will be easy makes correct execution less likely."
+    page: 236
+    article: "articles/v1-036-the-self-invalidating-model.md"
+    status: done
+
+  - id: V1-037
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Ripple Effect"
+    statement: "A single fault resolution can require changes across many code areas."
+    page: 237
+    article: "articles/v1-037-the-ripple-effect.md"
+    status: done
+
+  - id: V1-038
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Modular Dynamic"
+    statement: "The more modular the system, the fewer side effects you need to consider."
+    page: 238
+    article: "articles/v1-038-the-modular-dynamic.md"
+    status: done
+
+  - id: V1-039
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Titanic Effect"
+    statement: "Thinking disaster is impossible often leads to unthinkable disaster."
+    page: 241
+    article: "articles/v1-039-the-titanic-effect.md"
+    status: done
+
+  - id: V1-040
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Pressure/Judgment Dynamic"
+    statement: "Pressure leads to conformity, misestimation, loss of control, and more pressure."
+    page: 255
+    article: "articles/v1-040-the-pressure-judgment-dynamic.md"
+    status: done
+
+  - id: V1-041
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Law of Diminishing Response"
+    statement: "The more pressure you add, the less you get for it."
+    page: 262
+    article: "articles/v1-041-the-law-of-diminishing-response.md"
+    status: done
+
+  - id: V1-042
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "Weinberg’s Zeroth Law of Software"
+    statement: "If software doesn’t have to work, any other requirement can be met."
+    page: 275
+    article: "articles/v1-042-weinbergs-zeroth-law-of-software.md"
+    status: done
+
+  - id: V1-043
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "Managers Not Available"
+    statement: "Busy managers mean bad management."
+    page: 276
+    article: "articles/v1-043-managers-not-available.md"
+    status: done
+
+  - id: V1-044
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "No Time to Do It Right"
+    statement: "We never have time to do it right, but always have time to do it over."
+    page: 278
+    article: "articles/v1-044-no-time-to-do-it-right.md"
+    status: done
+
+  - id: V1-045
+    volume: 1
+    volume_title: "Systems Thinking"
+    original_title: "The Boomerang Effect"
+    statement: "Attempts to shortcut quality make problems worse."
+    page: 279
+    article: "articles/v1-045-the-boomerang-effect.md"
+    status: done
+
+  - id: V2-001
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Observation Lesson, Part 1"
+    statement: "Every situation offers observation possibilities, but you must choose which to accept."
+    page: 28
+    article: "articles/v2-001-the-observation-lesson-part-1.md"
+    status: done
+
+  - id: V2-002
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "DeMarco’s Principle"
+    statement: "Effort moves toward whatever is measured."
+    page: 29
+    article: "articles/v2-002-demarcos-principle.md"
+    status: done
+
+  - id: V2-003
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Rat Hair Rule"
+    statement: "Observation is valid if it leads to the right control action."
+    page: 32
+    article: "articles/v2-003-the-rat-hair-rule.md"
+    status: done
+
+  - id: V2-004
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Brain-Eye Law"
+    statement: "Observational power can compensate for mental weakness to some extent."
+    page: 35
+    article: "articles/v2-004-the-brain-eye-law.md"
+    status: done
+
+  - id: V2-005
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Eye-Brain Law"
+    statement: "Mental power can compensate for observational weakness to some extent."
+    page: 35
+    article: "articles/v2-005-the-eye-brain-law.md"
+    status: done
+
+  - id: V2-006
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Rationalization Principle"
+    statement: "You can design a measurement system for any conclusion you wish to draw."
+    page: 35
+    article: "articles/v2-006-the-rationalization-principle.md"
+    status: done
+
+  - id: V2-007
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Cybernetic Rule"
+    statement: "Without visibility, control is not possible."
+    page: 31
+    article: "articles/v2-007-the-cybernetic-rule.md"
+    status: done
+
+  - id: V2-008
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Swedish Army Dictum"
+    statement: "When map and territory disagree, believe the territory."
+    page: 57
+    article: "articles/v2-008-the-swedish-army-dictum.md"
+    status: done
+
+  - id: V2-009
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "Counting Lines of Code As a Metric"
+    statement: "Visualizing something meaningless leads to distortion."
+    page: 58
+    article: "articles/v2-009-counting-lines-of-code-as-a-metric.md"
+    status: done
+
+  - id: V2-010
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Information Rule"
+    statement: "No matter what else it is, everything is information."
+    page: 58
+    article: "articles/v2-010-the-information-rule.md"
+    status: done
+
+  - id: V2-011
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Physician Principle"
+    statement: "Every process is created by people, and can be changed by people."
+    page: 59
+    article: "articles/v2-011-the-physician-principle.md"
+    status: done
+
+  - id: V2-012
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The 80-20 Rule"
+    statement: "Roughly 80% of variance is contributed by 20% of cases."
+    page: 64
+    article: "articles/v2-012-the-80-20-rule.md"
+    status: done
+
+  - id: V2-013
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Rule of Three Interpretations"
+    statement: "If I can’t think of at least three interpretations, I haven’t thought enough."
+    page: 90
+    article: "articles/v2-013-the-rule-of-three-interpretations.md"
+    status: done
+
+  - id: V2-014
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Military Measurement Rule"
+    statement: "Measure with a micrometer, mark with chalk, cut with an ax."
+    page: 101
+    article: "articles/v2-014-the-military-measurement-rule.md"
+    status: done
+
+  - id: V2-015
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "Definition of Quality"
+    statement: "Quality is whatever I like."
+    page: 108
+    article: "articles/v2-015-definition-of-quality.md"
+    status: done
+
+  - id: V2-016
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Quality Problem"
+    statement: "Every software problem is a quality problem."
+    page: 111
+    article: "articles/v2-016-the-quality-problem.md"
+    status: done
+
+  - id: V2-017
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Zeroth Law of Software"
+    statement: "If software doesn’t have to work, any other requirement can be met."
+    page: 111
+    article: "articles/v2-017-the-zeroth-law-of-software.md"
+    status: done
+
+  - id: V2-018
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Zeroth Law of Quality"
+    statement: "If you don’t care about quality, you can meet any other requirement."
+    page: 112
+    article: "articles/v2-018-the-zeroth-law-of-quality.md"
+    status: done
+
+  - id: V2-019
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Second Law of Thermodynamics"
+    statement: "To decrease entropy you need to add energy; there’s no free lunch."
+    page: 121
+    article: "articles/v2-019-the-second-law-of-thermodynamics.md"
+    status: done
+
+  - id: V2-020
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The First Law of Human Nature"
+    statement: "People resist believing the second law applies to them."
+    page: 121
+    article: "articles/v2-020-the-first-law-of-human-nature.md"
+    status: done
+
+  - id: V2-021
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The First Rule of Failure Prevention"
+    statement: "Nothing is too small to be worth observing."
+    page: 158
+    article: "articles/v2-021-the-first-rule-of-failure-prevention.md"
+    status: done
+
+  - id: V2-022
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The First Principle of Financial Management"
+    statement: "A loss of X dollars belongs to executive responsibility exceeding X dollars."
+    page: 159
+    article: "articles/v2-022-the-first-principle-of-financial-management.md"
+    status: done
+
+  - id: V2-023
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Second Rule of Failure Prevention"
+    statement: "A loss of X dollars belongs to executive responsibility exceeding X dollars."
+    page: 159
+    article: "articles/v2-023-the-second-rule-of-failure-prevention.md"
+    status: done
+
+  - id: V2-024
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Army Principle"
+    statement: "There are no bad soldiers; there are only bad officers."
+    page: 165
+    article: "articles/v2-024-the-army-principle.md"
+    status: done
+
+  - id: V2-025
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Universal Pattern of Huge Losses"
+    statement: "Trivial quick changes bypass safeguards and can multiply into huge losses."
+    page: 166
+    article: "articles/v2-025-the-universal-pattern-of-huge-losses.md"
+    status: done
+
+  - id: V2-026
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Observation Lesson, Part 2"
+    statement: "Survival responses lead to imprecision in thought, which destroys quality."
+    page: 209
+    article: "articles/v2-026-the-observation-lesson-part-2.md"
+    status: done
+
+  - id: V2-027
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "Satir’s Dictum"
+    statement: "The problem is nothing; coping with the problem is everything."
+    page: 211
+    article: "articles/v2-027-satirs-dictum.md"
+    status: done
+
+  - id: V2-028
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Acting Crazy Principle"
+    statement: "When behavior seems crazy, take an empathic position and find its logic."
+    page: 230
+    article: "articles/v2-028-the-acting-crazy-principle.md"
+    status: done
+
+  - id: V2-029
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Zeroth Law of Software Engineering"
+    statement: "If you don’t care about quality, you can achieve any other objective."
+    page: 255
+    article: "articles/v2-029-the-zeroth-law-of-software-engineering.md"
+    status: done
+
+  - id: V2-030
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Measure of Bureaucracy"
+    statement: "The percentage of work you do without understanding why."
+    page: 269
+    article: "articles/v2-030-the-measure-of-bureaucracy.md"
+    status: done
+
+  - id: V2-031
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Candidate Product Rule"
+    statement: "Nothing is real until it is reviewed."
+    page: 290
+    article: "articles/v2-031-the-candidate-product-rule.md"
+    status: done
+
+  - id: V2-032
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The Zeroth Law of Unreliability"
+    statement: "If reliability is not required, any other objective can be met."
+    page: 295
+    article: "articles/v2-032-the-zeroth-law-of-unreliability.md"
+    status: done
+
+  - id: V2-033
+    volume: 2
+    volume_title: "First-Order Measurement"
+    original_title: "The System Behavior Rule"
+    statement: "Behavior depends on both state and input."
+    page: 321
+    article: "articles/v2-033-the-system-behavior-rule.md"
+    status: done
+
+  - id: V3-001
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "Brooks’s Aphorism Modified"
+    statement: "There is no silver bullet, but sometimes there is a Lone Ranger."
+    page: 1
+    article: "articles/v3-001-brookss-aphorism-modified.md"
+    status: done
+
+  - id: V3-002
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "Ashby’s Law of Requisite Variety"
+    statement: "Controller action must be congruent with system variety."
+    page: 6
+    article: "articles/v3-002-ashbys-law-of-requisite-variety.md"
+    status: done
+
+  - id: V3-003
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The High-Quality Software Delivery Principle"
+    statement: "Management is the number one random process element."
+    page: 8
+    article: "articles/v3-003-the-high-quality-software-delivery-principle.md"
+    status: done
+
+  - id: V3-004
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Personal Effectiveness Principle"
+    statement: "If you cannot manage yourself, you have no business managing others."
+    page: 9
+    article: "articles/v3-004-the-personal-effectiveness-principle.md"
+    status: done
+
+  - id: V3-005
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The One-Dimensional Selection Model of Management"
+    statement: "Common management selection assumes one-dimensional ranking and transferable scales."
+    page: 15
+    article: "articles/v3-005-the-one-dimensional-selection-model-of-management.md"
+    status: done
+
+  - id: V3-006
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Mana Model"
+    statement: "Certain people have big magic (mana), others don’t."
+    page: 16
+    article: "articles/v3-006-the-mana-model.md"
+    status: done
+
+  - id: V3-007
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Principle of Choosing to Be a Manager"
+    statement: "If you don’t really want the manager job, your actions become incongruent."
+    page: 20
+    article: "articles/v3-007-the-principle-of-choosing-to-be-a-manager.md"
+    status: done
+
+  - id: V3-008
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Blaming Style of Coping"
+    statement: "I am everything; you are nothing."
+    page: 28
+    article: "articles/v3-008-the-blaming-style-of-coping.md"
+    status: done
+
+  - id: V3-009
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Placating Style of Coping"
+    statement: "I am nothing; you are everything."
+    page: 29
+    article: "articles/v3-009-the-placating-style-of-coping.md"
+    status: done
+
+  - id: V3-010
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Superreasonable Style of Coping"
+    statement: "It is everything; you and I are nothing."
+    page: 33
+    article: "articles/v3-010-the-superreasonable-style-of-coping.md"
+    status: done
+
+  - id: V3-011
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Loving/Hating Style of Coping"
+    statement: "It is nothing; you and I are everything."
+    page: 35
+    article: "articles/v3-011-the-loving-hating-style-of-coping.md"
+    status: done
+
+  - id: V3-012
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Irrelevant Style of Coping"
+    statement: "Nothing counts for anything."
+    page: 36
+    article: "articles/v3-012-the-irrelevant-style-of-coping.md"
+    status: done
+
+  - id: V3-013
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Houdini Approach to Management"
+    statement: "Mystify with complexity so others cannot see what is really happening."
+    page: 53
+    article: "articles/v3-013-the-houdini-approach-to-management.md"
+    status: done
+
+  - id: V3-014
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Rip van Winkle Approach to Management"
+    statement: "Wake up years later and ask why the project is years late."
+    page: 53
+    article: "articles/v3-014-the-rip-van-winkle-approach-to-management.md"
+    status: done
+
+  - id: V3-015
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "Brooks’s Law"
+    statement: "Adding manpower to a late software project makes it later."
+    page: 78
+    article: "articles/v3-015-brookss-law.md"
+    status: done
+
+  - id: V3-016
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "Brooks’s Law Refined"
+    statement: "Late staffing on already-active tasks tends to make the project later."
+    page: 78
+    article: "articles/v3-016-brookss-law-refined.md"
+    status: done
+
+  - id: V3-017
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Congruent Manager Model"
+    statement: "Leadership creates an environment where everyone can creatively contribute."
+    page: 80
+    article: "articles/v3-017-the-congruent-manager-model.md"
+    status: done
+
+  - id: V3-018
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Controller Fallacy"
+    statement: "Busyness is not proof of control quality."
+    page: 128
+    article: "articles/v3-018-the-controller-fallacy.md"
+    status: done
+
+  - id: V3-019
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Principle of Addiction"
+    statement: "Prevent addiction with prohibition + working alternative + transition pain support."
+    page: 161
+    article: "articles/v3-019-the-principle-of-addiction.md"
+    status: done
+
+  - id: V3-020
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "Deming’s Point Eight, Drive Out Fear"
+    statement: "Fear and role ambiguity degrade learning and quality."
+    page: 167
+    article: "articles/v3-020-demings-point-eight-drive-out-fear.md"
+    status: done
+
+  - id: V3-021
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Basic Principle of American Capitalism"
+    statement: "To prohibit placating, provide alternative service sources."
+    page: 172
+    article: "articles/v3-021-the-basic-principle-of-american-capitalism.md"
+    status: done
+
+  - id: V3-022
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Congruent Commenting Standard"
+    statement: "If there is one standard, there are at least two standards in practice."
+    page: 195
+    article: "articles/v3-022-the-congruent-commenting-standard.md"
+    status: done
+
+  - id: V3-023
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Helpful Model"
+    statement: "No matter how it looks, everyone is trying to be helpful."
+    page: 208
+    article: "articles/v3-023-the-helpful-model.md"
+    status: done
+
+  - id: V3-024
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Paranoid Model"
+    statement: "Things go wrong because somebody is trying to hurt me."
+    page: 209
+    article: "articles/v3-024-the-paranoid-model.md"
+    status: done
+
+  - id: V3-025
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Stupid Model"
+    statement: "Do not attribute to malice what can be explained by stupidity."
+    page: 211
+    article: "articles/v3-025-the-stupid-model.md"
+    status: done
+
+  - id: V3-026
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Giver’s Fact"
+    statement: "Feedback is almost totally about the giver, not the receiver."
+    page: 220
+    article: "articles/v3-026-the-givers-fact.md"
+    status: done
+
+  - id: V3-027
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Big Secret"
+    statement: "All people like to have their work appreciated."
+    page: 224
+    article: "articles/v3-027-the-big-secret.md"
+    status: done
+
+  - id: V3-028
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "Wain’s Fifth Conclusion"
+    statement: "Nothing motivates people more than seeing their boss do an honest day’s work."
+    page: 224
+    article: "articles/v3-028-wains-fifth-conclusion.md"
+    status: done
+
+  - id: V3-029
+    volume: 3
+    volume_title: "Congruent Action"
+    original_title: "The Team Formation Principle"
+    statement: "Everyone on the team has some unique contribution."
+    page: 265
+    article: "articles/v3-029-the-team-formation-principle.md"
+    status: done
+
+  - id: V4-001
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Newtonian Model Principles"
+    statement: "Larger/faster directional change needs stronger push; push has two-way effects."
+    page: 10
+    article: "articles/v4-001-the-newtonian-model-principles.md"
+    status: done
+
+  - id: V4-002
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Newtonian Model Lessons, Applied to People Management"
+    statement: "Push can produce opposite movement, less movement, unexpected direction, or shattering."
+    page: 12
+    article: "articles/v4-002-the-newtonian-model-lessons-applied-to-people-management.md"
+    status: done
+
+  - id: V4-003
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "Satir on Resistance to a Foreign Element"
+    statement: "Familiarity is always more powerful than comfort."
+    page: 22
+    article: "articles/v4-003-satir-on-resistance-to-a-foreign-element.md"
+    status: done
+
+  - id: V4-004
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "Rule of Decision Making in the Chaos Stage"
+    statement: "Chaos is not the time for long-term decisions."
+    page: 24
+    article: "articles/v4-004-rule-of-decision-making-in-the-chaos-stage.md"
+    status: done
+
+  - id: V4-005
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "Copeland’s Law of Discontinuity"
+    statement: "Discontinuity is an opportunity to stop old things and start new things."
+    page: 66
+    article: "articles/v4-005-copelands-law-of-discontinuity.md"
+    status: done
+
+  - id: V4-006
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "Cannon’s Principle of Structure and Function"
+    statement: "Structure and function are inseparably related."
+    page: 71
+    article: "articles/v4-006-cannons-principle-of-structure-and-function.md"
+    status: done
+
+  - id: V4-007
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "Simple Rules for Change Artistry Management"
+    statement: "Change artistry requires no-blame, information exchange, trust, and congruent means."
+    page: 81
+    article: "articles/v4-007-simple-rules-for-change-artistry-management.md"
+    status: done
+
+  - id: V4-008
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Affirmation Challenge for Becoming a Change Artist"
+    statement: "Each day, give one affirmation to one person."
+    page: 99
+    article: "articles/v4-008-the-affirmation-challenge-for-becoming-a-change-artist.md"
+    status: done
+
+  - id: V4-009
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "Deming’s Fifth Deadly Disease"
+    statement: "Running a company on visible figures alone."
+    page: 117
+    article: "articles/v4-009-demings-fifth-deadly-disease.md"
+    status: done
+
+  - id: V4-010
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Law of Limiting Factors"
+    statement: "Process rate is controlled by its least favorable necessary condition."
+    page: 120
+    article: "articles/v4-010-the-law-of-limiting-factors.md"
+    status: done
+
+  - id: V4-011
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "Minot’s Law, Extended to Organizational Growth"
+    statement: "Current successful structures can become future growth-limiting structures."
+    page: 132
+    article: "articles/v4-011-minots-law-extended-to-organizational-growth.md"
+    status: done
+
+  - id: V4-012
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Theory of Critical Periods of Development"
+    statement: "Early small decisions can have enormous impact on eventual success."
+    page: 133
+    article: "articles/v4-012-the-theory-of-critical-periods-of-development.md"
+    status: done
+
+  - id: V4-013
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Principle of Similitude, Applied to the Growing Organization"
+    statement: "As organizations grow, external relations strain while maintaining internal viability."
+    page: 135
+    article: "articles/v4-013-the-principle-of-similitude-applied-to-the-growing-organization.md"
+    status: done
+
+  - id: V4-014
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The PLASTIC Model"
+    statement: "Plan to the Level of Acceptable Stable Talent In Completing Projects."
+    page: 165
+    article: "articles/v4-014-the-plastic-model.md"
+    status: done
+
+  - id: V4-015
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The MOI Model"
+    statement: "Evaluate Motivation, Organization, and Information resources for implementation."
+    page: 167
+    article: "articles/v4-015-the-moi-model.md"
+    status: done
+
+  - id: V4-016
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Swiss-Style Rule of Thumb for Assigning Control Responsibilities"
+    statement: "Push decisions/tools/information to the lowest effective level."
+    page: 186
+    article: "articles/v4-016-the-swiss-style-rule-of-thumb-for-assigning-control-responsibilities.md"
+    status: done
+
+  - id: V4-017
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The $50 Million Rule of Management Error"
+    statement: "A $50M error belongs to responsibility at the $50M management level."
+    page: 189
+    article: "articles/v4-017-the-50-million-rule-of-management-error.md"
+    status: done
+
+  - id: V4-018
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Stability Principle"
+    statement: "Every part of a process must be a controlled system."
+    page: 216
+    article: "articles/v4-018-the-stability-principle.md"
+    status: done
+
+  - id: V4-019
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Visibility Principle"
+    statement: "Everything in the project must be visible at all times."
+    page: 219
+    article: "articles/v4-019-the-visibility-principle.md"
+    status: done
+
+  - id: V4-020
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Reality Principle"
+    statement: "Nothing is real until it has passed independent review."
+    page: 220
+    article: "articles/v4-020-the-reality-principle.md"
+    status: done
+
+  - id: V4-021
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Measurability Principle"
+    statement: "Anything you don’t measure will be out of your control."
+    page: 221
+    article: "articles/v4-021-the-measurability-principle.md"
+    status: done
+
+  - id: V4-022
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Zeroth Law of Software Engineering"
+    statement: "If you don’t have to meet requirements, management is no problem."
+    page: 223
+    article: "articles/v4-022-the-zeroth-law-of-software-engineering.md"
+    status: done
+
+  - id: V4-023
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Product Principle"
+    statement: "Products may be programs, but programs are not products."
+    page: 224
+    article: "articles/v4-023-the-product-principle.md"
+    status: done
+
+  - id: V4-024
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "Culture/Process Principle"
+    statement: "Culture dominates process in real organizations."
+    page: null
+    article: "articles/v4-024-culture-process-principle.md"
+    status: draft
+
+  - id: V4-025
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Right Product Principle"
+    statement: "Building the wrong product right is still failure."
+    page: null
+    article: "articles/v4-025-the-right-product-principle.md"
+    status: draft
+
+  - id: V4-026
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Technology Principle"
+    statement: "Technology must serve the problem, not lead it."
+    page: null
+    article: "articles/v4-026-the-technology-principle.md"
+    status: draft
+
+  - id: V4-027
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "The Right Product Principle"
+    statement: "You can't build the right product if you don't know what right means."
+    page: null
+    article: "articles/v4-027-the-right-product-principle-revisited.md"
+    status: draft
+
+  - id: V4-028
+    volume: 4
+    volume_title: "Anticipating Change"
+    original_title: "Brook's Law"
+    statement: "Adding manpower to a late software project makes it later."
+    page: null
+    article: "articles/v4-028-brooks-law.md"
+    status: draft
+
+notes:
+  - "Volume 1 1~45번 완료"
+  - "Volume 2 1~33번 완료"
+  - "Volume 3 1~29번 완료"
+  - "Volume 4 1~23번 완료 + 24~28 draft 추가"
+  - "전체 TOC 자동 정규화는 다음 배치에서 이어서 수행"

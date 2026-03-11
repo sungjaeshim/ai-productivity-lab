@@ -1,0 +1,56 @@
+[
+  {
+    "id": "001",
+    "title": "Loop 1 - Read-only parity benchmark (gmail/calendar/drive)",
+    "priority": "P0",
+    "owner": "ralph-loop",
+    "passes": false,
+    "dod": [
+      "3개 시나리오(gmail search, calendar list, drive search) 동일 조건 비교",
+      "각 시나리오 5회 반복 결과 저장",
+      "성공률/지연시간/필드누락 리포트 생성"
+    ],
+    "kpi": {
+      "successRateMin": 0.99,
+      "latencyDeltaMax": 0.2,
+      "missingField": 0
+    },
+    "rollback": "jq '.primary=\"gog\" | .canaryEnabled=false | .phase=\"rollback\" | .lastRollbackAt=now' data/gws-rollout-state.json > /tmp/gws-state.json && mv /tmp/gws-state.json data/gws-rollout-state.json"
+  },
+  {
+    "id": "002",
+    "title": "Loop 2 - Write-limited canary (draft only)",
+    "priority": "P1",
+    "owner": "ralph-loop",
+    "passes": false,
+    "dod": [
+      "gws로 메일 draft/일정 draft 생성",
+      "실발송/실확정 0건 유지",
+      "승인 절차 및 취소 절차 검증"
+    ],
+    "kpi": {
+      "misfire": 0,
+      "formatError": 0,
+      "humanApprovalRate": 1.0
+    },
+    "rollback": "jq '.primary=\"gog\" | .canaryEnabled=false | .phase=\"rollback\" | .lastRollbackAt=now' data/gws-rollout-state.json > /tmp/gws-state.json && mv /tmp/gws-state.json data/gws-rollout-state.json"
+  },
+  {
+    "id": "003",
+    "title": "Loop 3 - Core routine cutover (2 flows)",
+    "priority": "P1",
+    "owner": "ralph-loop",
+    "passes": false,
+    "dod": [
+      "핵심 루틴 2개를 gws 우선 경로로 전환",
+      "5영업일 무장애 운영",
+      "문제 발생 시 1분 내 롤백 수행"
+    ],
+    "kpi": {
+      "productivityLiftMin": 0.2,
+      "incidentCount": 0,
+      "rollbackSlaSec": 60
+    },
+    "rollback": "jq '.primary=\"gog\" | .canaryEnabled=false | .phase=\"rollback\" | .lastRollbackAt=now' data/gws-rollout-state.json > /tmp/gws-state.json && mv /tmp/gws-state.json data/gws-rollout-state.json"
+  }
+]

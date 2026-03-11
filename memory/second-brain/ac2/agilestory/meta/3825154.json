@@ -1,0 +1,29 @@
+{
+  "url": "https://agilestory.blog/3825154",
+  "title": "두번째 P-Camp",
+  "date": "2007년 10월 4일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "scope:general",
+    "evidence:talk",
+    "ac2",
+    "ac2-content",
+    "content",
+    "event"
+  ],
+  "extracted_at": "2026-03-02T23:11:55.322792",
+  "post_id": "3825154",
+  "raw_file": "3825154.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 266,
+  "recovered": true,
+  "cleaned_file": "3825154.md",
+  "recovered_at": "2026-03-02T23:36:37.291806",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

@@ -1,0 +1,603 @@
+[
+  {
+    "query": "어제 결정",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "memory_search fallback 정책",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "관련된 링크",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "어제 결정 확인",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "memory_search fallback 정책 확인",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "관련된 링크 확인",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "어제 결정 찾아줘",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "memory_search fallback 정책 찾아줘",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "관련된 링크 찾아줘",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "어제 결정 기준",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "memory_search fallback 정책 기준",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "관련된 링크 기준",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "어제 결정 요약",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "memory_search fallback 정책 요약",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "관련된 링크 요약",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "어제 결정 상태",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "memory_search fallback 정책 상태",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "관련된 링크 상태",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "최근 어제 결정",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "최근 memory_search fallback 정책",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "최근 관련된 링크",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "최근 어제 결정 확인",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "최근 memory_search fallback 정책 확인",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "최근 관련된 링크 확인",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "최근 어제 결정 찾아줘",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "최근 memory_search fallback 정책 찾아줘",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "최근 관련된 링크 찾아줘",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "최근 어제 결정 기준",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "최근 memory_search fallback 정책 기준",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "최근 관련된 링크 기준",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "최근 어제 결정 요약",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "최근 memory_search fallback 정책 요약",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "최근 관련된 링크 요약",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "최근 어제 결정 상태",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "최근 memory_search fallback 정책 상태",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "최근 관련된 링크 상태",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "운영 어제 결정",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "운영 memory_search fallback 정책",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "운영 관련된 링크",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "운영 어제 결정 확인",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "운영 memory_search fallback 정책 확인",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "운영 관련된 링크 확인",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "운영 어제 결정 찾아줘",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "운영 memory_search fallback 정책 찾아줘",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "운영 관련된 링크 찾아줘",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "운영 어제 결정 기준",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "운영 memory_search fallback 정책 기준",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "운영 관련된 링크 기준",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "운영 어제 결정 요약",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "운영 memory_search fallback 정책 요약",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "운영 관련된 링크 요약",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "운영 어제 결정 상태",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "운영 memory_search fallback 정책 상태",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "운영 관련된 링크 상태",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "정리: 어제 결정",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "정리: memory_search fallback 정책",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "정리: 관련된 링크",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "정리: 어제 결정 확인",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "정리: memory_search fallback 정책 확인",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "정리: 관련된 링크 확인",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "정리: 어제 결정 찾아줘",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "정리: memory_search fallback 정책 찾아줘",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "정리: 관련된 링크 찾아줘",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "정리: 어제 결정 기준",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "정리: memory_search fallback 정책 기준",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "정리: 관련된 링크 기준",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "정리: 어제 결정 요약",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "정리: memory_search fallback 정책 요약",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "정리: 관련된 링크 요약",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "정리: 어제 결정 상태",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "정리: memory_search fallback 정책 상태",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "정리: 관련된 링크 상태",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "체크 어제 결정",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "체크 memory_search fallback 정책",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "체크 관련된 링크",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "체크 어제 결정 확인",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "체크 memory_search fallback 정책 확인",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "체크 관련된 링크 확인",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "체크 어제 결정 찾아줘",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "체크 memory_search fallback 정책 찾아줘",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "체크 관련된 링크 찾아줘",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "체크 어제 결정 기준",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "체크 memory_search fallback 정책 기준",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "체크 관련된 링크 기준",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "체크 어제 결정 요약",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "체크 memory_search fallback 정책 요약",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "체크 관련된 링크 요약",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "체크 어제 결정 상태",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "체크 memory_search fallback 정책 상태",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "체크 관련된 링크 상태",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "빠르게 어제 결정",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "빠르게 memory_search fallback 정책",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "빠르게 관련된 링크",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "빠르게 어제 결정 확인",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "빠르게 memory_search fallback 정책 확인",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "빠르게 관련된 링크 확인",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "빠르게 어제 결정 찾아줘",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "빠르게 memory_search fallback 정책 찾아줘",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "빠르게 관련된 링크 찾아줘",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "빠르게 어제 결정 기준",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "빠르게 memory_search fallback 정책 기준",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "빠르게 관련된 링크 기준",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "빠르게 어제 결정 요약",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "빠르게 memory_search fallback 정책 요약",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "빠르게 관련된 링크 요약",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "빠르게 어제 결정 상태",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "빠르게 memory_search fallback 정책 상태",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "빠르게 관련된 링크 상태",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "오늘 어제 결정",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "오늘 memory_search fallback 정책",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "오늘 관련된 링크",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "오늘 어제 결정 확인",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "오늘 memory_search fallback 정책 확인",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "오늘 관련된 링크 확인",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "오늘 어제 결정 찾아줘",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "오늘 memory_search fallback 정책 찾아줘",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "오늘 관련된 링크 찾아줘",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  },
+  {
+    "query": "오늘 어제 결정 기준",
+    "mode": "temporal",
+    "expected_route": "lexical"
+  },
+  {
+    "query": "오늘 memory_search fallback 정책 기준",
+    "mode": "topic",
+    "expected_route": "semantic"
+  },
+  {
+    "query": "오늘 관련된 링크 기준",
+    "mode": "graph",
+    "expected_route": "hybrid"
+  }
+]
+

@@ -1,0 +1,32 @@
+{
+  "url": "https://agilestory.blog/2580241",
+  "title": "팔방미인의 고뇌",
+  "date": "2006년 10월 1일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:cognitive-psychology",
+    "dom:leadership",
+    "scope:individual",
+    "evidence:book",
+    "evidence:field-case",
+    "ac2",
+    "ac2-content",
+    "book",
+    "content",
+    "psychology"
+  ],
+  "extracted_at": "2026-03-02T23:08:23.489101",
+  "post_id": "2580241",
+  "raw_file": "2580241.html",
+  "extraction_status": "success",
+  "text_length": 4157,
+  "cleaned_file": "2580241.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:36.536102",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

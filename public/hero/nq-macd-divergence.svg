@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">NQ MACD Divergence</title>
+  <desc id="desc">Editorial hero image for NQ MACD divergence guide.</desc>
+  <rect width="1600" height="900" fill="#f4ede0"/>
+  <rect x="92" y="96" width="1416" height="708" rx="42" fill="#fffaf2"/>
+  <g transform="translate(124 138)">
+    <rect width="540" height="612" rx="36" fill="#ff6b57"/>
+    <g font-family="Atkinson, Arial, sans-serif" fill="#fffaf5">
+      <text x="40" y="74" font-size="28" letter-spacing="4" font-weight="700">DIVERGENCE</text>
+      <text x="40" y="178" font-size="80" font-weight="700">See the</text>
+      <text x="40" y="264" font-size="80" font-weight="700">turn before</text>
+      <text x="40" y="350" font-size="80" font-weight="700">price confirms</text>
+    </g>
+    <g stroke="#fff2ef" stroke-width="10" fill="none" opacity="0.95">
+      <path d="M56 470 C130 440, 210 340, 296 280 S414 214, 484 176"/>
+      <path d="M56 540 C138 562, 224 506, 304 482 S418 422, 486 436"/>
+    </g>
+  </g>
+  <g transform="translate(724 186)" font-family="Atkinson, Arial, sans-serif">
+    <text x="0" y="0" font-size="28" fill="#64748b" letter-spacing="5" font-weight="700">NQ / MACD</text>
+    <text x="0" y="110" font-size="92" fill="#14213d" font-weight="700">Divergence is</text>
+    <text x="0" y="204" font-size="92" fill="#14213d" font-weight="700">context, not</text>
+    <text x="0" y="298" font-size="92" fill="#14213d" font-weight="700">a trigger alone</text>
+    <text x="0" y="404" font-size="34" fill="#41506d">Read exhaustion, structure, and risk together.</text>
+  </g>
+</svg>

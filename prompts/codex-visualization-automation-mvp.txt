@@ -1,0 +1,85 @@
+Build an MVP visualization automation pipeline for this workspace.
+
+Create:
+- scripts/visual-render.sh
+- scripts/visual-notion-publish.py
+- scripts/visual-flow.sh
+- visuals/templates/meta.example.json
+- docs/ops/JARVIS_VISUALIZATION_AUTOMATION_PLAN.md
+
+Requirements:
+
+1) visual-render.sh
+- input: .mmd file
+- output: png, pdf, svg in out/
+- use Mermaid CLI already available
+- support root with Puppeteer no-sandbox config
+- optional output dir
+- clear errors
+
+2) visual-notion-publish.py
+- input: .mmd + meta.json
+- create Notion page in configured Knowledge Cards DB (or specified DB)
+- reuse existing workspace Notion auth/data source patterns
+- include title, purpose, usage, example questions, Mermaid source, artifact info
+- print page URL
+- clear errors
+
+3) visual-flow.sh
+Subcommands:
+- render <file.mmd>
+- publish <file.mmd> <meta.json>
+- all <file.mmd> <meta.json>
+Optional:
+- review <file.mmd>
+
+4) meta.example.json
+Include:
+- title
+- subtitle
+- purpose
+- usage[]
+- questions[]
+- notionDatabase
+- tags optional
+
+5) doc
+Explain:
+- why this exists
+- workflow
+- script roles
+- usage
+- failure recovery
+- future extensions
+
+Constraints:
+- practical, not over-engineered
+- separate render / notion / review failures
+- reuse existing workspace patterns
+- this automates deployment/packaging, not AI diagram generation
+
+Known facts:
+- Mermaid CLI works
+- root needs --no-sandbox
+- Notion API works
+- Knowledge Cards DB works through data source page creation
+- manual render + Notion publish already succeeded
+
+Useful files to inspect first:
+- docs/ops/JARVIS_VISUALIZATION_WORKFLOW_SOP.md
+- scripts/notion_log.py
+- scripts/_attic/2026-03/notion_log.py
+- scripts/brain-tag-route.sh
+- /root/.openclaw/workspace/puppeteer-mermaid.json
+- /root/.openclaw/workspace/final_life_map_compact.mmd
+
+Done when:
+- .mmd -> png/pdf/svg works
+- meta.json -> Notion page works
+- docs exist
+- commands are usable
+- final report includes:
+  - what was built
+  - validation
+  - limitations
+  - next extensions

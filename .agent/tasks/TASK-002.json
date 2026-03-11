@@ -1,0 +1,21 @@
+{
+  "id": "002",
+  "name": "Loop 2 Write-limited canary",
+  "scope": ["gmail draft create", "calendar draft create"],
+  "guardrails": [
+    "실발송 금지",
+    "실일정 확정 금지",
+    "인간 승인 필수"
+  ],
+  "definitionOfDone": [
+    "오작동 0건",
+    "포맷 오류 0건",
+    "승인 없는 write 0건"
+  ],
+  "kpi": {
+    "misfire": 0,
+    "formatError": 0,
+    "humanApprovalRate": 1.0
+  },
+  "rollbackCommand": "jq '.primary=\"gog\" | .canaryEnabled=false | .phase=\"rollback\" | .lastRollbackAt=now' data/gws-rollout-state.json > /tmp/gws-state.json && mv /tmp/gws-state.json data/gws-rollout-state.json"
+}

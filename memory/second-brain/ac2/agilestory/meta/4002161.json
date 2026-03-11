@@ -1,0 +1,29 @@
+{
+  "url": "https://agilestory.blog/4002161",
+  "title": "기년회",
+  "date": "2007년 12월 12일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "method:xp",
+    "scope:general",
+    "ac2",
+    "ac2-content",
+    "content",
+    "xp"
+  ],
+  "extracted_at": "2026-03-02T23:12:07.461526",
+  "post_id": "4002161",
+  "raw_file": "4002161.html",
+  "extraction_status": "success",
+  "text_length": 350,
+  "cleaned_file": "4002161.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.327679",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

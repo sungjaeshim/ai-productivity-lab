@@ -1,0 +1,21 @@
+{
+  "title": "Life Map Compact",
+  "subtitle": "Compact Mermaid visualization package for archive and review",
+  "purpose": "Render a stable Mermaid diagram into reusable artifacts and publish the context into the Knowledge Cards database.",
+  "usage": [
+    "Run scripts/visual-flow.sh render final_life_map_compact.mmd to generate png, pdf, and svg artifacts.",
+    "Run scripts/visual-flow.sh publish final_life_map_compact.mmd visuals/templates/meta.example.json to create the Notion page.",
+    "Run scripts/visual-flow.sh all final_life_map_compact.mmd visuals/templates/meta.example.json to package both steps."
+  ],
+  "questions": [
+    "What is this diagram intended to explain at a glance?",
+    "Which artifact should I use for chat review versus long-form archive?",
+    "If the structure changes, which Mermaid source should be updated first?"
+  ],
+  "notionDatabase": "env:NOTION_KNOWLEDGE_CARDS_DB",
+  "tags": [
+    "Visualization",
+    "Mermaid",
+    "Knowledge Card"
+  ]
+}

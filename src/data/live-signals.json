@@ -1,0 +1,29 @@
+[
+  {
+    "id": "3209d65766da81dbbdcedb5d8bebbe09",
+    "title": "Astro 6 stack is live",
+    "summary": "Astro 6, Vercel adapter, CSP, and live signal plumbing are now active on AI Snowball.",
+    "href": "https://blog.aisnowball.work/blog",
+    "category": "Platform",
+    "updatedAt": "2026-03-11",
+    "sort": 1
+  },
+  {
+    "id": "3209d65766da818bb75cd4c36f01ec02",
+    "title": "AI Snowball brand refresh",
+    "summary": "The site now positions itself as an operator-grade AI systems journal rather than a generic productivity blog.",
+    "href": "https://blog.aisnowball.work/about",
+    "category": "Brand",
+    "updatedAt": "2026-03-11",
+    "sort": 2
+  },
+  {
+    "id": "3209d65766da819cbdecc3ac6789c4e1",
+    "title": "Homepage signals now run from Notion",
+    "summary": "Homepage cards can now be curated in Notion and exported into the runtime signal source used by the site.",
+    "href": "https://blog.aisnowball.work/blog",
+    "category": "Update",
+    "updatedAt": "2026-03-11",
+    "sort": 3
+  }
+]

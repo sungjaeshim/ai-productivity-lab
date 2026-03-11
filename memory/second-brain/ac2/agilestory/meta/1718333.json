@@ -1,0 +1,33 @@
+{
+  "url": "https://agilestory.blog/1718333",
+  "title": "르네상스 클럽이 2006년 4월 1일에 열립니다",
+  "date": "2006년 3월 30일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:leadership",
+    "dom:learning-science",
+    "scope:general",
+    "evidence:field-case",
+    "evidence:talk",
+    "ac2",
+    "ac2-content",
+    "content",
+    "education",
+    "event",
+    "learning"
+  ],
+  "extracted_at": "2026-03-02T23:06:51.094947",
+  "post_id": "1718333",
+  "raw_file": "1718333.html",
+  "extraction_status": "success",
+  "text_length": 720,
+  "cleaned_file": "1718333.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:35.960252",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

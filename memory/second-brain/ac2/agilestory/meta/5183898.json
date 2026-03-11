@@ -1,0 +1,31 @@
+{
+  "url": "https://agilestory.blog/5183898",
+  "title": "DEveloper track on Alternative Programming (DEAP)",
+  "date": "2009년 11월 30일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:organizational-change",
+    "role:developer",
+    "scope:general",
+    "evidence:field-case",
+    "kw:change",
+    "ac2",
+    "ac2-content",
+    "content",
+    "developer"
+  ],
+  "extracted_at": "2026-03-02T23:17:51.457611",
+  "post_id": "5183898",
+  "raw_file": "5183898.html",
+  "extraction_status": "success",
+  "text_length": 597,
+  "cleaned_file": "5183898.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:38.244509",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

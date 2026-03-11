@@ -1,0 +1,33 @@
+name: spec-contract-guard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "SPEC.md"
+      - "scripts/validate_spec_contract.py"
+      - ".github/workflows/spec-contract-guard.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "SPEC.md"
+      - "scripts/validate_spec_contract.py"
+      - ".github/workflows/spec-contract-guard.yml"
+  workflow_dispatch:
+
+jobs:
+  validate-spec-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validate SPEC contract (includes PoW gate markers)
+        run: python3 scripts/validate_spec_contract.py

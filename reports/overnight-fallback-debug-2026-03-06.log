@@ -1,0 +1,267 @@
+# Overnight Fallback Debug - Raw Command Outputs
+**Date:** 2026-03-06
+**Task ID:** 5d73e589-abdc-4729-bf28-3db542c87d2a
+
+## 1. Configuration Discovery
+
+=== openclaw.json - Model Configuration ===
+(See full config at /root/.openclaw/openclaw.json)
+
+Key finding - Fallback chain:
+```json
+"primary": "openai-codex/gpt-5.3-codex",
+"fallbacks": [
+  "zai/glm-5",
+  "zai/glm-4.7",
+  "ollama/qwen3.5:35b-a3b"
+]
+```
+
+=== Ollama Model Configuration ===
+```json
+{
+  "id": "qwen3.5:35b-a3b",
+  "name": "Qwen3.5 35B A3B (TailScale fallback)",
+  "api": "ollama",
+  "reasoning": false,
+  "contextWindow": 40960,
+  "maxTokens": 128
+}
+```
+
+=== Ollama Provider Configuration ===
+```json
+{
+  "baseUrl": "http://100.116.158.17:11434",
+  "apiKey": "ollama-local",
+  "api": "ollama"
+}
+```
+
+## 2. Connectivity Tests
+
+=== Ollama Server Status ===
+```bash
+curl -s http://100.116.158.17:11434/api/version
+```
+Result:
+```json
+{"version":"0.17.4"}
+```
+
+=== Ollama Model List ===
+```bash
+curl -s http://100.116.158.17:11434/api/tags | jq -r '.models[].name' | grep -i qwen
+```
+Result:
+```
+qwen3.5:4b
+qwen3.5:9b-q4_K_M-nothink
+qwen3.5:9b-q4_K_M
+qwen3-embedding:4b
+qwen3.5:35b-a3b
+```
+
+=== Network Ping Test ===
+```bash
+ping -c 2 100.116.158.17
+```
+Result:
+```
+PING 100.116.158.17 (100.116.158.17) 56(84) bytes of data.
+64 bytes from 100.116.158.17: icmp_seq=1 ttl=64 time=38.7 ms
+64 bytes from 100.116.158.17: icmp_seq=2 ttl=64 time=38.2 ms
+
+--- 100.116.158.17 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss
+```
+
+## 3. Model Response Tests
+
+=== Test 1: Ollama /api/generate with qwen3.5:35b-a3b ===
+```bash
+timeout 8 curl -s -X POST http://100.116.158.17:11434/api/generate \
+  -H "Content-Type: application/json" \
+  -d '{"model":"qwen3.5:35b-a3b","prompt":"Hi","stream":false,"options":{"num_predict":5}}'
+```
+Result (formatted):
+```json
+{
+  "model":"qwen3.5:35b-a3b",
+  "created_at":"2026-03-05T19:34:54.076398417Z",
+  "response":"",
+  "thinking":"Thinking Process:\n\n1",
+  "done":true,
+  "done_reason":"length",
+  "context":[248045,846,198,12675,248046,198,248045,74455,198,248068,198,90700,8340,25,271,16],
+  "total_duration":1660028451,
+  "load_duration":183457081,
+  "prompt_eval_count":11,
+  "prompt_eval_duration":691279216,
+  "eval_count":5,
+  "eval_duration":781908477
+}
+```
+
+**Key Finding:** `response` field is EMPTY, content is in `thinking` field!
+
+=== Test 2: Ollama /api/generate with qwen3:14b ===
+```bash
+timeout 10 curl -s -X POST http://100.116.158.17:11434/api/generate \
+  -H "Content-Type: application/json" \
+  -d '{"model":"qwen3:14b","prompt":"Say hello","stream":false,"options":{"num_predict":20}}'
+```
+Result:
+```
+null
+null
+```
+(Note: jq extraction returned null, model may have timed out or returned different format)
+
+=== Test 3: Ollama /api/chat with qwen3.5:35b-a3b ===
+```bash
+timeout 10 curl -s -X POST http://100.116.158.17:11434/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{"model":"qwen3.5:35b-a3b","messages":[{"role":"user","content":"Say hello in 5 words"}],"stream":false}'
+```
+Result (extracted):
+```
+message.content: null
+done_reason: null
+```
+
+## 4. Authentication Profile Status
+
+=== Auth Profiles Check ===
+```bash
+cat /root/.openclaw/agents/main/agent/auth-profiles.json | jq
+```
+Relevant excerpt:
+```json
+{
+  "version": 1,
+  "profiles": {
+    "zai:default": {
+      "type": "api_key",
+      "provider": "zai"
+    },
+    "anthropic:default": {
+      "type": "token",
+      "provider": "anthropic"
+    },
+    "openai-codex:default": {
+      "type": "oauth",
+      "provider": "openai-codex",
+      "expires": 1773018792390
+    }
+  },
+  "usageStats": {
+    "zai:default": {
+      "lastUsed": 1772739269619,
+      "errorCount": 0,
+      "lastFailureAt": 1771811348809
+    },
+    "anthropic:default": {
+      "lastUsed": 1772489289185,
+      "errorCount": 0,
+      "lastFailureAt": 1772279370098
+    },
+    "openai-codex:default": {
+      "lastUsed": 1772737484906,
+      "errorCount": 0,
+      "lastFailureAt": 1772685306119
+    }
+  }
+}
+```
+
+**Key Finding:** All providers have 0 error counts - auth is NOT the issue
+
+## 5. Cron Job History
+
+=== Recent Cron Run (Heartbeat Job) ===
+```bash
+tail -200 /root/.openclaw/cron/runs/4d5b8d9a-9c43-4b7b-bea9-d80524b7804d.jsonl | \
+  grep -i -E "(model|fallback|ollama|qwen|error)" | tail -20
+```
+Excerpt (last successful runs):
+```json
+{"ts":1772737358716,"jobId":"4d5b8d9a-9c43-4b7b-bea9-d80524b7804d","action":"finished","status":"ok","summary":"HEARTBEAT_OK","model":"gpt-5.3-codex","provider":"openai-codex","usage":{"input_tokens":24002,"output_tokens":1751,"total_tokens":24132}}
+```
+
+=== Failed Cron Run ===
+```json
+{"ts":1772738280798,"jobId":"4d5b8d9a-9c43-4b7b-bea9-d80524b7804d","action":"finished","status":"error","error":"cron: job execution timed out","deliveryStatus":"not-requested","runAtMs":1772738160021,"durationMs":120272,"nextRunAtMs":1772739060000}
+```
+
+**Key Finding:** One timeout error occurred (120s timeout), but jobs continue using primary model
+
+## 6. Model Failover Documentation
+
+=== Extract from /usr/lib/node_modules/openclaw/docs/concepts/model-failover.md ===
+
+Relevant excerpt on when fallback triggers:
+> When a profile fails due to auth/rate‑limit errors (or a timeout that looks
+> like rate limiting), OpenClaw marks it in cooldown and moves to the next profile.
+> Format/invalid‑request errors (for example Cloud Code Assist tool call ID
+> validation failures) are treated as failover‑worthy and use the same cooldowns.
+
+Relevant excerpt on model fallback:
+> If all profiles for a provider fail, OpenClaw moves to the next model in
+> `agents.defaults.model.fallbacks`. This applies to auth failures, rate limits, and
+> timeouts that exhausted profile rotation (other errors do not advance fallback).
+
+**Key Finding:** Empty responses or parsing errors do NOT trigger fallback!
+
+## 7. System Status
+
+=== Running Processes ===
+```bash
+ps aux | grep -i claw | grep -v grep
+```
+Result:
+```
+root 2479336 27.7 54.9 24647872 2201316 ? Ssl Mar05 180:29 openclaw-gateway
+```
+
+=== System Uptime ===
+```
+ 04:37:13 up 9 days, 17:38,  0 user,  load average: 2.88, 2.09, 1.49
+```
+
+=== Report Generation Time ===
+```
+2026-03-06 04:37:13 KST
+```
+
+## 8. Secrets Configuration
+
+=== Ollama API Key ===
+```bash
+cat /root/.openclaw/secrets/providers.json | jq -r '.ollama_api_key'
+```
+Result:
+```
+ollama-local
+```
+
+## Summary of Key Evidence
+
+1. ✅ Ollama server is reachable and responding
+2. ✅ Model `qwen3.5:35b-a3b` exists and loads
+3. ❌ Model returns EMPTY `response` field - content in `thinking` field
+4. ⚠️ `maxTokens: 128` is severely limiting
+5. ✅ All auth profiles are valid (0 error counts)
+6. ✅ Primary model (`gpt-5.3-codex`) works normally
+7. ✅ Cron jobs successfully use primary model
+8. ⚠️ OpenClaw docs confirm: empty responses don't trigger fallback
+
+## Conclusion
+
+Root cause is API response format incompatibility. The `qwen3.5:35b-a3b` model is
+a "thinking" model that outputs to `thinking` field instead of `response` field.
+OpenClaw expects content in `response` field, receives empty string, doesn't classify
+this as a fallback-triggering error, and thus fails over to the next model.
+
+---
+End of log file

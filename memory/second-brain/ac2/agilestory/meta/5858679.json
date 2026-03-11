@@ -1,0 +1,33 @@
+{
+  "url": "https://agilestory.blog/5858679",
+  "title": "어떻게 공부할 것인가?",
+  "date": "2015년 11월 18일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:cognitive-psychology",
+    "dom:learning-science",
+    "scope:general",
+    "kw:expertise",
+    "kw:learning",
+    "ac2",
+    "ac2-content",
+    "content",
+    "education",
+    "learning",
+    "psychology"
+  ],
+  "extracted_at": "2026-03-02T23:21:31.823303",
+  "post_id": "5858679",
+  "raw_file": "5858679.html",
+  "extraction_status": "success",
+  "text_length": 1749,
+  "cleaned_file": "5858679.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:39.239244",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

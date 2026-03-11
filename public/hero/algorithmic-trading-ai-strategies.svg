@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Algorithmic Trading with AI Strategies</title>
+  <desc id="desc">Editorial hero image for AI trading strategies guide.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6efe1"/>
+      <stop offset="100%" stop-color="#ffdccc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="104" y="112" width="1392" height="676" rx="38" fill="#fff9ef" stroke="#11233f" stroke-opacity="0.1"/>
+  <g transform="translate(140 158)">
+    <rect width="500" height="584" rx="32" fill="#102544"/>
+    <g stroke="#79b3ff" stroke-width="10" fill="none" opacity="0.95">
+      <path d="M52 472 C130 380, 196 420, 268 312 S404 252, 454 188"/>
+      <path d="M52 526 C122 488, 172 548, 250 458 S382 418, 454 350" stroke="#ff856f"/>
+    </g>
+    <g font-family="Atkinson, Arial, sans-serif" fill="#eef6ff">
+      <text x="40" y="78" font-size="30" letter-spacing="5" font-weight="700">AI STRATEGIES</text>
+      <text x="40" y="188" font-size="64" font-weight="700">Entries</text>
+      <text x="40" y="258" font-size="64" font-weight="700">Risk</text>
+      <text x="40" y="328" font-size="64" font-weight="700">Automation</text>
+    </g>
+  </g>
+  <g transform="translate(720 190)" font-family="Atkinson, Arial, sans-serif">
+    <text x="0" y="0" font-size="28" letter-spacing="5" fill="#7d4c45" font-weight="700">OPERATOR NOTE</text>
+    <text x="0" y="110" font-size="88" fill="#14213d" font-weight="700">Strategy is not</text>
+    <text x="0" y="205" font-size="88" fill="#14213d" font-weight="700">signal stacking.</text>
+    <text x="0" y="330" font-size="40" fill="#41506d">It is execution discipline, regime awareness, and survivable sizing.</text>
+  </g>
+</svg>

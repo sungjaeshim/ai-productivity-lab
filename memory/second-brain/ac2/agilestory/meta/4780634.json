@@ -1,0 +1,28 @@
+{
+  "url": "https://agilestory.blog/4780634",
+  "title": "몸으로 하는 수학 캠프",
+  "date": "2009년 1월 2일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "person:anita-woolley",
+    "scope:general",
+    "ac2",
+    "ac2-content",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:13:57.072787",
+  "post_id": "4780634",
+  "raw_file": "4780634.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 118,
+  "recovered": true,
+  "cleaned_file": "4780634.md",
+  "recovered_at": "2026-03-02T23:36:37.788744",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

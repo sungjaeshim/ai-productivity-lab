@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">NQ Futures Strategies</title>
+  <desc id="desc">Editorial hero image for NQ futures strategies guide.</desc>
+  <rect width="1600" height="900" fill="#f5efe3"/>
+  <rect x="86" y="90" width="1428" height="720" rx="42" fill="#132442"/>
+  <g transform="translate(144 148)" font-family="Atkinson, Arial, sans-serif">
+    <text x="0" y="0" font-size="28" fill="#9ec2ff" letter-spacing="5" font-weight="700">TRADING SYSTEMS</text>
+    <text x="0" y="112" font-size="90" fill="#ffffff" font-weight="700">NQ Futures</text>
+    <text x="0" y="206" font-size="90" fill="#ffffff" font-weight="700">Strategies</text>
+    <text x="0" y="300" font-size="90" fill="#ffffff" font-weight="700">That Work</text>
+    <text x="0" y="398" font-size="34" fill="#c8d7f5">Entries, sizing, regime filters, and repeatable process.</text>
+  </g>
+  <g transform="translate(960 140)">
+    <rect x="0" y="0" width="420" height="580" rx="30" fill="#fdf8ef"/>
+    <g font-family="Atkinson, Arial, sans-serif" fill="#14213d">
+      <text x="42" y="82" font-size="28" letter-spacing="4" font-weight="700">CHECKLIST</text>
+      <text x="42" y="164" font-size="38" font-weight="700">1. Session context</text>
+      <text x="42" y="238" font-size="38" font-weight="700">2. Setup quality</text>
+      <text x="42" y="312" font-size="38" font-weight="700">3. Position size</text>
+      <text x="42" y="386" font-size="38" font-weight="700">4. Exit discipline</text>
+      <text x="42" y="478" font-size="30" fill="#41506d">A profitable strategy is mostly a profitable process.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+retrospective (rèt´re-spèk-tîv) -- a ritual held at the end of a project to learn from the experience and to plan changes for the next effort. 리트로스펙티브 -- 프로젝트의 끝에 행해지는 의식으로, 경험에서 학습하고 이다음 노력을 위해 변화를 계획한다. -- http://www.retrospectives.com 에서 (번역은 김창준)

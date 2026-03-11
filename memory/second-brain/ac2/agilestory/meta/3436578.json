@@ -1,0 +1,31 @@
+{
+  "url": "https://agilestory.blog/3436578",
+  "title": "하늘을 날고 싶은 웹디자이너를 찾습니다",
+  "date": "2007년 5월 23일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:leadership",
+    "dom:learning-science",
+    "scope:general",
+    "evidence:field-case",
+    "ac2",
+    "ac2-content",
+    "content",
+    "education",
+    "learning"
+  ],
+  "extracted_at": "2026-03-02T23:10:56.910739",
+  "post_id": "3436578",
+  "raw_file": "3436578.html",
+  "extraction_status": "success",
+  "text_length": 1239,
+  "cleaned_file": "3436578.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.085025",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

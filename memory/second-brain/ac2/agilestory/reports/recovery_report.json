@@ -1,0 +1,18 @@
+{
+  "total_files": 373,
+  "processed": 373,
+  "success": 373,
+  "failed": 0,
+  "success_rate": 100.0,
+  "method_stats": {
+    "trafilatura": 373,
+    "readability-lxml": 0,
+    "bs4_selector": 0,
+    "density_fallback": 0,
+    "failed": 0
+  },
+  "failed_posts": [],
+  "elapsed_seconds": 3.8,
+  "elapsed_minutes": 0.06,
+  "completed_at": "2026-03-02T23:36:39.496032"
+}

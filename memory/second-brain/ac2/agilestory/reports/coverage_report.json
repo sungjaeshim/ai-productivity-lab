@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-03-02T23:22:27.946897",
+  "discovered_urls": 373,
+  "processed_urls": 373,
+  "success_count": 373,
+  "failed_count": 0,
+  "final_failed_count": 0,
+  "validation": {
+    "discovered_equals_processed_plus_failed": true,
+    "all_processed": true
+  },
+  "extraction_stats": {
+    "raw_html_files": 373,
+    "cleaned_text_files": 235,
+    "extraction_failed": 138
+  },
+  "final_failed_urls": [],
+  "summary": {
+    "coverage_percent": 100.0,
+    "raw_files": 373,
+    "cleaned_files": 235,
+    "meta_files": 373
+  }
+}

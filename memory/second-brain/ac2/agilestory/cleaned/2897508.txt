@@ -1,0 +1,21 @@
+Don't study hard.
+
+Study well.
+
+It's better to work smart than to work hard.
+
+It's better to work smart and hard.
+
+It's better to work smart and hard and long.
+
+The reaction time of residents who had just finished a month of heavy work schedules was 7 percent slower and they committed 40 percent more errors than when they were on a month of light schedules, Wake Up, Doc: Lack Of Sleep Affects Young Doctors Just Like Alcohol Does
+
+A common effect of putting teams under pressure is that they will reduce their concentration on quality and focus instead on "just banging out code". They'll hunker down, stop helping each other so much, reduce testing, reduce refactoring, and generally revert to just coding. The impact of this is completely predictable: defect injection goes way up, code quality goes way down, progress measured in terms of net working features drops substantially. Impact of Overtime on Productivity
+
+After 17 to 19 hours of staying awake -- a normal working day for many people -- reaction times are up to 50 percent slower than they are after drinking alcohol ...... The effects of fatigue are thought to play a part in almost two-thirds of the road accidents in the United States, say the authors. Extended working hours, shift work, and lifestyle choices are likely to decrease the amounts of sleep we have, they conclude. The effects, which are likely to be cumulative, pose a serious risk to safety, they say. Long Working Days With Too Few Hours' Sleep Slow Responses As Much As Alcohol
+
+The study, carried out at the Institute of Psychiatry, found excessive use of technology reduced workers' intelligence. Those distracted by incoming email and phone calls saw a 10-point fall in their IQ - more than twice that found in studies of the impact of smoking marijuana, said researchers. The Multi-Tasking Myth 에서 재인용
+
+Multitasking Is Costing Billions
+
+Multitasking Overhead

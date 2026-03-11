@@ -1,0 +1,1172 @@
+{
+  "metrics": {
+    "timestamp": "2026-03-08T23:30:56.244719",
+    "sample_count": 120,
+    "query_timeout_sec": 15,
+    "route_p95": {
+      "lexical": 3.9305686950683594,
+      "semantic": 44.988155364990234,
+      "hybrid": 37.88566589355469
+    },
+    "fallback_rate_estimate": 0.0,
+    "top3_hit_rate": 100.0,
+    "route_match_rate": 100.0,
+    "total_queries": 120,
+    "successful_queries": 120,
+    "error_count": 0,
+    "sample_offset": 0,
+    "sample_limit": 0,
+    "sample_total_available": 120
+  },
+  "gate": {
+    "pass": false,
+    "checks": [
+      {
+        "name": "top3_hit_rate",
+        "value": 100.0,
+        "op": ">=",
+        "target": 90.0,
+        "pass": true
+      },
+      {
+        "name": "hybrid_p95_ms",
+        "value": 37.88566589355469,
+        "op": "<=",
+        "target": 40.0,
+        "pass": true
+      },
+      {
+        "name": "error_count",
+        "value": 0,
+        "op": "<=",
+        "target": 0,
+        "pass": true
+      },
+      {
+        "name": "route_match_rate",
+        "value": 100.0,
+        "op": ">=",
+        "target": 95.0,
+        "pass": true
+      },
+      {
+        "name": "top3_vs_baseline",
+        "value": 100.0,
+        "baseline": 100.0,
+        "delta": 0.0,
+        "tolerance": -5.0,
+        "pass": true
+      },
+      {
+        "name": "route_match_vs_baseline",
+        "value": 100.0,
+        "baseline": 100.0,
+        "delta": 0.0,
+        "tolerance": -5.0,
+        "pass": true
+      },
+      {
+        "name": "latency_vs_baseline",
+        "value": 37.88566589355469,
+        "baseline": 32.3026180267334,
+        "increase_pct": 17.28,
+        "tolerance_pct": 5.0,
+        "pass": false
+      }
+    ],
+    "failed_count": 1,
+    "failed_checks": [
+      {
+        "name": "latency_vs_baseline",
+        "value": 37.88566589355469,
+        "baseline": 32.3026180267334,
+        "increase_pct": 17.28,
+        "tolerance_pct": 5.0,
+        "pass": false
+      }
+    ],
+    "has_baseline": true
+  },
+  "results": [
+    {
+      "query": "어제 결정",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 3.022909164428711,
+      "error": null
+    },
+    {
+      "query": "memory_search fallback 정책",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 23.525238037109375,
+      "error": null
+    },
+    {
+      "query": "관련된 링크",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 23.68927001953125,
+      "error": null
+    },
+    {
+      "query": "어제 결정 확인",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.560138702392578,
+      "error": null
+    },
+    {
+      "query": "memory_search fallback 정책 확인",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 28.19085121154785,
+      "error": null
+    },
+    {
+      "query": "관련된 링크 확인",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 29.378175735473633,
+      "error": null
+    },
+    {
+      "query": "어제 결정 찾아줘",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.315044403076172,
+      "error": null
+    },
+    {
+      "query": "memory_search fallback 정책 찾아줘",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 23.416996002197266,
+      "error": null
+    },
+    {
+      "query": "관련된 링크 찾아줘",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 24.998188018798828,
+      "error": null
+    },
+    {
+      "query": "어제 결정 기준",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.346038818359375,
+      "error": null
+    },
+    {
+      "query": "memory_search fallback 정책 기준",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 25.774478912353516,
+      "error": null
+    },
+    {
+      "query": "관련된 링크 기준",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 27.365684509277344,
+      "error": null
+    },
+    {
+      "query": "어제 결정 요약",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.462148666381836,
+      "error": null
+    },
+    {
+      "query": "memory_search fallback 정책 요약",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 48.769474029541016,
+      "error": null
+    },
+    {
+      "query": "관련된 링크 요약",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 28.40733528137207,
+      "error": null
+    },
+    {
+      "query": "어제 결정 상태",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.4886131286621094,
+      "error": null
+    },
+    {
+      "query": "memory_search fallback 정책 상태",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 26.50141716003418,
+      "error": null
+    },
+    {
+      "query": "관련된 링크 상태",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 25.989294052124023,
+      "error": null
+    },
+    {
+      "query": "최근 어제 결정",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.5343894958496094,
+      "error": null
+    },
+    {
+      "query": "최근 memory_search fallback 정책",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 22.40276336669922,
+      "error": null
+    },
+    {
+      "query": "최근 관련된 링크",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 22.14360237121582,
+      "error": null
+    },
+    {
+      "query": "최근 어제 결정 확인",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.8574466705322266,
+      "error": null
+    },
+    {
+      "query": "최근 memory_search fallback 정책 확인",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 27.45366096496582,
+      "error": null
+    },
+    {
+      "query": "최근 관련된 링크 확인",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 26.72553062438965,
+      "error": null
+    },
+    {
+      "query": "최근 어제 결정 찾아줘",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.292156219482422,
+      "error": null
+    },
+    {
+      "query": "최근 memory_search fallback 정책 찾아줘",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 22.6590633392334,
+      "error": null
+    },
+    {
+      "query": "최근 관련된 링크 찾아줘",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 23.594141006469727,
+      "error": null
+    },
+    {
+      "query": "최근 어제 결정 기준",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.3775100708007812,
+      "error": null
+    },
+    {
+      "query": "최근 memory_search fallback 정책 기준",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 26.945114135742188,
+      "error": null
+    },
+    {
+      "query": "최근 관련된 링크 기준",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 27.080774307250977,
+      "error": null
+    },
+    {
+      "query": "최근 어제 결정 요약",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.461671829223633,
+      "error": null
+    },
+    {
+      "query": "최근 memory_search fallback 정책 요약",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 27.43244171142578,
+      "error": null
+    },
+    {
+      "query": "최근 관련된 링크 요약",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 28.56755256652832,
+      "error": null
+    },
+    {
+      "query": "최근 어제 결정 상태",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 3.3071041107177734,
+      "error": null
+    },
+    {
+      "query": "최근 memory_search fallback 정책 상태",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 35.24971008300781,
+      "error": null
+    },
+    {
+      "query": "최근 관련된 링크 상태",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 37.88566589355469,
+      "error": null
+    },
+    {
+      "query": "운영 어제 결정",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 1.9066333770751953,
+      "error": null
+    },
+    {
+      "query": "운영 memory_search fallback 정책",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 26.040077209472656,
+      "error": null
+    },
+    {
+      "query": "운영 관련된 링크",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 25.371074676513672,
+      "error": null
+    },
+    {
+      "query": "운영 어제 결정 확인",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 1.9614696502685547,
+      "error": null
+    },
+    {
+      "query": "운영 memory_search fallback 정책 확인",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 29.924869537353516,
+      "error": null
+    },
+    {
+      "query": "운영 관련된 링크 확인",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 31.482219696044922,
+      "error": null
+    },
+    {
+      "query": "운영 어제 결정 찾아줘",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.320528030395508,
+      "error": null
+    },
+    {
+      "query": "운영 memory_search fallback 정책 찾아줘",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 28.567075729370117,
+      "error": null
+    },
+    {
+      "query": "운영 관련된 링크 찾아줘",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 27.085542678833008,
+      "error": null
+    },
+    {
+      "query": "운영 어제 결정 기준",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.0732879638671875,
+      "error": null
+    },
+    {
+      "query": "운영 memory_search fallback 정책 기준",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 42.29307174682617,
+      "error": null
+    },
+    {
+      "query": "운영 관련된 링크 기준",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 31.66484832763672,
+      "error": null
+    },
+    {
+      "query": "운영 어제 결정 요약",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.229452133178711,
+      "error": null
+    },
+    {
+      "query": "운영 memory_search fallback 정책 요약",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 28.40709686279297,
+      "error": null
+    },
+    {
+      "query": "운영 관련된 링크 요약",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 27.26602554321289,
+      "error": null
+    },
+    {
+      "query": "운영 어제 결정 상태",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 1.8973350524902344,
+      "error": null
+    },
+    {
+      "query": "운영 memory_search fallback 정책 상태",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 28.898000717163086,
+      "error": null
+    },
+    {
+      "query": "운영 관련된 링크 상태",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 27.94480323791504,
+      "error": null
+    },
+    {
+      "query": "정리: 어제 결정",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.3009777069091797,
+      "error": null
+    },
+    {
+      "query": "정리: memory_search fallback 정책",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 23.25153350830078,
+      "error": null
+    },
+    {
+      "query": "정리: 관련된 링크",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 22.936344146728516,
+      "error": null
+    },
+    {
+      "query": "정리: 어제 결정 확인",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 3.9305686950683594,
+      "error": null
+    },
+    {
+      "query": "정리: memory_search fallback 정책 확인",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 28.043031692504883,
+      "error": null
+    },
+    {
+      "query": "정리: 관련된 링크 확인",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 27.871131896972656,
+      "error": null
+    },
+    {
+      "query": "정리: 어제 결정 찾아줘",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.418041229248047,
+      "error": null
+    },
+    {
+      "query": "정리: memory_search fallback 정책 찾아줘",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 25.037050247192383,
+      "error": null
+    },
+    {
+      "query": "정리: 관련된 링크 찾아줘",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 23.720979690551758,
+      "error": null
+    },
+    {
+      "query": "정리: 어제 결정 기준",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.4383068084716797,
+      "error": null
+    },
+    {
+      "query": "정리: memory_search fallback 정책 기준",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 44.988155364990234,
+      "error": null
+    },
+    {
+      "query": "정리: 관련된 링크 기준",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 29.81257438659668,
+      "error": null
+    },
+    {
+      "query": "정리: 어제 결정 요약",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 3.769397735595703,
+      "error": null
+    },
+    {
+      "query": "정리: memory_search fallback 정책 요약",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 35.66145896911621,
+      "error": null
+    },
+    {
+      "query": "정리: 관련된 링크 요약",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 27.30560302734375,
+      "error": null
+    },
+    {
+      "query": "정리: 어제 결정 상태",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.385377883911133,
+      "error": null
+    },
+    {
+      "query": "정리: memory_search fallback 정책 상태",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 27.687788009643555,
+      "error": null
+    },
+    {
+      "query": "정리: 관련된 링크 상태",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 27.858257293701172,
+      "error": null
+    },
+    {
+      "query": "체크 어제 결정",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 6.618499755859375,
+      "error": null
+    },
+    {
+      "query": "체크 memory_search fallback 정책",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 24.078845977783203,
+      "error": null
+    },
+    {
+      "query": "체크 관련된 링크",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 25.242090225219727,
+      "error": null
+    },
+    {
+      "query": "체크 어제 결정 확인",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 1.9898414611816406,
+      "error": null
+    },
+    {
+      "query": "체크 memory_search fallback 정책 확인",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 30.59840202331543,
+      "error": null
+    },
+    {
+      "query": "체크 관련된 링크 확인",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 29.333114624023438,
+      "error": null
+    },
+    {
+      "query": "체크 어제 결정 찾아줘",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.5250911712646484,
+      "error": null
+    },
+    {
+      "query": "체크 memory_search fallback 정책 찾아줘",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 26.8857479095459,
+      "error": null
+    },
+    {
+      "query": "체크 관련된 링크 찾아줘",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 29.47068214416504,
+      "error": null
+    },
+    {
+      "query": "체크 어제 결정 기준",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.992868423461914,
+      "error": null
+    },
+    {
+      "query": "체크 memory_search fallback 정책 기준",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 43.221473693847656,
+      "error": null
+    },
+    {
+      "query": "체크 관련된 링크 기준",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 27.378559112548828,
+      "error": null
+    },
+    {
+      "query": "체크 어제 결정 요약",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 1.9109249114990234,
+      "error": null
+    },
+    {
+      "query": "체크 memory_search fallback 정책 요약",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 28.622865676879883,
+      "error": null
+    },
+    {
+      "query": "체크 관련된 링크 요약",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 74.0818977355957,
+      "error": null
+    },
+    {
+      "query": "체크 어제 결정 상태",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.8014183044433594,
+      "error": null
+    },
+    {
+      "query": "체크 memory_search fallback 정책 상태",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 32.449960708618164,
+      "error": null
+    },
+    {
+      "query": "체크 관련된 링크 상태",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 28.02753448486328,
+      "error": null
+    },
+    {
+      "query": "빠르게 어제 결정",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.3860931396484375,
+      "error": null
+    },
+    {
+      "query": "빠르게 memory_search fallback 정책",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 25.104522705078125,
+      "error": null
+    },
+    {
+      "query": "빠르게 관련된 링크",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 24.687767028808594,
+      "error": null
+    },
+    {
+      "query": "빠르게 어제 결정 확인",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.402067184448242,
+      "error": null
+    },
+    {
+      "query": "빠르게 memory_search fallback 정책 확인",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 28.909683227539062,
+      "error": null
+    },
+    {
+      "query": "빠르게 관련된 링크 확인",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 28.384685516357422,
+      "error": null
+    },
+    {
+      "query": "빠르게 어제 결정 찾아줘",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.420186996459961,
+      "error": null
+    },
+    {
+      "query": "빠르게 memory_search fallback 정책 찾아줘",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 24.422883987426758,
+      "error": null
+    },
+    {
+      "query": "빠르게 관련된 링크 찾아줘",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 25.513410568237305,
+      "error": null
+    },
+    {
+      "query": "빠르게 어제 결정 기준",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.4330615997314453,
+      "error": null
+    },
+    {
+      "query": "빠르게 memory_search fallback 정책 기준",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 29.166698455810547,
+      "error": null
+    },
+    {
+      "query": "빠르게 관련된 링크 기준",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 30.208349227905273,
+      "error": null
+    },
+    {
+      "query": "빠르게 어제 결정 요약",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.3810863494873047,
+      "error": null
+    },
+    {
+      "query": "빠르게 memory_search fallback 정책 요약",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 28.423070907592773,
+      "error": null
+    },
+    {
+      "query": "빠르게 관련된 링크 요약",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 29.685258865356445,
+      "error": null
+    },
+    {
+      "query": "빠르게 어제 결정 상태",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.3424625396728516,
+      "error": null
+    },
+    {
+      "query": "빠르게 memory_search fallback 정책 상태",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 35.08353233337402,
+      "error": null
+    },
+    {
+      "query": "빠르게 관련된 링크 상태",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 29.312849044799805,
+      "error": null
+    },
+    {
+      "query": "오늘 어제 결정",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.719879150390625,
+      "error": null
+    },
+    {
+      "query": "오늘 memory_search fallback 정책",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 26.441574096679688,
+      "error": null
+    },
+    {
+      "query": "오늘 관련된 링크",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 24.983882904052734,
+      "error": null
+    },
+    {
+      "query": "오늘 어제 결정 확인",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.3086071014404297,
+      "error": null
+    },
+    {
+      "query": "오늘 memory_search fallback 정책 확인",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 30.127763748168945,
+      "error": null
+    },
+    {
+      "query": "오늘 관련된 링크 확인",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 10,
+      "latency_ms": 28.26714515686035,
+      "error": null
+    },
+    {
+      "query": "오늘 어제 결정 찾아줘",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.3343563079833984,
+      "error": null
+    },
+    {
+      "query": "오늘 memory_search fallback 정책 찾아줘",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 26.929140090942383,
+      "error": null
+    },
+    {
+      "query": "오늘 관련된 링크 찾아줘",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 30.085325241088867,
+      "error": null
+    },
+    {
+      "query": "오늘 어제 결정 기준",
+      "mode": "temporal",
+      "expected_route": "lexical",
+      "actual_route": "lexical",
+      "result_count": 10,
+      "latency_ms": 2.504110336303711,
+      "error": null
+    },
+    {
+      "query": "오늘 memory_search fallback 정책 기준",
+      "mode": "topic",
+      "expected_route": "semantic",
+      "actual_route": "semantic",
+      "result_count": 10,
+      "latency_ms": 29.66022491455078,
+      "error": null
+    },
+    {
+      "query": "오늘 관련된 링크 기준",
+      "mode": "graph",
+      "expected_route": "hybrid",
+      "actual_route": "hybrid",
+      "result_count": 9,
+      "latency_ms": 30.59220314025879,
+      "error": null
+    }
+  ]
+}

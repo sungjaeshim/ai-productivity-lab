@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-03-11T07:47:13+09:00",
+  "date_kst": "2026-03-11",
+  "status": "ok",
+  "source_file": "/root/.openclaw/workspace/data/intelligence-2026-03-11.json",
+  "purpose": "morning-briefing-source",
+  "should_send": false,
+  "send_reason": "source-only",
+  "headline_count": 14,
+  "signal_count": 0,
+  "dominant_signal": "low",
+  "market_lines": [
+    "[시장] Why is US stock market Dow Jones futures suddenly rising today? Dow, S&P 500 and Nasdaq turn gr… (69)",
+    "[시장] Dow Jones Futures: Trump's Iran Comments Spark Stock Market Reversal As Oil Prices Tumble - Inv… (69)",
+    "[시장] US Stock Market Today: S&P 500 Futures Fall On Higher Yields And Oil Surge - simplywall.st (69)"
+  ],
+  "ai_lines": [],
+  "marketing_lines": [],
+  "top_signal_titles": [],
+  "brief_text": "📡 Daily Intelligence Source | 2026-03-11\n- headlines=14 signals=0 dominant_signal=low\n- [시장] Why is US stock market Dow Jones futures suddenly rising today? Dow, S&P 500 and Nasdaq turn gr… (69)\n- [시장] Dow Jones Futures: Trump's Iran Comments Spark Stock Market Reversal As Oil Prices Tumble - Inv… (69)"
+}

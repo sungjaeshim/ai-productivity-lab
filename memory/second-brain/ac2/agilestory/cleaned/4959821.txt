@@ -1,0 +1,5 @@
+USER experience와 user EXPERIENCE 에 대해 1) 중요하게 생각하고 제품에서 그런 것들의 가치를 높일 수 있는 2) 지식과 기술 여기에서 USER는 제품이 포함되는 시스템(사람과 물건으로 구성된 체제)에 영향을 주고 거기에서 영향을 받는 사람들을 포괄적으로 보는 것이고, EXPERIENCE는 감정적, 신체적, 이성적 등등의 모든 경험, 그리고 기대하는 경험과, 체험하는 경험, 기억하는 경험을 총칭합니다.
+
+Just because something is beyond your current skill set doesn’t mean it’s beyond your current scope of responsibility. --Cem Kaner
+
+In the long run, a society's strength depends on the way that ordinary people voluntarily behave. Ordinary people matter because there are so many of them. Voluntary behavior matters because it's too hard to supervise everyone all the time.... This voluntary behavior is what I mean by "culture." --J. Fallows

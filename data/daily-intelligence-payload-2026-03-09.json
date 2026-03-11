@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-03-09T15:58:53+09:00",
+  "date_kst": "2026-03-09",
+  "status": "ok",
+  "source_file": "/root/.openclaw/workspace/data/intelligence-2026-03-09.json",
+  "purpose": "morning-briefing-source",
+  "should_send": false,
+  "send_reason": "source-only",
+  "headline_count": 8,
+  "signal_count": 0,
+  "dominant_signal": "low",
+  "market_lines": [
+    "[시장] S&P 500 posts record closing high, US dollar and yields decline in wake of Fed - Reuters (69)",
+    "[시장] US Stock Market Today: S&P 500 Futures Edge Higher As Jobs Stay Firm, Yields Ease - Yahoo Finan… (66)",
+    "[시장] US stocks today: Dow tumbles 900 points, S&P 500 and Nasdaq slide 1.6% as oil crosses $90; weak… (66)"
+  ],
+  "ai_lines": [],
+  "marketing_lines": [],
+  "top_signal_titles": [],
+  "brief_text": "📡 Daily Intelligence Source | 2026-03-09\n- headlines=8 signals=0 dominant_signal=low\n- [시장] S&P 500 posts record closing high, US dollar and yields decline in wake of Fed - Reuters (69)\n- [시장] US Stock Market Today: S&P 500 Futures Edge Higher As Jobs Stay Firm, Yields Ease - Yahoo Finan… (66)"
+}

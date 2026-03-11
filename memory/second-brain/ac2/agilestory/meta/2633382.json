@@ -1,0 +1,30 @@
+{
+  "url": "https://agilestory.blog/2633382",
+  "title": "프로와 아마의 차이",
+  "date": "2006년 10월 15일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "role:product-owner",
+    "scope:individual",
+    "ac2",
+    "ac2-content",
+    "content",
+    "po",
+    "product"
+  ],
+  "extracted_at": "2026-03-02T23:08:42.942620",
+  "post_id": "2633382",
+  "raw_file": "2633382.html",
+  "extraction_status": "success",
+  "text_length": 675,
+  "cleaned_file": "2633382.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:36.610206",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

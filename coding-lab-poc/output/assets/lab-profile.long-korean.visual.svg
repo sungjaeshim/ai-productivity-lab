@@ -1,0 +1,21 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="630" fill="#f5f7fb"/>
+<rect x="70" y="70" width="1060" height="490" rx="28" fill="#111827"/>
+<text x="120" y="170" fill="#ffffff" font-size="56" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="700">AI 실전 실행 스튜디오</text>
+<text x="120" y="242" fill="#cbd5e1" font-size="28" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="500">긴 한국어 문장과 복합 설명을 담아도 카드</text>
+<text x="120" y="278" fill="#cbd5e1" font-size="28" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="500">안에서 안정적으로 읽히는지 검증</text>
+<text x="120" y="352" fill="#94a3b8" font-size="24" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="400">AI 에이전트와 자동화 워크플로를 사용해 아이디어 정의부터</text>
+<text x="120" y="384" fill="#94a3b8" font-size="24" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="400">프로토타입 구현, 문서 패키징, 시각 자산 생성, 검토 공유까지 한</text>
+<text x="120" y="416" fill="#94a3b8" font-size="24" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="400">번에 이어지는 실행 체계를 만든다. 긴 한국어 설명이 들어와도</text>
+<rect x="120" y="482" width="184" height="36" rx="18" fill="#2563eb" opacity="0.95"/><text x="136" y="506" fill="#fff" font-size="18" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="600">에이전트 자동화</text>
+<rect x="318" y="482" width="208" height="36" rx="18" fill="#2563eb" opacity="0.95"/><text x="334" y="506" fill="#fff" font-size="18" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="600">빠른 프로토타이핑</text>
+<rect x="540" y="482" width="124" height="36" rx="18" fill="#2563eb" opacity="0.95"/><text x="556" y="506" fill="#fff" font-size="18" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="600">문서 생성</text>
+<rect x="678" y="482" width="136" height="36" rx="18" fill="#2563eb" opacity="0.95"/><text x="694" y="506" fill="#fff" font-size="18" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="600">시각 산출물</text>
+<rect x="120" y="530" width="184" height="36" rx="18" fill="#2563eb" opacity="0.95"/><text x="136" y="554" fill="#fff" font-size="18" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="600">이해관계자 공유</text>
+<rect x="318" y="530" width="136" height="36" rx="18" fill="#2563eb" opacity="0.95"/><text x="334" y="554" fill="#fff" font-size="18" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="600">운영 일관성</text>
+<text x="120" y="500" fill="#93c5fd" font-size="20" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="600">audience: 제품 책임자 및 엔지니어링 이해관계자</text>
+<text x="120" y="532" fill="#93c5fd" font-size="20" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans CJK KR, Noto Sans KR, Malgun Gothic, Arial, sans-serif" font-weight="600">style: showcase-tech</text>
+<circle cx="980" cy="180" r="56" fill="#22c55e"/>
+<circle cx="1040" cy="250" r="28" fill="#3b82f6"/>
+<circle cx="920" cy="270" r="20" fill="#f59e0b"/>
+</svg>

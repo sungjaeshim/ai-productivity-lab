@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Algorithmic Trading AI Software</title>
+  <desc id="desc">Editorial hero image for AI trading software guide.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f0e4"/>
+      <stop offset="100%" stop-color="#dce8ff"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#102544"/>
+      <stop offset="100%" stop-color="#195fc9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1360" cy="120" r="190" fill="#ff8b72" opacity="0.18"/>
+  <circle cx="180" cy="760" r="220" fill="#0f7bff" opacity="0.12"/>
+  <rect x="82" y="84" width="1436" height="732" rx="42" fill="#fffaf1" stroke="#1c2f4f" stroke-opacity="0.12"/>
+  <rect x="128" y="132" width="760" height="636" rx="34" fill="url(#card)"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M220 610 L330 560 L430 590 L550 470 L660 500 L770 380" stroke="#9fd1ff" stroke-width="12"/>
+    <path d="M220 650 L320 670 L430 600 L540 640 L650 520 L770 560" stroke="#ff9e89" stroke-width="8" opacity="0.9"/>
+  </g>
+  <g font-family="Atkinson, Arial, sans-serif" fill="#f7fbff">
+    <text x="190" y="240" font-size="34" letter-spacing="7" font-weight="700">AI SNOWBALL</text>
+    <text x="190" y="340" font-size="78" font-weight="700">Algorithmic</text>
+    <text x="190" y="426" font-size="78" font-weight="700">Trading AI</text>
+    <text x="190" y="512" font-size="78" font-weight="700">Software</text>
+    <text x="190" y="610" font-size="28" opacity="0.88">Systems, execution stacks, and operator tooling for 2026 traders.</text>
+  </g>
+  <g transform="translate(970 180)" font-family="Atkinson, Arial, sans-serif">
+    <text x="0" y="0" font-size="28" letter-spacing="5" fill="#56657f" font-weight="700">FIELD GUIDE</text>
+    <text x="0" y="104" font-size="92" fill="#14213d" font-weight="700">Build a</text>
+    <text x="0" y="200" font-size="92" fill="#14213d" font-weight="700">repeatable</text>
+    <text x="0" y="296" font-size="92" fill="#14213d" font-weight="700">trading stack</text>
+    <text x="0" y="398" font-size="34" fill="#41506d">Software selection, model discipline, and risk controls.</text>
+  </g>
+</svg>

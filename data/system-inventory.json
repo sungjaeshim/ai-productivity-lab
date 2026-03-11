@@ -1,0 +1,90 @@
+{
+  "services": [
+    {
+      "name": "cloudflared-strava.service",
+      "status": "active",
+      "description": "cloudflared-strava.service  loaded active running Cloudflare Tunnel for Strava Webhook"
+    },
+    {
+      "name": "cloudflared.service",
+      "status": "active",
+      "description": "cloudflared.service         loaded active running cloudflared"
+    },
+    {
+      "name": "growth-center.service",
+      "status": "active",
+      "description": "growth-center.service       loaded active running Growth Center Dashboard API"
+    }
+  ],
+  "projects": [
+    {
+      "tag": "ceo-ai",
+      "path": "/root/Projects/sajangnim-ai",
+      "type": "directory",
+      "repoUrl": "git@github.com:sungjaeshim/sajangnim-ai.git"
+    },
+    {
+      "tag": "growth-center",
+      "path": "/root/Projects/growth-center",
+      "type": "directory",
+      "repoUrl": "https://x-access-token:***@github.com/sungjaeshim/growth-center.git"
+    },
+    {
+      "tag": "macd",
+      "path": "/root/.openclaw/workspace/scripts/nq_macd_multi.py",
+      "type": "file",
+      "repoUrl": ""
+    }
+  ],
+  "endpoints": [
+    {
+      "url": "http://localhost:18800",
+      "backend": "127.0.0.1:18800",
+      "source": "port",
+      "name": "growth-center-api"
+    },
+    {
+      "url": "http://growth.aisnowball.work/",
+      "backend": "http://127.0.0.1:18800",
+      "source": "nginx",
+      "host": "growth.aisnowball.work"
+    },
+    {
+      "url": "http://localhost:18792",
+      "backend": "127.0.0.1:18792",
+      "source": "port",
+      "name": "openclaw-gateway"
+    },
+    {
+      "url": "http://localhost:18791",
+      "backend": "127.0.0.1:18791",
+      "source": "port",
+      "name": "openclaw-gateway"
+    },
+    {
+      "url": "http://localhost:18789",
+      "backend": "127.0.0.1:18789",
+      "source": "port",
+      "name": "openclaw-gateway"
+    },
+    {
+      "url": "http://localhost:3100",
+      "backend": "127.0.0.1:3100",
+      "source": "port",
+      "name": "sajangnim-ai-api"
+    },
+    {
+      "url": "http://localhost:18790",
+      "backend": "127.0.0.1:18790",
+      "source": "port",
+      "name": "strava-webhook"
+    },
+    {
+      "url": "http://strava.aisnowball.work/",
+      "backend": "http://localhost:18790",
+      "source": "nginx",
+      "host": "strava.aisnowball.work"
+    }
+  ],
+  "generatedAt": "2026-02-28T23:58:44Z"
+}

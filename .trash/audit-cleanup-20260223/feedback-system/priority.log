@@ -1,0 +1,14 @@
+usage: priority_engine.py [-h] [--type {error,feedback,task}] [--title TITLE]
+                          [--impact IMPACT] [--frequency FREQUENCY]
+                          [--effort EFFORT] [--id ID] [--limit LIMIT] [--json]
+                          {add,list,report,improve,stats,update,ralph}
+priority_engine.py: error: the following arguments are required: command
+usage: priority_engine.py [-h] [--type {error,feedback,task}] [--title TITLE]
+                          [--impact IMPACT] [--frequency FREQUENCY]
+                          [--effort EFFORT] [--id ID] [--limit LIMIT] [--json]
+                          {add,list,report,improve,stats,update,ralph}
+priority_engine.py: error: the following arguments are required: command
+2026-02-22 00:00:02,329 - __main__ - INFO - PriorityEngine initialized with DB: /root/.openclaw/workspace/scripts/feedback/metrics.db
+2026-02-22 00:00:02,340 - __main__ - INFO - Recalculated 5 items
+2026-02-22 00:00:02,340 - __main__ - INFO - Database connection closed
+Recalculated 5 items

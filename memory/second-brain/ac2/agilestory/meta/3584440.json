@@ -1,0 +1,27 @@
+{
+  "url": "https://agilestory.blog/3584440",
+  "title": "애자일의 씨앗",
+  "date": "2007년 7월 10일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:coaching",
+    "dom:general",
+    "scope:general",
+    "ac2",
+    "ac2-content",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:11:16.460231",
+  "post_id": "3584440",
+  "raw_file": "3584440.html",
+  "extraction_status": "success",
+  "text_length": 931,
+  "cleaned_file": "3584440.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.147245",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

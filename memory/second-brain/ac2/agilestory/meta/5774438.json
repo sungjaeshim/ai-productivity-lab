@@ -1,0 +1,27 @@
+{
+  "url": "https://agilestory.blog/5774438",
+  "title": "입사 지원 문제 J로 풀기",
+  "date": "2013년 10월 29일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "scope:general",
+    "ac2",
+    "ac2-content",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:20:18.358835",
+  "post_id": "5774438",
+  "raw_file": "5774438.html",
+  "extraction_status": "success",
+  "text_length": 454,
+  "cleaned_file": "5774438.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:38.825364",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

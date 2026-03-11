@@ -1,0 +1,57 @@
+🌅 모닝 브리핑 | 2026-03-09 (월) 15:58 KST
+
+한 줄 요약: 오늘 1순위는 NQ 리스크 체크
+
+━━━━━━━━━━━━━━━━━━
+🌤️ 오늘 날씨
+• 현재: N/A (체감 N/A) | unknown
+• 최고: N/A / 최저: N/A
+
+━━━━━━━━━━━━━━━━━━
+📋 오늘 할 일 (3건)
+1. NQ 리스크 체크
+2. 지금 목표와 연결되는 행동 1개만 남기고 나머지는 보류.
+3. A안으로 진행하고 기존꺼 3일간만 다시 보고 리포팅하기
+
+━━━━━━━━━━━━━━━━━━
+📡 Daily Intelligence 핵심
+• [시장] S&P 500 posts record closing high, US dollar and yields decline in wake of Fed - Reuters (…
+• [시장] US Stock Market Today: S&P 500 Futures Edge Higher As Jobs Stay Firm, Yields Ease - Yahoo …
+• 중요도 상위 시그널 없음
+
+━━━━━━━━━━━━━━━━━━
+🧠 오늘 인사이트 Top3
+1. 오늘 추출된 인사이트 없음
+2. 추가 인사이트 없음
+3. 추가 인사이트 없음
+
+━━━━━━━━━━━━━━━━━━
+🏢 HQ 카드
+
+[Card] 시장/시그널
+• NQ: pending | NQ signal check by cron
+• 매크로: [시장] S&P 500 posts record closing high, US dollar and yields decline in wake of Fed - Reuters (…
+• 중요 뉴스: [시장] US Stock Market Today: S&P 500 Futures Edge Higher As Jobs Stay Firm, Yields Ease - Yahoo …
+• [NAVER] 수집 실패: network dns failure
+
+[Card] 프로젝트 헬스
+• Growth: 모닝/데일리 payload 분리 구조 반영 단계
+• SecondBrain: insights.json 기반 Top3 공급 가능
+• CEO: 자동화 구조 정리 진행
+• MACD: shadow 관측 유지, 전환 전 검증 모드
+
+[Card] 리스크/장애
+• Mid: [NAVER] 수집 실패: network dns failure | 조치: fallback 유지
+• Low: NQ 카드 값은 별도 MACD cron 의존 | 조치: pending 표기 유지
+• Low: Daily Intelligence는 source-only 운영 | 조치: 모닝 브리핑에서 통합 사용
+
+[Card] 오늘 의사결정 필요
+• 오늘 1순위 집중 대상 | A. 핵심 1건 먼저 (권장) / B. 여러 건 분산 착수
+• Daily Intelligence 직접 발송 여부 | A. source-only 유지 (권장) / B. 별도 브리핑 발송
+• NQ 카드 데이터 연결 수준 | A. pending 유지 (권장) / B. MACD 결과 직접 주입
+
+[Card] 오늘 단일 핵심 액션
+• NQ 리스크 체크부터 처리하고, 끝나면 MACD shadow 결과까지 이어서 확인하기
+
+━━━━━━━━━━━━━━━━━━
+어제 요약: 어제는 Task Operations 기본 규칙 정리를 마쳤고, Discord role hardening은 아직 마무리되지 않았습니다

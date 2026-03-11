@@ -1,0 +1,315 @@
+{
+  "index_size": 373,
+  "test_queries": {
+    "코칭": {
+      "match_count": 34,
+      "top_results": [
+        {
+          "post_id": "5751165",
+          "count": 16,
+          "relevance": 16
+        },
+        {
+          "post_id": "5359767",
+          "count": 13,
+          "relevance": 13
+        },
+        {
+          "post_id": "5263014",
+          "count": 9,
+          "relevance": 9
+        },
+        {
+          "post_id": "5688600",
+          "count": 6,
+          "relevance": 6
+        },
+        {
+          "post_id": "5761578",
+          "count": 5,
+          "relevance": 5
+        }
+      ],
+      "search_time_ms": 0.5
+    },
+    "애자일": {
+      "match_count": 109,
+      "top_results": [
+        {
+          "post_id": "5299932",
+          "count": 48,
+          "relevance": 48
+        },
+        {
+          "post_id": "4574988",
+          "count": 21,
+          "relevance": 21
+        },
+        {
+          "post_id": "5880685",
+          "count": 19,
+          "relevance": 19
+        },
+        {
+          "post_id": "5337030",
+          "count": 18,
+          "relevance": 18
+        },
+        {
+          "post_id": "5594903",
+          "count": 14,
+          "relevance": 14
+        }
+      ],
+      "search_time_ms": 1.08
+    },
+    "스크럼": {
+      "match_count": 11,
+      "top_results": [
+        {
+          "post_id": "5853046",
+          "count": 29,
+          "relevance": 29
+        },
+        {
+          "post_id": "4929929",
+          "count": 11,
+          "relevance": 11
+        },
+        {
+          "post_id": "5879231",
+          "count": 2,
+          "relevance": 2
+        },
+        {
+          "post_id": "4663831",
+          "count": 2,
+          "relevance": 2
+        },
+        {
+          "post_id": "5792529",
+          "count": 1,
+          "relevance": 1
+        }
+      ],
+      "search_time_ms": 0.53
+    },
+    "팀장": {
+      "match_count": 23,
+      "top_results": [
+        {
+          "post_id": "5265969",
+          "count": 11,
+          "relevance": 11
+        },
+        {
+          "post_id": "5822712",
+          "count": 7,
+          "relevance": 7
+        },
+        {
+          "post_id": "5359767",
+          "count": 6,
+          "relevance": 6
+        },
+        {
+          "post_id": "5187747",
+          "count": 5,
+          "relevance": 5
+        },
+        {
+          "post_id": "5513862",
+          "count": 4,
+          "relevance": 4
+        }
+      ],
+      "search_time_ms": 0.54
+    },
+    "개발자": {
+      "match_count": 78,
+      "top_results": [
+        {
+          "post_id": "4099641",
+          "count": 10,
+          "relevance": 10
+        },
+        {
+          "post_id": "5827377",
+          "count": 8,
+          "relevance": 8
+        },
+        {
+          "post_id": "3754028",
+          "count": 8,
+          "relevance": 8
+        },
+        {
+          "post_id": "1741006",
+          "count": 8,
+          "relevance": 8
+        },
+        {
+          "post_id": "3476760",
+          "count": 8,
+          "relevance": 8
+        }
+      ],
+      "search_time_ms": 0.4
+    },
+    "피드백": {
+      "match_count": 33,
+      "top_results": [
+        {
+          "post_id": "5854139",
+          "count": 12,
+          "relevance": 12
+        },
+        {
+          "post_id": "5852958",
+          "count": 11,
+          "relevance": 11
+        },
+        {
+          "post_id": "5612585",
+          "count": 7,
+          "relevance": 7
+        },
+        {
+          "post_id": "3262432",
+          "count": 6,
+          "relevance": 6
+        },
+        {
+          "post_id": "5166038",
+          "count": 6,
+          "relevance": 6
+        }
+      ],
+      "search_time_ms": 0.4
+    },
+    "코드리뷰": {
+      "match_count": 0,
+      "top_results": [],
+      "search_time_ms": 0.37
+    },
+    "TDD": {
+      "match_count": 17,
+      "top_results": [
+        {
+          "post_id": "5827377",
+          "count": 15,
+          "relevance": 15
+        },
+        {
+          "post_id": "5299932",
+          "count": 8,
+          "relevance": 8
+        },
+        {
+          "post_id": "2741529",
+          "count": 8,
+          "relevance": 8
+        },
+        {
+          "post_id": "5445017",
+          "count": 7,
+          "relevance": 7
+        },
+        {
+          "post_id": "5192956",
+          "count": 5,
+          "relevance": 5
+        }
+      ],
+      "search_time_ms": 0.45
+    },
+    "리팩토링": {
+      "match_count": 15,
+      "top_results": [
+        {
+          "post_id": "2741529",
+          "count": 10,
+          "relevance": 10
+        },
+        {
+          "post_id": "5830026",
+          "count": 3,
+          "relevance": 3
+        },
+        {
+          "post_id": "5299932",
+          "count": 3,
+          "relevance": 3
+        },
+        {
+          "post_id": "3238987",
+          "count": 3,
+          "relevance": 3
+        },
+        {
+          "post_id": "2093317",
+          "count": 2,
+          "relevance": 2
+        }
+      ],
+      "search_time_ms": 0.69
+    },
+    "협업": {
+      "match_count": 9,
+      "top_results": [
+        {
+          "post_id": "5904102",
+          "count": 7,
+          "relevance": 7
+        },
+        {
+          "post_id": "5853240",
+          "count": 3,
+          "relevance": 3
+        },
+        {
+          "post_id": "2800735",
+          "count": 3,
+          "relevance": 3
+        },
+        {
+          "post_id": "3371549",
+          "count": 2,
+          "relevance": 2
+        },
+        {
+          "post_id": "2344575",
+          "count": 1,
+          "relevance": 1
+        }
+      ],
+      "search_time_ms": 0.38
+    }
+  },
+  "search_performance": {
+    "avg_search_time_ms": 0.53
+  },
+  "issues": [
+    "No matches for query: 코드리뷰"
+  ],
+  "combined_queries": {
+    "코칭+피드백": {
+      "q1_matches": 34,
+      "q2_matches": 33,
+      "intersection": 9,
+      "union": 58
+    },
+    "애자일+팀": {
+      "q1_matches": 109,
+      "q2_matches": 81,
+      "intersection": 43,
+      "union": 147
+    },
+    "개발+품질": {
+      "q1_matches": 143,
+      "q2_matches": 20,
+      "intersection": 10,
+      "union": 153
+    }
+  }
+}

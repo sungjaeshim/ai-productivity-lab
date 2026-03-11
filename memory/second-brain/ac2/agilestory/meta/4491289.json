@@ -1,0 +1,30 @@
+{
+  "url": "https://agilestory.blog/4491289",
+  "title": "IBM 강연 : 애자일 프로젝트 확률론",
+  "date": "2008년 7월 16일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:coaching",
+    "dom:general",
+    "scope:general",
+    "evidence:field-case",
+    "evidence:talk",
+    "ac2",
+    "ac2-content",
+    "content",
+    "event"
+  ],
+  "extracted_at": "2026-03-02T23:13:10.699131",
+  "post_id": "4491289",
+  "raw_file": "4491289.html",
+  "extraction_status": "success",
+  "text_length": 288,
+  "cleaned_file": "4491289.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.608364",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}
