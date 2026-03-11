@@ -1,15 +1,35 @@
 ---
+export const prerender = false;
+
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import FormattedDate from '../components/FormattedDate.astro';
-import OptimizedImage from '../components/OptimizedImage.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
-import { getCollection } from 'astro:content';
+import { getCollection, getLiveCollection } from 'astro:content';
 
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+const featuredPosts = posts.slice(0, 6);
+const { entries: liveSignals = [], error: liveSignalsError } = await getLiveCollection('signals', { limit: 3 });
+
+function signalTheme(category: string) {
+	const value = category.toLowerCase();
+	if (value === 'platform') return 'signal-platform';
+	if (value === 'brand') return 'signal-brand';
+	if (value === 'guide') return 'signal-guide';
+	if (value === 'update') return 'signal-update';
+	return 'signal-default';
+}
+
+function isExternalLink(href: string) {
+	return /^https?:\/\//i.test(href);
+}
+
+function isPinned(sort?: number) {
+	return typeof sort === 'number' && sort <= 3;
+}
 ---
 
 <!doctype html>
@@ -20,64 +40,246 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
-			<section class="hero">
-				<h1>🤖 AI로 일하는 방법이 달라진다</h1>
-				<p>AI 도구 리뷰, 업무 자동화, 생산성 팁을 매일 제공합니다.</p>
+			<section class="hero panel">
+				<div class="hero-copy">
+					<span class="eyebrow">AI Snowball</span>
+					<h1>AI 운영과 자동화를 문서처럼 정리합니다</h1>
+					<p class="lead">
+						배포, 자동화, 운영 흐름을 바로 이해하고 다시 찾기 쉽게 정리합니다. 과한 랜딩보다 읽히는 문서형 구조를 우선합니다.
+					</p>
+				</div>
+				<div class="hero-note panel">
+					<p class="hero-note-label">Current Focus</p>
+					<ul class="hero-list">
+						<li>Astro 6 and deployment hygiene</li>
+						<li>Notion-backed homepage signals</li>
+						<li>Practical AI workflow publishing</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="signals">
+				<div class="section-heading">
+					<div>
+						<span class="eyebrow">Live Signals</span>
+						<h2>지금 주목할 핵심 업데이트</h2>
+					</div>
+				</div>
+				{liveSignalsError ? (
+					<div class="signal-fallback panel">
+						<p>Live signals are temporarily unavailable.</p>
+					</div>
+				) : (
+					<div class="signal-grid">
+						{liveSignals.map((signal) => (
+							<a class:list={['signal-card', 'panel', signalTheme(signal.data.category)]} href={signal.data.href}>
+								<div class="signal-header">
+									<div class="signal-meta-row">
+										<p class="signal-meta">{signal.data.category}</p>
+										{isPinned(signal.data.sort) && <span class="signal-pin">Pinned</span>}
+									</div>
+									<p class="signal-date">{signal.data.updatedAt}</p>
+								</div>
+								<h3 class="line-clamp-2">{signal.data.title}</h3>
+								<p class="line-clamp-3">{signal.data.summary}</p>
+								<p class="signal-cta">
+									<span>{isExternalLink(signal.data.href) ? 'Open source' : 'Read more'}</span>
+									<span aria-hidden="true">↗</span>
+								</p>
+							</a>
+						))}
+					</div>
+				)}
 			</section>
 
 			<section>
-				<h2>최신 글</h2>
+				<div class="section-heading">
+					<div>
+						<span class="eyebrow">Latest Posts</span>
+						<h2>최근 발행한 실전 가이드</h2>
+					</div>
+				</div>
 				<ul class="post-list">
-					{posts.map((post) => (
-						<li>
+					{featuredPosts.map((post) => (
+						<li class="panel">
 							<a href={`/blog/${post.id}/`}>
-								<h3>{post.data.title}</h3>
-								<p class="date"><FormattedDate date={post.data.pubDate} /></p>
-								<p>{post.data.description}</p>
+								<p class="post-kicker"><FormattedDate date={post.data.pubDate} /></p>
+								<h3 class="line-clamp-2">{post.data.title}</h3>
+								<p class="line-clamp-3">{post.data.description}</p>
 							</a>
 						</li>
 					))}
 				</ul>
+				<p class="browse-all"><a href="/blog">전체 글 보러가기</a></p>
 			</section>
 		</main>
 		<Footer />
 
 		<style>
 			.hero {
+				display: grid;
+				grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.85fr);
+				gap: 1rem;
+				padding: 1.25rem;
 				margin-bottom: 2rem;
+				background: transparent;
+				box-shadow: none;
 			}
 			.hero h1 {
-				margin-top: 0;
+				margin-top: 0.55rem;
+				max-width: 22ch;
+			}
+			.lead {
+				max-width: 58ch;
+				font-size: 0.98rem;
+				margin-bottom: 0;
+			}
+			.hero-note {
+				padding: 1rem 1rem 0.9rem;
+				align-self: start;
+			}
+			.hero-note-label {
+				font-family: var(--font-mono);
+				font-size: 0.74rem;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+				color: var(--ink-soft);
+				margin-bottom: 0.7rem;
+			}
+			.hero-list {
+				padding-left: 1.1rem;
+				margin: 0;
+			}
+			.hero-list li {
+				margin-bottom: 0.45rem;
+				color: var(--ink-soft);
+			}
+			.signals {
+				margin-bottom: 2rem;
+			}
+			.signal-grid {
+				display: flex;
+				flex-direction: column;
+				gap: 0.75rem;
+			}
+			.signal-card {
+				padding: 1rem 1rem 0.95rem;
+				text-decoration: none;
+				color: inherit;
+				display: flex;
+				flex-direction: column;
+				gap: 0.65rem;
+				min-height: 0;
+				justify-content: flex-start;
+			}
+			.signal-header {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				gap: 1rem;
+			}
+			.signal-meta-row {
+				display: inline-flex;
+				align-items: center;
+				gap: 0.5rem;
+				flex-wrap: wrap;
+			}
+			.signal-meta {
+				font-family: var(--font-mono);
+				font-size: 0.72rem;
+				letter-spacing: 0.06em;
+				text-transform: uppercase;
+				color: var(--ink-soft);
+				margin: 0;
+			}
+			.signal-pin {
+				display: inline-flex;
+				align-items: center;
+				padding: 0.12rem 0.42rem;
+				border-radius: 999px;
+				background: var(--accent-soft);
+				color: var(--accent-dark);
+				font-size: 0.7rem;
+				font-weight: 700;
+				letter-spacing: 0.02em;
+			}
+			.signal-date {
+				margin: 0;
+				font-size: 0.78rem;
+				color: var(--ink-soft);
+			}
+			.signal-card h3 {
+				margin: 0;
+			}
+			.signal-card > p {
+				margin: 0;
+			}
+			.signal-cta {
+				display: inline-flex;
+				align-items: center;
+				gap: 0.45rem;
+				font-weight: 600;
+				color: var(--accent-dark);
+			}
+			.signal-platform {
+				background: var(--bg-card);
+			}
+			.signal-brand {
+				background: var(--bg-card);
+			}
+			.signal-guide {
+				background: var(--bg-card);
+			}
+			.signal-update {
+				background: var(--bg-card);
+			}
+			.signal-fallback {
+				padding: 1rem 1.2rem;
 			}
 			.post-list {
 				list-style: none;
 				padding: 0;
+				display: grid;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+				gap: 1rem;
 			}
 			.post-list li {
-				background: var(--bg-card);
-				border-radius: 8px;
-				padding: 1.5rem;
-				margin-bottom: 1rem;
-				transition: transform 0.2s;
+				padding: 1rem 1rem 0.95rem;
+				transition: transform 0.2s ease, border-color 0.2s ease;
 			}
 			.post-list li:hover {
 				transform: translateY(-2px);
+				border-color: rgba(15, 123, 255, 0.24);
 			}
 			.post-list a {
 				color: inherit;
 				text-decoration: none;
+				display: block;
+				height: 100%;
 			}
-			.post-list h3 {
-				color: var(--heading);
-				margin: 0 0 0.25rem 0;
-			}
-			.post-list .date {
-				color: var(--gray);
-				font-size: 0.85rem;
+			.post-kicker {
+				font-family: var(--font-mono);
+				font-size: 0.72rem;
+				letter-spacing: 0.06em;
+				text-transform: uppercase;
+				color: var(--ink-soft);
 				margin-bottom: 0.5rem;
 			}
+			.post-list h3 {
+				color: var(--ink);
+				margin: 0 0 0.5rem 0;
+			}
 			.post-list p {
-				color: var(--text);
+				margin: 0;
+			}
+			.browse-all {
+				margin-top: 1.5rem;
+			}
+			@media (max-width: 900px) {
+				.hero,
+				.post-list {
+					grid-template-columns: 1fr;
+				}
 			}
 		</style>
 	</body>

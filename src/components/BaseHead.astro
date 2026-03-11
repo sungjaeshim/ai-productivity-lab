@@ -30,7 +30,7 @@ const isArticle = !!article;
 const websiteSchema = {
 	"@context": "https://schema.org",
 	"@type": "WebSite",
-	"name": "AI Productivity Lab",
+	"name": "AI Snowball",
 	"description": SITE_DESCRIPTION,
 	"url": Astro.site?.toString(),
 	"inLanguage": ["ko", "en"],
@@ -55,11 +55,11 @@ const articleSchema = article ? {
 	"dateModified": article.modifiedTime || article.publishedTime,
 	"author": {
 		"@type": "Person",
-		"name": article.author || "AI Productivity Lab"
+		"name": article.author || "AI Snowball"
 	},
 	"publisher": {
 		"@type": "Organization",
-		"name": "AI Productivity Lab",
+		"name": "AI Snowball",
 		"logo": {
 			"@type": "ImageObject",
 			"url": new URL('/favicon.svg', Astro.site).toString()
@@ -71,8 +71,6 @@ const articleSchema = article ? {
 	}
 } : null;
 
-// hreflang - 언어별 대체 URL
-const altLang = lang === 'ko' ? 'en' : 'ko';
 ---
 
 <!-- Global Metadata -->
@@ -100,7 +98,7 @@ const altLang = lang === 'ko' ? 'en' : 'ko';
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
-<meta name="author" content="AI Productivity Lab" />
+<meta name="author" content="AI Snowball" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={isArticle ? "article" : "website"} />
@@ -110,7 +108,7 @@ const altLang = lang === 'ko' ? 'en' : 'ko';
 <meta property="og:image" content={ogImage} />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:site_name" content="AI Productivity Lab" />
+<meta property="og:site_name" content="AI Snowball" />
 <meta property="og:locale" content={lang === 'ko' ? 'ko_KR' : 'en_US'} />
 
 {isArticle && article?.publishedTime && (
@@ -129,8 +127,8 @@ const altLang = lang === 'ko' ? 'en' : 'ko';
 
 <!-- Schema.org JSON-LD -->
 {isHomePage && (
-	<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+	<script is:inline type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 )}
 {isArticle && articleSchema && (
-	<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+	<script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 )}

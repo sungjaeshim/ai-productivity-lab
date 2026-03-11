@@ -10,7 +10,7 @@ function collectMarkdownFilesFromDir(dirPath) {
   if (!fs.existsSync(dirPath)) return [];
   return fs
     .readdirSync(dirPath)
-    .filter((name) => name.endsWith('.md'))
+    .filter((name) => name.endsWith('.md') || name.endsWith('.mdx'))
     .map((name) => path.join(dirPath, name));
 }
 
@@ -19,7 +19,7 @@ function resolveInputFiles(argvFiles) {
 
   return argvFiles
     .map((file) => path.isAbsolute(file) ? file : path.join(repoRoot, file))
-    .filter((file) => file.endsWith('.md'))
+    .filter((file) => file.endsWith('.md') || file.endsWith('.mdx'))
     .filter((file) => fs.existsSync(file));
 }
 
@@ -51,16 +51,13 @@ for (const file of files) {
   const hasPubDate = /^pubDate\s*:/m.test(fm);
   const hasDate = /^date\s*:/m.test(fm);
 
-  if (!hasPubDate) {
-    const hint = hasDate
-      ? 'found `date:` only → rename to `pubDate:`'
-      : 'add `pubDate: YYYY-MM-DD`';
-    violations.push(`${rel}: missing required pubDate (${hint})`);
+  if (!hasPubDate && !hasDate) {
+    violations.push(`${rel}: missing required publish date (add \`pubDate:\` or \`date:\`)`);
   }
 }
 
 if (violations.length) {
-  console.error('\n❌ Frontmatter validation failed. `pubDate` is required for all blog posts.\n');
+  console.error('\n❌ Frontmatter validation failed. `pubDate` or `date` is required for all blog posts.\n');
   for (const v of violations) console.error(`- ${v}`);
   console.error('\nFix the items above, then push again.\n');
   process.exit(1);

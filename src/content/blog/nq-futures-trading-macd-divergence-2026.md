@@ -2,7 +2,8 @@
 title: "NQ Futures Trading: Mastering MACD Divergence Strategies for Nasdaq-100"
 description: "Learn advanced NQ futures trading strategies using MACD divergence. Discover how to identify trend reversals, manage risk, and build a profitable trading system for Nasdaq-100 futures."
 pubDate: 2026-02-24
-heroImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&q=80&fit=crop"
+heroImage: "/hero/nq-macd-divergence.svg"
+heroImageAlt: "NQ MACD divergence editorial cover"
 category: "Trading"
 tags: ["NQ futures", "MACD divergence", "algorithmic trading", "risk management", "Nasdaq-100"]
 ---

@@ -1,7 +1,18 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist"],
+  "include": [
+    ".astro/types.d.ts",
+    "src/**/*",
+    "astro.config.mjs"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    ".vercel",
+    "playwright-report",
+    "test-results",
+    "ai-productivity-lab"
+  ],
   "compilerOptions": {
     "strictNullChecks": true
   }

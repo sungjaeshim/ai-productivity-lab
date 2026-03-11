@@ -17,7 +17,7 @@ const lang = isKorean ? 'ko' : 'en';
 const articleMeta = {
 	publishedTime: pubDate.toISOString(),
 	modifiedTime: updatedDate?.toISOString(),
-	author: "AI Productivity Lab"
+	author: 'AI Snowball'
 };
 ---
 
@@ -32,49 +32,109 @@ const articleMeta = {
 		/>
 		<style>
 			main {
-				width: calc(100% - 2em);
+				width: min(var(--reading-width) + 120px, calc(100% - 2rem));
 				max-width: 100%;
-				margin: 0;
+				margin: 0 auto;
+			}
+			.story-shell {
+				display: grid;
+				grid-template-columns: minmax(0, 1fr);
+				gap: 1rem;
+			}
+			.hero-block {
+				padding: 1.25rem 1.25rem 1.1rem;
+				background: var(--bg-card);
 			}
 			.hero-image {
 				width: 100%;
-				max-width: 720px;
-				margin: 0 auto 1rem;
+				max-width: 100%;
+				margin: 0 auto;
 			}
 			.hero-image img {
-				display: block;
-				width: 100%;
-				height: auto;
-				border-radius: 12px;
+				border-radius: 10px;
+				border: 1px solid var(--border);
 			}
 			.hero-credit {
-				text-align: center;
-				font-size: 0.8rem;
-				color: var(--gray);
+				text-align: left;
+				font-size: 0.75rem;
+				color: var(--ink-soft);
 				margin-top: 0.5rem;
 			}
 			.prose {
-				width: 720px;
-				max-width: calc(100% - 2em);
+				width: min(var(--reading-width), 100%);
+				max-width: 100%;
 				margin: auto;
-				padding: 1em;
-				color: var(--text);
+				padding: 1rem 0 0;
+				color: var(--ink);
 			}
 			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
-				text-align: center;
-				line-height: 1;
+				margin-bottom: 1rem;
+				padding: 0;
+				text-align: left;
+				line-height: 1.15;
 			}
 			.title h1 {
-				margin: 0 0 0.5em 0;
+				margin: 0 0 0.5rem 0;
+				max-width: 100%;
+				font-size: clamp(1.85rem, 3.8vw, 2.5rem);
 			}
 			.date {
-				margin-bottom: 0.5em;
-				color: var(--gray);
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.5rem 1rem;
+				align-items: center;
+				margin-bottom: 0.85rem;
+				color: var(--ink-soft);
+				font-size: 0.84rem;
+				font-family: var(--font-mono);
+				letter-spacing: 0.03em;
 			}
 			.last-updated-on {
-				font-style: italic;
+				font-style: normal;
+			}
+			.deck {
+				max-width: 64ch;
+				font-size: 0.98rem;
+				margin-bottom: 0;
+			}
+			.story-meta {
+				display: flex;
+				align-items: center;
+				gap: 0.55rem;
+				margin-bottom: 0.85rem;
+				flex-wrap: wrap;
+			}
+			.story-kicker {
+				font-family: var(--font-mono);
+				font-size: 0.72rem;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+				color: var(--ink-soft);
+			}
+			hr {
+				margin: 1rem 0 0;
+			}
+			.prose :global(p),
+			.prose :global(li) {
+				font-size: 1rem;
+			}
+			.prose :global(h2) {
+				margin-top: 2.2rem;
+			}
+			.prose :global(h3) {
+				margin-top: 1.5rem;
+			}
+			.prose :global(ul),
+			.prose :global(ol) {
+				padding-left: 1.2rem;
+			}
+			@media (max-width: 720px) {
+				.hero-block {
+					padding: 1rem 1rem 0.9rem;
+				}
+				.prose {
+					padding-top: 0.8rem;
+				}
 			}
 		</style>
 	</head>
@@ -83,28 +143,39 @@ const articleMeta = {
 		<Header />
 		<main>
 			<article>
-				{heroImage && (
-					<div class="hero-image">
-						<img src={heroImage} alt={heroImageAlt || title} loading="lazy" width="720" height="405" />
-						{heroImageCredit && <p class="hero-credit" set:html={heroImageCredit} />}
-					</div>
-				)}
-				<div class="prose">
-					<div class="title">
-						<div class="date">
-							<FormattedDate date={pubDate} />
-							{
-								updatedDate && (
-									<div class="last-updated-on">
-										{lang === 'ko' ? '마지막 수정: ' : 'Last updated: '}<FormattedDate date={updatedDate} />
-									</div>
-								)
-							}
+				<div class="story-shell">
+					<div class="hero-block panel">
+						<div class="prose">
+							<div class="story-meta">
+								<span class="eyebrow">{lang === 'ko' ? 'Field Guide' : 'Operator Note'}</span>
+								<span class="story-kicker">AI Snowball</span>
+							</div>
+							<div class="title">
+								<div class="date">
+									<span><FormattedDate date={pubDate} /></span>
+									{
+										updatedDate && (
+											<div class="last-updated-on">
+												{lang === 'ko' ? '마지막 수정' : 'Updated'} <FormattedDate date={updatedDate} />
+											</div>
+										)
+									}
+								</div>
+								<h1 class="line-clamp-3">{title}</h1>
+								<p class="deck">{description}</p>
+								<hr />
+							</div>
 						</div>
-						<h1>{title}</h1>
-						<hr />
+						{heroImage && (
+							<div class="hero-image">
+								<img src={heroImage} alt={heroImageAlt || title} loading="eager" decoding="async" width="1440" height="810" />
+								{heroImageCredit && <p class="hero-credit" set:html={heroImageCredit} />}
+							</div>
+						)}
 					</div>
-					<slot />
+					<div class="prose">
+						<slot />
+					</div>
 				</div>
 			</article>
 		</main>

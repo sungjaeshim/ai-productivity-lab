@@ -1,15 +1,14 @@
 ---
 import '../styles/global.css';
 
-const { title, description } = Astro.props;
-// View Transitions
-import { ViewTransitions } from 'astro:transitions/client';
+import { ClientRouter } from 'astro:transitions';
 
 interface Props {
   title: string;
   description?: string;
 }
 
+const { description } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
@@ -23,67 +22,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
     <link rel="canonical" href={canonicalURL} />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="theme-color" content="#f5efe3" />
 
-    <ViewTransitions />
+    <ClientRouter />
   </head>
   <body>
     <slot />
   </body>
 </html>
-
-<style is:global>
-  :root {
-    --accent-color: #2563eb;
-    --accent-light: #60a5fa;
-    --bg-primary: #ffffff;
-    --bg-secondary: #f8fafc;
-    --text-primary: #1e293b;
-    --text-secondary: #475569;
-    --border-color: #e2e8f0;
-  }
-
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    color: var(--text-primary);
-    background: var(--bg-primary);
-    margin: 0;
-    padding: 0;
-  }
-
-  /* View Transitions 스타일 */
-  ::view-transition-old(root),
-  ::view-transition-new(root) {
-    animation-duration: 0.3s;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  ::view-transition-old(root) {
-    animation-name: fade-out;
-  }
-
-  ::view-transition-new(root) {
-    animation-name: fade-in;
-  }
-
-  @keyframes fade-out {
-    from {
-      opacity: 1;
-      transform: translateX(0);
-    }
-    to {
-      opacity: 0;
-      transform: translateX(-20px);
-    }
-  }
-
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-      transform: translateX(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-</style>

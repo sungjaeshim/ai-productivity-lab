@@ -8,7 +8,7 @@ function getMarkdownFiles(dir) {
   if (!fs.existsSync(dir)) return [];
   return fs
     .readdirSync(dir)
-    .filter((name) => name.endsWith('.md'))
+    .filter((name) => name.endsWith('.md') || name.endsWith('.mdx'))
     .map((name) => path.join(dir, name));
 }
 
