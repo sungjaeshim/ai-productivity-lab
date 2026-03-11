@@ -1,0 +1,31 @@
+{
+  "url": "https://agilestory.blog/3895520",
+  "title": "둘이면 더 똑똑해질 수 있을까",
+  "date": "2007년 10월 30일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:team-dynamics",
+    "scope:individual",
+    "kw:collaboration",
+    "ac2",
+    "ac2-content",
+    "collaboration",
+    "communication",
+    "content",
+    "team"
+  ],
+  "extracted_at": "2026-03-02T23:12:02.604675",
+  "post_id": "3895520",
+  "raw_file": "3895520.html",
+  "extraction_status": "success",
+  "text_length": 403,
+  "cleaned_file": "3895520.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.312259",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

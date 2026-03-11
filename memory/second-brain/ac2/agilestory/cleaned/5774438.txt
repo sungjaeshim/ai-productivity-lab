@@ -1,0 +1,1 @@
+alp=.(i.26)&+&.(a.&i.;)'A' f=.26&#. efn=.alp {~ }.@(1&, -&.f 1 #~ #)@(f inv) nfe=.[:f (' ',alp) &i.; e2n=. nfe :. efn NB. 여기까지가 코드이고 아래는 사용례 e2n 'ABC' 731 (3 + ])&.e2n 'AA' NB. AA에서 3칸 오른쪽으로 가면? AD (3 -~ ])&.e2n 'AA' NB. 왼쪽으로 3칸 가면? X e2n 'CRXO' 65535 e2n inv 65535 NB. inv는 좌측 동사를 역함수로 만듭니다 CRXO

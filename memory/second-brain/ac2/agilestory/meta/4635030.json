@@ -1,0 +1,27 @@
+{
+  "url": "https://agilestory.blog/4635030",
+  "title": "대안언어축제와 P-camp 연합행사 접수 시작",
+  "date": "2008년 9월 25일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "scope:general",
+    "ac2",
+    "ac2-content",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:13:30.239900",
+  "post_id": "4635030",
+  "raw_file": "4635030.html",
+  "extraction_status": "success",
+  "text_length": 348,
+  "cleaned_file": "4635030.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.693045",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://agilestory.blog/5154435",
+  "title": "내가 이 일을 하는 이유",
+  "date": "2009년 10월 28일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:organizational-change",
+    "role:product-owner",
+    "scope:general",
+    "kw:change",
+    "ac2",
+    "ac2-content",
+    "content",
+    "po",
+    "product"
+  ],
+  "extracted_at": "2026-03-02T23:17:34.382952",
+  "post_id": "5154435",
+  "raw_file": "5154435.html",
+  "extraction_status": "success",
+  "text_length": 1044,
+  "cleaned_file": "5154435.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:38.189286",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

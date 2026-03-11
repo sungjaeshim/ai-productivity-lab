@@ -1,0 +1,19 @@
+{
+  "id": "003",
+  "name": "Loop 3 Core routine cutover",
+  "scope": [
+    "아침 메일 triage",
+    "오늘 일정 브리핑"
+  ],
+  "definitionOfDone": [
+    "5영업일 무장애",
+    "생산성 20%+ 향상",
+    "장애 시 롤백 60초 이내"
+  ],
+  "kpi": {
+    "productivityLiftMin": 0.2,
+    "incidentCount": 0,
+    "rollbackSlaSec": 60
+  },
+  "rollbackCommand": "jq '.primary=\"gog\" | .canaryEnabled=false | .phase=\"rollback\" | .lastRollbackAt=now' data/gws-rollout-state.json > /tmp/gws-state.json && mv /tmp/gws-state.json data/gws-rollout-state.json"
+}

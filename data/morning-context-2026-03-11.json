@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-03-11T07:47:03.393406+09:00",
+  "is_weekday": true,
+  "briefing_sent": true,
+  "briefing_sent_at": "2026-03-11T08:57:20+09:00",
+  "nq": {
+    "data": null,
+    "status": "pending",
+    "note": "NQ signal check by cron"
+  },
+  "weather": {
+    "data": {
+      "temp": 0,
+      "feel": -1,
+      "condition": "Partly cloudy",
+      "high": 9,
+      "low": 2,
+      "source": "wttr.in"
+    },
+    "status": "ok"
+  },
+  "tasks": {
+    "data": [
+      {
+        "priority": 3,
+        "task": "A안으로 진행하고 기존꺼 3일간만 다시 보고 리포팅하기",
+        "project": "queue",
+        "due": null,
+        "source": "todoist-api:today"
+      },
+      {
+        "priority": 3,
+        "task": "inbox 에들어온건 니가 알아서 판단해서 todoy 에가고 거기서 처리 된거 안된거 니가 정리해서 주는거지 ? 그럼 내가 그거 처리하고",
+        "project": "queue",
+        "due": null,
+        "source": "todoist-api:today"
+      },
+      {
+        "priority": 3,
+        "task": "모니터링은 잘때 한번 하자 다른거 할때 같이해줘",
+        "project": "queue",
+        "due": null,
+        "source": "todoist-api:today"
+      }
+    ],
+    "status": "ok",
+    "source": "todoist-api:today",
+    "warning": null,
+    "total_count": 3
+  },
+  "active_count": 3,
+  "yesterday_summary": {
+    "data": "미해결: Config application is blocked on correct gateway tool/apply format; attempted patch failed with…",
+    "facts": [
+      "미해결: Config application is blocked on correct gateway tool/apply format; attempted patch failed with…"
+    ],
+    "sentence": "어제 기준으로 Config application is blocked on correct gateway tool/apply format; attempted patch failed with… 상태입니다.",
+    "status": "ok",
+    "source": "/root/.openclaw/workspace/memory/2026-03-10.md"
+  },
+  "intelligence_source": "intelligence-2026-03-11.json"
+}

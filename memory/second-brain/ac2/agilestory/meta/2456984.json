@@ -1,0 +1,33 @@
+{
+  "url": "https://agilestory.blog/2456984",
+  "title": "만화로 보는 익스트림 프로그래밍 서평",
+  "date": "2006년 8월 31일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:review",
+    "dom:agile-delivery",
+    "role:developer",
+    "scope:general",
+    "evidence:book",
+    "kw:agile",
+    "ac2",
+    "ac2-content",
+    "agile",
+    "book",
+    "content",
+    "developer"
+  ],
+  "extracted_at": "2026-03-02T23:08:13.785657",
+  "post_id": "2456984",
+  "raw_file": "2456984.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 126,
+  "recovered": true,
+  "cleaned_file": "2456984.md",
+  "recovered_at": "2026-03-02T23:36:36.505770",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

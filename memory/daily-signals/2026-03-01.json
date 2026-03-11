@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-01",
+  "trading": {
+    "macd_signals_count": 0,
+    "macd_direction": null,
+    "notes": "오늘 MACD 시그널 없음"
+  },
+  "running": {
+    "runs_today": 0,
+    "distance_km": 0,
+    "notes": "Strava 기록 없음"
+  },
+  "productivity": {
+    "todoist_completed": 0,
+    "todoist_active": 2,
+    "todoist_queue": 1,
+    "todoist_waiting": 1
+  },
+  "mood": {
+    "positive_count": 0,
+    "negative_count": 0,
+    "judgments_count": 0
+  },
+  "blog": {
+    "published": false,
+    "notes": "오늘 블로그 발행 없음"
+  },
+  "notes_summary": "오늘 daily notes 생성됨",
+  "special_notes": ""
+}

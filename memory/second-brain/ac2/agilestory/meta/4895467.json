@@ -1,0 +1,31 @@
+{
+  "url": "https://agilestory.blog/4895467",
+  "title": "여자개발자모임터 2주년 기념행사 강연",
+  "date": "2009년 4월 22일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "role:developer",
+    "scope:general",
+    "evidence:talk",
+    "ac2",
+    "ac2-content",
+    "content",
+    "developer",
+    "event"
+  ],
+  "extracted_at": "2026-03-02T23:14:36.160432",
+  "post_id": "4895467",
+  "raw_file": "4895467.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 487,
+  "recovered": true,
+  "cleaned_file": "4895467.md",
+  "recovered_at": "2026-03-02T23:36:37.913759",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

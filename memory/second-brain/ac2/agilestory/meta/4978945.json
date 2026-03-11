@@ -1,0 +1,32 @@
+{
+  "url": "https://agilestory.blog/4978945",
+  "title": "나의 첫 위기지학 프로그램",
+  "date": "2009년 5월 30일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:decision",
+    "use:execution",
+    "dom:decision-making",
+    "dom:learning-science",
+    "scope:general",
+    "kw:learning",
+    "ac2",
+    "ac2-content",
+    "content",
+    "education",
+    "learning"
+  ],
+  "extracted_at": "2026-03-02T23:14:53.265837",
+  "post_id": "4978945",
+  "raw_file": "4978945.html",
+  "extraction_status": "success",
+  "text_length": 2695,
+  "cleaned_file": "4978945.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.963444",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

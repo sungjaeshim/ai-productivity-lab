@@ -1,0 +1,12 @@
+2026-02-27T13:31:29+0900 | engine=rust     | duration=     4ms | status=success    | entities=   1
+2026-02-27T13:31:32+0900 | engine=rust     | duration=     4ms | status=success    | entities=   3
+2026-02-27T13:31:34+0900 | engine=python   | duration=     0ms | status=failed     | entities=   0
+2026-02-27T13:31:54+0900 | engine=python   | duration=    80ms | status=success    | entities=   3
+2026-02-27T13:32:09+0900 | engine=python   | duration=    82ms | status=success    | entities=   0
+2026-02-27T13:32:49+0900 | engine=rust     | duration=     3ms | status=success    | entities=   3
+2026-02-27T13:32:55+0900 | engine=python   | duration=    65ms | status=success    | entities=   3
+2026-02-27T13:32:58+0900 | engine=python_fallback | duration=    67ms | status=success    | entities=   3
+2026-02-27T13:33:10+0900 | engine=rust     | duration=     3ms | status=success    | entities=   3
+2026-02-27T13:33:10+0900 | engine=rust     | duration=    10ms | status=success    | entities=   3
+2026-02-27T13:33:10+0900 | engine=python   | duration=    82ms | status=success    | entities=   3
+2026-02-27T13:33:10+0900 | engine=rust     | duration=     4ms | status=success    | entities=   3

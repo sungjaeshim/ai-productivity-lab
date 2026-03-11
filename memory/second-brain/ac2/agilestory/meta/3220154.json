@@ -1,0 +1,32 @@
+{
+  "url": "https://agilestory.blog/3220154",
+  "title": "발명의 근본",
+  "date": "2007년 3월 21일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:cognitive-psychology",
+    "dom:organizational-change",
+    "scope:individual",
+    "scope:org",
+    "evidence:book",
+    "ac2",
+    "ac2-content",
+    "book",
+    "content",
+    "psychology"
+  ],
+  "extracted_at": "2026-03-02T23:10:30.104538",
+  "post_id": "3220154",
+  "raw_file": "3220154.html",
+  "extraction_status": "success",
+  "text_length": 1613,
+  "cleaned_file": "3220154.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:36.992479",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

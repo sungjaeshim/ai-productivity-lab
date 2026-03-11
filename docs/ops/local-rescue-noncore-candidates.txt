@@ -1,0 +1,23 @@
+# Local-rescue non-core patch candidates (2026-03-10)
+
+## Retired candidates
+
+These are now treated as retired candidates:
+- model-selection*
+- gateway-cli*
+- auth-profiles*
+
+## Why
+
+They are retired candidates because:
+- they are not part of the core-only operating path,
+- they are not currently treated as lane identity-defining policy patches,
+- the legacy full restore path is no longer a valid current operational recovery path,
+- current installed dist does not contain the legacy target filenames,
+- they can be preserved as historical snapshot/reference material without remaining in the active recovery model.
+
+## Operational note
+
+- Do not include these in core-only recovery.
+- Do not treat them as active runtime requirements.
+- Preserve only as legacy/archive material unless future evidence proves they are needed again.

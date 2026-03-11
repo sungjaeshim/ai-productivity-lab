@@ -1,0 +1,28 @@
+{
+  "url": "https://agilestory.blog/3777517",
+  "title": "CC Real Mixter",
+  "date": "2007년 9월 15일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "scope:general",
+    "evidence:field-case",
+    "ac2",
+    "ac2-content",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:11:45.606111",
+  "post_id": "3777517",
+  "raw_file": "3777517.html",
+  "extraction_status": "success",
+  "text_length": 360,
+  "cleaned_file": "3777517.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.254093",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

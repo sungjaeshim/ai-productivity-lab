@@ -1,0 +1,56 @@
+project_name: Autonomous Dev Studio
+slug: autonomous-dev-studio
+
+subtitle: Prototype fast, review clearly
+audience: engineering stakeholders
+
+purpose: >
+  AI 에이전트와 자동화 도구를 활용해 제품 아이디어를 빠르게 프로토타이핑하고,
+  문서와 시각 산출물까지 일관되게 생성하는 개발 스튜디오
+
+core_activities:
+  - 제품 아이디어 구체화
+  - 에이전트 기반 구현 실험
+  - 기술 문서 자동 생성
+  - 데모 자산 제작
+
+workflow:
+  - 문제 정의
+  - 솔루션 스케치
+  - 프로토타입 구현
+  - 검토 및 문서화
+  - 데모 공유
+
+example_projects:
+  - internal tool prototype
+  - agent-assisted architecture brief
+  - auto-generated stakeholder update
+  - demo asset pack
+
+keywords:
+  - Agents
+  - Prototyping
+  - Docs
+  - Demo
+
+style:
+  tone: practical
+  visual: showcase-tech
+  theme: dark-on-light
+
+outputs:
+  diagram:
+    title: Dev Studio Workflow
+    format:
+      - drawio
+      - png
+  docs:
+    title: Dev Studio Intro
+    format:
+      - odt
+      - pdf
+  assets:
+    title: Dev Studio Cover
+    format:
+      - svg
+      - png

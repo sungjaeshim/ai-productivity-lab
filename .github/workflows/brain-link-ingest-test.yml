@@ -1,0 +1,48 @@
+name: brain-link-ingest-test
+
+on:
+  push:
+    paths:
+      - "scripts/brain-link-ingest.sh"
+      - "scripts/env-loader.sh"
+      - "tests/test_brain_link_ingest.sh"
+      - ".github/workflows/brain-link-ingest-test.yml"
+  pull_request:
+    paths:
+      - "scripts/brain-link-ingest.sh"
+      - "scripts/env-loader.sh"
+      - "tests/test_brain_link_ingest.sh"
+      - ".github/workflows/brain-link-ingest-test.yml"
+  schedule:
+    # Every 30 minutes (UTC)
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Make test executable
+        run: chmod +x tests/test_brain_link_ingest.sh
+
+      - name: Run brain-link-ingest regression test
+        run: tests/test_brain_link_ingest.sh
+
+      - name: Notify Telegram on failure
+        if: failure() && github.event_name != 'pull_request' && env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHAT_ID != ''
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          BRANCH_NAME: ${{ github.ref_name }}
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          MSG="🚨 brain-link-ingest-test 실패\nrepo: ${{ github.repository }}\nbranch: ${BRANCH_NAME}\ncommit: ${COMMIT_SHA}\nrun: ${RUN_URL}"
+          curl -sS -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=${MSG}" >/dev/null

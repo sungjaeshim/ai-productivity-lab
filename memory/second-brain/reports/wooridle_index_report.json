@@ -1,0 +1,210 @@
+{
+  "generated_at": "2026-03-04T22:53:22.163150",
+  "doc_count": 128,
+  "db_path": "/root/.openclaw/workspace/memory/second-brain/manifests/wooridle_search.db",
+  "docs_jsonl": "/root/.openclaw/workspace/memory/second-brain/manifests/wooridle_docs.jsonl",
+  "benchmark": {
+    "avg_latency_ms": 0.201,
+    "p95_latency_ms": 0.199,
+    "queries": {
+      "코칭": {
+        "match_count_top5": 5,
+        "latency_ms": 0.901,
+        "top": [
+          {
+            "doc_id": "2026-02-24-wooridle-korean",
+            "title": "코칭",
+            "score": -1.399118863696824
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-korean-bakorean",
+            "title": "코칭 바이블",
+            "score": -1.36884003413619
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-daemun",
+            "title": "대문",
+            "score": -1.323895403356186
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-koreansilrikorean-koreanui-korean",
+            "title": "퍼실리테이션과 코칭의 비교",
+            "score": -1.322730574603831
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-chaek-koreanui-5gakorean-korean",
+            "title": "책 코칭의 5가지 비밀",
+            "score": -1.3196070824341497
+          }
+        ]
+      },
+      "애자일": {
+        "match_count_top5": 5,
+        "latency_ms": 0.199,
+        "top": [
+          {
+            "doc_id": "2026-02-24-wooridle-korean-masil-aejail-sogae",
+            "title": "오이씨 마실 - 애자일 소개",
+            "score": -1.5158204956786585
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-nassimtaleb",
+            "title": "NassimTaleb",
+            "score": -1.4650600104251765
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-geraldweinberg",
+            "title": "GeraldWeinberg",
+            "score": -1.4288622728234817
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-alistaircockburn",
+            "title": "AlistairCockburn",
+            "score": -1.4208835784095022
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-plop",
+            "title": "PLoP",
+            "score": -1.417716994511291
+          }
+        ]
+      },
+      "리더십": {
+        "match_count_top5": 5,
+        "latency_ms": 0.096,
+        "top": [
+          {
+            "doc_id": "2026-02-24-wooridle-chaek-slack",
+            "title": "책 Slack",
+            "score": -4.606088790128709
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-peterdrucker",
+            "title": "PeterDrucker",
+            "score": -4.606088790128709
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-chaek-hardfacts",
+            "title": "책 HardFacts",
+            "score": -4.51551913776669
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-chaek-chimmukeuro-gareukoreangi",
+            "title": "책 침묵으로 가르치기",
+            "score": -4.495874138081247
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-chaek-becoming-a-technical-leader",
+            "title": "책 Becoming A Technical Leader",
+            "score": -4.447501425312454
+          }
+        ]
+      },
+      "학습": {
+        "match_count_top5": 5,
+        "latency_ms": 0.117,
+        "top": [
+          {
+            "doc_id": "2026-02-24-wooridle-petersenge",
+            "title": "PeterSenge",
+            "score": -2.4554370745447462
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-doublelooplearning",
+            "title": "DoubleLoopLearning",
+            "score": -2.39055788508544
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-categoryfacilitation",
+            "title": "CategoryFacilitation",
+            "score": -2.3823185938211537
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-communityofpractice",
+            "title": "CommunityOfPractice",
+            "score": -2.3446076373354994
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-commonlisp",
+            "title": "CommonLisp",
+            "score": -2.3366815208518514
+          }
+        ]
+      },
+      "의사결정": {
+        "match_count_top5": 4,
+        "latency_ms": 0.119,
+        "top": [
+          {
+            "doc_id": "2026-02-24-wooridle-chrisargyris",
+            "title": "ChrisArgyris",
+            "score": -5.8858636501754615
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-chaek-hardfacts",
+            "title": "책 HardFacts",
+            "score": -4.239226866796853
+          },
+          {
+            "doc_id": "wooridle-library",
+            "title": "wooridle-library",
+            "score": -0.7826322569728991
+          },
+          {
+            "doc_id": "wooridle-full",
+            "title": "wooridle-full",
+            "score": -0.611793339463593
+          }
+        ]
+      },
+      "ORID": {
+        "match_count_top5": 1,
+        "latency_ms": 0.053,
+        "top": [
+          {
+            "doc_id": "wooridle-library",
+            "title": "wooridle-library",
+            "score": -1.047205747803258
+          }
+        ]
+      },
+      "ADKAR": {
+        "match_count_top5": 0,
+        "latency_ms": 0.036,
+        "top": []
+      },
+      "퍼실리테이션": {
+        "match_count_top5": 5,
+        "latency_ms": 0.085,
+        "top": [
+          {
+            "doc_id": "2026-02-24-wooridle-koreansilrikoreanbunkorean",
+            "title": "퍼실리테이션분류",
+            "score": -5.377151904456875
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-koreansilrikorean",
+            "title": "퍼실리테이션",
+            "score": -4.560565927377714
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-koreansilrikorean-koreanui-korean",
+            "title": "퍼실리테이션과 코칭의 비교",
+            "score": -4.27336874279156
+          },
+          {
+            "doc_id": "2026-02-24-wooridle-categoryfacilitation",
+            "title": "CategoryFacilitation",
+            "score": -4.109616695006571
+          },
+          {
+            "doc_id": "wooridle-library",
+            "title": "wooridle-library",
+            "score": -2.297648681457853
+          }
+        ]
+      }
+    }
+  },
+  "status": "ok"
+}

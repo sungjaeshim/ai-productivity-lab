@@ -1,0 +1,28 @@
+{
+  "url": "https://agilestory.blog/2973245",
+  "title": "불합격 통지",
+  "date": "2007년 1월 12일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "scope:individual",
+    "evidence:field-case",
+    "ac2",
+    "ac2-content",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:09:51.192912",
+  "post_id": "2973245",
+  "raw_file": "2973245.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 1488,
+  "recovered": true,
+  "cleaned_file": "2973245.md",
+  "recovered_at": "2026-03-02T23:36:36.874222",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

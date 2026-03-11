@@ -1,0 +1,225 @@
+#!/bin/bash
+# Audio Worker Entrypoint
+# Routes audio files to inline processing (A) or worker topic processing (B)
+
+set -euo pipefail
+
+# Configuration
+WORKSPACE="${WORKSPACE:-$(pwd)}"
+WORKER_TOPIC="${WORKER_TOPIC:--1001234567890:topic:42}"  # Default worker topic
+MAIN_TOPIC="${MAIN_TOPIC:--1001234567890}"  # Default main group
+THRESHOLD_MB="${THRESHOLD_MB:-10.0}"
+DOWNLOAD_DIR="${WORKSPACE}/tmp/downloads"
+TRANSCRIPT_DIR="${WORKSPACE}/transcripts"
+DOCUMENT_DIR="${WORKSPACE}/documents"
+
+# Setup directories
+mkdir -p "${DOWNLOAD_DIR}" "${TRANSCRIPT_DIR}" "${DOCUMENT_DIR}"
+
+log() {
+  echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] audio_worker: $*"
+}
+
+# Route selection function
+select_route() {
+  local size_bytes="$1"
+  local size_mb
+
+  size_mb=$(echo "scale=2; ${size_bytes} / (1024 * 1024)" | bc)
+
+  if (( $(echo "${size_mb} <= ${THRESHOLD_MB}" | bc -l) )); then
+    echo "A:${size_mb}"
+  else
+    echo "B:${size_mb}"
+  fi
+}
+
+# Format status message for main topic
+format_main_status() {
+  local status="$1"
+  local filename="${2:-unknown}"
+  local size_mb="${3:-0}"
+  local detail="${4:-}"
+
+  case "${status}" in
+    received)
+      echo "📎 received ${filename} (${size_mb} MB)"
+      ;;
+    processing)
+      echo "⏳ processing (${detail}) → worker topic"
+      ;;
+    done)
+      echo "✅ done: ${detail}"
+      ;;
+    failed)
+      echo "❌ failed: ${detail}"
+      ;;
+    *)
+      echo "? ${status}: ${detail}"
+      ;;
+  esac
+}
+
+# Main function
+main() {
+  local input="$1"
+  local original_message_id="${2:-}"
+
+  log "Starting worker with input: ${input}"
+
+  # Check if input is URL or local file
+  local local_path
+  if [[ "${input}" =~ ^https?:// ]]; then
+    # URL download
+    log "Downloading from URL: ${input}"
+    local filename
+    filename=$(basename "${input}")
+    local_path="${DOWNLOAD_DIR}/${filename}"
+    curl -fsSL --max-time 300 -o "${local_path}" "${input}" || {
+      log "Failed to download: ${input}"
+      format_main_status "failed" "${filename}" "?" "FETCH_DENIED"
+      return 1
+    }
+  else
+    # Local file
+    local_path="${input}"
+    if [[ ! -f "${local_path}" ]]; then
+      log "File not found: ${local_path}"
+      format_main_status "failed" "?" "?" "DEL_MISSING"
+      return 1
+    fi
+  fi
+
+  local size_bytes
+  size_bytes=$(stat -f%z "${local_path}" 2>/dev/null || stat -c%s "${local_path}")
+
+  # Select route
+  local route_info
+  route_info=$(select_route "${size_bytes}")
+  local route="${route_info%%:*}"
+  local size_mb="${route_info##*:}"
+
+  local filename
+  filename=$(basename "${local_path}")
+
+  log "Route selected: ${route} (size: ${size_mb} MB)"
+
+  # Send status to main topic (if MAIN_TOPIC is set)
+  if [[ -n "${MAIN_TOPIC}" && -n "${OPENCLAW_MESSAGE_TOOL:-}" ]]; then
+    format_main_status "received" "${filename}" "${size_mb}"
+    if [[ "${route}" == "B" ]]; then
+      format_main_status "processing" "${filename}" "${size_mb}" "route B"
+    fi
+  fi
+
+  # Process based on route
+  case "${route}" in
+    A)
+      log "Route A: Inline processing with small model"
+      # Inline processing would happen via OpenClaw's media understanding
+      # This script is mainly for route B (worker)
+      ;;
+    B)
+      log "Route B: Worker processing with medium model"
+
+      # Run transcription
+      local model="medium"
+      local timeout_sec=1800
+
+      log "Starting Whisper: model=${model}, timeout=${timeout_sec}s"
+      local output_base
+      output_base="${TRANSCRIPT_DIR}/$(basename "${local_path}" | sed 's/\.[^.]*$//')"
+
+      if command -v whisper &>/dev/null; then
+        whisper \
+          "${local_path}" \
+          --model "${model}" \
+          --language Korean \
+          --output_format txt \
+          --output_dir "${TRANSCRIPT_DIR}" \
+          --output_format txt \
+          || {
+            log "Whisper failed"
+            format_main_status "failed" "${filename}" "${size_mb}" "TRANSCRIBE_FAIL"
+            return 1
+          }
+      else
+        log "Whisper not found, skipping transcription"
+        format_main_status "failed" "${filename}" "${size_mb}" "TRANSCRIBE_FAIL"
+        return 1
+      fi
+
+      # Find transcript file
+      local transcript_file
+      transcript_file=$(ls -1 "${output_base}"*.txt 2>/dev/null | head -n1)
+
+      if [[ ! -f "${transcript_file}" ]]; then
+        log "Transcript file not found"
+        format_main_status "failed" "${filename}" "${size_mb}" "TRANSCRIPT_FAIL"
+        return 1
+      fi
+
+      log "Transcript saved to: ${transcript_file}"
+
+      # Generate document
+      local document_file="${DOCUMENT_DIR}/$(basename "${transcript_file}" .txt).md"
+      cat > "${document_file}" << EOF
+# Audio Transcript
+
+**Source:** ${input}
+**File:** ${filename}
+**Size:** ${size_mb} MB
+**Processed:** $(date -u +%Y-%m-%dT%H:%M:%SZ)
+**Model:** ${model}
+
+## Transcript
+
+$(cat "${transcript_file}")
+
+---
+
+Generated by OpenClaw Audio Worker
+EOF
+
+      log "Document saved to: ${document_file}"
+
+      # Send completion status to main topic
+      format_main_status "done" "${filename}" "${size_mb}" "${document_file}"
+
+      log "Worker processing complete"
+      ;;
+    *)
+      log "Unknown route: ${route}"
+      return 1
+      ;;
+  esac
+}
+
+# Check if running as OpenClaw tool or standalone
+if [[ "${1:-}" == "--help" || "${1:-}" == "-h" ]]; then
+  cat << EOF
+Audio Worker Entrypoint
+
+Routes audio files to inline processing (A) or worker topic processing (B).
+
+Usage:
+  $0 <input> [message_id]
+
+Environment:
+  WORKSPACE        Workspace root (default: pwd)
+  WORKER_TOPIC    Worker topic ID (default: -1001234567890:topic:42)
+  MAIN_TOPIC       Main group ID (default: -1001234567890)
+  THRESHOLD_MB     Size threshold MB (default: 10.0)
+
+Routes:
+  A (≤${THRESHOLD_MB}MB): Inline processing with small model
+  B (>${THRESHOLD_MB}MB): Worker processing with medium model
+
+Exit codes:
+  0 - Success
+  1 - Failure (check logs)
+EOF
+  exit 0
+fi
+
+main "$@"

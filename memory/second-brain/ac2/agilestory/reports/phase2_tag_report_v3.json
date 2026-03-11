@@ -1,0 +1,489 @@
+{
+  "generated_at": "2026-03-03T07:28:04.310Z",
+  "version": "ac2_taxonomy_v3_tuned_tl",
+  "ac2_dir": "/root/.openclaw/workspace/memory/second-brain/ac2",
+  "meta_retag": {
+    "total": 373,
+    "updated": 373
+  },
+  "indexed_files": {
+    "core": 12,
+    "content": 373,
+    "report": 7
+  },
+  "unique_tags": 118,
+  "top_tags": [
+    {
+      "tag": "src:ac2",
+      "count": 392
+    },
+    {
+      "tag": "ac2",
+      "count": 392
+    },
+    {
+      "tag": "kind:content",
+      "count": 373
+    },
+    {
+      "tag": "ac2-content",
+      "count": 373
+    },
+    {
+      "tag": "content",
+      "count": 373
+    },
+    {
+      "tag": "use:execution",
+      "count": 316
+    },
+    {
+      "tag": "evidence:field-case",
+      "count": 229
+    },
+    {
+      "tag": "scope:individual",
+      "count": 198
+    },
+    {
+      "tag": "dom:cognitive-psychology",
+      "count": 174
+    },
+    {
+      "tag": "psychology",
+      "count": 174
+    },
+    {
+      "tag": "evidence:book",
+      "count": 171
+    },
+    {
+      "tag": "book",
+      "count": 171
+    },
+    {
+      "tag": "dom:organizational-change",
+      "count": 158
+    },
+    {
+      "tag": "scope:general",
+      "count": 147
+    },
+    {
+      "tag": "dom:learning-science",
+      "count": 146
+    },
+    {
+      "tag": "education",
+      "count": 146
+    },
+    {
+      "tag": "learning",
+      "count": 146
+    },
+    {
+      "tag": "use:coaching",
+      "count": 142
+    },
+    {
+      "tag": "evidence:talk",
+      "count": 119
+    },
+    {
+      "tag": "event",
+      "count": 119
+    },
+    {
+      "tag": "role:developer",
+      "count": 114
+    },
+    {
+      "tag": "developer",
+      "count": 114
+    },
+    {
+      "tag": "dom:decision-making",
+      "count": 113
+    },
+    {
+      "tag": "scope:org",
+      "count": 110
+    },
+    {
+      "tag": "use:decision",
+      "count": 108
+    },
+    {
+      "tag": "collaboration",
+      "count": 103
+    },
+    {
+      "tag": "method:xp",
+      "count": 102
+    },
+    {
+      "tag": "xp",
+      "count": 102
+    },
+    {
+      "tag": "team",
+      "count": 101
+    },
+    {
+      "tag": "kw:change",
+      "count": 101
+    },
+    {
+      "tag": "dom:team-dynamics",
+      "count": 98
+    },
+    {
+      "tag": "communication",
+      "count": 98
+    },
+    {
+      "tag": "dom:leadership",
+      "count": 91
+    },
+    {
+      "tag": "dom:general",
+      "count": 87
+    },
+    {
+      "tag": "kw:learning",
+      "count": 86
+    },
+    {
+      "tag": "scope:team",
+      "count": 84
+    },
+    {
+      "tag": "role:product-owner",
+      "count": 76
+    },
+    {
+      "tag": "po",
+      "count": 76
+    },
+    {
+      "tag": "product",
+      "count": 76
+    },
+    {
+      "tag": "dom:agile-delivery",
+      "count": 69
+    },
+    {
+      "tag": "kw:agile",
+      "count": 69
+    },
+    {
+      "tag": "agile",
+      "count": 69
+    },
+    {
+      "tag": "evidence:research-paper",
+      "count": 64
+    },
+    {
+      "tag": "research",
+      "count": 64
+    },
+    {
+      "tag": "role:coach",
+      "count": 56
+    },
+    {
+      "tag": "coaching",
+      "count": 56
+    },
+    {
+      "tag": "use:review",
+      "count": 48
+    },
+    {
+      "tag": "kw:feedback",
+      "count": 47
+    },
+    {
+      "tag": "kw:decision",
+      "count": 44
+    },
+    {
+      "tag": "method:feedback-loop",
+      "count": 43
+    },
+    {
+      "tag": "kw:collaboration",
+      "count": 42
+    },
+    {
+      "tag": "theory:transfer-of-training",
+      "count": 37
+    },
+    {
+      "tag": "role:leader",
+      "count": 33
+    },
+    {
+      "tag": "leadership",
+      "count": 33
+    },
+    {
+      "tag": "kw:expertise",
+      "count": 33
+    },
+    {
+      "tag": "method:tdd",
+      "count": 30
+    },
+    {
+      "tag": "kw:tdd",
+      "count": 30
+    },
+    {
+      "tag": "tdd",
+      "count": 30
+    },
+    {
+      "tag": "testing",
+      "count": 30
+    },
+    {
+      "tag": "role:project-manager",
+      "count": 27
+    },
+    {
+      "tag": "planning",
+      "count": 27
+    },
+    {
+      "tag": "pm",
+      "count": 27
+    },
+    {
+      "tag": "person:kent-beck",
+      "count": 26
+    },
+    {
+      "tag": "kw:communication",
+      "count": 25
+    },
+    {
+      "tag": "method:retrospective",
+      "count": 24
+    },
+    {
+      "tag": "feedback",
+      "count": 24
+    },
+    {
+      "tag": "retrospective",
+      "count": 24
+    },
+    {
+      "tag": "method:pair-programming",
+      "count": 21
+    },
+    {
+      "tag": "kw:pair-programming",
+      "count": 21
+    },
+    {
+      "tag": "pair-programming",
+      "count": 21
+    },
+    {
+      "tag": "method:refactoring",
+      "count": 21
+    },
+    {
+      "tag": "kw:refactoring",
+      "count": 21
+    },
+    {
+      "tag": "refactoring",
+      "count": 21
+    },
+    {
+      "tag": "theory:heuristics-biases",
+      "count": 18
+    },
+    {
+      "tag": "person:gerald-weinberg",
+      "count": 17
+    },
+    {
+      "tag": "person:ward-cunningham",
+      "count": 17
+    },
+    {
+      "tag": "kw:leadership",
+      "count": 16
+    },
+    {
+      "tag": "evidence:report",
+      "count": 16
+    },
+    {
+      "tag": "method:scrum",
+      "count": 16
+    },
+    {
+      "tag": "kw:scrum",
+      "count": 16
+    },
+    {
+      "tag": "scrum",
+      "count": 16
+    },
+    {
+      "tag": "kw:risk",
+      "count": 12
+    },
+    {
+      "tag": "method:deliberate-practice",
+      "count": 12
+    },
+    {
+      "tag": "theory:deliberate-practice",
+      "count": 12
+    },
+    {
+      "tag": "kind:core",
+      "count": 12
+    },
+    {
+      "tag": "ac2-core",
+      "count": 12
+    },
+    {
+      "tag": "core",
+      "count": 12
+    },
+    {
+      "tag": "method:cta",
+      "count": 11
+    },
+    {
+      "tag": "person:anita-woolley",
+      "count": 10
+    },
+    {
+      "tag": "theory:flow",
+      "count": 8
+    },
+    {
+      "tag": "kw:flow",
+      "count": 8
+    },
+    {
+      "tag": "person:virginia-satir",
+      "count": 8
+    },
+    {
+      "tag": "person:gary-klein",
+      "count": 7
+    },
+    {
+      "tag": "kind:report",
+      "count": 7
+    },
+    {
+      "tag": "ac2-report",
+      "count": 7
+    },
+    {
+      "tag": "report",
+      "count": 7
+    },
+    {
+      "tag": "person:k-anders-ericsson",
+      "count": 6
+    },
+    {
+      "tag": "kw:metacognition",
+      "count": 6
+    },
+    {
+      "tag": "person:peter-drucker",
+      "count": 5
+    },
+    {
+      "tag": "theory:ndm",
+      "count": 4
+    },
+    {
+      "tag": "theory:psychological-safety",
+      "count": 4
+    },
+    {
+      "tag": "kw:psychological-safety",
+      "count": 4
+    },
+    {
+      "tag": "person:james-bach",
+      "count": 3
+    },
+    {
+      "tag": "theory:effectuation",
+      "count": 3
+    },
+    {
+      "tag": "person:martin-fowler",
+      "count": 2
+    },
+    {
+      "tag": "person:mihaly-csikszentmihalyi",
+      "count": 2
+    },
+    {
+      "tag": "person:carol-dweck",
+      "count": 2
+    },
+    {
+      "tag": "kw:mindset",
+      "count": 2
+    },
+    {
+      "tag": "person:daniel-kahneman",
+      "count": 2
+    },
+    {
+      "tag": "person:sabine-sonnentag",
+      "count": 2
+    },
+    {
+      "tag": "theory:growth-mindset",
+      "count": 1
+    },
+    {
+      "tag": "person:robert-hoffman",
+      "count": 1
+    },
+    {
+      "tag": "person:alex-pentland",
+      "count": 1
+    },
+    {
+      "tag": "person:christopher-chabris",
+      "count": 1
+    },
+    {
+      "tag": "method:kanban",
+      "count": 1
+    },
+    {
+      "tag": "kw:kanban",
+      "count": 1
+    },
+    {
+      "tag": "kanban",
+      "count": 1
+    },
+    {
+      "tag": "person:amy-edmondson",
+      "count": 1
+    }
+  ]
+}

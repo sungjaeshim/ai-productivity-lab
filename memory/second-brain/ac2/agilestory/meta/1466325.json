@@ -1,0 +1,30 @@
+{
+  "url": "https://agilestory.blog/1466325",
+  "title": "합숙 사진",
+  "date": "2006년 2월 19일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:learning-science",
+    "theory:transfer-of-training",
+    "scope:general",
+    "ac2",
+    "ac2-content",
+    "content",
+    "education",
+    "learning"
+  ],
+  "extracted_at": "2026-03-02T23:06:12.264285",
+  "post_id": "1466325",
+  "raw_file": "1466325.html",
+  "extraction_status": "success",
+  "text_length": 638,
+  "cleaned_file": "1466325.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:35.801981",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

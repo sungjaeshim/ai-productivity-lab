@@ -1,0 +1,7 @@
+floor=. <. of=. @ div=. % intdiv=. floor of div _5 intdiv 4 _2 - 5 intdiv 4 _1 left=.[ right=.] mod=. left - right * intdiv _5 mod 4 3 - 5 mod 4 _1
+
+>>> -(5/4) -1 >>> (-5)/4 -2
+
+The binary / operator performs division, producing the quotient of its operands. The left-hand operand is the dividend and the right-hand operand is the divisor. Integer division rounds toward 0. That is, the quotient produced for operands n and d that are integers after binary numeric promotion (§5.6.2) is an integer value q whose magnitude is as large as possible while satisfying |d * q | <= |n|; moreover, q is positive when |n| >= |d| and n and d have the same sign, but q is negative when |n| >= |d| and n and d have opposite signs. http://java.sun.com/docs/books/jls/second_edition/html/expressions.doc.html#5047
+
+range=.10 1000 NB. 좌표축에서 10부터 1000까지 선분이 있다고 할 때 range intdiv 4 NB. 1/4로 사이즈를 축소하면 2 250 range-100 NB. 원래 선분을 좌로 100만큼 움직이면 _90 900 (range-100) intdiv 4 NB. 이동한 선분을 1/4로 축소하면 _23 225 diff=. |@-/ diff range intdiv 4 NB. 원래 축소한 선분의 길이 248 diff (range-100) intdiv 4 NB. 좌측으로 이동한 선분을 축소한 길이 248

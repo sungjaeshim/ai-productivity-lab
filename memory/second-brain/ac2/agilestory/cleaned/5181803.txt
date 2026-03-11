@@ -1,0 +1,1 @@
+Just because something is beyond your current skill set doesn’t mean it’s beyond your current scope of responsibility. -- Cem Kaner, UX가 뭐지? 내 책임이 아닌데? 참고 In a good process, each person working on the building is -- and feels -- responsible for everything. --Christopher Alexander, The Nature of Order

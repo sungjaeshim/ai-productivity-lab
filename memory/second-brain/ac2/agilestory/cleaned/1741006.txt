@@ -1,0 +1,17 @@
+프로그래밍과 "프로그램의 사용" 간의 경계선은 오늘날 점점더 흐릿해지고 있습니다. 우리의 프로그램들이 점점 더 자동화될수록 그 프로그램을 "프로그래밍"하려는 우리의 필요와 욕구는 늘어나게 됩니다. 꼭 프로그래밍을 자바나 C언어로된 텍스트를 입력하는 쪽으로 연관지을 필요는 없으며, 프로그래밍이라는 개념은 점점 더 확장하고 있습니다. 예를 들면 엑셀을 사용하는 것도 일종의 프로그래밍일 수 있고, 워드의 기본 스타일을 고치는 것도 프로그래밍으로 볼 수도 있습니다. 개발자의 역할을 부분적으로 대신하는 것이지요. 매리 배쓰 로손 교수는 엔드-유저에 비유해서 엔드-개발자(end developer)라는 말을 씁니다. 오늘날 엔드-개발자가 얼마나 될까요? 논문(Scaffidi, Shaw, Myers, 2005)에 따르면 2012년도에는 스프레드쉬트,디비 엔드 유저가 5천5백만명에 이를 것이라고 합니다. 하지만 그 수준은 어떤가요? 또 다른 연구(Panko, 1988)에 따르면 90%의 스프레드쉬트에 오류가 있다고 합니다. 2003년도 있었던 유명한 패니 메(Fannie Mae) 사건은, 미국의 모기지 금융 서비스 회사인 패니 메의 스프레드쉬트에 12억불에 달하는 오류가 있었던 일입니다(뉴욕타임즈 2003년 10월 30일자). 저는 넓은 의미로서의 프로그래밍은 교육해야 하며, 또 그것이 컴퓨터를 잘, 제대로 활용하는 데에 아주 중요한 역할을 하며, 그 사회적 효과도 막대하리라 생각합니다.
+
+꼭 프로그래밍을 자바나 C언어로된 텍스트를 입력하는 쪽으로 연관지을 필요는 없으며, 프로그래밍이라는 개념은 점점 더 확장하고 있습니다. 예를 들면 엑셀을 사용하는 것도 일종의 프로그래밍일 수 있고, 워드의 기본 스타일을 고치는 것도 프로그래밍으로 볼 수도 있습니다. 개발자의 역할을 부분적으로 대신하는 것이지요.
+
+매리 배쓰 로손 교수는 엔드-유저에 비유해서 엔드-개발자(end developer)라는 말을 씁니다. 오늘날 엔드-개발자가 얼마나 될까요?
+
+논문(Scaffidi, Shaw, Myers, 2005)에 따르면 2012년도에는 스프레드쉬트,디비 엔드 유저가 5천5백만명에 이를 것이라고 합니다.
+
+하지만 그 수준은 어떤가요? 또 다른 연구(Panko, 1988)에 따르면 90%의 스프레드쉬트에 오류가 있다고 합니다. 2003년도 있었던 유명한 패니 메(Fannie Mae) 사건은, 미국의 모기지 금융 서비스 회사인 패니 메의 스프레드쉬트에 12억불에 달하는 오류가 있었던 일입니다(뉴욕타임즈 2003년 10월 30일자).
+
+저는 넓은 의미로서의 프로그래밍은 교육해야 하며, 또 그것이 컴퓨터를 잘, 제대로 활용하는 데에 아주 중요한 역할을 하며, 그 사회적 효과도 막대하리라 생각합니다.
+
+Learning and collaboration across generations in a community We report on the activities and outcomes of two workshops in which middle school students and senior citizens explored, designed, and constructed visual simulations related to community issues. The workshops are part of a larger project, in which we are studying the effects of community-related programming projects and discussion on residents' computer literacy and community involvement. We describe the interactions among participants of varying age, and the simulations that they designed and built. We also discuss the influence of age on participants' reactions to the workshop activities, and consider what implications these findings have for our goal of building and maintaining a cross-generation learning community. http://portal.acm.org/citation.cfm?id=966263.966274
+
+Learning and collaboration across generations in a community
+
+We report on the activities and outcomes of two workshops in which middle school students and senior citizens explored, designed, and constructed visual simulations related to community issues. The workshops are part of a larger project, in which we are studying the effects of community-related programming projects and discussion on residents' computer literacy and community involvement. We describe the interactions among participants of varying age, and the simulations that they designed and built. We also discuss the influence of age on participants' reactions to the workshop activities, and consider what implications these findings have for our goal of building and maintaining a cross-generation learning community.

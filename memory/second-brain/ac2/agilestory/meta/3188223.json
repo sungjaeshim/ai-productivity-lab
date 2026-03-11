@@ -1,0 +1,29 @@
+{
+  "url": "https://agilestory.blog/3188223",
+  "title": "7월까지만 일한다면?",
+  "date": "2007년 3월 11일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "scope:general",
+    "evidence:book",
+    "ac2",
+    "ac2-content",
+    "book",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:10:22.817824",
+  "post_id": "3188223",
+  "raw_file": "3188223.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 383,
+  "recovered": true,
+  "cleaned_file": "3188223.md",
+  "recovered_at": "2026-03-02T23:36:36.970450",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

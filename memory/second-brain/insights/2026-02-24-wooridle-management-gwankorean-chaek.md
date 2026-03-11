@@ -1,0 +1,13 @@
+# Management 관련 책
+> 출처: wiki.wooridle.net
+> 카테고리: 코칭 (41개)
+> 태그: #코칭 (41개)
+
+- **핵심**: TomDeMarco , 티모시 리스터, 책/피플웨어 (Peopleware: Productive Projects and Teams) TomDeMarco , 슬랙 : 변화와 재창조를 이끄는 힘 (Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency) TomDeMarco , 프로젝트가 서...
+- **주요 내용**:
+  - 에드워드 요든, 죽음의 행진 : 문제 프로젝트에서 살아남는 법 에드워드 요든은 톰 드마르코보다 한 세대 더 이전의 사람으로 알고 있고, 역시 IT 프로젝트 관리에 대한 초기 개념 형성에 기여한 분입니다...
+  - It's not Luck 더 골(The Goal)로 유명한 엘리 골드렛의 두번째 저작...
+  - 산업공학, 공장 최적화 분야에서는 '더 골'이 꽤 유명합니다...
+- **성재 적용**: 실제 상황에 적용해보세요.
+
+---

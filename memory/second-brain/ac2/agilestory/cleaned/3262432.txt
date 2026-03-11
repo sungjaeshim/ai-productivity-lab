@@ -1,0 +1,9 @@
+Designers Are Not Users ... A survey of 2,000 adults in Oregon showed that only 18% could use a bus schedule to find the time of departure [Egan 1991]. This finding does not indicate that the remaining 82% of Oregonians are less intelligent and should never be allowed on a bus. Instead, the likely explanation is that the bus schedule was designed by people with extensive knowledge of buses and local transportation who just knew the meaning of every element on the schedule, and therefore never considered that parts of it might be difficult to understand for people who rarely take a bus. (강조는 김창준)
+
+Designers Are Not Users
+
+Users Are Not Designers ... For example, Grudin and Barnard [1985] compared command abbreviations they defined with abbreviations defined by individual users, and found that users made about twice as many errors when using their own abbreviations . Even when given the chance to redefine their abbreviations after the experiment, six of seven test users kept their poor abbreviation sets virtually intact, typically explaning that while yes, they had some problems with it, it seemed as good as any other set they could think of. Of course, users have other jobs and do not work as user interface professionals. (강조는 김창준)
+
+Users Are Not Designers
+
+제트 스키를 개발한 가와사키(Kawasaki)사는 제트 스키 경험을 개선하기 위해 무엇을 해야할지 사용자들에게 물었다. 사용자들은 측면에 여분의 패딩을 추가해서 제트 스키를 서서 탈 때 자세가 더 편안하기를 원했다. 회사는 고객들이 요청한 것을 제공하는 데 집중을 했다. 그 동안 다른 제조사들은 앉아서 타는 모델을 개발했고, 가와사키를 시장 최고 자리에서 끌어내리게 되었다. 고객들이 원한 것은 제트 스키 이용시 더 편한 기립 자세였지만 그들은 앉아서도 탈 수 있다는 생각은 해내질 못했다. ‘앉아서 타는’ 모터싸이클 제조 업체였던 가와사키까지도.

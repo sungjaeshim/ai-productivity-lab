@@ -1,0 +1,33 @@
+{
+  "url": "https://agilestory.blog/1621293",
+  "title": "웹 2.0스러운 컨퍼런스",
+  "date": "2006년 3월 15일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:cognitive-psychology",
+    "dom:organizational-change",
+    "scope:general",
+    "evidence:field-case",
+    "evidence:talk",
+    "kw:change",
+    "ac2",
+    "ac2-content",
+    "content",
+    "event",
+    "psychology"
+  ],
+  "extracted_at": "2026-03-02T23:06:34.108094",
+  "post_id": "1621293",
+  "raw_file": "1621293.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 632,
+  "recovered": true,
+  "cleaned_file": "1621293.md",
+  "recovered_at": "2026-03-02T23:36:35.883033",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

@@ -1,0 +1,53 @@
+IT업계에도 노벨상과 아카데미상이 있습니다. 튜링상을 노벨상에 비유할 수 있고, 졸트상을 아카데미상에 비유할 수 있습니다. 오늘은 개발자들에게 아카데미상을 보는 기대감과 즐거움을 주는 졸트상에 대해 이야기를 해보겠습니다. 졸트상은 1990년부터 시상되기 시작했습니다. 개발자들에게 필요한 상품(책, 소프트웨어, 웹사이트 등)에 대한 상입니다. 가장 최근 졸트상의 분류는 다음과 같습니다.
+
+서적(일반과 기술 서적으로 다시 구분)
+
+데이터베이스 엔진 및 데이터 도구
+
+라이브러리/프레임워크/컴포넌트
+
+웹사이트 및 개발자 네트워크
+
+각 분야별로 졸트 수상작(Jolt Winner) 하나와 생산성 수상작(Productivity Winner) 셋을 뽑습니다. 졸트 수상작이 대상이라면 생산성 수상작은 우수상 정도 되겠죠.
+
+이제는 상의 이름에 대해 알아볼까요? 졸트상에서 졸트라는 말은 졸트 콜라( Jolt Cola )에서 왔습니다.
+
+졸트상은 이듬해에 주로 이전해에 출시된 책, 상품들을 대상으로 후보들을 받고, 거기에서 일반인들의 투표 등을 통해 최종후보들을 뽑은 다음, 마지막으로 졸트 심사원(Jolt Judges)들이 수상작을 발표합니다. 최종 발표는 이듬해 3월 정도가 되죠.
+
+올해 졸트상 수상작 들이 지난 주에 공개되었습니다. 여기서는 서적 부분만 살펴보도록 하죠.
+
+일반 서적 부분 졸트상 Agile Software Development by Alistair Cockburn (Addison-Wesley Professional) 생산성상 Catastrophe Disentanglement by E. M. Bennatan (Addison-Wesley Professional) Practices of an Agile Developer by V. Subramaniam and A. Hunt (Pragmatic Bookshelf) Software Estimation Demystifying the Black Art by Steve McConnell (Microsoft Press) 기술 서적 부분 졸트상 Head First Object-Oriented Analysis & Design by B. McLaughlin, G. Pollice, and D. West (O'Reilly Media) 생산성상 Code Quality by Diomidis Spinellis (Addison-Wesley Professional) Refactoring Databases by Scott W. Ambler and P. J. Sadalage (Addison-Wesley Professional) CSS: The Missing Manual by David Sawyer McFarland (O'Reilly Media)
+
+Agile Software Development by Alistair Cockburn (Addison-Wesley Professional)
+
+Catastrophe Disentanglement by E. M. Bennatan (Addison-Wesley Professional)
+
+Practices of an Agile Developer by V. Subramaniam and A. Hunt (Pragmatic Bookshelf)
+
+Software Estimation Demystifying the Black Art by Steve McConnell (Microsoft Press)
+
+Head First Object-Oriented Analysis & Design by B. McLaughlin, G. Pollice, and D. West (O'Reilly Media)
+
+Code Quality by Diomidis Spinellis (Addison-Wesley Professional)
+
+Refactoring Databases by Scott W. Ambler and P. J. Sadalage (Addison-Wesley Professional)
+
+CSS: The Missing Manual by David Sawyer McFarland (O'Reilly Media)
+
+앨리스테어와는 OOPSLA, 애자일 컨퍼런스 등에서 여러번 만나 대화할 기회가 있었습니다. 작년 OOPSLA에서는 사진에서 보시듯이 그의 새 책(두번째판)에 대해 이야기를 했습니다. 위 사진은 제가 최근의 경험에서 UX의 중요성과 애자일 도입 전략에 대한 교훈 등을 이야기하자 그가 맞장구를 치면서 자기 책에서 새로 추가한 부분을 보여주고 대화하던 모습입니다.
+
+다음은 일반 서적 부문 생산성상을 받은 책 세 권입니다. Catastrophe Disentanglement 는 망해가는 프로젝트를 살리는(혹은 빨리 죽이는) 방법에 대한 책입니다. 비슷한 책으로는 Project Rescue: Avoiding a Project Management Disaster 라는 책이 있습니다. 전자는 요즘 읽는 중이고, 후자는 두 권을 사서 지인에게 선물을 하기도 했던 책입니다. 영미권에는 프로젝트 구출만 전문으로 하는 회사가 있기도 하더군요. 그만한 가치와 수요가 있기 때문에 상당한 비용을 내야 하는 것으로 알고 있습니다. 그 회사의 팀들은 보통 수 년 간 같이 일해본 찰떡 궁합 팀원들로 구성되어 있지요. 특별히 기억에 남는 프로젝트 구출 회사가 있었는데 조건이 흥미로웠습니다. 어떤 프로젝트라도 가능하다, 다만 기술적 선택은 우리에게 맡겨야 한다(그 회사는 스몰토크를 씁니다).
+
+다음으로는 앤드류 헌트의 책이 수상을 했습니다. Practices of an Agile Developer 입니다. 저는 PDF로 봤는데 애자일의 실천법들을 실용주의적 견지에서 간결하게 정리한 책입니다. 실용주의 프로그래머(Pragmatic Programmers, 출판사 이름이고 동시에 데이브 토마스와 앤드류 헌트를 지칭하기도 함)가 내는 책들이 요즘 좋은 평가를 받고 있습니다. 오늘날의 오라일리가 아닐까 생각합니다. 이 출판사의 출판 방식은 매우 진보적인데 언제 기회가 되면 따로 소개를 하겠습니다.
+
+마지막으로 스티브 맥코넬의 Software Estimation: Demystifying the Black Art 이 수상을 했습니다. 저는 아직 이 책은 보질 못했습니다. 스티브 맥코넬은 소프트웨어 공학에서 상당히 영향력이 있는 사람이죠. 이 사람이 낸 책들은 하나 같이 베스트셀러 반열에 올랐습니다. 소프트웨어 추정에 대한 책들은 무지 많습니다만 최근의 자료를 갖추고 또 실용적인 접근을 하는 책이 별로 없습니다. 스티브의 책이 그런 부분을 충족시켜주는 것 같습니다. 훌륭한 책일 거라고 생각합니다.
+
+다음은 기술 서적 부문입니다. 졸트상 수상은 Head First Object-Oriented Analysis & Design 이 했네요. 헤드 퍼스트 시리즈입니다. 헤드 퍼스트는 오라일리에서 야심작으로 만들고 있는 시리즈로 인지교육학의 원리들을 전격 도입한 컴퓨터 서적입니다. 일반 컴퓨터 서적과는 다릅니다. 만화나 그림도 많고 텍스트도 눈이 어지러울 정도로 여기저기 배치되어 있죠. 초보자들에게는 접근하기가 훨씬 쉽습니다. 재미도 있고요. 이 책 또한 제가 봤던(이 책은 제가 읽어보진 못했습니다) 다른 헤드 퍼스트 서적들처럼 뛰어난 수준일 것이라 생각합니다. 개인적으로 헤드 퍼스트 시리즈는 컴퓨터 서적에 있어 매우 의미있는 획을 그은 작품이라고 생각합니다.
+
+이제부터는 생산성상 수상작들입니다. Code Quality 를 쓴 디오미디스는 Code Reading 의 저자이기도 합니다. 코드 리딩은 봤지만 그의 신작 코드 퀄리티는 아직 읽지 못했습니다. 목차를 보니 품질 높은 코드의 요소(신뢰성, 보안, 시간 성능, 공간 성능, 이식성, 유지보수성 등)별로 장이 꾸며져 있네요. 부동소수점 연산(Floating-Point Arithmetic)이 한 장을 차지하고 있는 점도 인상적입니다. 개발자들 중이 이 주제에 대해 별 신경 안 쓰는 사람들이 있는데 우습게 봤다가 언젠가 큰 코 다치는 일이 있습니다. 한번은 작정하고 정리해 두실 것을 권합니다. 일반적으로는 데이비드 골드버그(David Goldberg)의 글을 많이 참조합니다. 제목은 "부동소수점 연산에 대해 모든 전산학자가 알아야 할 것"( What Every Computer Scientist Should Know About Floating-Point Arithmetic )
+
+다음은 스코트 앰블러의 Refactoring Databases 가 꼽혔네요. 스코트는 몇 년 전부터 이 분야에 대한 천착을 계속해 왔습니다. 웹사이트에 정리를 해오고 있었는데, 그걸 책으로 펴냈습니다 -- 제가 한참을 기다리던 책이지요. 코드에 대한 리팩토링은 이제 더 이상 이슈가 되지 않습니다. 방법이나 도구 등이 잘 갖추어졌기 때문입니다. 하지만 데이타베이스의 리팩토링은 완전히 개척되지 못했습니다. 여기에서 문제가 생깁니다. 현재 대다수의 개발 프로젝트에서는 데이타베이스가 우주의 중심입니다. 데이타베이스가 알파이자 오메가입니다. 데이타베이스 설계가 코드 설계를 좌우합니다. 애자일에서는 진화적 설계를 합니다. 그러려면 엔트로피를 줄이고 변화에 적응하는 리팩토링이 필수적입니다. 코드는 쉽지만 데이타베이스는 쉽지 않습니다. 그러다보니 잡초의 싹을 제거하지 못하고 이파리만 갖고 아둥바둥 거리는 경우가 종종 생깁니다. 이 상황을 개선하려면 두 가지 노력이 필요합니다. 우주의 중심을 도메인 모델로 해야 합니다. 그리고 데이타베이스를 적은 비용으로 바꿔나가는 방법을 구해야 합니다. 이 책은 후자에 대한 책입니다. 관심 있는 분들은 이 책과 함께 스코트가 2003년도에 출간한 Agile Database Techniques 를 참고하시면 도움이 될 것입니다.
+
+마지막 생산성상 수상작은 CSS: The Missing Manual 입니다. 이 책이나 저자에 대해서는 제가 아는 바가 전무합니다. 그래서 별 다른 커멘트를 할 건 없습니다. 최근 CSS와 자바스크립트 서적이 홍수처럼 쏟아지고 있습니다. AJAX나 웹 2.0 등의 시류를 타고 웹이 소프트웨어 개발의 왕관을 되찾았기 때문이지요. 보통은 디자이너나 UI 개발자들이 이런 주제에 관심을 갖지만, 일반 웹 개발자들도 CSS 책을 봐야할 필요가 있는 것 같습니다.
+
+제 작년(2006년) 성적을 보면, 총 8권의 수상작 중 4권을 봤으니 반타작이군요. 말했다시피 이런 점수가 의미있다고 생각하지는 않습니다만 재미로 보는 거죠. 사실 제가 요즘 보는 책들은 졸트상을 받을리가 만무한 책들입니다. 이 점이 오히려 중요하지요.

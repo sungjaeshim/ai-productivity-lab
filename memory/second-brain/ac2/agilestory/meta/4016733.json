@@ -1,0 +1,27 @@
+{
+  "url": "https://agilestory.blog/4016733",
+  "title": "망년회 대신 기년회",
+  "date": "2007년 12월 18일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "scope:individual",
+    "ac2",
+    "ac2-content",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:12:12.315446",
+  "post_id": "4016733",
+  "raw_file": "4016733.html",
+  "extraction_status": "success",
+  "text_length": 718,
+  "cleaned_file": "4016733.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.350241",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

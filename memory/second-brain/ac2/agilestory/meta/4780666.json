@@ -1,0 +1,27 @@
+{
+  "url": "https://agilestory.blog/4780666",
+  "title": "소프트웨어 개발 단계에서 가장 중요하다고 생각하는 것은",
+  "date": "2009년 1월 2일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:coaching",
+    "dom:general",
+    "scope:general",
+    "ac2",
+    "ac2-content",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:13:59.498495",
+  "post_id": "4780666",
+  "raw_file": "4780666.html",
+  "extraction_status": "success",
+  "text_length": 547,
+  "cleaned_file": "4780666.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.795759",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

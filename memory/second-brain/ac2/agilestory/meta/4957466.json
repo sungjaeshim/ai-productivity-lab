@@ -1,0 +1,30 @@
+{
+  "url": "https://agilestory.blog/4957466",
+  "title": "우리 아이와 스크래치",
+  "date": "2009년 5월 18일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:decision",
+    "dom:decision-making",
+    "scope:general",
+    "evidence:field-case",
+    "evidence:talk",
+    "ac2",
+    "ac2-content",
+    "content",
+    "event"
+  ],
+  "extracted_at": "2026-03-02T23:14:45.927836",
+  "post_id": "4957466",
+  "raw_file": "4957466.html",
+  "extraction_status": "success",
+  "text_length": 563,
+  "cleaned_file": "4957466.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.940832",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

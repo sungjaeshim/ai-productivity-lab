@@ -1,0 +1,23 @@
+project_name: AI Studio 🚀 실행·검토 허브
+slug: ai-studio-mixed-stress
+
+subtitle: KR/EN mixed text, emoji, and wider badges should still stay readable and well placed
+
+audience: cross-functional builders
+
+purpose: >
+  팀이 아이디어를 제안하면 AI가 draft, docs, visuals, and review artifacts를 빠르게 묶어내고,
+  사람은 우선순위와 품질 판단에 집중하는 협업 루프를 만든다.
+
+keywords:
+  - Launch Ready
+  - 리뷰 자동화
+  - Docs + Visuals
+  - Agent Loop
+  - 팀 협업 허브
+  - Fast Feedback
+
+style:
+  tone: practical
+  visual: showcase-tech
+  theme: dark-on-light

@@ -1,0 +1,33 @@
+{
+  "url": "https://agilestory.blog/2616165",
+  "title": "옵션이 많은 소프트웨어",
+  "date": "2006년 10월 11일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:coaching",
+    "use:decision",
+    "dom:decision-making",
+    "dom:organizational-change",
+    "scope:individual",
+    "scope:org",
+    "evidence:book",
+    "kw:decision",
+    "ac2",
+    "ac2-content",
+    "book",
+    "content"
+  ],
+  "extracted_at": "2026-03-02T23:08:38.076363",
+  "post_id": "2616165",
+  "raw_file": "2616165.html",
+  "extraction_status": "success",
+  "text_length": 1981,
+  "cleaned_file": "2616165.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:36.597127",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

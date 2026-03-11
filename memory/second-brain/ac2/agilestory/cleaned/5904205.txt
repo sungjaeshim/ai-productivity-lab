@@ -1,0 +1,9 @@
+데일리 스크럼 (Daily Scrum)
+
+테스트 주도 개발 (Test Driven Development)
+
+짝 프로그래밍 (Pair Programming)
+
+애자일 코치 (Agile Coach)
+
+정보 방열기 (Information Radiator)

@@ -1,0 +1,17 @@
+{
+  "name": "AI Productivity Lab",
+  "url": "https://aisnowball.work",
+  "description": "AI 도구 리뷰, 업무 자동화 가이드, 생산성 팁을 제공하는 한국어 테크 블로그. ChatGPT, Claude, 맥북 자동화 등 실전 AI 활용 콘텐츠.",
+  "language": "ko-KR",
+  "category": ["AI Tools", "Productivity", "Automation", "Tech Blog"],
+  "author": {
+    "name": "Sungjae Shim",
+    "role": "Business Planner & AI Automation Specialist",
+    "location": "Seoul, South Korea"
+  },
+  "topics": ["ChatGPT 활용법", "Claude AI", "업무 자동화", "AI 생산성 도구", "맥북 자동화", "NQ 선물 트레이딩", "OpenClaw AI", "Python 자동화"],
+  "contentType": "blog",
+  "publishFrequency": "weekly",
+  "social": {"website": "https://aisnowball.work"},
+  "lastUpdated": "2026-02-25"
+}

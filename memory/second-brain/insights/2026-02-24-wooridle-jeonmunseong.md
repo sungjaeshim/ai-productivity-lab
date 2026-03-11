@@ -1,0 +1,13 @@
+# 전문성
+> 출처: wiki.wooridle.net
+> 카테고리: 애자일/Agile (37개)
+> 태그: #애자일/Agile (37개)
+
+- **핵심**: 전문성 전문성이란 무엇인가? 전문성은 어떻게 계발할 수 있는가? 전문성을 어떻게 가르칠 수 있는가? 전문가에게서 CollaborativeDevelopmentOfExpertise 나 AppliedCognitiveTaskAnalysis 등을 사용하여 전문성의 요소를 끄집어낼 수 있고, 그것을 자신이 DeliberatePerformance 등을 통해 훈련함으로써...
+- **주요 내용**:
+  - ReflectivePractice 도 도움이 될 수 있다...
+  - klein-applied cognitive task analysis methodology.pdf 전문성의 특징 으로 보는 전문성/전문가의 특징은, 전문성은 분야에 특화되어 있다 전문가는 패턴을 인식한다 전문가는 더 빠르고 실수를 적게 한다 전문가는 자신의 분야에서 대단...
+  - 전문가는 일의 전후 상황과 이후에 전개될 결과를 볼 수 있는 능력이 있다...
+- **성재 적용**: 실제 상황에 적용해보세요.
+
+---

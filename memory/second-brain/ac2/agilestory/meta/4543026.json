@@ -1,0 +1,30 @@
+{
+  "url": "https://agilestory.blog/4543026",
+  "title": "스크래치 컨퍼런스, 미디어랩, MS 방문 공유회",
+  "date": "2008년 8월 10일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "scope:individual",
+    "evidence:field-case",
+    "evidence:talk",
+    "ac2",
+    "ac2-content",
+    "content",
+    "event"
+  ],
+  "extracted_at": "2026-03-02T23:13:18.048054",
+  "post_id": "4543026",
+  "raw_file": "4543026.html",
+  "extraction_status": "success",
+  "text_length": 1878,
+  "cleaned_file": "4543026.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.642273",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

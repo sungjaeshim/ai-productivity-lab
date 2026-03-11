@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-03-09T15:58:52.795079+09:00",
+  "is_weekday": true,
+  "briefing_sent": false,
+  "briefing_sent_at": null,
+  "nq": {
+    "data": null,
+    "status": "pending",
+    "note": "NQ signal check by cron"
+  },
+  "weather": {
+    "data": {
+      "temp": null,
+      "feel": null,
+      "condition": "unknown",
+      "high": null,
+      "low": null,
+      "source": null
+    },
+    "status": "partial"
+  },
+  "tasks": {
+    "data": [
+      {
+        "priority": 10,
+        "task": "NQ 리스크 체크",
+        "project": "active",
+        "due": "today 22:00",
+        "source": "todo-router-registry"
+      },
+      {
+        "priority": 4,
+        "task": "지금 목표와 연결되는 행동 1개만 남기고 나머지는 보류.",
+        "project": "queue",
+        "due": null,
+        "source": "todo-router-registry"
+      },
+      {
+        "priority": 4,
+        "task": "A안으로 진행하고 기존꺼 3일간만 다시 보고 리포팅하기",
+        "project": "queue",
+        "due": null,
+        "source": "todo-router-registry"
+      }
+    ],
+    "status": "stale-local",
+    "source": "brain-todoist-registry+todo-router-registry",
+    "warning": "todoist-api:today:<urlopen error [Errno -3] Temporary failure in name resolution>",
+    "total_count": 3
+  },
+  "active_count": 3,
+  "yesterday_summary": {
+    "data": "Task Operations 기본 규칙 정리 / 미해결: Discord role hardening은 아직 일부 미완료",
+    "facts": [
+      "Task Operations 기본 규칙 정리",
+      "미해결: Discord role hardening은 아직 일부 미완료"
+    ],
+    "sentence": "어제는 Task Operations 기본 규칙 정리를 마쳤고, Discord role hardening은 아직 마무리되지 않았습니다",
+    "status": "ok",
+    "source": "/root/.openclaw/workspace/memory/2026-03-08.md"
+  },
+  "intelligence_source": "intelligence-2026-03-09.json"
+}

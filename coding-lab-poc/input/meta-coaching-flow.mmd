@@ -1,0 +1,21 @@
+flowchart TD
+U[User Message\nKR: 사용자 메시지] --> D{What creates more leverage?\nKR: 어디가 더 큰 레버리지를 만드는가?}
+
+D -->|Direct execution / quick answer\nKR: 실행/빠른 답변 중심| M[Main Topic\nNatural conversation mode\nKR: 메인 토픽 / 자연 대화 모드]
+D -->|Reframing / hidden assumptions / strategy / identity pattern\nKR: 재프레이밍/숨은 전제/전략/정체성 패턴| C[Meta Coaching Lab\nCoaching topic mode\nKR: 메타 코칭 랩 / 코칭 토픽 모드]
+
+M --> M1[Direct answer\nKR: 직접 답변]
+M --> M2[Light intervention only when signal is high\nKR: 신호 강할 때만 짧게 개입]
+M --> M3[Optimize for flow and execution\nKR: 흐름과 실행 최적화]
+
+C --> C1[Direct answer\nKR: 직접 답변]
+C --> C2[Hidden assumption\nKR: 숨은 전제]
+C --> C3[Adjacent expansion\nKR: 인접 확장]
+C --> C4[Higher-order question\nKR: 상위 질문]
+C --> C5[Immediate next action\nKR: 즉시 실행할 다음 행동]
+
+M --> E{Signal strength high?\nKR: 확장 개입 신호가 강한가?}
+E -->|Yes\nKR: 예| C
+E -->|No\nKR: 아니오| M
+
+C --> R[Return with clearer frame / decision / learning path\nKR: 더 선명한 프레임/결정/학습 경로로 복귀]

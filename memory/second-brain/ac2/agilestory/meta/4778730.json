@@ -1,0 +1,31 @@
+{
+  "url": "https://agilestory.blog/4778730",
+  "title": "詩, 논문, 코드, 기타 무엇이건 개선하는 \"저자 워크숍\"",
+  "date": "2008년 12월 30일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:general",
+    "scope:individual",
+    "evidence:research-paper",
+    "evidence:talk",
+    "ac2",
+    "ac2-content",
+    "content",
+    "event",
+    "research"
+  ],
+  "extracted_at": "2026-03-02T23:13:54.628083",
+  "post_id": "4778730",
+  "raw_file": "4778730.html",
+  "extraction_status": "empty",
+  "recovery_method": "trafilatura",
+  "text_length": 285,
+  "recovered": true,
+  "cleaned_file": "4778730.md",
+  "recovered_at": "2026-03-02T23:36:37.770065",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

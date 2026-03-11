@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Header -->
+        <header class="header">
+            <h1>📊 Feedback Dashboard</h1>
+            <div class="connection-status" id="connection-status">
+                <span class="status-dot disconnected"></span>
+                <span>Disconnected</span>
+            </div>
+        </header>
+
+        <!-- Summary Cards -->
+        <section class="summary-cards">
+            <div class="card decisions">
+                <div class="card-icon">🧠</div>
+                <div class="card-content">
+                    <h3>Decisions</h3>
+                    <div class="stat">
+                        <span class="number" id="decisions-total">0</span>
+                        <span class="label">Total</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" id="decisions-today">0</span>
+                        <span class="label">Today</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card tasks">
+                <div class="card-icon">✅</div>
+                <div class="card-content">
+                    <h3>Tasks</h3>
+                    <div class="stat">
+                        <span class="number" id="tasks-completed">0</span>
+                        <span class="label">Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" id="tasks-pending">0</span>
+                        <span class="label">Pending</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="tasks-progress"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card errors">
+                <div class="card-icon">⚠️</div>
+                <div class="card-content">
+                    <h3>Errors</h3>
+                    <div class="stat">
+                        <span class="number" id="errors-total">0</span>
+                        <span class="label">Total</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number highlight" id="errors-unresolved">0</span>
+                        <span class="label">Unresolved</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card feedback">
+                <div class="card-icon">💬</div>
+                <div class="card-content">
+                    <h3>Feedback</h3>
+                    <div class="stat">
+                        <span class="number positive" id="feedback-positive">0</span>
+                        <span class="label">Positive</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number negative" id="feedback-negative">0</span>
+                        <span class="label">Negative</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Priorities Panel -->
+            <section class="panel priorities-panel">
+                <h2>🎯 Priority Queue</h2>
+                <div class="panel-content">
+                    <ul class="priority-list" id="priority-list">
+                        <li class="loading">Loading...</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Experiments Panel -->
+            <section class="panel experiments-panel">
+                <h2>🔬 Experiments</h2>
+                <div class="panel-content">
+                    <div class="experiment-stats" id="experiment-stats">
+                        <div class="stat-item">
+                            <span class="label">Running</span>
+                            <span class="value" id="exp-running">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="label">Completed</span>
+                            <span class="value" id="exp-completed">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="label">Success Rate</span>
+                            <span class="value" id="exp-success-rate">0%</span>
+                        </div>
+                    </div>
+                    <ul class="experiment-list" id="experiment-list">
+                        <li class="loading">Loading...</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Recent Activity Panel -->
+            <section class="panel activity-panel">
+                <h2>📋 Recent Activity</h2>
+                <div class="panel-content">
+                    <div class="tabs">
+                        <button class="tab active" data-tab="decisions">Decisions</button>
+                        <button class="tab" data-tab="tasks">Tasks</button>
+                        <button class="tab" data-tab="errors">Errors</button>
+                    </div>
+                    <ul class="activity-list" id="activity-list">
+                        <li class="loading">Loading...</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="last-update">
+                Last updated: <span id="last-update">-</span>
+            </div>
+            <div class="api-links">
+                <a href="/api/metrics" target="_blank">API: Metrics</a>
+                <a href="/api/experiments" target="_blank">API: Experiments</a>
+                <a href="/api/priorities" target="_blank">API: Priorities</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

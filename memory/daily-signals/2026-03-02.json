@@ -1,0 +1,51 @@
+{
+  "date": "2026-03-02",
+  "todoist": {
+    "active": 2,
+    "queue": 1,
+    "waiting": 1,
+    "wip_limit": 3,
+    "wip_warning": false,
+    "completed_today": 0,
+    "stale_7d": [
+      {
+        "content": "OpenClaw iOS 앱 Xcode 빌드 & 애플워치 연동 테스트",
+        "updated_at": "2026-02-22T00:54:14.340927Z",
+        "project_id": "6g2h5gg6x4FrRh24"
+      },
+      {
+        "content": "gog(Gmail) 빌드 - 릴리스 바이너리로 재시도. 소스 빌드 실패했었음. contacts_crud.go 타입 에러",
+        "updated_at": "2026-02-22T02:24:32.055942Z",
+        "project_id": "6g2h5gg6x4FrRh24"
+      },
+      {
+        "content": "[OpenClaw #9] Inbox Zero - himalaya CLI로 이메일 15,000개 정리",
+        "updated_at": "2026-02-17T22:05:18.785559Z",
+        "project_id": "6g2h5gmcHmHVmCVV"
+      }
+    ],
+    "recommend_queue_to_active": [
+      "카카오 로그인 KOE004 처리 (테스터 등록/비즈앱 전환)"
+    ]
+  },
+  "trading": {
+    "macd_signal_count": 13,
+    "direction": "short,매도,매수,매도,매도,매수,매도,하락,short,매도,매수,매도,매도,매수,매도,하락,short,매도,매수,매도,매도,매수,매도,하락"
+  },
+  "running": {
+    "strava_run_count": 0,
+    "total_km": 0,
+    "athlete_id": 136748466
+  },
+  "mood": {
+    "positive_count": null,
+    "negative_count": null
+  },
+  "blog": {
+    "published_today": false,
+    "reference": null
+  },
+  "notes": {
+    "daily_highlight": "Ops 시작 트리거 규칙 확정:"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "timestamp_kst": "20260307-084046",
+  "open_before": 13,
+  "duplicate_groups": 0,
+  "duplicates_closed": 0,
+  "duplicates_close_failed": [],
+  "open_after": 13,
+  "dup_groups": [],
+  "top_actionable": [
+    {
+      "id": "6g72pGQqv3xFVJ4c",
+      "content": "[Fri 2026-03-06 05:01 GMT+9] [Subagent Context] You are running as a subagent (depth 1/2). Results auto-announce to your requester; do not busy-poll for status. [Subagent Task]: Reply with exactly: OK-QWEN",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g72pHMQJX57XJgc",
+      "content": "[Fri 2026-03-06 05:02 GMT+9] [Subagent Context] You are running as a subagent (depth 1/2). Results auto-announce to your requester; do not busy-poll for status. [Subagent Task]: Return exactly OK-GLM",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g72qc9v4XVf7JMc",
+      "content": "<@1477305431821914243> inbox 에들어온건 니가 알아서 판단해서 todoy 에가고 거기서 처리 된거 안된거 니가 정리해서 주는거지 ? 그럼 내가 그거 처리하고",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g72rV7j7M4QFQR6",
+      "content": "<@1477305431821914243> inbox 에서 today 로도 하나도 안오는데??",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g74cH2w9fpF7HQ6",
+      "content": "<@1477305431821914243> inbox > today 오는건 잘작동하는거 같긴한데. 아예 아무것도 안와서. 이부분 약간 완화해야할까?",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g75hFhFRm9F7Fcc",
+      "content": "모니터링은 잘때 한번 하자 다른거 할때 같이해줘",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g75hGvH7PqwXgm6",
+      "content": "<@1477305431821914243> Hi sungjaeshim, There was an error deploying growth-center to the production environment on MUJIGI's projects. See deployment details You can also view latest deployments for branch master. // 이런 메일이 9시 12분 9시 36분에 왔어 확인햊고 조취해줘 재발도 안되게 해주고.이거 처리좀해줘",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g7F29XC7qMg9frc",
+      "content": "원인 확인 조취필요",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g7F4hJmHRHRcQw6",
+      "content": "이건 확인햇나",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g7F5RWr7Fxjf986",
+      "content": "<@1477305431821914243> inbox 에서 url 받는걸 today 로와서 내가 필요한 작업을해야하는데 이게 안오는거같은데 확인좀",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g7F846vWh4rhfv6",
+      "content": "크론잡 주기는 ? 얼마에 한번이지 너무 자주는 싫은데 지금 얼마나인지 확인하고싶어",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g7FH3wXJR8VRxVc",
+      "content": "<@1477305431821914243> 돌아가도 왜 inbox > today 에 0 거네 뭐가 문제일까 ?",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    },
+    {
+      "id": "6g7FHqj5w5WH7Jxc",
+      "content": "a 로하고 기존꺼 3 일간만 다시 봐줘서 리포팅해줘",
+      "project": "Queue",
+      "priority": 3,
+      "due": null
+    }
+  ],
+  "backup_file": "/root/.openclaw/workspace/reports/todoist-cleanup/open-tasks-backup-20260307-084046.json"
+}

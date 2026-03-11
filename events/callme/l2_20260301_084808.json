@@ -1,0 +1,21 @@
+{
+  "level": "L2",
+  "type": "scheduled_reminder",
+  "source": "calendar-sync",
+  "timestamp": "2026-02-28T23:48:08Z",
+  "subject": "[알림] 30분 후 회의 시작",
+  "message": "주간 팀 미팅이 30분 후 시작됩니다. 준비해주세요.",
+  "details": {
+    "meeting_title": "주간 팀 미팅",
+    "start_time": "09:00",
+    "location": "회의실 A",
+    "attendees": 5
+  },
+  "actions": [
+    "회의 자료 확인",
+    "발표 준비"
+  ],
+  "channels": ["telegram"],
+  "priority": "normal",
+  "ttl_seconds": 7200
+}

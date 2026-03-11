@@ -1,0 +1,15 @@
+복잡한 것을 만들거나
+
+한 번 만든 것을 나중에 자주 변경해야 하거나
+
+하는 상황이라면 모두 도움이 됩니다. 제가 말하는 도움이 된다는 것은 노력을 줄이고 품질을 높인다(실수를 줄인다든지)는 뜻입니다. 세가지 예를 들어보이도록 하겠습니다.
+
+The discussion of proofs in this book is inspired by the belief that many of the considerations that have led computer scientists to embrace the structured approach to programming apply to proof-writing as well. You might say that this book teaches "structured proving."
+
+Let x be arbitrary. Suppose P(x) is true. [Proof of Q(x) goes here.] Thus, if P(x) then Q(x). Thus, for all x, if P(x) then Q(x).
+
+=IF(A2>=90, "A", IF(A2>=80, "B", IF(A2>=70, "C", IF(A2>=60, "D", "F"))))
+
+=VLOOKUP(점수,점수등급,2)
+
+프로그래밍과 절차적 지식

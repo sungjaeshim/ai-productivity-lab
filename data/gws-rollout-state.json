@@ -1,0 +1,10 @@
+{
+  "initiative": "gog-to-gws-dual-track",
+  "phase": "loop-1",
+  "primary": "gog",
+  "canary": "gws",
+  "canaryEnabled": true,
+  "approvedBy": "SUNGJAE Shim",
+  "startedAt": "2026-03-05T11:28:00+09:00",
+  "notes": "A안: 운영은 gog 유지, gws 병행 검증"
+}

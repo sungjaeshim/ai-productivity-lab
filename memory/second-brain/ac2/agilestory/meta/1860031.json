@@ -1,0 +1,32 @@
+{
+  "url": "https://agilestory.blog/1860031",
+  "title": "구글에선 왜 직원들에게 산책을 권하는가",
+  "date": "2006년 4월 24일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:decision",
+    "dom:cognitive-psychology",
+    "dom:decision-making",
+    "scope:general",
+    "evidence:book",
+    "kw:decision",
+    "ac2",
+    "ac2-content",
+    "book",
+    "content",
+    "psychology"
+  ],
+  "extracted_at": "2026-03-02T23:07:12.968212",
+  "post_id": "1860031",
+  "raw_file": "1860031.html",
+  "extraction_status": "success",
+  "text_length": 359,
+  "cleaned_file": "1860031.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:36.243900",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

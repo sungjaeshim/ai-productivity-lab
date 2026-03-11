@@ -1,0 +1,13 @@
+1등 : The judges are happy to proclaim that ______ is the programming tool of choice for discriminating hackers.
+
+2등 : The judges are happy to proclaim that ______ is a fine programming tool for many applications.
+
+3등 : The judges are happy to proclaim that ______ is also not too shabby.
+
+심사위원상 : The judges are happy to proclaim that the ______ are an extremely cool bunch of hackers.
+
+1등 : Haskell, C++, Python, Bash, 2D (Labview 스타일의 언어로 이번 대회를 위해 주최측에서 고안한 언어)
+
+3등 : Assembly
+
+심사위원상 : Carl Witty (팀명 Witrala) 한 명의 팀으로 사용 언어는 아직 알려지지 않음

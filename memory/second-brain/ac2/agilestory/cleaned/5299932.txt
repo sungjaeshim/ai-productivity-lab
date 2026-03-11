@@ -1,0 +1,29 @@
+애자일을 도입해서 성공하는 조직들이 국내에 있다. 애자일 실천법을 잘 실행하면 성공률도 높아질 수 있다. (애자일을 한지 얼마 되지 않더라도) 특정 실천법이 잘 안되는 경우 연결된 다른 실천법이 제대로 되고 있는지 확인해라. 지속적 통합이나 일일 기립 회의, 정기적 회고 등은 다른 실천법을 가능케 해주는 혈자리(enabler)이다. 실천법 중에서 비교적 성공과 직결되는 것들이 존재한다. 그것은 고객 참여, 리팩토링, 코딩후 자동화 단위테스트 붙이기, 코드 공유 등이다. 애자일 성숙도가 낮은 조직일수록 고객 참여를 하지 않으면 프로젝트 성공이 어렵다. 무섭고 두렵지만 중요한 일이라면 계속 미루지 말라. 뛰어난 애자일 코치가 있는 것이 애자일 도입 성공에 핵심적이다. 뛰어난 애자일 코치는 스스로 더 나은 사람이 되려고 노력한다.
+
+애자일을 도입해서 성공하는 조직들이 국내에 있다.
+
+애자일 실천법을 잘 실행하면 성공률도 높아질 수 있다. (애자일을 한지 얼마 되지 않더라도)
+
+특정 실천법이 잘 안되는 경우 연결된 다른 실천법이 제대로 되고 있는지 확인해라.
+
+지속적 통합이나 일일 기립 회의, 정기적 회고 등은 다른 실천법을 가능케 해주는 혈자리(enabler)이다.
+
+실천법 중에서 비교적 성공과 직결되는 것들이 존재한다. 그것은 고객 참여, 리팩토링, 코딩후 자동화 단위테스트 붙이기, 코드 공유 등이다.
+
+애자일 성숙도가 낮은 조직일수록 고객 참여를 하지 않으면 프로젝트 성공이 어렵다.
+
+무섭고 두렵지만 중요한 일이라면 계속 미루지 말라.
+
+뛰어난 애자일 코치가 있는 것이 애자일 도입 성공에 핵심적이다.
+
+뛰어난 애자일 코치는 스스로 더 나은 사람이 되려고 노력한다.
+
+Ferris, G. R., Witt, L. A., & Hochwarter, W. A. (2001). Interaction of social skill and general mental ability on job performance and salary. JOurnal of Applied Psychology, 86, 1075-1082
+
+Sonnentag, S. (1998). Expertise in professional software design: A process study. Journal of Applied Psychology, 83, 703-715
+
+Riedl, T. R., Weitzenfeld, J. S., Freeman, J. T., Klein, G. A., & Musa, J. (1991). What we have learned about software engineering expertise. Proceedings of hte Fifth Software Engineering Institute Conference on Software Engineering Education, 261-270
+
+Sonnentag, S. (1995). Excellent software professionals : Experience, work activities, and perceptions by peers. Behaviour & Information Technology, 14, 289-299
+
+Turley, R. T., & Bieman, J. M. (1995). Competencies of exceptional and nonexceptional software engineers. Journal of Systems and Software, 28, 19-38

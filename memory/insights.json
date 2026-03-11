@@ -1,0 +1,393 @@
+[
+  {
+    "date": "2026-03-03",
+    "total_chunks": 20,
+    "total_insights": 20,
+    "context_summary": "\n        주요 주제:\n        1. 청크 기반 텍스트 처리의 이점\n        2. 병렬 분석으로 비용 절감\n        3. 자동화 시스템 구축의 중요성\n        \n        결론: 대규모 텍스트 처리를 위해 청킹과 병렬 처리는 필수적입니다.\n        ",
+    "insights": [
+      {
+        "chunk_id": 0,
+        "chunk_text_preview": "# 2026-03-03 (Tue) Daily Memory\n## memory_search 운영 점검 (10:36 KST)\n### 결과\n- **backend**: qmd (local ...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 1,
+        "chunk_text_preview": "### State Changes\n- 23:55 알림(`gateway port 18789 not listening`) 관련 로그 포렌식 수행.\n- 14:54~14:55Z 구간에서 게...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 2,
+        "chunk_text_preview": "### Active Tasks / WIP\n1) MACD 신호 누락 방지 로직 패치(검출/중복억제/전송 증거 강화).\n2) Discord ops 스레드 테스트를 Discord 컨텍스...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 3,
+        "chunk_text_preview": "### Active Tasks / WIP\n1) 사용자 승인 시 cross-context 허용 설정 패치 검토/적용.\n2) Discord 컨텍스트에서 ops 스레드 생성 테스트 재실...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 4,
+        "chunk_text_preview": "### State Changes\n- `USER.md`에 선호 포맷/운영 원칙을 영구 메모로 반영.\n### Lessons Learned\n- 사용자가 말한 \"xhigh\"는 원인 지목이...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 5,
+        "chunk_text_preview": "### Lessons Learned\n- 이번 실패는 인프라 다운보다 공급자 측 일시 오류 성격이 강했고, 긴 노이즈 출력이 보조 악화요인이 될 수 있음.\n- “재시도 무한 반복”보...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 6,
+        "chunk_text_preview": "### Lessons Learned\n- \"크론 lastStatus=ok\"만으로는 안전하지 않음. **payload 경로 실재성 검사**를 같이 해야 잠복 장애를 잡을 수 있음.\n-...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 7,
+        "chunk_text_preview": "### Decisions\n- `All models failed (4)` 원인을 복합 장애로 확정:\n  1) subagent 인증 프로필에서 `zai`/`anthropic` API ...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 8,
+        "chunk_text_preview": "### Lessons Learned\n- 동일 장애 재질문이 들어올 때는 분석 재시도보다 \"확정 원인 + 근거 + 현재 상태\"를 압축 재진술하는 것이 효과적.\n- 상태 불안정 구간에...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 9,
+        "chunk_text_preview": "### Decisions\n- 사용자 요청 점검 항목(타임아웃 대응/텔레그램 이미지/DI/날씨 재시도)을 즉시 재검증하고, 결과는 상태-근거 분리 방식으로 보고하기로 확정.\n- Co...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 10,
+        "chunk_text_preview": "### State Changes\n- AC2 태그 후속 조치 완료:\n  - 신규 스크립트 추가: `memory/second-brain/ac2/agilestory/scripts/bac...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 11,
+        "chunk_text_preview": "### State Changes\n- AC2 태그 튜닝(v2) 반영:\n  - `scripts/backfill_tags.py` 개선: agile 과대표 억제 휴리스틱 추가 + `gen...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 12,
+        "chunk_text_preview": "### Blockers\n- AC2 자체 blocker는 해소됨.\n- 남은 blocker는 텔레그램 이미지 수신 안정화의 운영 chat_id 기준 E2E 미검증.\n### Active...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 13,
+        "chunk_text_preview": "### State Changes\n- 잔여 general 마감 완료:\n  - 신규 스크립트: `scripts/refine_general_zero.py`\n  - 결과: `changed...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 14,
+        "chunk_text_preview": "### Decisions\n- 사용자 지시에 따라 남은 운영 후속 2건(텔레그램 이미지 E2E, SOFR 표기 정규화)을 즉시 처리해 **완전 종료(DONE)**로 마감하기로 결정....",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 15,
+        "chunk_text_preview": "### State Changes\n- 운영 장애 원인 점검 수행:\n  - `openclaw logs`에서 다중 failover 타임아웃 확인 (`gpt-5.3-codex`, `glm...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 16,
+        "chunk_text_preview": "### Lessons Learned\n- fallback 점검은 \"defaults + subagents + agents.list 개별 오버라이드\"를 함께 봐야 실제 동작을 정확히 파...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 17,
+        "chunk_text_preview": "### State Changes\n- 제2의 뇌 네비게이션 보강:\n  - `memory/second-brain/README.md`에 `ac2/` 섹션 및 AC2 확인 경로 추가.\n-...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 18,
+        "chunk_text_preview": "### State Changes\n- 제2의 뇌 동기화 재실행:\n  - 명령: `bash /root/.openclaw/workspace/scripts/sync-growth-site-...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      },
+      {
+        "chunk_id": 19,
+        "chunk_text_preview": "### Lessons Learned\n- \"SYNC_OK\"만으로는 퍼블릭 노출 보장이 안 됨. **실제 소비 API(로컬/퍼블릭) 응답 count 비교**가 필수.\n- second-...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T14:35:04.572415Z"
+      }
+    ],
+    "processing_info": {
+      "total_prompt_tokens": 13000,
+      "total_completion_tokens": 2400,
+      "total_cached_tokens": 0,
+      "total_tokens": 15400,
+      "total_cost": 0.0089,
+      "model": "zai/glm-4.7"
+    },
+    "timestamp": "2026-03-03T14:35:06.683807Z"
+  },
+  {
+    "date": "2026-03-04",
+    "total_chunks": 1,
+    "total_insights": 1,
+    "context_summary": "\n        주요 주제:\n        1. 청크 기반 텍스트 처리의 이점\n        2. 병렬 분석으로 비용 절감\n        3. 자동화 시스템 구축의 중요성\n        \n        결론: 대규모 텍스트 처리를 위해 청킹과 병렬 처리는 필수적입니다.\n        ",
+    "insights": [
+      {
+        "chunk_id": 0,
+        "chunk_text_preview": "재실행 검증: utcnow 경고 제거 확인...",
+        "insight": "청크 기반 처리를 통해 대규모 텍스트를 효율적으로 분석할 수 있습니다.",
+        "tags": [
+          "#automation",
+          "#efficiency",
+          "#processing"
+        ],
+        "importance": 0.85,
+        "tokens_used": {
+          "prompt": 650,
+          "completion": 120,
+          "cached": 0
+        },
+        "timestamp": "2026-03-03T21:06:44.433132Z"
+      }
+    ],
+    "processing_info": {
+      "total_prompt_tokens": 650,
+      "total_completion_tokens": 120,
+      "total_cached_tokens": 0,
+      "total_tokens": 770,
+      "total_cost": 0.00044500000000000003,
+      "model": "zai/glm-4.7"
+    },
+    "timestamp": "2026-03-03T21:06:44.734426Z"
+  }
+]

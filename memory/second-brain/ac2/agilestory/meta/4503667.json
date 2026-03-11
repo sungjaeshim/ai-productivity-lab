@@ -1,0 +1,32 @@
+{
+  "url": "https://agilestory.blog/4503667",
+  "title": "도대체 수학을 어디에 써먹을꼬 : 중고등학생을 위한 워크샵",
+  "date": "2008년 7월 22일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:execution",
+    "dom:learning-science",
+    "dom:organizational-change",
+    "scope:org",
+    "evidence:field-case",
+    "kw:change",
+    "ac2",
+    "ac2-content",
+    "content",
+    "education",
+    "learning"
+  ],
+  "extracted_at": "2026-03-02T23:13:13.133340",
+  "post_id": "4503667",
+  "raw_file": "4503667.html",
+  "extraction_status": "success",
+  "text_length": 1694,
+  "cleaned_file": "4503667.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:37.617149",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

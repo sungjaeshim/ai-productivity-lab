@@ -1,0 +1,13 @@
+{
+  "window_days": 3,
+  "generated_at": "2026-03-06T23:34:41.067954+00:00",
+  "stats": {
+    "total": 31,
+    "p1": 0,
+    "p2": 0,
+    "p3": 31,
+    "ops_true": 0,
+    "ops_false": 31
+  },
+  "ops_candidates": []
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://agilestory.blog/2715388",
+  "title": "평범한 직원들로 천재 조직 만들기",
+  "date": "2006년 11월 4일",
+  "author": "",
+  "tags": [
+    "src:ac2",
+    "kind:content",
+    "use:review",
+    "dom:organizational-change",
+    "method:xp",
+    "scope:org",
+    "ac2",
+    "ac2-content",
+    "content",
+    "xp"
+  ],
+  "extracted_at": "2026-03-02T23:09:04.881424",
+  "post_id": "2715388",
+  "raw_file": "2715388.html",
+  "extraction_status": "success",
+  "text_length": 841,
+  "cleaned_file": "2715388.md",
+  "recovery_method": "trafilatura",
+  "recovered": true,
+  "recovered_at": "2026-03-02T23:36:36.690454",
+  "tag_source": "ac2_taxonomy_v3_tuned_tl",
+  "tags_updated_at": "2026-03-03T07:28:04.310Z"
+}

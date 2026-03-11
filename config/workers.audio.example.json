@@ -1,0 +1,150 @@
+{
+  "_comment": "Example configuration for Telegram topic background worker flow for audio-STT-document conversion",
+
+  "workers": {
+    "audio": {
+      "enabled": true,
+
+      "_comment_route_threshold": "Files above this size (MB) route to worker topic",
+      "thresholdMB": 10.0,
+
+      "routes": {
+        "A": {
+          "_comment": "Inline / speed-first route",
+          "description": "Inline / speed-first",
+          "model": "small",
+          "timeoutSec": 600,
+          "inline": true
+        },
+        "B": {
+          "_comment": "Worker / quality-first route",
+          "description": "Worker / quality-first",
+          "model": "medium",
+          "timeoutSec": 1800,
+          "workerTopic": "-1001234567890:topic:42",
+          "inline": false
+        }
+      },
+
+      "delivery": {
+        "tokenTtlMs": 60000,
+        "retryAttempts": 3,
+        "retryDelayMs": 2000
+      },
+
+      "directories": {
+        "downloadDir": "~/.openclaw/workspace-audio-worker/tmp/downloads",
+        "transcriptDir": "~/.openclaw/workspace-audio-worker/transcripts",
+        "documentDir": "~/.openclaw/workspace-audio-worker/documents"
+      },
+
+      "whisper": {
+        "language": "Korean",
+        "outputFormat": "txt",
+        "modelPath": null
+      },
+
+      "statusUpdates": {
+        "minimalInMain": true,
+        "verboseInWorker": true,
+        "failureCodes": {
+          "FETCH_DENIED": "Source URL cannot be downloaded",
+          "DEL_MISSING": "Downloaded file missing/unreadable",
+          "TIMEOUT": "Processing exceeded timeout",
+          "TRANSCRIBE_FAIL": "Whisper transcription failed",
+          "SUMMARIZE_FAIL": "Document summarization failed"
+        }
+      }
+    }
+  },
+
+  "_comment_bindings": "ACP bindings for worker topics",
+  "bindings": [
+    {
+      "type": "acp",
+      "agentId": "audio-worker",
+      "match": {
+        "channel": "telegram",
+        "accountId": "default",
+        "peer": {
+          "kind": "group",
+          "id": "-1001234567890:topic:42"
+        }
+      },
+      "acp": {
+        "label": "audio-worker-42",
+        "mode": "persistent",
+        "backend": "acpx",
+        "cwd": "~/.openclaw/workspace-audio-worker"
+      }
+    }
+  ],
+
+  "_comment_agents": "Agent definitions",
+  "agents": {
+    "list": [
+      {
+        "id": "audio-worker",
+        "workspace": "~/.openclaw/workspace-audio-worker",
+        "runtime": {
+          "type": "acp",
+          "acp": {
+            "agent": "codex",
+            "backend": "acpx",
+            "mode": "persistent",
+            "cwd": "~/.openclaw/workspace-audio-worker"
+          }
+        },
+        "tools": {
+          "media": {
+            "audio": {
+              "enabled": true,
+              "provider": "deepgram",
+              "providerOptions": {
+                "deepgram": {
+                  "detect_language": true,
+                  "punctuate": true,
+                  "smart_format": true
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+
+  "_comment_telegram_config": "Telegram configuration for main and worker topics",
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "YOUR_BOT_TOKEN_HERE",
+      "dmPolicy": "pairing",
+      "groupPolicy": "allowlist",
+      "groups": {
+        "-1001234567890": {
+          "enabled": true,
+          "requireMention": false,
+          "topics": {
+            "42": {
+              "_comment": "This is the worker topic - dedicated for audio processing",
+              "enabled": true,
+              "requireMention": false,
+              "agentId": "audio-worker"
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "_comment_acp_config": "ACP runtime configuration",
+  "acp": {
+    "enabled": true,
+    "backend": "acpx",
+    "maxConcurrentSessions": 3,
+    "runtime": {
+      "ttlMinutes": 30
+    }
+  }
+}

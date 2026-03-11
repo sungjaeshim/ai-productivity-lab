@@ -1,0 +1,37 @@
+컴퓨터를 하는 사람들만큼 세상의 흐름에 맞춰가느라 스트레스 받는 사람도 드물 것 같습니다. 한 사람이 소프트웨어를 개발하기 위해 알아야 하는 모든 지식의 절반이 약 삼 년이면 모두 퇴물이 된다고 합니다. 그래서 대학에서 컴퓨터를 가르치는 사람들은 고민이 많지요. 좀 더 근본지식을 가르쳐야 한다, 아니다 자꾸 새로 업데이트된 최신 내용을 가르쳐야 한다 등등.
+
+고전이란 무엇일까요? "우리를 만든 책"이면서 동시에 오늘날에도 우리에게 울림과 깨달음을 주는 책을 고전이라고 하겠지요. 그렇다면 과연 컴퓨터 쪽에 고전이라는 것이 존재할까요? 고전이라고 하는 것들이 기껏해야 10년 미만의 책들은 아닐까요? 아닙니다.
+
+작년에 ACM에서 회원 대상으로 조사를 하나 했습니다( http://www.acm.org/classics/ ). 절판된 "나를 만든 책"을 뽑아달라는 주문을 한 것이죠. 여기에서 선정된 20권의 책은 ACM에서 무료로 받아볼 수 있게 하고, 원하면 저렴한 가격에 인쇄를 해서 보내주겠다, 뭐 그런 행사를 계획했습니다.
+
+대략 400권이 넘는 후보가 올라왔습니다. ACM에서는 위키 사이트를 만들어서 사람들이 의견과 정보를 교환할 수 있게 했습니다. 여기 에 가면 그 목록과 함께 해당 위키 페이지로 가는 링크를 볼 수 있습니다(대략 80%의 책에 대해 위키 페이지가 만들어졌습니다). 우상단에는 절판되지 않았는데 사람들이 후보로 올린 책 목록을 따로 모아둔 링크가 있습니다.
+
+위키 페이지를 한번 구경해 보세요. OOP의 아버지로 불리우는 앨런 케이 같은 사람이 자기를 만든 책에 대해 이야기하는 걸 볼 수 있습니다.
+
+자, 그게 작년 10월이었고, 11월부터는 회원들이 투표를 하게 했습니다. 수천명의 ACM 회원들이 투표를 했는데(ACM에서 보기 드문 참여율이었다고 합니다) 그 결과가 올해 3월 CACM 에 나왔습니다.
+
+여러분들을 위해 그 탑 25를 아래에 공개합니다.
+
+% ballots Title Authors Year 1 28.9% The Elements of Programming Style Kernighan, B.W. and Plauger, P.J. 1982 2 13.4% Classics in Software Engineering Yourdon, E. 1979 3 13.0% Theory of Parsing, Translation and Compiling Aho, A.V. and Ullman, J.D. 1973 4 12.6% Pascal User Manual and Report Jensen, K. and Wirth, N. 1975 5 12.5% Computer and the Brain Von Neumann, J. 1958 6 11.1% Selected Writings on Computing Dijkstra, E.W. 1982 7 10.5% Smalltalk-80: The Language and its Implementation Goldberg, A. and Robson, D 1983 8 10.3% Compiler Construction Bauer, F.L. and Eickel, J. 1976 9 10.2% The Relational Model for Database Management: Version 2 Codd, E.F. 1990 10 10.0% A Programming Language Iverson, K.E. 1962 11 10.0% Formal Languages and Their Relation to Automata Hopcroft, J.E. and Ullman, J.D. 1969 12 9.1% Writing Efficient Programs Bentley, J.L. 1982 13 9.0% Computation: Finite and Infinite Machines Minsky, M.L. 1967 14 8.9% The Multics System Organick, E.I. 1972 15 8.8% Operating System Principles Brinch Hansen, P. 1973 16 8.5% IBM System/360 Principles of Operation IBM 1964 17 8.0% Mindstorms Papert, S. 1980 18 8.0% The Architecture of Concurrent Programs Brinch Hansen, P. 1977 19 7.9% Structured Programming Dahl, O.J. 1972 20 7.3% 201 Principles of Software Development Davis, A.M. 1995 21 7.3% Artificial Intelligence Rich, E. 1983 22 7.1% Mac Intosh Human Interface Guidelines Apple Computer Inc. 1992 23 7.0% Cryptography and Data Security Denning, D.E. 1982 24 7.0% Essays in Computing Science C.A. Hoare and C.B. Jones, Eds. 1989 25 6.9% Anatomy of LISP Allen, J. 1978
+
+이 목록에는 출간된지 50년이 다 된 책도 있군요. 이 중에서 제가 부분적이라도 본 책은 1번, 5번, 6번, 7번, 12번, 17번, 19번, 20번이네요. 그 중에는 "나를 만든 책"에 넣을만한 책도 있구요.
+
+ACM에서는 이번에 의외로 사람들의 호응이 너무 좋아서 20권을 공개한 다음에 이런 행사를 다시 할 수도 있다고 합니다. 하여튼 저 책들을 어서 빨리 보고 싶군요!
+
+p.s. 보너스. 제가 짬짬이 모아 온 전산학 고전 논문/기사 목록들:
+
+http://www.zafar.se/bkz/wiki?/view/43bafac8c8570f4f
+
+http://www.e7l3.org/classics.html
+
+http://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml (프로그래밍 언어론)
+
+http://www.fh-jena.de/~kleine/history/
+
+http://www.artima.com/weblogs/viewpost.jsp?thread=4788 (켄 아놀드의 목록)
+
+http://www.cc.gatech.edu/fac/Spencer.Rugaber/seminal.html
+
+http://www.cs.iastate.edu/~leavens/literature-recommendations.html
+
+http://www.csc.lsu.edu/~chen/greatpapers.htm (1000 명이 넘는 대학교수들에게 전산학에서 가장 영향력 높은 논문을 고르게 한 서베이의 결과 탑 38)

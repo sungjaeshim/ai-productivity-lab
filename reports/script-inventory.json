@@ -1,0 +1,1862 @@
+{
+  "generated_at": "2026-03-06T05:03:22.550418+00:00",
+  "summary": {
+    "keep": 6,
+    "dormant": 47,
+    "live": 9,
+    "hold": 3,
+    "canonical": 1,
+    "candidate": 1,
+    "compat": 2,
+    "top_level_scripts": 69,
+    "retired_aliases": 8,
+    "known_missing_refs": 5
+  },
+  "registry": {
+    "_format": "YAML-compatible JSON",
+    "version": 1,
+    "families": {
+      "brain": {
+        "canonical_entrypoint": "brainctl.sh",
+        "members": [
+          "brain-auto-route-learn.sh",
+          "brain-content-analyze.sh",
+          "brain-daily-done-summary.sh",
+          "brain-discord-autopull.sh",
+          "brain-done-broadcast.sh",
+          "brain-inbox-resend-clean.sh",
+          "brain-link-ingest.sh",
+          "brain-nightly-todo-sync.sh",
+          "brain-note-ingest.sh",
+          "brain-queue-autoclean.sh",
+          "brain-route-retry.sh",
+          "brain-router-health-monitor.sh",
+          "brain-tag-route.sh",
+          "brain-telegram-autopull.sh",
+          "brain-thread-manage.sh",
+          "brain-todo-reaction-sync.sh",
+          "brain-todo-route.sh",
+          "brain-todoist-done-summary.sh",
+          "brain-todoist-stale-check.sh",
+          "brain-todoist-sync.sh",
+          "brain-weekly-knowledge-report.sh"
+        ]
+      },
+      "send": {
+        "canonical_entrypoint": "sendctl.sh",
+        "members": [
+          "send-briefing.sh",
+          "send-guard-observe.sh",
+          "send-guarded-message.sh"
+        ]
+      }
+    },
+    "aliases": [
+      {
+        "name": "system-monitor.sh",
+        "status": "compat",
+        "canonical": "system-monitor.sh",
+        "notes": "Workspace compatibility wrapper that feeds callme-v1 dispatch."
+      },
+      {
+        "name": "todoist-monitor.sh",
+        "status": "compat",
+        "canonical": "todoist-monitor.sh",
+        "notes": "Compatibility wrapper to brain-todoist-stale-check.sh."
+      },
+      {
+        "name": "monitor-brain-link-ci.sh",
+        "status": "retired",
+        "canonical": "github-ci-monitor.sh",
+        "attic": "_attic/2026-03/monitor-brain-link-ci.sh",
+        "notes": "Superseded by quieter GitHub REST monitor."
+      },
+      {
+        "name": "auto_post.sh",
+        "status": "retired",
+        "canonical": "auto-blog-post.sh",
+        "attic": "_attic/2026-03/auto_post.sh",
+        "notes": "Legacy pipeline points at a missing ai-blog workspace."
+      },
+      {
+        "name": "batch_posts.py",
+        "status": "retired",
+        "canonical": "auto-blog-post.sh",
+        "attic": "_attic/2026-03/batch_posts.py",
+        "notes": "Legacy batch content generator kept only for reference."
+      },
+      {
+        "name": "fetch_unsplash.py",
+        "status": "retired",
+        "attic": "_attic/2026-03/fetch_unsplash.py",
+        "notes": "Unreferenced image helper archived pending a real blog-media pipeline owner."
+      },
+      {
+        "name": "memory-grep-search.sh",
+        "status": "retired",
+        "attic": "_attic/2026-03/memory-grep-search.sh",
+        "notes": "Unreferenced fallback memory grep helper archived until re-adopted."
+      },
+      {
+        "name": "cron-daily-diff-report.py",
+        "status": "retired",
+        "attic": "_attic/2026-03/cron-daily-diff-report.py",
+        "notes": "Unreferenced cron analytics report archived after candidate sweep."
+      },
+      {
+        "name": "notion_log.py",
+        "status": "retired",
+        "attic": "_attic/2026-03/notion_log.py",
+        "notes": "Standalone Notion logger archived after candidate sweep."
+      },
+      {
+        "name": "usdkrw_alert.py",
+        "status": "retired",
+        "attic": "_attic/2026-03/usdkrw_alert.py",
+        "notes": "Inactive market alert helper archived after candidate sweep."
+      }
+    ],
+    "known_missing_refs": [
+      {
+        "name": "refresh-strava-token.sh",
+        "status": "missing",
+        "notes": "Legacy disabled cron payload; no workspace replacement is committed."
+      },
+      {
+        "name": "check-gmail.py",
+        "status": "missing",
+        "notes": "Legacy disabled cron payload; feature is not implemented in this workspace."
+      },
+      {
+        "name": "sentiment-gambler.js",
+        "status": "missing",
+        "canonical": "market_sentiment_delta.py",
+        "notes": "Legacy market sentiment JS path replaced by Python delta script."
+      },
+      {
+        "name": "tga-fetcher.js",
+        "status": "missing",
+        "notes": "Legacy liquidity fetcher path is absent from the workspace."
+      },
+      {
+        "name": "nq-macd-analyzer.js",
+        "status": "missing",
+        "canonical": "/root/.openclaw/scripts/nq_macd_multi.py",
+        "notes": "Legacy Node MACD runner replaced by Python runner outside workspace."
+      }
+    ],
+    "overrides": [
+      {
+        "name": "auto-blog-post.sh",
+        "status": "keep",
+        "notes": "Manual blog generation utility for ai-productivity-lab."
+      },
+      {
+        "name": "blog-report.sh",
+        "status": "keep",
+        "notes": "Manual blog reporting utility for ai-productivity-lab."
+      },
+      {
+        "name": "check-growth-second-brain-public.sh",
+        "status": "keep",
+        "notes": "Manual public dashboard healthcheck utility."
+      },
+      {
+        "name": "enforce-dns-fallback.sh",
+        "status": "keep",
+        "notes": "Manual DNS recovery tool; keep out of unattended rotation."
+      },
+      {
+        "name": "full-backup.sh",
+        "status": "keep",
+        "notes": "Manual full workspace backup utility."
+      },
+      {
+        "name": "git-ai-note.sh",
+        "status": "keep",
+        "notes": "Manual git notes utility for AI session metadata."
+      },
+      {
+        "name": "sync-growth-site-second-brain.sh",
+        "status": "candidate",
+        "notes": "Unreferenced growth-site sync helper; archive next if export flow stays inactive."
+      },
+      {
+        "name": "local-rescue-model-eval.sh",
+        "status": "hold",
+        "notes": "Recently added local rescue evaluator; keep under review."
+      },
+      {
+        "name": "telegram-egress-monitor.sh",
+        "status": "hold",
+        "notes": "Recently edited monitor; do not archive until rollout decision is explicit."
+      },
+      {
+        "name": "test-send-guard.sh",
+        "status": "hold",
+        "notes": "Recently added send-guard test harness."
+      }
+    ]
+  },
+  "scripts": [
+    {
+      "name": "sync-growth-site-second-brain.sh",
+      "path": "/root/.openclaw/workspace/scripts/sync-growth-site-second-brain.sh",
+      "modified_at": "2026-03-02T13:30:04.439049+00:00",
+      "family": null,
+      "canonical": "sync-growth-site-second-brain.sh",
+      "status": "candidate",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": "Unreferenced growth-site sync helper; archive next if export flow stays inactive."
+    },
+    {
+      "name": "sendctl.sh",
+      "path": "/root/.openclaw/workspace/scripts/sendctl.sh",
+      "modified_at": "2026-03-06T04:29:00.471771+00:00",
+      "family": "send",
+      "canonical": "sendctl.sh",
+      "status": "canonical",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/scripts-governance.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "system-monitor.sh",
+      "path": "/root/.openclaw/workspace/scripts/system-monitor.sh",
+      "modified_at": "2026-03-06T04:29:00.471771+00:00",
+      "family": null,
+      "canonical": "system-monitor.sh",
+      "status": "compat",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/callme-v1-runbook.md",
+          "/root/.openclaw/workspace/docs/ops-monitoring-matrix.md",
+          "/root/.openclaw/workspace/docs/scripts-governance.md"
+        ],
+        "internal": []
+      },
+      "notes": "Workspace compatibility wrapper that feeds callme-v1 dispatch."
+    },
+    {
+      "name": "todoist-monitor.sh",
+      "path": "/root/.openclaw/workspace/scripts/todoist-monitor.sh",
+      "modified_at": "2026-03-06T04:29:00.471771+00:00",
+      "family": null,
+      "canonical": "todoist-monitor.sh",
+      "status": "compat",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/ops-monitoring-matrix.md",
+          "/root/.openclaw/workspace/docs/scripts-governance.md"
+        ],
+        "internal": []
+      },
+      "notes": "Compatibility wrapper to brain-todoist-stale-check.sh."
+    },
+    {
+      "name": "brain-auto-route-learn.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-auto-route-learn.sh",
+      "modified_at": "2026-03-03T09:14:59.185289+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-discord-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brain-telegram-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brain-weekly-knowledge-report.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-content-analyze.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-content-analyze.sh",
+      "modified_at": "2026-03-04T03:49:54.084270+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-link-ingest.sh",
+          "/root/.openclaw/workspace/scripts/brain-note-ingest.sh",
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-daily-done-summary.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-daily-done-summary.sh",
+      "modified_at": "2026-03-01T11:10:19.098276+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/brain-pipeline.md",
+          "/root/.openclaw/workspace/memory/2026-03-04.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-done-broadcast.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-done-broadcast.sh",
+      "modified_at": "2026-03-04T21:38:13.981764+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/memory/2026-03-01.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-inbox-resend-clean.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-inbox-resend-clean.sh",
+      "modified_at": "2026-03-04T21:39:51.361610+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-link-ingest.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-link-ingest.sh",
+      "modified_at": "2026-03-04T03:50:21.070427+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/brain-pipeline.md",
+          "/root/.openclaw/workspace/docs/brain-todoist-sync.md",
+          "/root/.openclaw/workspace/memory/2026-03-01-discord-edit.md",
+          "/root/.openclaw/workspace/memory/2026-03-01-ipv6-runbook.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-discord-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brain-queue-autoclean.sh",
+          "/root/.openclaw/workspace/scripts/brain-telegram-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-note-ingest.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-note-ingest.sh",
+      "modified_at": "2026-03-04T02:27:12.878344+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/brain-pipeline.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-discord-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brain-queue-autoclean.sh",
+          "/root/.openclaw/workspace/scripts/brain-telegram-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-queue-autoclean.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-queue-autoclean.sh",
+      "modified_at": "2026-03-06T01:41:19.379997+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-route-retry.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-route-retry.sh",
+      "modified_at": "2026-03-06T01:41:25.968274+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-queue-autoclean.sh",
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-router-health-monitor.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-router-health-monitor.sh",
+      "modified_at": "2026-03-06T01:41:03.992348+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-tag-route.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-tag-route.sh",
+      "modified_at": "2026-03-05T20:57:07.931230+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/memory/2026-03-06.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-discord-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brain-route-retry.sh",
+          "/root/.openclaw/workspace/scripts/brain-telegram-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-telegram-autopull.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-telegram-autopull.sh",
+      "modified_at": "2026-03-04T21:38:25.426340+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/brain-pipeline.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-route-retry.sh",
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-thread-manage.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-thread-manage.sh",
+      "modified_at": "2026-03-03T05:32:34.613453+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/brain-pipeline.md",
+          "/root/.openclaw/workspace/docs/brain-todoist-sync.md",
+          "/root/.openclaw/workspace/memory/2026-03-01-discord-edit.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-todo-reaction-sync.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-todo-reaction-sync.sh",
+      "modified_at": "2026-03-04T06:28:04.192614+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/memory/2026-03-04.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-nightly-todo-sync.sh",
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-todo-route.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-todo-route.sh",
+      "modified_at": "2026-03-04T21:42:06.916174+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/memory/2026-03-04.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-discord-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brain-route-retry.sh",
+          "/root/.openclaw/workspace/scripts/brain-telegram-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brain-todo-reaction-sync.sh",
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-todoist-done-summary.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-todoist-done-summary.sh",
+      "modified_at": "2026-03-01T11:00:27.056159+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/brain-todoist-ops.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-done-broadcast.sh",
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-todoist-stale-check.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-todoist-stale-check.sh",
+      "modified_at": "2026-03-01T11:00:27.056159+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/brain-todoist-ops.md",
+          "/root/.openclaw/workspace/docs/ops-monitoring-matrix.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-nightly-todo-sync.sh",
+          "/root/.openclaw/workspace/scripts/brainctl.sh",
+          "/root/.openclaw/workspace/scripts/todoist-monitor.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-todoist-sync.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-todoist-sync.sh",
+      "modified_at": "2026-03-04T21:34:58.455406+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/brain-todoist-sync.md",
+          "/root/.openclaw/workspace/memory/2026-03-04.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-todo-reaction-sync.sh",
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-weekly-knowledge-report.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-weekly-knowledge-report.sh",
+      "modified_at": "2026-03-04T21:39:18.889007+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "callme-v1-dispatch.sh",
+      "path": "/root/.openclaw/workspace/scripts/callme-v1-dispatch.sh",
+      "modified_at": "2026-03-01T11:00:27.056159+00:00",
+      "family": null,
+      "canonical": "callme-v1-dispatch.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/callme-v1-runbook.md",
+          "/root/.openclaw/workspace/docs/callme-v1.md",
+          "/root/.openclaw/workspace/docs/cross-context-routing.md",
+          "/root/.openclaw/workspace/docs/ops-monitoring-matrix.md",
+          "/root/.openclaw/workspace/memory/2026-03-01.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/system-monitor.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "callme-v1-healthcheck.sh",
+      "path": "/root/.openclaw/workspace/scripts/callme-v1-healthcheck.sh",
+      "modified_at": "2026-03-01T11:00:27.056159+00:00",
+      "family": null,
+      "canonical": "callme-v1-healthcheck.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/callme-v1-runbook.md",
+          "/root/.openclaw/workspace/memory/2026-03-01.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "callme-v1-router.js",
+      "path": "/root/.openclaw/workspace/scripts/callme-v1-router.js",
+      "modified_at": "2026-03-01T11:00:27.057159+00:00",
+      "family": null,
+      "canonical": "callme-v1-router.js",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/callme-v1-runbook.md",
+          "/root/.openclaw/workspace/docs/callme-v1.md",
+          "/root/.openclaw/workspace/memory/2026-03-01.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/callme-v1-dispatch.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "callme-v1-sample-event.sh",
+      "path": "/root/.openclaw/workspace/scripts/callme-v1-sample-event.sh",
+      "modified_at": "2026-03-01T11:00:27.057159+00:00",
+      "family": null,
+      "canonical": "callme-v1-sample-event.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/callme-v1-runbook.md",
+          "/root/.openclaw/workspace/memory/2026-03-01.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "daily-intelligence-collector.sh",
+      "path": "/root/.openclaw/workspace/scripts/daily-intelligence-collector.sh",
+      "modified_at": "2026-03-04T12:25:15.018012+00:00",
+      "family": null,
+      "canonical": "daily-intelligence-collector.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/memory/2026-03-04.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "discord-send-safe.sh",
+      "path": "/root/.openclaw/workspace/scripts/discord-send-safe.sh",
+      "modified_at": "2026-03-01T11:00:27.057159+00:00",
+      "family": null,
+      "canonical": "discord-send-safe.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/cross-context-routing.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/health-cross-context.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "env-loader.sh",
+      "path": "/root/.openclaw/workspace/scripts/env-loader.sh",
+      "modified_at": "2026-03-03T05:27:58.189748+00:00",
+      "family": null,
+      "canonical": "env-loader.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/memory/2026-03-02.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-auto-route-learn.sh",
+          "/root/.openclaw/workspace/scripts/brain-discord-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brain-done-broadcast.sh",
+          "/root/.openclaw/workspace/scripts/brain-inbox-resend-clean.sh",
+          "/root/.openclaw/workspace/scripts/brain-link-ingest.sh",
+          "/root/.openclaw/workspace/scripts/brain-nightly-todo-sync.sh",
+          "/root/.openclaw/workspace/scripts/brain-note-ingest.sh",
+          "/root/.openclaw/workspace/scripts/brain-queue-autoclean.sh",
+          "/root/.openclaw/workspace/scripts/brain-route-retry.sh",
+          "/root/.openclaw/workspace/scripts/brain-router-health-monitor.sh",
+          "/root/.openclaw/workspace/scripts/brain-tag-route.sh",
+          "/root/.openclaw/workspace/scripts/brain-telegram-autopull.sh",
+          "/root/.openclaw/workspace/scripts/brain-thread-manage.sh",
+          "/root/.openclaw/workspace/scripts/brain-todo-reaction-sync.sh",
+          "/root/.openclaw/workspace/scripts/brain-todo-route.sh",
+          "/root/.openclaw/workspace/scripts/brain-weekly-knowledge-report.sh",
+          "/root/.openclaw/workspace/scripts/cloud-firewall-drift-guard.sh",
+          "/root/.openclaw/workspace/scripts/send-briefing.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "growth-center-env-setup.sh",
+      "path": "/root/.openclaw/workspace/scripts/growth-center-env-setup.sh",
+      "modified_at": "2026-03-01T11:00:27.057159+00:00",
+      "family": null,
+      "canonical": "growth-center-env-setup.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/resend-sentry-go-live.md",
+          "/root/.openclaw/workspace/memory/2026-03-01-resend-dns.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "health-cross-context.sh",
+      "path": "/root/.openclaw/workspace/scripts/health-cross-context.sh",
+      "modified_at": "2026-03-01T11:00:27.057159+00:00",
+      "family": null,
+      "canonical": "health-cross-context.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/cross-context-routing.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "incident-db.sh",
+      "path": "/root/.openclaw/workspace/scripts/incident-db.sh",
+      "modified_at": "2026-03-01T11:00:27.057159+00:00",
+      "family": null,
+      "canonical": "incident-db.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/incident-runbook.md"
+        ],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/incident-router.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "incident-router.sh",
+      "path": "/root/.openclaw/workspace/scripts/incident-router.sh",
+      "modified_at": "2026-03-01T11:00:27.057159+00:00",
+      "family": null,
+      "canonical": "incident-router.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/cross-context-routing.md",
+          "/root/.openclaw/workspace/docs/incident-runbook.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "local-rescue-canary.sh",
+      "path": "/root/.openclaw/workspace/scripts/local-rescue-canary.sh",
+      "modified_at": "2026-03-06T01:30:01.996671+00:00",
+      "family": null,
+      "canonical": "local-rescue-canary.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/local-llm-rescue.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "local-rescue-q35-eval.sh",
+      "path": "/root/.openclaw/workspace/scripts/local-rescue-q35-eval.sh",
+      "modified_at": "2026-03-06T02:22:56.558490+00:00",
+      "family": null,
+      "canonical": "local-rescue-q35-eval.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/local-rescue-q35-eval.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "log-mistake.sh",
+      "path": "/root/.openclaw/workspace/scripts/log-mistake.sh",
+      "modified_at": "2026-03-06T01:39:51.411293+00:00",
+      "family": null,
+      "canonical": "log-mistake.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/send-guarded-message.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "market_sentiment_delta.py",
+      "path": "/root/.openclaw/workspace/scripts/market_sentiment_delta.py",
+      "modified_at": "2026-03-04T03:05:23.071639+00:00",
+      "family": null,
+      "canonical": "market_sentiment_delta.py",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/memory/2026-03-04.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "memory_promote.py",
+      "path": "/root/.openclaw/workspace/scripts/memory_promote.py",
+      "modified_at": "2026-03-05T19:40:08.656892+00:00",
+      "family": null,
+      "canonical": "memory_promote.py",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/HEARTBEAT.md",
+          "/root/.openclaw/workspace/docs/ops/RECALL_ADOPTION.md",
+          "/root/.openclaw/workspace/memory/2026-03-06.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "recall_quick_check.py",
+      "path": "/root/.openclaw/workspace/scripts/recall_quick_check.py",
+      "modified_at": "2026-03-06T03:50:17.134265+00:00",
+      "family": null,
+      "canonical": "recall_quick_check.py",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/HEARTBEAT.md",
+          "/root/.openclaw/workspace/docs/ops/RECALL_ADOPTION.md",
+          "/root/.openclaw/workspace/memory/2026-03-06.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "resend-sentry-smoke.sh",
+      "path": "/root/.openclaw/workspace/scripts/resend-sentry-smoke.sh",
+      "modified_at": "2026-03-01T11:00:27.058159+00:00",
+      "family": null,
+      "canonical": "resend-sentry-smoke.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/resend-sentry-validation.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "safe-autorepair.sh",
+      "path": "/root/.openclaw/workspace/scripts/safe-autorepair.sh",
+      "modified_at": "2026-03-01T11:00:27.058159+00:00",
+      "family": null,
+      "canonical": "safe-autorepair.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/incident-runbook.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "script_inventory.py",
+      "path": "/root/.openclaw/workspace/scripts/script_inventory.py",
+      "modified_at": "2026-03-06T04:59:58.474620+00:00",
+      "family": null,
+      "canonical": "script_inventory.py",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/scripts-governance.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "send-briefing.sh",
+      "path": "/root/.openclaw/workspace/scripts/send-briefing.sh",
+      "modified_at": "2026-03-04T00:10:08.069991+00:00",
+      "family": "send",
+      "canonical": "sendctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/blog-report.sh",
+          "/root/.openclaw/workspace/scripts/sendctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "send-guard-observe.sh",
+      "path": "/root/.openclaw/workspace/scripts/send-guard-observe.sh",
+      "modified_at": "2026-03-06T01:49:33.442878+00:00",
+      "family": "send",
+      "canonical": "sendctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/sendctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "send-guarded-message.sh",
+      "path": "/root/.openclaw/workspace/scripts/send-guarded-message.sh",
+      "modified_at": "2026-03-06T01:44:03.296911+00:00",
+      "family": "send",
+      "canonical": "sendctl.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brain-queue-autoclean.sh",
+          "/root/.openclaw/workspace/scripts/brain-route-retry.sh",
+          "/root/.openclaw/workspace/scripts/brain-router-health-monitor.sh",
+          "/root/.openclaw/workspace/scripts/send-guard-observe.sh",
+          "/root/.openclaw/workspace/scripts/sendctl.sh",
+          "/root/.openclaw/workspace/scripts/telegram-egress-monitor.sh",
+          "/root/.openclaw/workspace/scripts/test-send-guard.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "sentry-smoke-check.sh",
+      "path": "/root/.openclaw/workspace/scripts/sentry-smoke-check.sh",
+      "modified_at": "2026-03-01T11:00:27.058159+00:00",
+      "family": null,
+      "canonical": "sentry-smoke-check.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/sentry-project-mapping.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "system-inventory-scan.sh",
+      "path": "/root/.openclaw/workspace/scripts/system-inventory-scan.sh",
+      "modified_at": "2026-03-01T11:00:27.058159+00:00",
+      "family": null,
+      "canonical": "system-inventory-scan.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/system-inventory.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "token-refresh-all.sh",
+      "path": "/root/.openclaw/workspace/scripts/token-refresh-all.sh",
+      "modified_at": "2026-03-01T23:08:10.087106+00:00",
+      "family": null,
+      "canonical": "token-refresh-all.sh",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/memory/2026-03-01-nq-news.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "validate_spec_contract.py",
+      "path": "/root/.openclaw/workspace/scripts/validate_spec_contract.py",
+      "modified_at": "2026-03-05T04:09:52.003272+00:00",
+      "family": null,
+      "canonical": "validate_spec_contract.py",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/AGENTS.md",
+          "/root/.openclaw/workspace/docs/ops/EXECUTION_TEMPLATE.md",
+          "/root/.openclaw/workspace/docs/ops/SPEC_COMPLIANCE_CHECKLIST.md",
+          "/root/.openclaw/workspace/memory/2026-03-05.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "vix_alert.py",
+      "path": "/root/.openclaw/workspace/scripts/vix_alert.py",
+      "modified_at": "2026-03-04T01:32:31.173779+00:00",
+      "family": null,
+      "canonical": "vix_alert.py",
+      "status": "dormant",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/memory/2026-03-04.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "local-rescue-model-eval.sh",
+      "path": "/root/.openclaw/workspace/scripts/local-rescue-model-eval.sh",
+      "modified_at": "2026-03-06T01:46:33.417257+00:00",
+      "family": null,
+      "canonical": "local-rescue-model-eval.sh",
+      "status": "hold",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": "Recently added local rescue evaluator; keep under review."
+    },
+    {
+      "name": "telegram-egress-monitor.sh",
+      "path": "/root/.openclaw/workspace/scripts/telegram-egress-monitor.sh",
+      "modified_at": "2026-03-06T01:41:32.508550+00:00",
+      "family": null,
+      "canonical": "telegram-egress-monitor.sh",
+      "status": "hold",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": "Recently edited monitor; do not archive until rollout decision is explicit."
+    },
+    {
+      "name": "test-send-guard.sh",
+      "path": "/root/.openclaw/workspace/scripts/test-send-guard.sh",
+      "modified_at": "2026-03-06T01:47:01.221433+00:00",
+      "family": null,
+      "canonical": "test-send-guard.sh",
+      "status": "hold",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": "Recently added send-guard test harness."
+    },
+    {
+      "name": "auto-blog-post.sh",
+      "path": "/root/.openclaw/workspace/scripts/auto-blog-post.sh",
+      "modified_at": "2026-03-01T11:01:37.333121+00:00",
+      "family": null,
+      "canonical": "auto-blog-post.sh",
+      "status": "keep",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": "Manual blog generation utility for ai-productivity-lab."
+    },
+    {
+      "name": "blog-report.sh",
+      "path": "/root/.openclaw/workspace/scripts/blog-report.sh",
+      "modified_at": "2026-03-04T00:10:27.758814+00:00",
+      "family": null,
+      "canonical": "blog-report.sh",
+      "status": "keep",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": "Manual blog reporting utility for ai-productivity-lab."
+    },
+    {
+      "name": "check-growth-second-brain-public.sh",
+      "path": "/root/.openclaw/workspace/scripts/check-growth-second-brain-public.sh",
+      "modified_at": "2026-03-02T13:30:04.454050+00:00",
+      "family": null,
+      "canonical": "check-growth-second-brain-public.sh",
+      "status": "keep",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": "Manual public dashboard healthcheck utility."
+    },
+    {
+      "name": "enforce-dns-fallback.sh",
+      "path": "/root/.openclaw/workspace/scripts/enforce-dns-fallback.sh",
+      "modified_at": "2026-03-04T07:58:44.001935+00:00",
+      "family": null,
+      "canonical": "enforce-dns-fallback.sh",
+      "status": "keep",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": "Manual DNS recovery tool; keep out of unattended rotation."
+    },
+    {
+      "name": "full-backup.sh",
+      "path": "/root/.openclaw/workspace/scripts/full-backup.sh",
+      "modified_at": "2026-03-04T21:38:53.096725+00:00",
+      "family": null,
+      "canonical": "full-backup.sh",
+      "status": "keep",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": "Manual full workspace backup utility."
+    },
+    {
+      "name": "git-ai-note.sh",
+      "path": "/root/.openclaw/workspace/scripts/git-ai-note.sh",
+      "modified_at": "2026-03-03T07:53:16.149400+00:00",
+      "family": null,
+      "canonical": "git-ai-note.sh",
+      "status": "keep",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": "Manual git notes utility for AI session metadata."
+    },
+    {
+      "name": "brain-discord-autopull.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-discord-autopull.sh",
+      "modified_at": "2026-03-06T02:07:41.931353+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "live",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": [
+          "/var/spool/cron/crontabs/root",
+          "crontab -l"
+        ]
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brain-nightly-todo-sync.sh",
+      "path": "/root/.openclaw/workspace/scripts/brain-nightly-todo-sync.sh",
+      "modified_at": "2026-03-04T21:40:57.415832+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "live",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": [
+          "/var/spool/cron/crontabs/root",
+          "crontab -l"
+        ]
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": [
+          "/root/.openclaw/workspace/scripts/brainctl.sh"
+        ]
+      },
+      "notes": null
+    },
+    {
+      "name": "brainctl.sh",
+      "path": "/root/.openclaw/workspace/scripts/brainctl.sh",
+      "modified_at": "2026-03-06T04:47:48.083963+00:00",
+      "family": "brain",
+      "canonical": "brainctl.sh",
+      "status": "live",
+      "active_refs": {
+        "systemd": [
+          "/root/.config/systemd/user/brain-queue-autoclean.service",
+          "/root/.config/systemd/user/brain-route-retry.service",
+          "/root/.config/systemd/user/brain-router-health-monitor.service",
+          "/root/.config/systemd/user/brain-telegram-autopull.service"
+        ],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/brain-pipeline.md",
+          "/root/.openclaw/workspace/docs/scripts-governance.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "cloud-firewall-drift-guard.sh",
+      "path": "/root/.openclaw/workspace/scripts/cloud-firewall-drift-guard.sh",
+      "modified_at": "2026-03-04T21:42:24.609018+00:00",
+      "family": null,
+      "canonical": "cloud-firewall-drift-guard.sh",
+      "status": "live",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": [
+          "/var/spool/cron/crontabs/root",
+          "crontab -l"
+        ]
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "github-ci-monitor.sh",
+      "path": "/root/.openclaw/workspace/scripts/github-ci-monitor.sh",
+      "modified_at": "2026-03-04T12:17:43.378791+00:00",
+      "family": null,
+      "canonical": "github-ci-monitor.sh",
+      "status": "live",
+      "active_refs": {
+        "systemd": [
+          "/root/.config/systemd/user/brain-ci-monitor.service"
+        ],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/ci-monitor-brain-link.md",
+          "/root/.openclaw/workspace/memory/2026-03-04.md",
+          "/root/.openclaw/workspace/memory/2026-03-05-server-error.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "nightly-growth-release.sh",
+      "path": "/root/.openclaw/workspace/scripts/nightly-growth-release.sh",
+      "modified_at": "2026-03-04T02:57:41.530626+00:00",
+      "family": null,
+      "canonical": "nightly-growth-release.sh",
+      "status": "live",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": [
+          "/var/spool/cron/crontabs/root",
+          "crontab -l"
+        ]
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "post-backup-session-maintenance.sh",
+      "path": "/root/.openclaw/workspace/scripts/post-backup-session-maintenance.sh",
+      "modified_at": "2026-03-04T00:33:14.099746+00:00",
+      "family": null,
+      "canonical": "post-backup-session-maintenance.sh",
+      "status": "live",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": [
+          "/var/spool/cron/crontabs/root",
+          "crontab -l"
+        ]
+      },
+      "passive_refs": {
+        "docs": [
+          "/root/.openclaw/workspace/docs/ops-monitoring-matrix.md"
+        ],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "ssh_login_notify.sh",
+      "path": "/root/.openclaw/workspace/scripts/ssh_login_notify.sh",
+      "modified_at": "2026-03-05T23:39:35.982612+00:00",
+      "family": null,
+      "canonical": "ssh_login_notify.sh",
+      "status": "live",
+      "active_refs": {
+        "systemd": [],
+        "cron": [],
+        "hooks": [],
+        "system": [
+          "/etc/pam.d/sshd"
+        ]
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": null
+    },
+    {
+      "name": "strava-webhook-setup.sh",
+      "path": "/root/.openclaw/workspace/scripts/strava-webhook-setup.sh",
+      "modified_at": "2026-03-02T11:30:14.558493+00:00",
+      "family": null,
+      "canonical": "strava-webhook-setup.sh",
+      "status": "live",
+      "active_refs": {
+        "systemd": [
+          "/root/.config/systemd/user/strava-webhook-register.service"
+        ],
+        "cron": [],
+        "hooks": [],
+        "system": []
+      },
+      "passive_refs": {
+        "docs": [],
+        "internal": []
+      },
+      "notes": null
+    }
+  ],
+  "retired_aliases": [
+    {
+      "name": "monitor-brain-link-ci.sh",
+      "status": "retired",
+      "canonical": "github-ci-monitor.sh",
+      "attic": "_attic/2026-03/monitor-brain-link-ci.sh",
+      "notes": "Superseded by quieter GitHub REST monitor.",
+      "mentioned_in": [
+        "/root/.openclaw/workspace/docs/ci-monitor-brain-link.md",
+        "/root/.openclaw/workspace/memory/2026-03-04.md",
+        "/root/.openclaw/workspace/memory/2026-03-05-server-error.md"
+      ]
+    },
+    {
+      "name": "auto_post.sh",
+      "status": "retired",
+      "canonical": "auto-blog-post.sh",
+      "attic": "_attic/2026-03/auto_post.sh",
+      "notes": "Legacy pipeline points at a missing ai-blog workspace.",
+      "mentioned_in": []
+    },
+    {
+      "name": "batch_posts.py",
+      "status": "retired",
+      "canonical": "auto-blog-post.sh",
+      "attic": "_attic/2026-03/batch_posts.py",
+      "notes": "Legacy batch content generator kept only for reference.",
+      "mentioned_in": []
+    },
+    {
+      "name": "fetch_unsplash.py",
+      "status": "retired",
+      "attic": "_attic/2026-03/fetch_unsplash.py",
+      "notes": "Unreferenced image helper archived pending a real blog-media pipeline owner.",
+      "mentioned_in": []
+    },
+    {
+      "name": "memory-grep-search.sh",
+      "status": "retired",
+      "attic": "_attic/2026-03/memory-grep-search.sh",
+      "notes": "Unreferenced fallback memory grep helper archived until re-adopted.",
+      "mentioned_in": []
+    },
+    {
+      "name": "cron-daily-diff-report.py",
+      "status": "retired",
+      "attic": "_attic/2026-03/cron-daily-diff-report.py",
+      "notes": "Unreferenced cron analytics report archived after candidate sweep.",
+      "mentioned_in": []
+    },
+    {
+      "name": "notion_log.py",
+      "status": "retired",
+      "attic": "_attic/2026-03/notion_log.py",
+      "notes": "Standalone Notion logger archived after candidate sweep.",
+      "mentioned_in": []
+    },
+    {
+      "name": "usdkrw_alert.py",
+      "status": "retired",
+      "attic": "_attic/2026-03/usdkrw_alert.py",
+      "notes": "Inactive market alert helper archived after candidate sweep.",
+      "mentioned_in": []
+    }
+  ],
+  "known_missing_refs": [
+    {
+      "name": "refresh-strava-token.sh",
+      "status": "missing",
+      "notes": "Legacy disabled cron payload; no workspace replacement is committed.",
+      "mentioned_in": []
+    },
+    {
+      "name": "check-gmail.py",
+      "status": "missing",
+      "notes": "Legacy disabled cron payload; feature is not implemented in this workspace.",
+      "mentioned_in": []
+    },
+    {
+      "name": "sentiment-gambler.js",
+      "status": "missing",
+      "canonical": "market_sentiment_delta.py",
+      "notes": "Legacy market sentiment JS path replaced by Python delta script.",
+      "mentioned_in": []
+    },
+    {
+      "name": "tga-fetcher.js",
+      "status": "missing",
+      "notes": "Legacy liquidity fetcher path is absent from the workspace.",
+      "mentioned_in": []
+    },
+    {
+      "name": "nq-macd-analyzer.js",
+      "status": "missing",
+      "canonical": "/root/.openclaw/scripts/nq_macd_multi.py",
+      "notes": "Legacy Node MACD runner replaced by Python runner outside workspace.",
+      "mentioned_in": []
+    }
+  ]
+}

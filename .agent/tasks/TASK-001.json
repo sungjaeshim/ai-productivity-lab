@@ -1,0 +1,26 @@
+{
+  "id": "001",
+  "name": "Loop 1 Read-only parity benchmark",
+  "scope": [
+    "gmail search",
+    "calendar events list",
+    "drive file search"
+  ],
+  "steps": [
+    "동일 쿼리/동일 시간창으로 gog와 gws 각각 5회 실행",
+    "응답시간(ms), 성공/실패, 결과 필드 수집",
+    "comparison report를 reports/gws-loop1-parity.md로 저장"
+  ],
+  "output": "reports/gws-loop1-parity.md",
+  "definitionOfDone": [
+    "성공률 99% 이상",
+    "지연시간 차이 20% 이내",
+    "필수 필드 누락 0"
+  ],
+  "kpi": {
+    "successRateMin": 0.99,
+    "latencyDeltaMax": 0.2,
+    "missingField": 0
+  },
+  "rollbackCommand": "jq '.primary=\"gog\" | .canaryEnabled=false | .phase=\"rollback\" | .lastRollbackAt=now' data/gws-rollout-state.json > /tmp/gws-state.json && mv /tmp/gws-state.json data/gws-rollout-state.json"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ai-blog",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "build:live-signals": "node scripts/build-live-signals-source.mjs",
+    "prebuild": "npm run build:live-signals",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "check:hero-images": "node scripts/validate-blog-hero-images.mjs",
+    "fix:hero-images": "node scripts/fix-blog-hero-images.mjs",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^5.0.0",
+    "@astrojs/rss": "^4.0.17",
+    "@astrojs/sitemap": "^3.7.1",
+    "@astrojs/vercel": "^10.0.0",
+    "astro": "^6.0.2",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.7",
+    "@playwright/test": "^1.58.2",
+    "typescript": "^5.9.3"
+  }
+}

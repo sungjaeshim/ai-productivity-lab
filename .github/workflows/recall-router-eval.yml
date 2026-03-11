@@ -1,0 +1,81 @@
+name: Recall Router Eval
+
+on:
+  push:
+    paths:
+      - 'scripts/recall_router.py'
+      - 'scripts/recall_router_eval.py'
+      - 'data/recall_eval_samples.json'
+      - '.github/workflows/recall-router-eval.yml'
+  pull_request:
+    paths:
+      - 'scripts/recall_router.py'
+      - 'scripts/recall_router_eval.py'
+      - 'data/recall_eval_samples.json'
+  workflow_dispatch:
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: |
+          pip install -q ollama || true
+
+      - name: Restore baseline cache
+        id: baseline-cache
+        uses: actions/cache@v4
+        with:
+          path: .state/recall_router_baseline.json
+          key: recall-baseline-${{ github.sha }}
+          restore-keys: |
+            recall-baseline-
+
+      - name: Run eval with regression detection
+        id: eval
+        run: |
+          mkdir -p .state data
+          python3 scripts/recall_router_eval.py \
+            --min-top3-hit-rate 90.0 \
+            --max-hybrid-p95 40.0 \
+            --max-error-count 0 \
+            --min-route-match-rate 95.0 \
+            --fail-on-regression \
+            --save-baseline \
+            2>&1 | tee eval_output.txt
+          echo "exit_code=${?}" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Check gate result
+        run: |
+          if [ "${{ steps.eval.outputs.exit_code }}" = "2" ]; then
+            echo "::error::Regression detected - gate failed"
+            cat eval_output.txt
+            exit 1
+          elif [ "${{ steps.eval.outputs.exit_code }}" != "0" ]; then
+            echo "::error::Eval execution failed"
+            cat eval_output.txt
+            exit 1
+          fi
+          echo "Gate passed - no regression"
+
+      - name: Upload eval artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: recall-eval-results
+          path: |
+            .state/recall_router_eval_metrics.json
+            .state/recall_router_baseline.json
+            eval_output.txt
+          retention-days: 7

@@ -1,0 +1,380 @@
+/* Feedback Dashboard Styles */
+
+:root {
+    --primary: #3b82f6;
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --dark: #1f2937;
+    --light: #f3f4f6;
+    --border: #e5e7eb;
+    --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background: var(--light);
+    color: var(--dark);
+    line-height: 1.5;
+}
+
+.dashboard {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.connection-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--danger);
+}
+
+.status-dot.connected {
+    background: var(--success);
+}
+
+.status-dot.disconnected {
+    background: var(--danger);
+}
+
+/* Summary Cards */
+.summary-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: var(--card-shadow);
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.card-icon {
+    font-size: 2rem;
+}
+
+.card-content h3 {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+.card-content .stat {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.card-content .number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: block;
+}
+
+.card-content .label {
+    font-size: 0.75rem;
+    color: #9ca3af;
+}
+
+.card-content .number.highlight {
+    color: var(--danger);
+}
+
+.card-content .number.positive {
+    color: var(--success);
+}
+
+.card-content .number.negative {
+    color: var(--danger);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 4px;
+    background: var(--light);
+    border-radius: 2px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.progress-bar .progress {
+    height: 100%;
+    background: var(--primary);
+    transition: width 0.3s ease;
+}
+
+/* Main Content */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+@media (max-width: 900px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Panels */
+.panel {
+    background: white;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+}
+
+.panel h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    background: #fafafa;
+}
+
+.panel-content {
+    padding: 16px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Priority List */
+.priority-list {
+    list-style: none;
+}
+
+.priority-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+    gap: 12px;
+}
+
+.priority-item:last-child {
+    border-bottom: none;
+}
+
+.priority-score {
+    font-weight: 700;
+    font-size: 0.875rem;
+    min-width: 50px;
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: var(--light);
+}
+
+.priority-score.high {
+    background: #fef3c7;
+    color: var(--warning);
+}
+
+.priority-type {
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: var(--light);
+    text-transform: uppercase;
+}
+
+.priority-title {
+    flex: 1;
+    font-size: 0.875rem;
+}
+
+/* Experiment Stats */
+.experiment-stats {
+    display: flex;
+    gap: 24px;
+    padding: 12px;
+    background: var(--light);
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-item .label {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+.stat-item .value {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* Experiment List */
+.experiment-list {
+    list-style: none;
+}
+
+.experiment-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+    gap: 12px;
+}
+
+.experiment-status {
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.experiment-status.running {
+    background: #dbeafe;
+    color: var(--primary);
+}
+
+.experiment-status.completed {
+    background: #dcfce7;
+    color: var(--success);
+}
+
+.experiment-status.paused {
+    background: #fef3c7;
+    color: var(--warning);
+}
+
+.experiment-name {
+    flex: 1;
+    font-size: 0.875rem;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.tab {
+    padding: 8px 16px;
+    border: none;
+    background: var(--light);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: all 0.2s;
+}
+
+.tab:hover {
+    background: #e5e7eb;
+}
+
+.tab.active {
+    background: var(--primary);
+    color: white;
+}
+
+/* Activity List */
+.activity-list {
+    list-style: none;
+}
+
+.activity-item {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.875rem;
+}
+
+.activity-item:last-child {
+    border-bottom: none;
+}
+
+.activity-time {
+    font-size: 0.75rem;
+    color: #9ca3af;
+    margin-left: 8px;
+}
+
+/* Loading */
+.loading {
+    padding: 20px;
+    text-align: center;
+    color: #9ca3af;
+}
+
+/* Footer */
+.footer {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.api-links {
+    display: flex;
+    gap: 16px;
+}
+
+.api-links a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.api-links a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.loading {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Activity Panel Full Width */
+.activity-panel {
+    grid-column: 1 / -1;
+}

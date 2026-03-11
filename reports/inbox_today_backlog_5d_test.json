@@ -1,0 +1,17 @@
+{
+  "stats": {
+    "window_days": 5,
+    "from": "2026-03-02",
+    "to": "2026-03-07",
+    "total": 66,
+    "should_ops_true": 0,
+    "should_ops_false": 66,
+    "p1": 0,
+    "p2": 0,
+    "p3": 66,
+    "score_ge_70": 0,
+    "score_50_69": 0,
+    "score_lt_50": 66
+  },
+  "top_candidates": []
+}
