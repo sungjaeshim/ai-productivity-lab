@@ -6,7 +6,9 @@ WORKSPACE="$(cd "$SCRIPT_DIR/.." && pwd)"
 BLOG_DIR="/root/.openclaw/workspace/ai-productivity-lab"
 BLOG_CONTENT="$BLOG_DIR/src/content/blog"
 TODAY_KST="$(TZ=Asia/Seoul date +%F)"
+TODAY_TS="$(TZ=Asia/Seoul date +%s)"
 SEND_SCRIPT="$SCRIPT_DIR/send-briefing.sh"
+CRON_JOBS_FILE="/root/.openclaw/cron/jobs.json"
 
 if [[ ! -d "$BLOG_CONTENT" ]]; then
   echo "BLOG_REPORT_ERROR: missing blog content dir: $BLOG_CONTENT"
@@ -23,15 +25,51 @@ RECENT_7D="$(find "$BLOG_CONTENT" -maxdepth 1 -type f -name "*.md" -mtime -7 | w
 LATEST="$(ls -1t "$BLOG_CONTENT"/*.md 2>/dev/null | head -3 | xargs -I{} basename {} .md || true)"
 
 TODAY_BY_PUBDATE=0
+LATEST_PUBDATE_ISO=""
+LATEST_PUBDATE_FILE=""
 for f in "$BLOG_CONTENT"/*.md; do
   [[ -f "$f" ]] || continue
   raw="$(grep -m1 '^pubDate:' "$f" | sed -E 's/^pubDate:[[:space:]]*"?([^"]+)"?$/\1/' || true)"
   [[ -n "$raw" ]] || continue
   iso="$(date -d "$raw" +%F 2>/dev/null || true)"
+  if [[ -n "$iso" && ( -z "$LATEST_PUBDATE_ISO" || "$iso" > "$LATEST_PUBDATE_ISO" ) ]]; then
+    LATEST_PUBDATE_ISO="$iso"
+    LATEST_PUBDATE_FILE="$(basename "$f" .md)"
+  fi
   if [[ "$iso" == "$TODAY_KST" ]]; then
     TODAY_BY_PUBDATE=$((TODAY_BY_PUBDATE + 1))
   fi
 done
+
+LATEST_PUBDATE_LINE="• 최신 pubDate: 확인 불가 ⚠️"
+if [[ -n "$LATEST_PUBDATE_ISO" ]]; then
+  LATEST_PUBDATE_TS="$(TZ=Asia/Seoul date -d "$LATEST_PUBDATE_ISO" +%s 2>/dev/null || true)"
+  if [[ -n "$LATEST_PUBDATE_TS" ]]; then
+    DAYS_SINCE_LATEST=$(( (TODAY_TS - LATEST_PUBDATE_TS) / 86400 ))
+    if [[ "$DAYS_SINCE_LATEST" -ge 2 ]]; then
+      LATEST_PUBDATE_LINE="• 최신 pubDate: $LATEST_PUBDATE_ISO ($LATEST_PUBDATE_FILE, ${DAYS_SINCE_LATEST}일 경과) ⚠️"
+    else
+      LATEST_PUBDATE_LINE="• 최신 pubDate: $LATEST_PUBDATE_ISO ($LATEST_PUBDATE_FILE, ${DAYS_SINCE_LATEST}일 경과) ✅"
+    fi
+  else
+    LATEST_PUBDATE_LINE="• 최신 pubDate: $LATEST_PUBDATE_ISO ($LATEST_PUBDATE_FILE)"
+  fi
+fi
+
+RALPH_LINE="• Ralph 생성 cron: 확인 불가 ⚠️"
+if [[ -f "$CRON_JOBS_FILE" ]]; then
+  RALPH_ENABLED="$(jq -r '.jobs[] | select(.name=="Ralph Loop (야간 자율 개발)") | .enabled' "$CRON_JOBS_FILE" 2>/dev/null | tail -1 || true)"
+  RALPH_LAST_RUN_MS="$(jq -r '.jobs[] | select(.name=="Ralph Loop (야간 자율 개발)") | .state.lastRunAtMs // empty' "$CRON_JOBS_FILE" 2>/dev/null | tail -1 || true)"
+  RALPH_LAST_RUN_LABEL="last run: N/A"
+  if [[ -n "$RALPH_LAST_RUN_MS" ]]; then
+    RALPH_LAST_RUN_LABEL="last run: $(TZ=Asia/Seoul date -d "@$((RALPH_LAST_RUN_MS / 1000))" '+%F %R KST' 2>/dev/null || echo 'N/A')"
+  fi
+  if [[ "$RALPH_ENABLED" == "true" ]]; then
+    RALPH_LINE="• Ralph 생성 cron: enabled ✅ ($RALPH_LAST_RUN_LABEL)"
+  elif [[ "$RALPH_ENABLED" == "false" ]]; then
+    RALPH_LINE="• Ralph 생성 cron: disabled ⚠️ ($RALPH_LAST_RUN_LABEL)"
+  fi
+fi
 
 LAST_COMMIT="$(git -C "$BLOG_DIR" log -1 --format="%h %s (%cr)" 2>/dev/null || echo "N/A")"
 UNPUSHED="$(git -C "$BLOG_DIR" log origin/main..HEAD --oneline 2>/dev/null | wc -l | tr -d ' ')"
@@ -98,6 +136,8 @@ cat > "$REPORT_FILE" <<EOF
 • 전체 게시물: $POST_COUNT개
 • 최근 7일: $RECENT_7D개
 • 오늘 pubDate: $TODAY_BY_PUBDATE개
+$LATEST_PUBDATE_LINE
+$RALPH_LINE
 $PUSH_LINE
 $LINK_LINE
 
