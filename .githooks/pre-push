@@ -6,3 +6,11 @@ cd "$REPO_ROOT"
 
 echo "🔎 Running blog frontmatter guard (pubDate required)..."
 npm run check:frontmatter
+
+UPSTREAM_REF="$(git rev-parse --abbrev-ref --symbolic-full-name '@{upstream}' 2>/dev/null || true)"
+if [[ -n "$UPSTREAM_REF" ]]; then
+  echo "🔎 Running blog regression guard (recent post deletions / max pubDate)..."
+  npm run check:blog-regression -- --base "$UPSTREAM_REF" --head HEAD
+else
+  echo "ℹ️ Skipping blog regression guard: no upstream configured."
+fi

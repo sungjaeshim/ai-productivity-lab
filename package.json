@@ -11,6 +11,7 @@
     "astro": "astro",
     "check:frontmatter": "node scripts/validate-blog-frontmatter.mjs",
     "check:hero-images": "node scripts/validate-blog-hero-images.mjs",
+    "check:blog-regression": "node scripts/check-blog-regression.mjs",
     "check:duplicate-slugs": "node scripts/check-duplicate-blog-slugs.mjs",
     "fix:hero-images": "node scripts/fix-blog-hero-images.mjs",
     "test": "playwright test",

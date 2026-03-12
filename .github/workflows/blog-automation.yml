@@ -12,6 +12,70 @@ on:
     - cron: '0 1 * * 0'
 
 jobs:
+  content-safety:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve blog diff refs
+        id: refs
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git fetch origin "${{ github.base_ref }}" --depth=1
+            BASE_REF="origin/${{ github.base_ref }}"
+            HEAD_REF="HEAD"
+            CHANGED=$(git diff --name-only "${BASE_REF}...${HEAD_REF}" -- 'src/content/blog/*.md' 'src/content/blog/*.mdx' || true)
+          else
+            BASE_REF="${{ github.event.before }}"
+            if [ -z "$BASE_REF" ] || [ "$BASE_REF" = "0000000000000000000000000000000000000000" ]; then
+              BASE_REF="$(git rev-list --max-parents=0 HEAD)"
+            fi
+            HEAD_REF="${{ github.sha }}"
+            CHANGED=$(git diff --name-only "$BASE_REF" "$HEAD_REF" -- 'src/content/blog/*.md' 'src/content/blog/*.mdx' || true)
+          fi
+
+          echo "base=$BASE_REF" >> "$GITHUB_OUTPUT"
+          echo "head=$HEAD_REF" >> "$GITHUB_OUTPUT"
+          {
+            echo 'files<<EOF'
+            echo "$CHANGED"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Validate changed blog frontmatter
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t FILES < <(echo "${{ steps.refs.outputs.files }}" | sed '/^$/d')
+          if [ ${#FILES[@]} -eq 0 ]; then
+            echo "No changed blog markdown files. Skipping changed-file checks."
+            exit 0
+          fi
+          node scripts/validate-blog-frontmatter.mjs "${FILES[@]}"
+
+      - name: Check exact duplicate heroImage values
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t FILES < <(echo "${{ steps.refs.outputs.files }}" | sed '/^$/d')
+          if [ ${#FILES[@]} -eq 0 ]; then
+            echo "No changed blog markdown files. Skipping duplicate heroImage check."
+            exit 0
+          fi
+          node scripts/check-duplicate-hero-images.mjs "${FILES[@]}"
+
+      - name: Block blog history regression
+        run: |
+          node scripts/check-blog-regression.mjs \
+            --base "${{ steps.refs.outputs.base }}" \
+            --head "${{ steps.refs.outputs.head }}"
+
   # 새 포스팅 감지 & 알림
   new-post-notify:
     runs-on: ubuntu-latest
