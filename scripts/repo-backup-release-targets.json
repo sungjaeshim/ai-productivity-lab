@@ -1,0 +1,26 @@
+{
+  "targets": {
+    "growth-center": {
+      "enabled": true,
+      "projectDir": "/root/.openclaw/workspace/growth-center",
+      "branch": "master",
+      "repo": "sungjaeshim/growth-center",
+      "vercelProject": "growth-center",
+      "commitName": "sungjaeshim",
+      "commitEmail": "mujigi@naver.com",
+      "releaseCommand": "bash scripts/release-prod.sh",
+      "note": "Dedicated release script is the canonical production path."
+    },
+    "blog-aisnowball": {
+      "enabled": true,
+      "projectDir": "/root/.openclaw/workspace/ai-productivity-lab",
+      "branch": "main",
+      "repo": "sungjaeshim/ai-productivity-lab",
+      "vercelProject": "blog-aisnowball",
+      "commitName": "sungjaeshim",
+      "commitEmail": "mujigi@naver.com",
+      "releaseCommand": "vercel --prod --yes",
+      "note": "Canonical local repo is /root/.openclaw/workspace/ai-productivity-lab"
+    }
+  }
+}
