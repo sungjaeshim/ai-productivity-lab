@@ -1,9 +1,10 @@
 ---
 title: "AI Productivity Workflow Automation: The 2026 Playbook"
 slug: "ai-productivity-workflow-automation-2026"
-date: "Mar 12 2026"
+pubDate: "Mar 12 2026"
 category: "ai-tools"
-heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=630&fit=crop"
+heroImage: "/hero/ai-productivity-workflow-automation.svg"
+heroImageAlt: "Workflow automation control board illustration"
 description: "Discover the top AI workflow automation strategies and tools in 2026. Learn how to combine AI agents, no-code platforms, and custom integrations for 10x productivity gains."
 tags: ["AI automation", "productivity", "workflow", "no-code", "agents"]
 ---

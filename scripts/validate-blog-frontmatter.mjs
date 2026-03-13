@@ -49,15 +49,14 @@ for (const file of files) {
   }
 
   const hasPubDate = /^pubDate\s*:/m.test(fm);
-  const hasDate = /^date\s*:/m.test(fm);
 
-  if (!hasPubDate && !hasDate) {
-    violations.push(`${rel}: missing required publish date (add \`pubDate:\` or \`date:\`)`);
+  if (!hasPubDate) {
+    violations.push(`${rel}: missing required publish date (add \`pubDate:\`)`);
   }
 }
 
 if (violations.length) {
-  console.error('\n❌ Frontmatter validation failed. `pubDate` or `date` is required for all blog posts.\n');
+  console.error('\n❌ Frontmatter validation failed. `pubDate` is required for all blog posts.\n');
   for (const v of violations) console.error(`- ${v}`);
   console.error('\nFix the items above, then push again.\n');
   process.exit(1);

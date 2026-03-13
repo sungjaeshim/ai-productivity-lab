@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI Productivity Workflow Automation</title>
+  <desc id="desc">Editorial hero image for workflow automation guide.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6efe6"/>
+      <stop offset="100%" stop-color="#d7ebe7"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17324d"/>
+      <stop offset="100%" stop-color="#255f7a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff8a5b"/>
+      <stop offset="100%" stop-color="#ffc25b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1360" cy="132" r="170" fill="#ff8a5b" opacity="0.16"/>
+  <circle cx="206" cy="736" r="230" fill="#0d8a7a" opacity="0.12"/>
+  <rect x="82" y="84" width="1436" height="732" rx="40" fill="#fffaf2" stroke="#19304a" stroke-opacity="0.1"/>
+
+  <rect x="126" y="128" width="698" height="644" rx="32" fill="url(#panel)"/>
+  <g font-family="Atkinson, Arial, sans-serif" fill="#f5fbff">
+    <text x="184" y="222" font-size="34" letter-spacing="7" font-weight="700">AI SNOWBALL</text>
+    <text x="184" y="326" font-size="74" font-weight="700">Workflow</text>
+    <text x="184" y="410" font-size="74" font-weight="700">Automation</text>
+    <text x="184" y="494" font-size="74" font-weight="700">Playbook</text>
+    <text x="184" y="584" font-size="28" opacity="0.9">Agents, orchestration, and custom integrations for 2026 operators.</text>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M198 650 H750" stroke="#8fc8ff" stroke-width="10" opacity="0.35"/>
+    <path d="M232 606 C310 548 382 548 450 606 S598 664 676 606" stroke="url(#accent)" stroke-width="10"/>
+    <path d="M232 674 C292 642 364 642 420 674 S552 706 620 652 S700 606 750 638" stroke="#9af0d5" stroke-width="8" opacity="0.95"/>
+  </g>
+
+  <g>
+    <rect x="190" y="252" width="112" height="82" rx="18" fill="#21496c"/>
+    <rect x="338" y="252" width="112" height="82" rx="18" fill="#21496c"/>
+    <rect x="486" y="252" width="112" height="82" rx="18" fill="#21496c"/>
+    <rect x="634" y="252" width="112" height="82" rx="18" fill="#21496c"/>
+    <circle cx="246" cy="293" r="14" fill="#ffc25b"/>
+    <circle cx="394" cy="293" r="14" fill="#7de0c0"/>
+    <circle cx="542" cy="293" r="14" fill="#8fc8ff"/>
+    <circle cx="690" cy="293" r="14" fill="#ff8a5b"/>
+  </g>
+
+  <g transform="translate(894 156)" font-family="Atkinson, Arial, sans-serif">
+    <text x="0" y="0" font-size="28" letter-spacing="5" fill="#5d6a7f" font-weight="700">CONTROL SURFACE</text>
+    <text x="0" y="112" font-size="88" fill="#14213d" font-weight="700">Design the</text>
+    <text x="0" y="204" font-size="88" fill="#14213d" font-weight="700">system, not</text>
+    <text x="0" y="296" font-size="88" fill="#14213d" font-weight="700">just prompts</text>
+    <text x="0" y="392" font-size="34" fill="#41506d">Outcome mapping, no-code glue, and a thin custom layer.</text>
+  </g>
+
+  <g transform="translate(928 538)">
+    <rect x="0" y="0" width="420" height="164" rx="28" fill="#ffffff" stroke="#19304a" stroke-opacity="0.12"/>
+    <rect x="34" y="34" width="126" height="18" rx="9" fill="#d7ebe7"/>
+    <rect x="34" y="74" width="250" height="18" rx="9" fill="#ffead7"/>
+    <rect x="34" y="114" width="336" height="18" rx="9" fill="#e2efff"/>
+  </g>
+</svg>
