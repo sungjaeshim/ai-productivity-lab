@@ -1,6 +1,6 @@
 ---
 title: "AI Agents Productivity Automation: A Practical 2026 Guide"
-date: "2026-03-14"
+pubDate: "2026-03-14"
 slug: "ai-agents-productivity-automation"
 category: "ai-tools"
 heroImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop"
