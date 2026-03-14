@@ -1,7 +1,7 @@
 ---
 title: "AI Agents Automation: A Practical 2026 Guide"
 description: "Discover how AI agents automation transforms real workflows in 2026. Learn practical examples, tools, and implementation strategies."
-date: "2026-03-15"
+pubDate: "2026-03-15"
 tags: ["AI tools", "automation", "productivity", "workflow"]
 heroImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&q=80"
 ---
