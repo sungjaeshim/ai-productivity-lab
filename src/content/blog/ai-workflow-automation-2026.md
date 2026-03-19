@@ -1,10 +1,13 @@
 ---
 title: "AI Workflow Automation 2026: A Practical 2026 Guide"
 date: "2026-03-20"
+pubDate: "2026-03-20T00:00:00.000Z"
 tags: ["AI", "automation", "productivity", "workflow"]
 description: "How AI workflow automation improves real workflows in 2026. Practical examples, tool choices, and common pitfalls."
 slug: "ai-workflow-automation-2026"
-heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=630&fit=crop"
+category: "AI Tools"
+excerpt: "Automation hype peaked in 2024-2025, but 2026 is the year teams separate real value from marketing promises. Learn practical workflows that work today."
 ---
 
 # AI Workflow Automation 2026: A Practical 2026 Guide
