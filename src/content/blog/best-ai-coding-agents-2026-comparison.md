@@ -1,6 +1,7 @@
 ---
 title: "Best AI Coding Agents in 2026: A No-Nonsense Comparison"
 date: "2026-03-19"
+description: "A practical, data-driven comparison of Claude Code, Codex CLI, Gemini CLI, and OpenCode based on real production-style work, with real strengths, tradeoffs, and usage scenarios."
 pubDate: "2026-03-19T00:00:00.000Z"
 excerpt: "Claude Code, Codex, Gemini CLI, and OpenCode — which AI coding agent actually delivers? We tested them head-to-head on real projects, not toy examples."
 heroImage: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=630&fit=crop"

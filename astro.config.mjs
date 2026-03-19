@@ -47,5 +47,18 @@ export default defineConfig({
     site: 'https://blog.aisnowball.work',
     compress: true,
   },
+  vite: {
+    build: {
+      rollupOptions: {
+        onwarn(warning, defaultHandler) {
+          const msg = typeof warning === 'string' ? warning : (warning.message || '');
+          if (msg.includes('externalized for browser compatibility')) {
+            return;
+          }
+          defaultHandler(warning);
+        },
+      },
+    },
+  },
   integrations: [sitemap()],
 });
